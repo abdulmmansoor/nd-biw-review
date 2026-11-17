@@ -29,6 +29,7 @@ import page_survey
 st.set_page_config(page_title="ND Business and Innovation Watch", page_icon=":material/storefront:", layout="wide")
 st.markdown(lib.CSS, unsafe_allow_html=True)
 
+review.gate()
 nav = st.navigation({
     "": [st.Page(page_outlook.overview_page, title="Business and Innovation Overview", icon=":material/dashboard:",
                  default=True)],

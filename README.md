@@ -1,6 +1,6 @@
 # ND Business and Innovation Watch - review version
 
-A separate copy of the dashboard for reviewers. It is built from the project in
+A separate copy of the dashboard for reviewers, behind a review password. It is built from the project in
 `..\ND Business and Innovation Watch` by `Build_Review_Version.bat` and does not change the project. Do not edit files
 here except `review_settings.toml`: a refresh replaces everything else.
 
@@ -21,12 +21,16 @@ Run it on this computer: `Start_Review_Locally.bat`, then open http://localhost:
    - Paste the link into `review_settings.toml` as `form_url = "..."`.
 2. **GitHub** (github.com): a new **private** repository named `nd-biw-review` (no README). Connect and upload:
    `git remote add origin https://github.com/<account>/nd-biw-review.git` then `git push -u origin main`.
-3. **Streamlit Community Cloud** (share.streamlit.io): Create app > from GitHub repository.
+3. **Review password**: run `Set_Review_Password.bat` in the project folder. Type a password, or press Enter to get a
+   random one. It prints a `[review]` block with a salted hash; the password itself is not saved anywhere.
+4. **Streamlit Community Cloud** (share.streamlit.io): Create app > from GitHub repository.
    - Repository `<account>/nd-biw-review`, branch `main`, main file `ND_BIW/dashboard/app.py`.
-   - Advanced settings: the newest Python version offered. Choose an app address, then Deploy.
-4. **Invite reviewers**: on the app, Share > add each reviewer's email. Apps from a private repository are private:
-   only invited people can open them. They sign in with the email they were invited with (a Google account or a
-   one-time link sent to that email). Then send them the app address in your email.
+   - Advanced settings: the newest Python version offered; in **Secrets**, paste the `[review]` block.
+   - Choose an app address, then Deploy. Community Cloud allows one private app per workspace (ND Fiscal and Economic
+     Watch uses it), so this app is public, but the code stays in the private repository and every page is behind
+     the review password. Without the `[review]` secret the site stays closed.
+5. **Invite reviewers**: email them the app address and the review password. Anyone with both can open the draft;
+   to cut off access, run `Set_Review_Password.bat` again and replace the secret (app > Settings > Secrets).
 
 ## Refresh it
 
