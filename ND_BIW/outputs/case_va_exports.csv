@@ -1,0 +1,703 @@
+geo,year,commodity,value
+ND,2000,Beef and veal,41.33608592
+ND,2001,Beef and veal,49.19139997
+ND,2002,Beef and veal,51.48575975
+ND,2003,Beef and veal,58.75206807
+ND,2004,Beef and veal,12.58457059
+ND,2005,Beef and veal,22.32995186
+ND,2006,Beef and veal,29.81099965
+ND,2007,Beef and veal,40.82990156
+ND,2008,Beef and veal,46.31840993
+ND,2009,Beef and veal,42.93000279
+ND,2010,Beef and veal,58.13434699
+ND,2011,Beef and veal,78.45998403
+ND,2012,Beef and veal,72.99362566
+ND,2013,Beef and veal,95.46181928
+ND,2014,Beef and veal,117.2315181
+ND,2015,Beef and veal,86.2087011
+ND,2016,Beef and veal,87.53219389
+ND,2017,Beef and veal,110.517737
+ND,2018,Beef and veal,129.35055
+ND,2019,Beef and veal,120.2516107
+ND,2020,Beef and veal,108.1974806
+ND,2022,Beef and veal,172.1926866
+ND,2023,Beef and veal,145.4839498
+ND,2024,Beef and veal,136.7795769
+ND,2025,Beef and veal,123.5502413
+ND,2021,Beef and veal,166.1216587
+ND,2000,Broiler meat,0.0
+ND,2001,Broiler meat,0.0
+ND,2002,Broiler meat,0.0
+ND,2003,Broiler meat,0.0
+ND,2004,Broiler meat,0.0
+ND,2005,Broiler meat,0.0
+ND,2006,Broiler meat,0.0
+ND,2007,Broiler meat,0.0
+ND,2008,Broiler meat,0.0
+ND,2009,Broiler meat,0.0
+ND,2010,Broiler meat,0.0
+ND,2011,Broiler meat,0.0
+ND,2012,Broiler meat,0.0
+ND,2013,Broiler meat,0.0
+ND,2014,Broiler meat,0.0
+ND,2015,Broiler meat,0.0
+ND,2016,Broiler meat,0.0
+ND,2017,Broiler meat,0.0
+ND,2018,Broiler meat,0.0
+ND,2019,Broiler meat,0.0
+ND,2020,Broiler meat,0.0
+ND,2022,Broiler meat,0.0
+ND,2023,Broiler meat,0.0
+ND,2024,Broiler meat,0.0
+ND,2025,Broiler meat,0.0
+ND,2021,Broiler meat,0.0
+ND,2000,Corn,43.01848244
+ND,2001,Corn,36.97403994
+ND,2002,Corn,52.13566654
+ND,2003,Corn,54.00368004
+ND,2004,Corn,71.13697753
+ND,2005,Corn,49.82153906
+ND,2006,Corn,94.57497717
+ND,2007,Corn,145.8984821
+ND,2008,Corn,275.3879145
+ND,2009,Corn,168.8679255
+ND,2010,Corn,145.9012529
+ND,2011,Corn,244.1655554
+ND,2012,Corn,211.8251688
+ND,2013,Corn,188.080436
+ND,2014,Corn,249.3632779
+ND,2015,Corn,154.2523683
+ND,2016,Corn,249.3784239
+ND,2017,Corn,251.8302264
+ND,2018,Corn,344.8829592
+ND,2019,Corn,203.0283004
+ND,2020,Corn,211.7275735
+ND,2022,Corn,443.6091587
+ND,2023,Corn,325.2720619
+ND,2024,Corn,436.4134437
+ND,2025,Corn,663.134473
+ND,2021,Corn,382.5439348
+ND,2000,Cotton,0.0
+ND,2001,Cotton,0.0
+ND,2002,Cotton,0.0
+ND,2003,Cotton,0.0
+ND,2004,Cotton,0.0
+ND,2005,Cotton,0.0
+ND,2006,Cotton,0.0
+ND,2007,Cotton,0.0
+ND,2008,Cotton,0.0
+ND,2009,Cotton,0.0
+ND,2010,Cotton,0.0
+ND,2011,Cotton,0.0
+ND,2012,Cotton,0.0
+ND,2013,Cotton,0.0
+ND,2014,Cotton,0.0
+ND,2015,Cotton,0.0
+ND,2016,Cotton,0.0
+ND,2017,Cotton,0.0
+ND,2018,Cotton,0.0
+ND,2019,Cotton,0.0
+ND,2020,Cotton,0.0
+ND,2022,Cotton,0.0
+ND,2023,Cotton,0.0
+ND,2024,Cotton,0.0
+ND,2025,Cotton,0.0
+ND,2021,Cotton,0.0
+ND,2000,Dairy products,3.583151888
+ND,2001,Dairy products,3.940085952
+ND,2002,Dairy products,3.126406882
+ND,2003,Dairy products,2.819072214
+ND,2004,Dairy products,3.927894571
+ND,2005,Dairy products,4.138379982
+ND,2006,Dairy products,4.521191421
+ND,2007,Dairy products,6.754429642
+ND,2008,Dairy products,8.110207944
+ND,2009,Dairy products,4.569055572
+ND,2010,Dairy products,7.012715889
+ND,2011,Dairy products,8.142915794
+ND,2012,Dairy products,8.878216672
+ND,2013,Dairy products,11.05401336
+ND,2014,Dairy products,10.76933944
+ND,2015,Dairy products,8.172091888
+ND,2016,Dairy products,7.454022571
+ND,2017,Dairy products,8.466518291
+ND,2018,Dairy products,8.335553137
+ND,2019,Dairy products,9.130355897
+ND,2020,Dairy products,10.27019319
+ND,2022,Dairy products,13.40521809
+ND,2023,Dairy products,8.985996784
+ND,2024,Dairy products,8.455413644
+ND,2025,Dairy products,10.42600583
+ND,2021,Dairy products,11.58636717
+ND,2000,Feeds and other feed grains,51.94267454
+ND,2001,Feeds and other feed grains,56.13148849
+ND,2002,Feeds and other feed grains,52.04336934
+ND,2003,Feeds and other feed grains,68.90585075
+ND,2004,Feeds and other feed grains,67.04728301
+ND,2005,Feeds and other feed grains,57.62519887
+ND,2006,Feeds and other feed grains,63.41793563
+ND,2007,Feeds and other feed grains,96.65499669
+ND,2008,Feeds and other feed grains,154.2036471
+ND,2009,Feeds and other feed grains,130.7916557
+ND,2010,Feeds and other feed grains,116.7150456
+ND,2011,Feeds and other feed grains,141.8960181
+ND,2012,Feeds and other feed grains,192.1520528
+ND,2013,Feeds and other feed grains,290.2741526
+ND,2014,Feeds and other feed grains,258.4259331
+ND,2015,Feeds and other feed grains,233.5245679
+ND,2016,Feeds and other feed grains,235.3887276
+ND,2017,Feeds and other feed grains,230.8211481
+ND,2018,Feeds and other feed grains,237.8110213
+ND,2019,Feeds and other feed grains,218.0124196
+ND,2020,Feeds and other feed grains,218.7970375
+ND,2022,Feeds and other feed grains,322.8548024
+ND,2023,Feeds and other feed grains,296.3185667
+ND,2024,Feeds and other feed grains,352.6356307
+ND,2025,Feeds and other feed grains,325.3074942
+ND,2021,Feeds and other feed grains,238.9015371
+ND,2000,"Fruits, fresh",0.033481934
+ND,2001,"Fruits, fresh",0.035443528
+ND,2002,"Fruits, fresh",0.034599475
+ND,2003,"Fruits, fresh",0.056560095
+ND,2004,"Fruits, fresh",0.07391859
+ND,2005,"Fruits, fresh",0.091294051
+ND,2006,"Fruits, fresh",0.110273213
+ND,2007,"Fruits, fresh",0.133902384
+ND,2008,"Fruits, fresh",0.138245663
+ND,2009,"Fruits, fresh",0.120020274
+ND,2010,"Fruits, fresh",0.118089174
+ND,2011,"Fruits, fresh",0.108013738
+ND,2012,"Fruits, fresh",0.090509127
+ND,2013,"Fruits, fresh",0.094229609
+ND,2014,"Fruits, fresh",0.0
+ND,2015,"Fruits, fresh",0.0
+ND,2016,"Fruits, fresh",0.0
+ND,2017,"Fruits, fresh",0.0
+ND,2018,"Fruits, fresh",0.0
+ND,2019,"Fruits, fresh",0.0
+ND,2020,"Fruits, fresh",0.0
+ND,2022,"Fruits, fresh",0.0
+ND,2023,"Fruits, fresh",0.0
+ND,2024,"Fruits, fresh",0.0
+ND,2025,"Fruits, fresh",0.0
+ND,2021,"Fruits, fresh",0.0
+ND,2000,"Fruits, processed",0.030750712
+ND,2001,"Fruits, processed",0.031163382
+ND,2002,"Fruits, processed",0.030494404
+ND,2003,"Fruits, processed",0.050037812
+ND,2004,"Fruits, processed",0.070354704
+ND,2005,"Fruits, processed",0.074680338
+ND,2006,"Fruits, processed",0.101948892
+ND,2007,"Fruits, processed",0.127472271
+ND,2008,"Fruits, processed",0.12732311
+ND,2009,"Fruits, processed",0.106159522
+ND,2010,"Fruits, processed",0.104840487
+ND,2011,"Fruits, processed",0.099997656
+ND,2012,"Fruits, processed",0.077754982
+ND,2013,"Fruits, processed",0.083572279
+ND,2014,"Fruits, processed",0.0
+ND,2015,"Fruits, processed",0.0
+ND,2016,"Fruits, processed",0.0
+ND,2017,"Fruits, processed",0.0
+ND,2018,"Fruits, processed",0.0
+ND,2019,"Fruits, processed",0.0
+ND,2020,"Fruits, processed",0.0
+ND,2022,"Fruits, processed",0.0
+ND,2023,"Fruits, processed",0.0
+ND,2024,"Fruits, processed",0.0
+ND,2025,"Fruits, processed",0.0
+ND,2021,"Fruits, processed",0.0
+ND,2000,Grain products,63.61785828
+ND,2001,Grain products,65.92064534
+ND,2002,Grain products,72.18208858
+ND,2003,Grain products,87.35246002
+ND,2004,Grain products,95.69609739
+ND,2005,Grain products,108.7505592
+ND,2006,Grain products,109.4251986
+ND,2007,Grain products,158.2390256
+ND,2008,Grain products,148.4349385
+ND,2009,Grain products,161.0697261
+ND,2010,Grain products,156.5952562
+ND,2011,Grain products,153.2369538
+ND,2012,Grain products,181.7700928
+ND,2013,Grain products,200.3722116
+ND,2014,Grain products,190.0335396
+ND,2015,Grain products,153.3816647
+ND,2016,Grain products,165.1825437
+ND,2017,Grain products,164.1066663
+ND,2018,Grain products,165.4163288
+ND,2019,Grain products,174.4970911
+ND,2020,Grain products,158.208496
+ND,2022,Grain products,184.1104352
+ND,2023,Grain products,221.3197382
+ND,2024,Grain products,239.6082754
+ND,2025,Grain products,251.0387224
+ND,2021,Grain products,141.5250674
+ND,2000,Hides and skins,15.37227198
+ND,2001,Hides and skins,23.52200783
+ND,2002,Hides and skins,23.66484113
+ND,2003,Hides and skins,22.95062046
+ND,2004,Hides and skins,22.0883089
+ND,2005,Hides and skins,23.4081812
+ND,2006,Hides and skins,24.65715038
+ND,2007,Hides and skins,27.35416333
+ND,2008,Hides and skins,23.74656473
+ND,2009,Hides and skins,16.38905675
+ND,2010,Hides and skins,25.93036169
+ND,2011,Hides and skins,30.42055698
+ND,2012,Hides and skins,29.34339538
+ND,2013,Hides and skins,37.84986026
+ND,2014,Hides and skins,38.19799044
+ND,2015,Hides and skins,27.92654685
+ND,2016,Hides and skins,21.50224721
+ND,2017,Hides and skins,23.07796428
+ND,2018,Hides and skins,18.09129453
+ND,2019,Hides and skins,12.32444099
+ND,2020,Hides and skins,9.344822376
+ND,2022,Hides and skins,12.6446532
+ND,2023,Hides and skins,11.7585706
+ND,2024,Hides and skins,9.168410856
+ND,2025,Hides and skins,7.517917079
+ND,2021,Hides and skins,14.06340102
+ND,2000,Other livestock products,23.19775797
+ND,2001,Other livestock products,21.78493669
+ND,2002,Other livestock products,28.56846263
+ND,2003,Other livestock products,26.80096986
+ND,2004,Other livestock products,22.38652895
+ND,2005,Other livestock products,20.97875688
+ND,2006,Other livestock products,21.03763062
+ND,2007,Other livestock products,26.30062129
+ND,2008,Other livestock products,46.22802192
+ND,2009,Other livestock products,41.33734582
+ND,2010,Other livestock products,63.01327329
+ND,2011,Other livestock products,60.37544382
+ND,2012,Other livestock products,62.93539923
+ND,2013,Other livestock products,55.6907063
+ND,2014,Other livestock products,60.97996868
+ND,2015,Other livestock products,44.70355466
+ND,2016,Other livestock products,45.88146374
+ND,2017,Other livestock products,49.27924223
+ND,2018,Other livestock products,53.26959887
+ND,2019,Other livestock products,41.23818652
+ND,2020,Other livestock products,51.1301357
+ND,2022,Other livestock products,64.39587907
+ND,2023,Other livestock products,54.31417217
+ND,2024,Other livestock products,52.42610745
+ND,2025,Other livestock products,49.17674881
+ND,2021,Other livestock products,60.37967497
+ND,2000,Other oilseeds and products,184.5721251
+ND,2001,Other oilseeds and products,246.3470577
+ND,2002,Other oilseeds and products,351.0729689
+ND,2003,Other oilseeds and products,227.4813011
+ND,2004,Other oilseeds and products,234.5282997
+ND,2005,Other oilseeds and products,215.7562922
+ND,2006,Other oilseeds and products,310.2809632
+ND,2007,Other oilseeds and products,325.355806
+ND,2008,Other oilseeds and products,372.9220881
+ND,2009,Other oilseeds and products,220.6019848
+ND,2010,Other oilseeds and products,312.1440932
+ND,2011,Other oilseeds and products,375.117941
+ND,2012,Other oilseeds and products,348.057827
+ND,2013,Other oilseeds and products,364.4818599
+ND,2014,Other oilseeds and products,414.3202827
+ND,2015,Other oilseeds and products,468.1293936
+ND,2016,Other oilseeds and products,532.1262109
+ND,2017,Other oilseeds and products,489.5592276
+ND,2018,Other oilseeds and products,409.2087475
+ND,2019,Other oilseeds and products,602.8191634
+ND,2020,Other oilseeds and products,584.5379519
+ND,2022,Other oilseeds and products,743.5232306
+ND,2023,Other oilseeds and products,735.6082929
+ND,2024,Other oilseeds and products,638.3426525
+ND,2025,Other oilseeds and products,653.1773897
+ND,2021,Other oilseeds and products,716.7426311
+ND,2000,Other plant products,63.84725755
+ND,2001,Other plant products,68.55683765
+ND,2002,Other plant products,64.79283734
+ND,2003,Other plant products,82.2172662
+ND,2004,Other plant products,67.13581009
+ND,2005,Other plant products,82.01097672
+ND,2006,Other plant products,118.7134512
+ND,2007,Other plant products,109.8142368
+ND,2008,Other plant products,124.2520637
+ND,2009,Other plant products,122.9756645
+ND,2010,Other plant products,156.7691178
+ND,2011,Other plant products,208.0214887
+ND,2012,Other plant products,204.5081002
+ND,2013,Other plant products,223.2044074
+ND,2014,Other plant products,164.8085012
+ND,2015,Other plant products,158.4109121
+ND,2016,Other plant products,168.1368852
+ND,2017,Other plant products,165.9096676
+ND,2018,Other plant products,164.5509783
+ND,2019,Other plant products,122.8491698
+ND,2020,Other plant products,119.4659372
+ND,2022,Other plant products,219.5384091
+ND,2023,Other plant products,270.7891362
+ND,2024,Other plant products,340.2706526
+ND,2025,Other plant products,319.1768187
+ND,2021,Other plant products,172.0376223
+ND,2000,Other poultry products,1.785081973
+ND,2001,Other poultry products,1.838746937
+ND,2002,Other poultry products,1.653607012
+ND,2003,Other poultry products,1.413038555
+ND,2004,Other poultry products,1.293064293
+ND,2005,Other poultry products,1.633691803
+ND,2006,Other poultry products,2.289349202
+ND,2007,Other poultry products,2.770755408
+ND,2008,Other poultry products,1.769082703
+ND,2009,Other poultry products,1.743435055
+ND,2010,Other poultry products,2.034904358
+ND,2011,Other poultry products,2.391821284
+ND,2012,Other poultry products,2.535921395
+ND,2013,Other poultry products,2.590336048
+ND,2014,Other poultry products,2.778866529
+ND,2015,Other poultry products,2.960088965
+ND,2016,Other poultry products,2.000928522
+ND,2017,Other poultry products,2.309189526
+ND,2018,Other poultry products,3.074448835
+ND,2019,Other poultry products,2.485955421
+ND,2020,Other poultry products,2.687975013
+ND,2022,Other poultry products,4.2773127
+ND,2023,Other poultry products,3.984788001
+ND,2024,Other poultry products,3.844756493
+ND,2025,Other poultry products,4.023182974
+ND,2021,Other poultry products,2.897751255
+ND,2000,Pork,5.485085706
+ND,2001,Pork,6.015722709
+ND,2002,Pork,5.123969802
+ND,2003,Pork,4.270909041
+ND,2004,Pork,6.554195823
+ND,2005,Pork,8.290830323
+ND,2006,Pork,8.198339585
+ND,2007,Pork,8.451004577
+ND,2008,Pork,11.88189839
+ND,2009,Pork,12.83012546
+ND,2010,Pork,14.54519482
+ND,2011,Pork,16.11679568
+ND,2012,Pork,15.3508247
+ND,2013,Pork,14.87350398
+ND,2014,Pork,18.07679364
+ND,2015,Pork,17.39857059
+ND,2016,Pork,15.59329643
+ND,2017,Pork,17.51688196
+ND,2018,Pork,15.71093511
+ND,2019,Pork,16.40500632
+ND,2020,Pork,18.87229285
+ND,2022,Pork,15.28149445
+ND,2023,Pork,19.48856367
+ND,2024,Pork,5.433249578
+ND,2025,Pork,5.147510958
+ND,2021,Pork,18.27498659
+ND,2000,Rice,0.0
+ND,2001,Rice,0.0
+ND,2002,Rice,0.0
+ND,2003,Rice,0.0
+ND,2004,Rice,0.0
+ND,2005,Rice,0.0
+ND,2006,Rice,0.0
+ND,2007,Rice,0.0
+ND,2008,Rice,0.0
+ND,2009,Rice,0.0
+ND,2010,Rice,0.0
+ND,2011,Rice,0.0
+ND,2012,Rice,0.0
+ND,2013,Rice,0.0
+ND,2014,Rice,0.0
+ND,2015,Rice,0.0
+ND,2016,Rice,0.0
+ND,2017,Rice,0.0
+ND,2018,Rice,0.0
+ND,2019,Rice,0.0
+ND,2020,Rice,0.0
+ND,2022,Rice,0.0
+ND,2023,Rice,0.0
+ND,2024,Rice,0.0
+ND,2025,Rice,0.0
+ND,2021,Rice,0.0
+ND,2000,Soybean meal,25.63124575
+ND,2001,Soybean meal,32.82631032
+ND,2002,Soybean meal,36.40794644
+ND,2003,Soybean meal,45.43790751
+ND,2004,Soybean meal,33.73281661
+ND,2005,Soybean meal,41.77019876
+ND,2006,Soybean meal,59.95880214
+ND,2007,Soybean meal,81.90067797
+ND,2008,Soybean meal,117.5610465
+ND,2009,Soybean meal,125.8633965
+ND,2010,Soybean meal,130.6336181
+ND,2011,Soybean meal,129.3250722
+ND,2012,Soybean meal,229.088164
+ND,2013,Soybean meal,238.2345349
+ND,2014,Soybean meal,246.7556024
+ND,2015,Soybean meal,196.1920653
+ND,2016,Soybean meal,227.5783038
+ND,2017,Soybean meal,191.315698
+ND,2018,Soybean meal,251.8653371
+ND,2019,Soybean meal,221.4213632
+ND,2020,Soybean meal,214.442191
+ND,2022,Soybean meal,266.7437538
+ND,2023,Soybean meal,343.674202
+ND,2024,Soybean meal,334.9726933
+ND,2025,Soybean meal,293.1553298
+ND,2021,Soybean meal,242.6771079
+ND,2000,Soybeans,105.5834813
+ND,2001,Soybeans,118.6364725
+ND,2002,Soybeans,153.7476086
+ND,2003,Soybeans,284.0227195
+ND,2004,Soybeans,172.5764802
+ND,2005,Soybeans,176.1051391
+ND,2006,Soybeans,249.537724
+ND,2007,Soybeans,378.0639524
+ND,2008,Soybeans,566.7344017
+ND,2009,Soybeans,590.4939941
+ND,2010,Soybeans,691.5655782
+ND,2011,Soybeans,706.8034114
+ND,2012,Soybeans,1160.237302
+ND,2013,Soybeans,944.7007785
+ND,2014,Soybeans,1071.013293
+ND,2015,Soybeans,771.7251904
+ND,2016,Soybeans,1272.664285
+ND,2017,Soybeans,1053.417244
+ND,2018,Soybeans,842.6950532
+ND,2019,Soybeans,949.3646402
+ND,2020,Soybeans,1158.550702
+ND,2022,Soybeans,1495.255431
+ND,2023,Soybeans,1295.106873
+ND,2024,Soybeans,1289.452259
+ND,2025,Soybeans,800.7707116
+ND,2021,Soybeans,1185.599798
+ND,2000,Tobacco,0.0
+ND,2001,Tobacco,0.0
+ND,2002,Tobacco,0.0
+ND,2003,Tobacco,0.0
+ND,2004,Tobacco,0.0
+ND,2005,Tobacco,0.0
+ND,2006,Tobacco,0.0
+ND,2007,Tobacco,0.0
+ND,2008,Tobacco,0.0
+ND,2009,Tobacco,0.0
+ND,2010,Tobacco,0.0
+ND,2011,Tobacco,0.0
+ND,2012,Tobacco,0.0
+ND,2013,Tobacco,0.0
+ND,2014,Tobacco,0.0
+ND,2015,Tobacco,0.0
+ND,2016,Tobacco,0.0
+ND,2017,Tobacco,0.0
+ND,2018,Tobacco,0.0
+ND,2019,Tobacco,0.0
+ND,2020,Tobacco,0.0
+ND,2022,Tobacco,0.0
+ND,2023,Tobacco,0.0
+ND,2024,Tobacco,0.0
+ND,2025,Tobacco,0.0
+ND,2021,Tobacco,0.0
+ND,2000,Total agricultural exports,1194.023855
+ND,2001,Total agricultural exports,1327.820508
+ND,2002,Total agricultural exports,1564.456349
+ND,2003,Total agricultural exports,1656.872981
+ND,2004,Total agricultural exports,1677.772782
+ND,2005,Total agricultural exports,1622.30273
+ND,2006,Total agricultural exports,1882.057602
+ND,2007,Total agricultural exports,3035.734039
+ND,2008,Total agricultural exports,3905.297264
+ND,2009,Total agricultural exports,2849.616236
+ND,2010,Total agricultural exports,3510.297343
+ND,2011,Total agricultural exports,4245.214077
+ND,2012,Total agricultural exports,4349.812707
+ND,2013,Total agricultural exports,4394.979751
+ND,2014,Total agricultural exports,4379.293465
+ND,2015,Total agricultural exports,3705.281103
+ND,2016,Total agricultural exports,4470.722345
+ND,2017,Total agricultural exports,4278.786399
+ND,2018,Total agricultural exports,3973.181375
+ND,2019,Total agricultural exports,4245.560586
+ND,2020,Total agricultural exports,4321.924077
+ND,2022,Total agricultural exports,5816.700901
+ND,2023,Total agricultural exports,5439.870144
+ND,2024,Total agricultural exports,5414.794347
+ND,2025,Total agricultural exports,5182.672982
+ND,2021,Total agricultural exports,4949.614647
+ND,2000,Total animal products,90.75943544
+ND,2001,Total animal products,106.2929001
+ND,2002,Total animal products,113.6230472
+ND,2003,Total animal products,117.0066782
+ND,2004,Total animal products,68.83456313
+ND,2005,Total animal products,80.77979205
+ND,2006,Total animal products,90.51466086
+ND,2007,Total animal products,112.4608758
+ND,2008,Total animal products,138.0541856
+ND,2009,Total animal products,119.7990215
+ND,2010,Total animal products,170.670797
+ND,2011,Total animal products,195.9075176
+ND,2012,Total animal products,192.037383
+ND,2013,Total animal products,217.5202392
+ND,2014,Total animal products,248.0344768
+ND,2015,Total animal products,187.369554
+ND,2016,Total animal products,179.9641524
+ND,2017,Total animal products,211.1675333
+ND,2018,Total animal products,227.8323805
+ND,2019,Total animal products,201.8355558
+ND,2020,Total animal products,200.5028997
+ND,2022,Total animal products,282.1972441
+ND,2023,Total animal products,244.016041
+ND,2024,Total animal products,216.1075149
+ND,2025,Total animal products,199.8416069
+ND,2021,Total animal products,273.3238397
+ND,2000,Total plant products,1103.264419
+ND,2001,Total plant products,1221.527608
+ND,2002,Total plant products,1450.833302
+ND,2003,Total plant products,1539.866303
+ND,2004,Total plant products,1608.938219
+ND,2005,Total plant products,1541.522938
+ND,2006,Total plant products,1791.542941
+ND,2007,Total plant products,2923.273163
+ND,2008,Total plant products,3767.243078
+ND,2009,Total plant products,2729.817215
+ND,2010,Total plant products,3339.626546
+ND,2011,Total plant products,4049.306559
+ND,2012,Total plant products,4157.775324
+ND,2013,Total plant products,4177.459512
+ND,2014,Total plant products,4131.258988
+ND,2015,Total plant products,3517.911549
+ND,2016,Total plant products,4290.758193
+ND,2017,Total plant products,4067.618866
+ND,2018,Total plant products,3745.348994
+ND,2019,Total plant products,4043.72503
+ND,2020,Total plant products,4121.421178
+ND,2022,Total plant products,5534.503656
+ND,2023,Total plant products,5195.854103
+ND,2024,Total plant products,5198.686833
+ND,2025,Total plant products,4982.831375
+ND,2021,Total plant products,4676.290808
+ND,2000,Tree nuts,0.0
+ND,2001,Tree nuts,0.0
+ND,2002,Tree nuts,0.0
+ND,2003,Tree nuts,0.0
+ND,2004,Tree nuts,0.0
+ND,2005,Tree nuts,0.0
+ND,2006,Tree nuts,0.0
+ND,2007,Tree nuts,0.0
+ND,2008,Tree nuts,0.0
+ND,2009,Tree nuts,0.0
+ND,2010,Tree nuts,0.0
+ND,2011,Tree nuts,0.0
+ND,2012,Tree nuts,0.0
+ND,2013,Tree nuts,0.0
+ND,2014,Tree nuts,0.0
+ND,2015,Tree nuts,0.0
+ND,2016,Tree nuts,0.0
+ND,2017,Tree nuts,0.0
+ND,2018,Tree nuts,0.0
+ND,2019,Tree nuts,0.0
+ND,2020,Tree nuts,0.0
+ND,2022,Tree nuts,0.0
+ND,2023,Tree nuts,0.0
+ND,2024,Tree nuts,0.0
+ND,2025,Tree nuts,0.0
+ND,2021,Tree nuts,0.0
+ND,2000,Vegetable oils,54.59968106
+ND,2001,Vegetable oils,58.81395042
+ND,2002,Vegetable oils,88.6447657
+ND,2003,Vegetable oils,97.65764112
+ND,2004,Vegetable oils,79.35141887
+ND,2005,Vegetable oils,80.46788041
+ND,2006,Vegetable oils,111.0411855
+ND,2007,Vegetable oils,152.5418752
+ND,2008,Vegetable oils,243.7566287
+ND,2009,Vegetable oils,158.9326466
+ND,2010,Vegetable oils,213.0626841
+ND,2011,Vegetable oils,246.8266941
+ND,2012,Vegetable oils,260.6265545
+ND,2013,Vegetable oils,205.1908112
+ND,2014,Vegetable oils,188.023298
+ND,2015,Vegetable oils,189.2980634
+ND,2016,Vegetable oils,217.0186898
+ND,2017,Vegetable oils,215.5299957
+ND,2018,Vegetable oils,193.0081128
+ND,2019,Vegetable oils,201.2888668
+ND,2020,Vegetable oils,192.6277909
+ND,2022,Vegetable oils,261.8235499
+ND,2023,Vegetable oils,186.5295821
+ND,2024,Vegetable oils,201.8910722
+ND,2025,Vegetable oils,238.0283973
+ND,2021,Vegetable oils,241.4056703
+ND,2000,"Vegetables, fresh",18.59153407
+ND,2001,"Vegetables, fresh",20.30014185
+ND,2002,"Vegetables, fresh",22.60296109
+ND,2003,"Vegetables, fresh",22.28143002
+ND,2004,"Vegetables, fresh",29.21712023
+ND,2005,"Vegetables, fresh",32.40062585
+ND,2006,"Vegetables, fresh",31.9882455
+ND,2007,"Vegetables, fresh",53.95709484
+ND,2008,"Vegetables, fresh",71.13358897
+ND,2009,"Vegetables, fresh",62.3419958
+ND,2010,"Vegetables, fresh",69.79060509
+ND,2011,"Vegetables, fresh",58.89046685
+ND,2012,"Vegetables, fresh",78.62866249
+ND,2013,"Vegetables, fresh",82.33547136
+ND,2014,"Vegetables, fresh",67.70192287
+ND,2015,"Vegetables, fresh",74.16489178
+ND,2016,"Vegetables, fresh",92.33891213
+ND,2017,"Vegetables, fresh",84.88645463
+ND,2018,"Vegetables, fresh",82.6498108
+ND,2019,"Vegetables, fresh",74.7514003
+ND,2020,"Vegetables, fresh",84.55830386
+ND,2022,"Vegetables, fresh",83.53934151
+ND,2023,"Vegetables, fresh",94.18729392
+ND,2024,"Vegetables, fresh",112.5879131
+ND,2025,"Vegetables, fresh",85.60360635
+ND,2021,"Vegetables, fresh",102.3601482
+ND,2000,"Vegetables, processed",28.2922751
+ND,2001,"Vegetables, processed",30.56969149
+ND,2002,"Vegetables, processed",32.00978323
+ND,2003,"Vegetables, processed",29.11974436
+ND,2004,"Vegetables, processed",39.2414388
+ND,2005,"Vegetables, processed",42.47568137
+ND,2006,"Vegetables, processed",42.10836651
+ND,2007,"Vegetables, processed",74.05034245
+ND,2008,"Vegetables, processed",115.2873186
+ND,2009,"Vegetables, processed",100.4491569
+ND,2010,"Vegetables, processed",108.6834868
+ND,2011,"Vegetables, processed",95.57053844
+ND,2012,"Vegetables, processed",147.5372692
+ND,2013,"Vegetables, processed",148.0443134
+ND,2014,"Vegetables, processed",128.9530593
+ND,2015,"Vegetables, processed",141.7226883
+ND,2016,"Vegetables, processed",178.9388472
+ND,2017,"Vegetables, processed",159.3499319
+ND,2018,"Vegetables, processed",138.7664304
+ND,2019,"Vegetables, processed",125.4282608
+ND,2020,"Vegetables, processed",139.4886893
+ND,2022,"Vegetables, processed",143.4007948
+ND,2023,"Vegetables, processed",183.5501124
+ND,2024,"Vegetables, processed",219.1414287
+ND,2025,"Vegetables, processed",166.9908108
+ND,2021,"Vegetables, processed",173.5716865
+ND,2000,Wheat,463.5035715
+ND,2001,Wheat,486.3843657
+ND,2002,Wheat,525.1282124
+ND,2003,Wheat,541.2797048
+ND,2004,Wheat,719.1302031
+ND,2005,Wheat,654.1728723
+ND,2006,Wheat,600.2838697
+ND,2007,Wheat,1346.535298
+ND,2008,Wheat,1577.303873
+ND,2009,Wheat,887.2028883
+ND,2010,Wheat,1237.542878
+ND,2011,Wheat,1689.244408
+ND,2012,Wheat,1143.175866
+ND,2013,Wheat,1292.362733
+ND,2014,Wheat,1151.860277
+ND,2015,Wheat,977.1097432
+ND,2016,Wheat,952.0063637
+ND,2017,Wheat,1060.892605
+ND,2018,Wheat,914.4942151
+ND,2019,Wheat,1150.264355
+ND,2020,Wheat,1039.016505
+ND,2022,Wheat,1370.10475
+ND,2023,Wheat,1243.498244
+ND,2024,Wheat,1033.370812
+ND,2025,Wheat,1186.447621
+ND,2021,Wheat,1078.925604

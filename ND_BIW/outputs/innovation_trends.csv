@@ -1,0 +1,895 @@
+measure,geo,year,value
+University R&D per resident ($),ND,2010,302.40592099023047
+University R&D per resident ($),MN,2010,156.61162424537756
+University R&D per resident ($),MT,2010,209.77158257042785
+University R&D per resident ($),SD,2010,160.7034120606278
+University R&D per resident ($),WY,2010,97.99107577794665
+University R&D per resident ($),US,2010,198.1287817344888
+University R&D per resident ($),ND,2011,307.87599595055474
+University R&D per resident ($),MN,2011,168.09517040672424
+University R&D per resident ($),MT,2011,195.75285859503288
+University R&D per resident ($),SD,2011,165.47090101245539
+University R&D per resident ($),WY,2011,101.4095377724052
+University R&D per resident ($),US,2011,209.49246985272623
+University R&D per resident ($),ND,2012,307.08303725148704
+University R&D per resident ($),MN,2012,160.84388656438867
+University R&D per resident ($),MT,2012,195.90447016833838
+University R&D per resident ($),SD,2012,154.9422624208649
+University R&D per resident ($),WY,2012,113.77840514969064
+University R&D per resident ($),US,2012,209.40963616582565
+University R&D per resident ($),ND,2013,303.0011795632712
+University R&D per resident ($),MN,2013,166.47281245463756
+University R&D per resident ($),MT,2013,183.39943085791367
+University R&D per resident ($),SD,2013,139.2594016500722
+University R&D per resident ($),WY,2013,112.4060279427414
+University R&D per resident ($),US,2013,211.91412146886177
+University R&D per resident ($),ND,2014,300.55662645383467
+University R&D per resident ($),MN,2014,168.58857090982116
+University R&D per resident ($),MT,2014,177.11412526389591
+University R&D per resident ($),SD,2014,123.53266562312427
+University R&D per resident ($),WY,2014,88.1783527305589
+University R&D per resident ($),US,2014,210.9431903403114
+University R&D per resident ($),ND,2015,288.4385542997894
+University R&D per resident ($),MN,2015,169.40165229699042
+University R&D per resident ($),MT,2015,176.13270059476778
+University R&D per resident ($),SD,2015,120.9459166946504
+University R&D per resident ($),WY,2015,97.19827622960184
+University R&D per resident ($),US,2015,213.63152994113338
+University R&D per resident ($),ND,2016,299.6532268943572
+University R&D per resident ($),MN,2016,173.93255824054904
+University R&D per resident ($),MT,2016,187.23545944535124
+University R&D per resident ($),SD,2016,123.81830117877533
+University R&D per resident ($),WY,2016,191.4691845951169
+University R&D per resident ($),US,2016,222.04724767722266
+University R&D per resident ($),ND,2017,338.20985655859556
+University R&D per resident ($),MN,2017,173.9512967827277
+University R&D per resident ($),MT,2017,217.49147421578917
+University R&D per resident ($),SD,2017,129.23413586774893
+University R&D per resident ($),WY,2017,215.5746438756263
+University R&D per resident ($),US,2017,231.14203410971768
+University R&D per resident ($),ND,2018,336.201520402283
+University R&D per resident ($),MN,2018,178.2318451023595
+University R&D per resident ($),MT,2018,216.7028624491203
+University R&D per resident ($),SD,2018,131.75101718699185
+University R&D per resident ($),WY,2018,195.25467400277003
+University R&D per resident ($),US,2018,241.78928975189953
+University R&D per resident ($),ND,2019,344.6493759525692
+University R&D per resident ($),MN,2019,188.10585645205813
+University R&D per resident ($),MT,2019,255.53978374448545
+University R&D per resident ($),SD,2019,133.4386170187583
+University R&D per resident ($),WY,2019,138.51195278185742
+University R&D per resident ($),US,2019,254.2881916107118
+University R&D per resident ($),ND,2020,342.8731215014648
+University R&D per resident ($),MN,2020,190.30176014199654
+University R&D per resident ($),MT,2020,267.0242357122621
+University R&D per resident ($),SD,2020,124.59788602941177
+University R&D per resident ($),WY,2020,161.09744507667887
+University R&D per resident ($),US,2020,260.28891823327393
+University R&D per resident ($),ND,2021,395.32788244382544
+University R&D per resident ($),MN,2021,195.19640605489445
+University R&D per resident ($),MT,2021,298.33353819901373
+University R&D per resident ($),SD,2021,112.16519413635791
+University R&D per resident ($),WY,2021,160.78680334401773
+University R&D per resident ($),US,2021,270.1019125657408
+University R&D per resident ($),ND,2022,413.515408406403
+University R&D per resident ($),MN,2022,216.82198281468652
+University R&D per resident ($),MT,2022,303.7012731680655
+University R&D per resident ($),SD,2022,129.09555675813613
+University R&D per resident ($),WY,2022,240.25083284342543
+University R&D per resident ($),US,2022,292.4271191935106
+University R&D per resident ($),ND,2023,475.06768766731335
+University R&D per resident ($),MN,2023,237.37971054396334
+University R&D per resident ($),MT,2023,337.88337643683246
+University R&D per resident ($),SD,2023,140.61187331038562
+University R&D per resident ($),WY,2023,256.7688218572655
+University R&D per resident ($),US,2023,322.73014867791795
+Federal R&D obligations per resident ($),ND,2016,137.54539659363536
+Federal R&D obligations per resident ($),MN,2016,155.46498327710773
+Federal R&D obligations per resident ($),MT,2016,163.12634519261863
+Federal R&D obligations per resident ($),SD,2016,79.88949777293553
+Federal R&D obligations per resident ($),WY,2016,75.18244558243327
+Federal R&D obligations per resident ($),US,2016,345.743625901311
+Federal R&D obligations per resident ($),ND,2017,99.10737292783001
+Federal R&D obligations per resident ($),MN,2017,177.04253850989437
+Federal R&D obligations per resident ($),MT,2017,143.28251706580178
+Federal R&D obligations per resident ($),SD,2017,88.12770964094253
+Federal R&D obligations per resident ($),WY,2017,79.31116528791677
+Federal R&D obligations per resident ($),US,2017,346.98345724410365
+Federal R&D obligations per resident ($),ND,2018,146.04071773092195
+Federal R&D obligations per resident ($),MN,2018,183.8195309410526
+Federal R&D obligations per resident ($),MT,2018,183.64729172042667
+Federal R&D obligations per resident ($),SD,2018,92.10972201058466
+Federal R&D obligations per resident ($),WY,2018,84.62077802761056
+Federal R&D obligations per resident ($),US,2018,378.05250542333334
+Federal R&D obligations per resident ($),ND,2019,95.58426866250112
+Federal R&D obligations per resident ($),MN,2019,182.445094044329
+Federal R&D obligations per resident ($),MT,2019,178.484155559688
+Federal R&D obligations per resident ($),SD,2019,100.32385441994212
+Federal R&D obligations per resident ($),WY,2019,117.21793572320018
+Federal R&D obligations per resident ($),US,2019,409.86208772734176
+Federal R&D obligations per resident ($),ND,2020,179.5765072882408
+Federal R&D obligations per resident ($),MN,2020,253.5652357858999
+Federal R&D obligations per resident ($),MT,2020,195.92404401944154
+Federal R&D obligations per resident ($),SD,2020,147.5544261822376
+Federal R&D obligations per resident ($),WY,2020,150.6052774166521
+Federal R&D obligations per resident ($),US,2020,485.2129801671102
+Federal R&D obligations per resident ($),ND,2021,215.94468731080738
+Federal R&D obligations per resident ($),MN,2021,200.5580975331879
+Federal R&D obligations per resident ($),MT,2021,259.39610417781375
+Federal R&D obligations per resident ($),SD,2021,155.08148472112669
+Federal R&D obligations per resident ($),WY,2021,339.8532248103205
+Federal R&D obligations per resident ($),US,2021,551.947932480106
+Federal R&D obligations per resident ($),ND,2022,196.10582536840337
+Federal R&D obligations per resident ($),MN,2022,216.32229402896346
+Federal R&D obligations per resident ($),MT,2022,260.3579208101768
+Federal R&D obligations per resident ($),SD,2022,147.38944691560084
+Federal R&D obligations per resident ($),WY,2022,137.51800626394518
+Federal R&D obligations per resident ($),US,2022,552.4282687870701
+Federal R&D obligations per resident ($),ND,2023,221.0728129990814
+Federal R&D obligations per resident ($),MN,2023,243.00373474838685
+Federal R&D obligations per resident ($),MT,2023,432.5091189550438
+Federal R&D obligations per resident ($),SD,2023,140.56283976163158
+Federal R&D obligations per resident ($),WY,2023,131.69912394426905
+Federal R&D obligations per resident ($),US,2023,533.4441129631516
+Federal R&D obligations per resident ($),ND,2024,264.6879769897919
+Federal R&D obligations per resident ($),MN,2024,235.27768027246674
+Federal R&D obligations per resident ($),MT,2024,232.9553595995629
+Federal R&D obligations per resident ($),SD,2024,140.22068578701555
+Federal R&D obligations per resident ($),WY,2024,189.1867017088161
+Federal R&D obligations per resident ($),US,2024,549.9232704157124
+"Patents per 100,000 residents",ND,2000,11.212462142013477
+"Patents per 100,000 residents",MN,2000,47.3739185583275
+"Patents per 100,000 residents",MT,2000,10.117515388919976
+"Patents per 100,000 residents",SD,2000,9.36713436217529
+"Patents per 100,000 residents",WY,2000,9.443729964268359
+"Patents per 100,000 residents",US,2000,25.45902417860557
+"Patents per 100,000 residents",ND,2001,12.741434252288043
+"Patents per 100,000 residents",MN,2001,45.91036241309047
+"Patents per 100,000 residents",MT,2001,13.072188024622271
+"Patents per 100,000 residents",SD,2001,8.375320135592025
+"Patents per 100,000 residents",WY,2001,8.756913239594297
+"Patents per 100,000 residents",US,2001,26.22696303242381
+"Patents per 100,000 residents",ND,2002,9.428661346693152
+"Patents per 100,000 residents",MN,2002,47.96631033139964
+"Patents per 100,000 residents",MT,2002,12.355903749300504
+"Patents per 100,000 residents",SD,2002,8.375320135592025
+"Patents per 100,000 residents",WY,2002,8.24180069608875
+"Patents per 100,000 residents",US,2002,26.03796408434179
+"Patents per 100,000 residents",ND,2003,7.262617523804185
+"Patents per 100,000 residents",MN,2003,51.485814394945855
+"Patents per 100,000 residents",MT,2003,10.833799664241745
+"Patents per 100,000 residents",SD,2003,8.816126458517921
+"Patents per 100,000 residents",WY,2003,12.362701044133125
+"Patents per 100,000 residents",US,2003,26.31653599360012
+"Patents per 100,000 residents",ND,2004,7.517446208849946
+"Patents per 100,000 residents",MN,2004,47.91404046906974
+"Patents per 100,000 residents",MT,2004,10.744264129826524
+"Patents per 100,000 residents",SD,2004,9.03652961998087
+"Patents per 100,000 residents",WY,2004,8.928617420762812
+"Patents per 100,000 residents",US,2004,25.234793199127537
+"Patents per 100,000 residents",ND,2005,9.683490031738913
+"Patents per 100,000 residents",MN,2005,42.268895337441165
+"Patents per 100,000 residents",MT,2005,9.132624510352546
+"Patents per 100,000 residents",SD,2005,7.3835059090087585
+"Patents per 100,000 residents",WY,2005,9.100321601931329
+"Patents per 100,000 residents",US,2005,22.354425344234638
+"Patents per 100,000 residents",ND,2006,8.91900397660163
+"Patents per 100,000 residents",MN,2006,51.485814394945855
+"Patents per 100,000 residents",MT,2006,10.744264129826524
+"Patents per 100,000 residents",SD,2006,8.154916974129076
+"Patents per 100,000 residents",WY,2006,8.24180069608875
+"Patents per 100,000 residents",US,2006,26.896968782022615
+"Patents per 100,000 residents",ND,2007,10.447976086876196
+"Patents per 100,000 residents",MN,2007,44.55134599251321
+"Patents per 100,000 residents",MT,2007,9.848908785674315
+"Patents per 100,000 residents",SD,2007,6.612094843888441
+"Patents per 100,000 residents",WY,2007,9.272025783099846
+"Patents per 100,000 residents",US,2007,23.81207599911047
+"Patents per 100,000 residents",ND,2008,8.154517921464347
+"Patents per 100,000 residents",MN,2008,44.18545695620396
+"Patents per 100,000 residents",MT,2008,8.147733631785115
+"Patents per 100,000 residents",SD,2008,5.950885359499597
+"Patents per 100,000 residents",WY,2008,6.009646340898048
+"Patents per 100,000 residents",US,2008,23.19043964854687
+"Patents per 100,000 residents",ND,2009,10.575390429399075
+"Patents per 100,000 residents",MN,2009,45.75355282610078
+"Patents per 100,000 residents",MT,2009,6.715165081141578
+"Patents per 100,000 residents",SD,2009,5.069272713647805
+"Patents per 100,000 residents",WY,2009,10.130546688942422
+"Patents per 100,000 residents",US,2009,24.65346468109328
+"Patents per 100,000 residents",ND,2010,13.633334649948205
+"Patents per 100,000 residents",MN,2010,62.72383479587312
+"Patents per 100,000 residents",MT,2010,9.40123111359821
+"Patents per 100,000 residents",SD,2010,7.603909070471707
+"Patents per 100,000 residents",WY,2010,14.251447036986796
+"Patents per 100,000 residents",US,2010,32.26806211069147
+"Patents per 100,000 residents",ND,2011,11.085047799490598
+"Patents per 100,000 residents",MN,2011,67.4106991181203
+"Patents per 100,000 residents",MT,2011,9.043088975937325
+"Patents per 100,000 residents",SD,2011,10.689553330952979
+"Patents per 100,000 residents",WY,2011,10.989067594785
+"Patents per 100,000 residents",US,2011,32.557979928365455
+"Patents per 100,000 residents",ND,2012,12.741434252288043
+"Patents per 100,000 residents",MN,2012,68.07278404096563
+"Patents per 100,000 residents",MT,2012,10.744264129826524
+"Patents per 100,000 residents",SD,2012,12.673181784119512
+"Patents per 100,000 residents",WY,2012,21.291318464895937
+"Patents per 100,000 residents",US,2012,36.29257525634311
+"Patents per 100,000 residents",ND,2013,14.270406362562607
+"Patents per 100,000 residents",MN,2013,74.7981729940787
+"Patents per 100,000 residents",MT,2013,10.654728595411305
+"Patents per 100,000 residents",SD,2013,14.326205495091623
+"Patents per 100,000 residents",WY,2013,19.402572472042266
+"Patents per 100,000 residents",US,2013,40.07763001911675
+"Patents per 100,000 residents",ND,2014,13.633334649948205
+"Patents per 100,000 residents",MN,2014,80.68724414991345
+"Patents per 100,000 residents",MT,2014,10.207050923335197
+"Patents per 100,000 residents",SD,2014,12.893584945582461
+"Patents per 100,000 residents",WY,2014,20.776205921390392
+"Patents per 100,000 residents",US,2014,43.39063527649124
+"Patents per 100,000 residents",ND,2015,15.417135445268531
+"Patents per 100,000 residents",MN,2015,76.66246475051159
+"Patents per 100,000 residents",MT,2015,12.624510352546167
+"Patents per 100,000 residents",SD,2015,12.452778622656563
+"Patents per 100,000 residents",WY,2015,18.715755747368203
+"Patents per 100,000 residents",US,2015,42.31426685968923
+"Patents per 100,000 residents",ND,2016,12.741434252288043
+"Patents per 100,000 residents",MN,2016,73.64823602282102
+"Patents per 100,000 residents",MT,2016,13.430330162283155
+"Patents per 100,000 residents",SD,2016,15.979229206063733
+"Patents per 100,000 residents",WY,2016,18.028939022694143
+"Patents per 100,000 residents",US,2016,43.140726714809325
+"Patents per 100,000 residents",ND,2017,16.181621500405814
+"Patents per 100,000 residents",MN,2017,77.79497843432597
+"Patents per 100,000 residents",MT,2017,13.519865696698377
+"Patents per 100,000 residents",SD,2017,14.987414979480466
+"Patents per 100,000 residents",WY,2017,17.857234841525624
+"Patents per 100,000 residents",US,2017,45.29226924226431
+"Patents per 100,000 residents",ND,2018,14.90747807517701
+"Patents per 100,000 residents",MN,2018,70.63400729513046
+"Patents per 100,000 residents",MT,2018,12.98265249020705
+"Patents per 100,000 residents",SD,2018,14.767011818017517
+"Patents per 100,000 residents",WY,2018,18.715755747368203
+"Patents per 100,000 residents",US,2018,43.328531356742324
+"Patents per 100,000 residents",ND,2019,18.2202509807719
+"Patents per 100,000 residents",MN,2019,77.35939624824351
+"Patents per 100,000 residents",MT,2019,15.57918298824846
+"Patents per 100,000 residents",SD,2019,15.758826044600784
+"Patents per 100,000 residents",WY,2019,20.604501740221878
+"Patents per 100,000 residents",US,2019,50.1665312129419
+"Patents per 100,000 residents",ND,2020,16.436450185451577
+"Patents per 100,000 residents",MN,2020,75.96553325277966
+"Patents per 100,000 residents",MT,2020,13.161723559037492
+"Patents per 100,000 residents",SD,2020,15.979229206063733
+"Patents per 100,000 residents",WY,2020,25.240514631771795
+"Patents per 100,000 residents",US,2020,49.42038844634322
+"Patents per 100,000 residents",ND,2021,18.34766532329478
+"Patents per 100,000 residents",MN,2021,65.89487311055338
+"Patents per 100,000 residents",MT,2021,14.504756575265809
+"Patents per 100,000 residents",SD,2021,16.309833948258152
+"Patents per 100,000 residents",WY,2021,21.291318464895937
+"Patents per 100,000 residents",US,2021,45.112526166837185
+"Patents per 100,000 residents",ND,2022,16.563864527974456
+"Patents per 100,000 residents",MN,2022,60.09291839193511
+"Patents per 100,000 residents",MT,2022,17.10128707330722
+"Patents per 100,000 residents",SD,2022,13.66499601070278
+"Patents per 100,000 residents",WY,2022,19.574276653210784
+"Patents per 100,000 residents",US,2022,42.56268253868487
+"Patents per 100,000 residents",ND,2023,21.27819520132103
+"Patents per 100,000 residents",MN,2023,61.66101426183194
+"Patents per 100,000 residents",MT,2023,16.65360940123111
+"Patents per 100,000 residents",SD,2023,13.9956007528972
+"Patents per 100,000 residents",WY,2023,23.866881182423672
+"Patents per 100,000 residents",US,2023,43.97315810067451
+"Patents per 100,000 residents",ND,2024,20.00405177609223
+"Patents per 100,000 residents",MN,2024,60.92923618921342
+"Patents per 100,000 residents",MT,2024,17.817571348628984
+"Patents per 100,000 residents",SD,2024,15.979229206063733
+"Patents per 100,000 residents",WY,2024,22.493247733075545
+"Patents per 100,000 residents",US,2024,41.98135402065061
+SBIR/STTR award dollars per resident ($),ND,2005,3.4695142619670047
+SBIR/STTR award dollars per resident ($),MN,2005,6.071262235823984
+SBIR/STTR award dollars per resident ($),MT,2005,10.129886969711798
+SBIR/STTR award dollars per resident ($),SD,2005,2.4486333209970947
+SBIR/STTR award dollars per resident ($),WY,2005,4.827101449557237
+SBIR/STTR award dollars per resident ($),US,2005,8.020054691073376
+SBIR/STTR award dollars per resident ($),ND,2006,1.5772209749592714
+SBIR/STTR award dollars per resident ($),MN,2006,5.855546808351998
+SBIR/STTR award dollars per resident ($),MT,2006,17.95303623836455
+SBIR/STTR award dollars per resident ($),SD,2006,1.9634868517674222
+SBIR/STTR award dollars per resident ($),WY,2006,11.093916394185973
+SBIR/STTR award dollars per resident ($),US,2006,8.43242942326493
+SBIR/STTR award dollars per resident ($),ND,2007,0.8708024545741412
+SBIR/STTR award dollars per resident ($),MN,2007,4.337645181107785
+SBIR/STTR award dollars per resident ($),MT,2007,9.333802215389973
+SBIR/STTR award dollars per resident ($),SD,2007,2.5622360643892357
+SBIR/STTR award dollars per resident ($),WY,2007,5.867333737165249
+SBIR/STTR award dollars per resident ($),US,2007,6.446355972042432
+SBIR/STTR award dollars per resident ($),ND,2008,2.2353547688531545
+SBIR/STTR award dollars per resident ($),MN,2008,7.506142727164267
+SBIR/STTR award dollars per resident ($),MT,2008,10.427034611307691
+SBIR/STTR award dollars per resident ($),SD,2008,1.8507565784534066
+SBIR/STTR award dollars per resident ($),WY,2008,5.023697767391945
+SBIR/STTR award dollars per resident ($),US,2008,7.7647213263679165
+SBIR/STTR award dollars per resident ($),ND,2009,4.224143116661253
+SBIR/STTR award dollars per resident ($),MN,2009,6.255034885044184
+SBIR/STTR award dollars per resident ($),MT,2009,7.98139498486761
+SBIR/STTR award dollars per resident ($),SD,2009,2.5289325421557316
+SBIR/STTR award dollars per resident ($),WY,2009,4.273274496249895
+SBIR/STTR award dollars per resident ($),US,2009,7.779427060195015
+SBIR/STTR award dollars per resident ($),ND,2010,0.4075571469221284
+SBIR/STTR award dollars per resident ($),MN,2010,5.73752413417301
+SBIR/STTR award dollars per resident ($),MT,2010,11.588440170379418
+SBIR/STTR award dollars per resident ($),SD,2010,1.4205978242891082
+SBIR/STTR award dollars per resident ($),WY,2010,4.008058016300256
+SBIR/STTR award dollars per resident ($),US,2010,8.390321244586028
+SBIR/STTR award dollars per resident ($),ND,2011,3.511947030455446
+SBIR/STTR award dollars per resident ($),MN,2011,4.603635414523568
+SBIR/STTR award dollars per resident ($),MT,2011,9.736335584921775
+SBIR/STTR award dollars per resident ($),SD,2011,3.183028625537184
+SBIR/STTR award dollars per resident ($),WY,2011,6.090253413710526
+SBIR/STTR award dollars per resident ($),US,2011,7.423136685221127
+SBIR/STTR award dollars per resident ($),ND,2012,0.540311039022994
+SBIR/STTR award dollars per resident ($),MN,2012,5.921871129707113
+SBIR/STTR award dollars per resident ($),MT,2012,8.255828705953585
+SBIR/STTR award dollars per resident ($),SD,2012,1.9262465236928545
+SBIR/STTR award dollars per resident ($),WY,2012,4.208810798812464
+SBIR/STTR award dollars per resident ($),US,2012,7.22856875329344
+SBIR/STTR award dollars per resident ($),ND,2013,1.54510757810631
+SBIR/STTR award dollars per resident ($),MN,2013,5.949286777788407
+SBIR/STTR award dollars per resident ($),MT,2013,7.532486062329538
+SBIR/STTR award dollars per resident ($),SD,2013,1.9424266479660066
+SBIR/STTR award dollars per resident ($),WY,2013,3.5665648278466238
+SBIR/STTR award dollars per resident ($),US,2013,6.735927294166128
+SBIR/STTR award dollars per resident ($),ND,2014,1.6377244374174265
+SBIR/STTR award dollars per resident ($),MN,2014,6.650938095408391
+SBIR/STTR award dollars per resident ($),MT,2014,14.244493314962886
+SBIR/STTR award dollars per resident ($),SD,2014,2.305995327597773
+SBIR/STTR award dollars per resident ($),WY,2014,5.760142602617811
+SBIR/STTR award dollars per resident ($),US,2014,7.345639546759559
+SBIR/STTR award dollars per resident ($),ND,2015,0.2620295233721181
+SBIR/STTR award dollars per resident ($),MN,2015,5.419448989989427
+SBIR/STTR award dollars per resident ($),MT,2015,9.20756862612034
+SBIR/STTR award dollars per resident ($),SD,2015,2.871222926463413
+SBIR/STTR award dollars per resident ($),WY,2015,2.0175190871588655
+SBIR/STTR award dollars per resident ($),US,2015,7.800772752501681
+SBIR/STTR award dollars per resident ($),ND,2016,1.3204278719875575
+SBIR/STTR award dollars per resident ($),MN,2016,7.1546874936655716
+SBIR/STTR award dollars per resident ($),MT,2016,7.856405635727357
+SBIR/STTR award dollars per resident ($),SD,2016,3.7955454079169333
+SBIR/STTR award dollars per resident ($),WY,2016,5.387264777195114
+SBIR/STTR award dollars per resident ($),US,2016,8.306053436364314
+SBIR/STTR award dollars per resident ($),ND,2017,0.7328527726939366
+SBIR/STTR award dollars per resident ($),MN,2017,8.744729831470227
+SBIR/STTR award dollars per resident ($),MT,2017,11.213765388637222
+SBIR/STTR award dollars per resident ($),SD,2017,4.118706296667629
+SBIR/STTR award dollars per resident ($),WY,2017,10.165341365600334
+SBIR/STTR award dollars per resident ($),US,2017,9.797661902329823
+SBIR/STTR award dollars per resident ($),ND,2018,0.12390041865005749
+SBIR/STTR award dollars per resident ($),MN,2018,8.700722578351515
+SBIR/STTR award dollars per resident ($),MT,2018,13.285326788583355
+SBIR/STTR award dollars per resident ($),SD,2018,7.1862135512732745
+SBIR/STTR award dollars per resident ($),WY,2018,5.922290494496195
+SBIR/STTR award dollars per resident ($),US,2018,8.718568999518933
+SBIR/STTR award dollars per resident ($),ND,2019,0.7856241259931598
+SBIR/STTR award dollars per resident ($),MN,2019,10.99298372905361
+SBIR/STTR award dollars per resident ($),MT,2019,14.304476793789124
+SBIR/STTR award dollars per resident ($),SD,2019,8.341536386560211
+SBIR/STTR award dollars per resident ($),WY,2019,11.048738528156438
+SBIR/STTR award dollars per resident ($),US,2019,11.638105410199964
+SBIR/STTR award dollars per resident ($),ND,2020,0.7685476878241997
+SBIR/STTR award dollars per resident ($),MN,2020,8.042068913707618
+SBIR/STTR award dollars per resident ($),MT,2020,13.185198720330845
+SBIR/STTR award dollars per resident ($),SD,2020,5.078586045631488
+SBIR/STTR award dollars per resident ($),WY,2020,14.724214039527826
+SBIR/STTR award dollars per resident ($),US,2020,11.93606995701984
+SBIR/STTR award dollars per resident ($),ND,2021,0.9636685917450002
+SBIR/STTR award dollars per resident ($),MN,2021,8.365429158452272
+SBIR/STTR award dollars per resident ($),MT,2021,11.743745571286027
+SBIR/STTR award dollars per resident ($),SD,2021,4.245853243824912
+SBIR/STTR award dollars per resident ($),WY,2021,4.086755488543323
+SBIR/STTR award dollars per resident ($),US,2021,11.5557324244457
+SBIR/STTR award dollars per resident ($),ND,2022,0.7210054973717974
+SBIR/STTR award dollars per resident ($),MN,2022,12.214341907948665
+SBIR/STTR award dollars per resident ($),MT,2022,12.894626373009087
+SBIR/STTR award dollars per resident ($),SD,2022,4.247729762549001
+SBIR/STTR award dollars per resident ($),WY,2022,15.540808468358826
+SBIR/STTR award dollars per resident ($),US,2022,13.436260546853235
+SBIR/STTR award dollars per resident ($),ND,2023,2.093976274059138
+SBIR/STTR award dollars per resident ($),MN,2023,8.19462230301488
+SBIR/STTR award dollars per resident ($),MT,2023,7.7278947950313635
+SBIR/STTR award dollars per resident ($),SD,2023,2.2460405409381097
+SBIR/STTR award dollars per resident ($),WY,2023,17.55974864281487
+SBIR/STTR award dollars per resident ($),US,2023,14.007499848792174
+SBIR/STTR award dollars per resident ($),ND,2024,0.43998578247437886
+SBIR/STTR award dollars per resident ($),MN,2024,9.802684401038052
+SBIR/STTR award dollars per resident ($),MT,2024,11.274844064956744
+SBIR/STTR award dollars per resident ($),SD,2024,4.657706205304656
+SBIR/STTR award dollars per resident ($),WY,2024,21.68441091351611
+SBIR/STTR award dollars per resident ($),US,2024,14.428619482034783
+SBIR/STTR award dollars per resident ($),ND,2025,1.2110660054693891
+SBIR/STTR award dollars per resident ($),MN,2025,7.767525823677771
+SBIR/STTR award dollars per resident ($),MT,2025,6.406883411636647
+SBIR/STTR award dollars per resident ($),SD,2025,4.457997848344658
+SBIR/STTR award dollars per resident ($),WY,2025,8.978259932433465
+SBIR/STTR award dollars per resident ($),US,2025,12.033012302560849
+"High-propensity business applications per 1,000 residents",ND,2005,3.7394228968454812
+"High-propensity business applications per 1,000 residents",MN,2005,4.58336767847788
+"High-propensity business applications per 1,000 residents",MT,2005,6.2557041682711025
+"High-propensity business applications per 1,000 residents",SD,2005,4.132854842016626
+"High-propensity business applications per 1,000 residents",WY,2005,6.533023959607668
+"High-propensity business applications per 1,000 residents",US,2005,5.021904031861168
+"High-propensity business applications per 1,000 residents",ND,2006,3.8680549781190043
+"High-propensity business applications per 1,000 residents",MN,2006,4.5317615480032645
+"High-propensity business applications per 1,000 residents",MT,2006,6.699961792478577
+"High-propensity business applications per 1,000 residents",SD,2006,4.404667491663825
+"High-propensity business applications per 1,000 residents",WY,2006,7.15943420954451
+"High-propensity business applications per 1,000 residents",US,2006,5.177546938883741
+"High-propensity business applications per 1,000 residents",ND,2007,3.778978036892139
+"High-propensity business applications per 1,000 residents",MN,2007,4.348015623742727
+"High-propensity business applications per 1,000 residents",MT,2007,6.039145604982243
+"High-propensity business applications per 1,000 residents",SD,2007,3.985482988745906
+"High-propensity business applications per 1,000 residents",WY,2007,7.254017753647575
+"High-propensity business applications per 1,000 residents",US,2007,4.957517565568828
+"High-propensity business applications per 1,000 residents",ND,2008,3.5387921267578
+"High-propensity business applications per 1,000 residents",MN,2008,3.5997589487972026
+"High-propensity business applications per 1,000 residents",MT,2008,5.085952182217603
+"High-propensity business applications per 1,000 residents",SD,2008,3.547634659952648
+"High-propensity business applications per 1,000 residents",WY,2008,6.19182005812729
+"High-propensity business applications per 1,000 residents",US,2008,4.094250919796284
+"High-propensity business applications per 1,000 residents",ND,2009,3.1084202548092543
+"High-propensity business applications per 1,000 residents",MN,2009,3.6684823514642404
+"High-propensity business applications per 1,000 residents",MT,2009,4.16877544507928
+"High-propensity business applications per 1,000 residents",SD,2009,3.098875310228271
+"High-propensity business applications per 1,000 residents",WY,2009,5.5068223509469485
+"High-propensity business applications per 1,000 residents",US,2009,3.7927085469525434
+"High-propensity business applications per 1,000 residents",ND,2010,3.467940813810111
+"High-propensity business applications per 1,000 residents",MN,2010,3.208663485556401
+"High-propensity business applications per 1,000 residents",MT,2010,4.299859699413564
+"High-propensity business applications per 1,000 residents",SD,2010,2.977237001542527
+"High-propensity business applications per 1,000 residents",WY,2010,5.967785648618056
+"High-propensity business applications per 1,000 residents",US,2010,3.759864034951501
+"High-propensity business applications per 1,000 residents",ND,2011,4.268255325108019
+"High-propensity business applications per 1,000 residents",MN,2011,3.128331544040908
+"High-propensity business applications per 1,000 residents",MT,2011,4.330748918816503
+"High-propensity business applications per 1,000 residents",SD,2011,3.280161215917644
+"High-propensity business applications per 1,000 residents",WY,2011,5.8203566223957734
+"High-propensity business applications per 1,000 residents",US,2011,3.8125031410121513
+"High-propensity business applications per 1,000 residents",ND,2012,4.452976031966871
+"High-propensity business applications per 1,000 residents",MN,2012,3.0661087866108785
+"High-propensity business applications per 1,000 residents",MT,2012,4.242318018498897
+"High-propensity business applications per 1,000 residents",SD,2012,3.1432172585533045
+"High-propensity business applications per 1,000 residents",WY,2012,5.753863655281485
+"High-propensity business applications per 1,000 residents",US,2012,3.706147779321741
+"High-propensity business applications per 1,000 residents",ND,2013,3.8774858293380756
+"High-propensity business applications per 1,000 residents",MN,2013,2.9560151010522793
+"High-propensity business applications per 1,000 residents",MT,2013,4.158129206691659
+"High-propensity business applications per 1,000 residents",SD,2013,3.130224704568728
+"High-propensity business applications per 1,000 residents",WY,2013,5.4958635130960145
+"High-propensity business applications per 1,000 residents",US,2013,3.68480413622293
+"High-propensity business applications per 1,000 residents",ND,2014,3.963526889172857
+"High-propensity business applications per 1,000 residents",MN,2014,2.891246757319586
+"High-propensity business applications per 1,000 residents",MT,2014,4.195932751645958
+"High-propensity business applications per 1,000 residents",SD,2014,3.2365506608447987
+"High-propensity business applications per 1,000 residents",WY,2014,5.965782916837432
+"High-propensity business applications per 1,000 residents",US,2014,3.6647113701920286
+"High-propensity business applications per 1,000 residents",ND,2015,3.4756735937485526
+"High-propensity business applications per 1,000 residents",MN,2015,2.8555788272870797
+"High-propensity business applications per 1,000 residents",MT,2015,4.373264048783561
+"High-propensity business applications per 1,000 residents",SD,2015,3.3650690389077336
+"High-propensity business applications per 1,000 residents",WY,2015,6.3899561553849065
+"High-propensity business applications per 1,000 residents",US,2015,3.789105854712508
+"High-propensity business applications per 1,000 residents",ND,2016,3.152963706531026
+"High-propensity business applications per 1,000 residents",MN,2016,2.8671434983421893
+"High-propensity business applications per 1,000 residents",MT,2016,4.368907350952898
+"High-propensity business applications per 1,000 residents",SD,2016,3.011486720397178
+"High-propensity business applications per 1,000 residents",WY,2016,8.222225639606112
+"High-propensity business applications per 1,000 residents",US,2016,3.822822580079772
+"High-propensity business applications per 1,000 residents",ND,2017,3.0062569788108435
+"High-propensity business applications per 1,000 residents",MN,2017,2.912762738040067
+"High-propensity business applications per 1,000 residents",MT,2017,4.437962465673873
+"High-propensity business applications per 1,000 residents",SD,2017,3.061579523240536
+"High-propensity business applications per 1,000 residents",WY,2017,8.660434418287085
+"High-propensity business applications per 1,000 residents",US,2017,3.886576431364893
+"High-propensity business applications per 1,000 residents",ND,2018,3.144480318710842
+"High-propensity business applications per 1,000 residents",MN,2018,2.9767709879649025
+"High-propensity business applications per 1,000 residents",MT,2018,4.60436722677521
+"High-propensity business applications per 1,000 residents",SD,2018,3.0862442658855156
+"High-propensity business applications per 1,000 residents",WY,2018,9.63813392187948
+"High-propensity business applications per 1,000 residents",US,2018,4.082374716548967
+"High-propensity business applications per 1,000 residents",ND,2019,2.985371678774007
+"High-propensity business applications per 1,000 residents",MN,2019,2.970894067839433
+"High-propensity business applications per 1,000 residents",MT,2019,4.508827489924055
+"High-propensity business applications per 1,000 residents",SD,2019,2.9510994479933537
+"High-propensity business applications per 1,000 residents",WY,2019,9.861820739300416
+"High-propensity business applications per 1,000 residents",US,2019,4.02709526778996
+"High-propensity business applications per 1,000 residents",ND,2020,2.9104221074072743
+"High-propensity business applications per 1,000 residents",MN,2020,3.253445107504305
+"High-propensity business applications per 1,000 residents",MT,2020,4.6617044839930974
+"High-propensity business applications per 1,000 residents",SD,2020,3.0513354238754324
+"High-propensity business applications per 1,000 residents",WY,2020,12.791062009559107
+"High-propensity business applications per 1,000 residents",US,2020,4.590134214652485
+"High-propensity business applications per 1,000 residents",ND,2021,3.6132173573254738
+"High-propensity business applications per 1,000 residents",MN,2021,3.9682852195157383
+"High-propensity business applications per 1,000 residents",MT,2021,5.859459733047967
+"High-propensity business applications per 1,000 residents",SD,2021,3.9283590482236477
+"High-propensity business applications per 1,000 residents",WY,2021,17.518829938826418
+"High-propensity business applications per 1,000 residents",US,2021,5.562896948386349
+"High-propensity business applications per 1,000 residents",ND,2022,3.4196754384503283
+"High-propensity business applications per 1,000 residents",MN,2022,3.647972567749122
+"High-propensity business applications per 1,000 residents",MT,2022,5.961483077180966
+"High-propensity business applications per 1,000 residents",SD,2022,3.9047204220177836
+"High-propensity business applications per 1,000 residents",WY,2022,18.24520148106893
+"High-propensity business applications per 1,000 residents",US,2022,5.1466258141587105
+"High-propensity business applications per 1,000 residents",ND,2023,3.9145134301733897
+"High-propensity business applications per 1,000 residents",MN,2023,3.9532431612178556
+"High-propensity business applications per 1,000 residents",MT,2023,6.102004931842224
+"High-propensity business applications per 1,000 residents",SD,2023,4.0795912563375865
+"High-propensity business applications per 1,000 residents",WY,2023,23.028532529683613
+"High-propensity business applications per 1,000 residents",US,2023,5.46979767359214
+"High-propensity business applications per 1,000 residents",ND,2024,3.622444027946009
+"High-propensity business applications per 1,000 residents",MN,2024,3.818950030229042
+"High-propensity business applications per 1,000 residents",MT,2024,6.592197138253292
+"High-propensity business applications per 1,000 residents",SD,2024,3.8172385153865234
+"High-propensity business applications per 1,000 residents",WY,2024,26.198097224920833
+"High-propensity business applications per 1,000 residents",US,2024,5.0275556187391635
+"High-propensity business applications per 1,000 residents",ND,2025,3.5516001591277
+"High-propensity business applications per 1,000 residents",MN,2025,3.7355895516692237
+"High-propensity business applications per 1,000 residents",MT,2025,6.72843572168632
+"High-propensity business applications per 1,000 residents",SD,2025,3.7878544830787066
+"High-propensity business applications per 1,000 residents",WY,2025,33.62530636786564
+"High-propensity business applications per 1,000 residents",US,2025,4.886372130875301
+Establishment opening rate (%),ND,2000,7.721
+Establishment opening rate (%),MN,2000,9.859
+Establishment opening rate (%),MT,2000,11.317
+Establishment opening rate (%),SD,2000,9.368
+Establishment opening rate (%),WY,2000,10.644
+Establishment opening rate (%),US,2000,10.848
+Establishment opening rate (%),ND,2001,8.252
+Establishment opening rate (%),MN,2001,10.58
+Establishment opening rate (%),MT,2001,11.107
+Establishment opening rate (%),SD,2001,9.593
+Establishment opening rate (%),WY,2001,11.349
+Establishment opening rate (%),US,2001,10.99
+Establishment opening rate (%),ND,2002,9.073
+Establishment opening rate (%),MN,2002,11.187
+Establishment opening rate (%),MT,2002,11.466
+Establishment opening rate (%),SD,2002,11.149
+Establishment opening rate (%),WY,2002,12.622
+Establishment opening rate (%),US,2002,11.911
+Establishment opening rate (%),ND,2003,8.236
+Establishment opening rate (%),MN,2003,11.07
+Establishment opening rate (%),MT,2003,11.785
+Establishment opening rate (%),SD,2003,9.809
+Establishment opening rate (%),WY,2003,11.476
+Establishment opening rate (%),US,2003,11.425
+Establishment opening rate (%),ND,2004,8.931
+Establishment opening rate (%),MN,2004,10.926
+Establishment opening rate (%),MT,2004,12.586
+Establishment opening rate (%),SD,2004,10.103
+Establishment opening rate (%),WY,2004,11.354
+Establishment opening rate (%),US,2004,11.511
+Establishment opening rate (%),ND,2005,9.236
+Establishment opening rate (%),MN,2005,10.522
+Establishment opening rate (%),MT,2005,12.04
+Establishment opening rate (%),SD,2005,9.872
+Establishment opening rate (%),WY,2005,11.986
+Establishment opening rate (%),US,2005,11.615
+Establishment opening rate (%),ND,2006,10.404
+Establishment opening rate (%),MN,2006,11.773
+Establishment opening rate (%),MT,2006,13.839
+Establishment opening rate (%),SD,2006,11.077
+Establishment opening rate (%),WY,2006,13.03
+Establishment opening rate (%),US,2006,12.495
+Establishment opening rate (%),ND,2007,9.71
+Establishment opening rate (%),MN,2007,10.553
+Establishment opening rate (%),MT,2007,12.561
+Establishment opening rate (%),SD,2007,10.399
+Establishment opening rate (%),WY,2007,12.36
+Establishment opening rate (%),US,2007,11.761
+Establishment opening rate (%),ND,2008,8.662
+Establishment opening rate (%),MN,2008,9.33
+Establishment opening rate (%),MT,2008,10.377
+Establishment opening rate (%),SD,2008,9.295
+Establishment opening rate (%),WY,2008,11.062
+Establishment opening rate (%),US,2008,10.307
+Establishment opening rate (%),ND,2009,7.901
+Establishment opening rate (%),MN,2009,8.447
+Establishment opening rate (%),MT,2009,8.778
+Establishment opening rate (%),SD,2009,8.336
+Establishment opening rate (%),WY,2009,9.625
+Establishment opening rate (%),US,2009,9.281
+Establishment opening rate (%),ND,2010,8.297
+Establishment opening rate (%),MN,2010,8.613
+Establishment opening rate (%),MT,2010,9.338
+Establishment opening rate (%),SD,2010,8.534
+Establishment opening rate (%),WY,2010,8.465
+Establishment opening rate (%),US,2010,9.495
+Establishment opening rate (%),ND,2011,9.616
+Establishment opening rate (%),MN,2011,8.99
+Establishment opening rate (%),MT,2011,9.709
+Establishment opening rate (%),SD,2011,8.159
+Establishment opening rate (%),WY,2011,10.384
+Establishment opening rate (%),US,2011,9.886
+Establishment opening rate (%),ND,2012,11.135
+Establishment opening rate (%),MN,2012,8.823
+Establishment opening rate (%),MT,2012,10.402
+Establishment opening rate (%),SD,2012,9.015
+Establishment opening rate (%),WY,2012,10.254
+Establishment opening rate (%),US,2012,10.018
+Establishment opening rate (%),ND,2013,10.684
+Establishment opening rate (%),MN,2013,8.661
+Establishment opening rate (%),MT,2013,10.176
+Establishment opening rate (%),SD,2013,8.253
+Establishment opening rate (%),WY,2013,9.518
+Establishment opening rate (%),US,2013,9.807
+Establishment opening rate (%),ND,2014,10.479
+Establishment opening rate (%),MN,2014,8.884
+Establishment opening rate (%),MT,2014,9.789
+Establishment opening rate (%),SD,2014,7.987
+Establishment opening rate (%),WY,2014,9.34
+Establishment opening rate (%),US,2014,9.906
+Establishment opening rate (%),ND,2015,9.996
+Establishment opening rate (%),MN,2015,8.948
+Establishment opening rate (%),MT,2015,9.933
+Establishment opening rate (%),SD,2015,8.79
+Establishment opening rate (%),WY,2015,9.877
+Establishment opening rate (%),US,2015,10.025
+Establishment opening rate (%),ND,2016,8.43
+Establishment opening rate (%),MN,2016,9.059
+Establishment opening rate (%),MT,2016,9.691
+Establishment opening rate (%),SD,2016,8.626
+Establishment opening rate (%),WY,2016,9.583
+Establishment opening rate (%),US,2016,10.194
+Establishment opening rate (%),ND,2017,8.191
+Establishment opening rate (%),MN,2017,8.593
+Establishment opening rate (%),MT,2017,9.089
+Establishment opening rate (%),SD,2017,7.914
+Establishment opening rate (%),WY,2017,9.659
+Establishment opening rate (%),US,2017,9.675
+Establishment opening rate (%),ND,2018,7.882
+Establishment opening rate (%),MN,2018,7.929
+Establishment opening rate (%),MT,2018,9.691
+Establishment opening rate (%),SD,2018,8.282
+Establishment opening rate (%),WY,2018,10.253
+Establishment opening rate (%),US,2018,9.414
+Establishment opening rate (%),ND,2019,8.219
+Establishment opening rate (%),MN,2019,8.037
+Establishment opening rate (%),MT,2019,9.695
+Establishment opening rate (%),SD,2019,8.184
+Establishment opening rate (%),WY,2019,10.088
+Establishment opening rate (%),US,2019,9.613
+Establishment opening rate (%),ND,2020,8.102
+Establishment opening rate (%),MN,2020,8.248
+Establishment opening rate (%),MT,2020,10.539
+Establishment opening rate (%),SD,2020,8.744
+Establishment opening rate (%),WY,2020,11.027
+Establishment opening rate (%),US,2020,9.637
+Establishment opening rate (%),ND,2021,8.65
+Establishment opening rate (%),MN,2021,9.233
+Establishment opening rate (%),MT,2021,11.309
+Establishment opening rate (%),SD,2021,8.989
+Establishment opening rate (%),WY,2021,12.044
+Establishment opening rate (%),US,2021,10.845
+Establishment opening rate (%),ND,2022,9.133
+Establishment opening rate (%),MN,2022,9.793
+Establishment opening rate (%),MT,2022,11.816
+Establishment opening rate (%),SD,2022,9.936
+Establishment opening rate (%),WY,2022,12.634
+Establishment opening rate (%),US,2022,11.651
+Establishment opening rate (%),ND,2023,9.251
+Establishment opening rate (%),MN,2023,8.887
+Establishment opening rate (%),MT,2023,11.41
+Establishment opening rate (%),SD,2023,9.533
+Establishment opening rate (%),WY,2023,12.737
+Establishment opening rate (%),US,2023,10.608
+Share of jobs at firms 5 years old or younger (%),ND,2000,11.847125301176591
+Share of jobs at firms 5 years old or younger (%),MN,2000,11.609143900454729
+Share of jobs at firms 5 years old or younger (%),MT,2000,19.013560374203582
+Share of jobs at firms 5 years old or younger (%),SD,2000,13.42303734483073
+Share of jobs at firms 5 years old or younger (%),WY,2000,16.682002891973916
+Share of jobs at firms 5 years old or younger (%),US,2000,14.145110880087818
+Share of jobs at firms 5 years old or younger (%),ND,2001,11.51163604413377
+Share of jobs at firms 5 years old or younger (%),MN,2001,11.337266457643453
+Share of jobs at firms 5 years old or younger (%),MT,2001,18.154131137706788
+Share of jobs at firms 5 years old or younger (%),SD,2001,12.2406196136654
+Share of jobs at firms 5 years old or younger (%),WY,2001,16.61940319378024
+Share of jobs at firms 5 years old or younger (%),US,2001,13.593618982627525
+Share of jobs at firms 5 years old or younger (%),ND,2002,11.111154769529392
+Share of jobs at firms 5 years old or younger (%),MN,2002,11.510682823502211
+Share of jobs at firms 5 years old or younger (%),MT,2002,17.143474862379218
+Share of jobs at firms 5 years old or younger (%),SD,2002,13.244090097386433
+Share of jobs at firms 5 years old or younger (%),WY,2002,17.53623107091359
+Share of jobs at firms 5 years old or younger (%),US,2002,13.372560321731763
+Share of jobs at firms 5 years old or younger (%),ND,2003,10.727864873376399
+Share of jobs at firms 5 years old or younger (%),MN,2003,11.451478394804727
+Share of jobs at firms 5 years old or younger (%),MT,2003,16.99014327812214
+Share of jobs at firms 5 years old or younger (%),SD,2003,12.699093298855162
+Share of jobs at firms 5 years old or younger (%),WY,2003,17.41742895240813
+Share of jobs at firms 5 years old or younger (%),US,2003,13.086387465211457
+Share of jobs at firms 5 years old or younger (%),ND,2004,11.00540929859178
+Share of jobs at firms 5 years old or younger (%),MN,2004,11.283928911512717
+Share of jobs at firms 5 years old or younger (%),MT,2004,16.730127227592504
+Share of jobs at firms 5 years old or younger (%),SD,2004,12.315739572189086
+Share of jobs at firms 5 years old or younger (%),WY,2004,17.02293269510794
+Share of jobs at firms 5 years old or younger (%),US,2004,13.038144051270164
+Share of jobs at firms 5 years old or younger (%),ND,2005,11.404618033409404
+Share of jobs at firms 5 years old or younger (%),MN,2005,11.059511360198771
+Share of jobs at firms 5 years old or younger (%),MT,2005,17.439828628261036
+Share of jobs at firms 5 years old or younger (%),SD,2005,12.639138240574507
+Share of jobs at firms 5 years old or younger (%),WY,2005,17.74347745636218
+Share of jobs at firms 5 years old or younger (%),US,2005,13.184316228424231
+Share of jobs at firms 5 years old or younger (%),ND,2006,11.781599980045682
+Share of jobs at firms 5 years old or younger (%),MN,2006,10.803193075546446
+Share of jobs at firms 5 years old or younger (%),MT,2006,17.264095131041827
+Share of jobs at firms 5 years old or younger (%),SD,2006,12.041448705560924
+Share of jobs at firms 5 years old or younger (%),WY,2006,16.6091940125263
+Share of jobs at firms 5 years old or younger (%),US,2006,13.385631997249023
+Share of jobs at firms 5 years old or younger (%),ND,2007,11.322414096369336
+Share of jobs at firms 5 years old or younger (%),MN,2007,10.473099597588318
+Share of jobs at firms 5 years old or younger (%),MT,2007,16.798939555811813
+Share of jobs at firms 5 years old or younger (%),SD,2007,11.756989052745862
+Share of jobs at firms 5 years old or younger (%),WY,2007,16.36000352326514
+Share of jobs at firms 5 years old or younger (%),US,2007,13.019645274479855
+Share of jobs at firms 5 years old or younger (%),ND,2008,11.696849335719108
+Share of jobs at firms 5 years old or younger (%),MN,2008,9.92671857970562
+Share of jobs at firms 5 years old or younger (%),MT,2008,15.862390078791968
+Share of jobs at firms 5 years old or younger (%),SD,2008,11.624816539634821
+Share of jobs at firms 5 years old or younger (%),WY,2008,15.447397503487508
+Share of jobs at firms 5 years old or younger (%),US,2008,12.250634769152208
+Share of jobs at firms 5 years old or younger (%),ND,2009,12.149136743988983
+Share of jobs at firms 5 years old or younger (%),MN,2009,9.828826059845918
+Share of jobs at firms 5 years old or younger (%),MT,2009,14.447065467401599
+Share of jobs at firms 5 years old or younger (%),SD,2009,11.230147853874954
+Share of jobs at firms 5 years old or younger (%),WY,2009,14.470279365947238
+Share of jobs at firms 5 years old or younger (%),US,2009,11.641303616703103
+Share of jobs at firms 5 years old or younger (%),ND,2010,11.533914810737574
+Share of jobs at firms 5 years old or younger (%),MN,2010,9.593608912666742
+Share of jobs at firms 5 years old or younger (%),MT,2010,14.19108839261359
+Share of jobs at firms 5 years old or younger (%),SD,2010,11.114304644978201
+Share of jobs at firms 5 years old or younger (%),WY,2010,13.771762449455755
+Share of jobs at firms 5 years old or younger (%),US,2010,11.313909138975351
+Share of jobs at firms 5 years old or younger (%),ND,2011,11.549973761102942
+Share of jobs at firms 5 years old or younger (%),MN,2011,8.828072423754838
+Share of jobs at firms 5 years old or younger (%),MT,2011,13.025129827493585
+Share of jobs at firms 5 years old or younger (%),SD,2011,10.273564223535635
+Share of jobs at firms 5 years old or younger (%),WY,2011,13.470660640352627
+Share of jobs at firms 5 years old or younger (%),US,2011,10.861010289121554
+Share of jobs at firms 5 years old or younger (%),ND,2012,11.61746660114028
+Share of jobs at firms 5 years old or younger (%),MN,2012,8.599084088964684
+Share of jobs at firms 5 years old or younger (%),MT,2012,12.558252683287122
+Share of jobs at firms 5 years old or younger (%),SD,2012,9.721162785154108
+Share of jobs at firms 5 years old or younger (%),WY,2012,12.802829936063365
+Share of jobs at firms 5 years old or younger (%),US,2012,10.785086551320406
+Share of jobs at firms 5 years old or younger (%),ND,2013,11.956724763894888
+Share of jobs at firms 5 years old or younger (%),MN,2013,8.333619115903042
+Share of jobs at firms 5 years old or younger (%),MT,2013,11.99674214411188
+Share of jobs at firms 5 years old or younger (%),SD,2013,9.287218327748588
+Share of jobs at firms 5 years old or younger (%),WY,2013,12.678215616868657
+Share of jobs at firms 5 years old or younger (%),US,2013,10.607993268889237
+Share of jobs at firms 5 years old or younger (%),ND,2014,12.295382069921548
+Share of jobs at firms 5 years old or younger (%),MN,2014,8.210904022980865
+Share of jobs at firms 5 years old or younger (%),MT,2014,11.471636307297315
+Share of jobs at firms 5 years old or younger (%),SD,2014,9.21090098511541
+Share of jobs at firms 5 years old or younger (%),WY,2014,12.02349118852272
+Share of jobs at firms 5 years old or younger (%),US,2014,10.647229586546521
+Share of jobs at firms 5 years old or younger (%),ND,2015,12.648386626427468
+Share of jobs at firms 5 years old or younger (%),MN,2015,7.970076208981169
+Share of jobs at firms 5 years old or younger (%),MT,2015,11.4207104901141
+Share of jobs at firms 5 years old or younger (%),SD,2015,9.106783037877245
+Share of jobs at firms 5 years old or younger (%),WY,2015,11.95812478161629
+Share of jobs at firms 5 years old or younger (%),US,2015,10.69504686562912
+Share of jobs at firms 5 years old or younger (%),ND,2016,11.101826981735966
+Share of jobs at firms 5 years old or younger (%),MN,2016,7.727205887394961
+Share of jobs at firms 5 years old or younger (%),MT,2016,11.482232419165511
+Share of jobs at firms 5 years old or younger (%),SD,2016,8.550495634459484
+Share of jobs at firms 5 years old or younger (%),WY,2016,11.71232385099409
+Share of jobs at firms 5 years old or younger (%),US,2016,10.61042743109833
+Share of jobs at firms 5 years old or younger (%),ND,2017,11.29860990468675
+Share of jobs at firms 5 years old or younger (%),MN,2017,7.8474804476593665
+Share of jobs at firms 5 years old or younger (%),MT,2017,11.4442424839193
+Share of jobs at firms 5 years old or younger (%),SD,2017,8.96605028372521
+Share of jobs at firms 5 years old or younger (%),WY,2017,11.93064156551895
+Share of jobs at firms 5 years old or younger (%),US,2017,10.61070940713981
+Share of jobs at firms 5 years old or younger (%),ND,2018,10.56463228340729
+Share of jobs at firms 5 years old or younger (%),MN,2018,7.769201667581561
+Share of jobs at firms 5 years old or younger (%),MT,2018,11.976080265678748
+Share of jobs at firms 5 years old or younger (%),SD,2018,8.876805040337729
+Share of jobs at firms 5 years old or younger (%),WY,2018,11.942881247064012
+Share of jobs at firms 5 years old or younger (%),US,2018,10.54478037497918
+Share of jobs at firms 5 years old or younger (%),ND,2019,9.987941262832008
+Share of jobs at firms 5 years old or younger (%),MN,2019,7.961439362722862
+Share of jobs at firms 5 years old or younger (%),MT,2019,12.154684357058173
+Share of jobs at firms 5 years old or younger (%),SD,2019,8.902742726272137
+Share of jobs at firms 5 years old or younger (%),WY,2019,11.938164893617023
+Share of jobs at firms 5 years old or younger (%),US,2019,10.611899862815124
+Share of jobs at firms 5 years old or younger (%),ND,2020,9.318022812826621
+Share of jobs at firms 5 years old or younger (%),MN,2020,7.843354596997224
+Share of jobs at firms 5 years old or younger (%),MT,2020,12.277375192783047
+Share of jobs at firms 5 years old or younger (%),SD,2020,8.76488798660047
+Share of jobs at firms 5 years old or younger (%),WY,2020,12.696283851506793
+Share of jobs at firms 5 years old or younger (%),US,2020,10.500691501386235
+Share of jobs at firms 5 years old or younger (%),ND,2021,8.71212235183675
+Share of jobs at firms 5 years old or younger (%),MN,2021,7.839423861800933
+Share of jobs at firms 5 years old or younger (%),MT,2021,12.51171742686619
+Share of jobs at firms 5 years old or younger (%),SD,2021,8.734261354896834
+Share of jobs at firms 5 years old or younger (%),WY,2021,13.748602987976927
+Share of jobs at firms 5 years old or younger (%),US,2021,10.515258130864899
+Share of jobs at firms 5 years old or younger (%),ND,2022,9.34464327213572
+Share of jobs at firms 5 years old or younger (%),MN,2022,8.349731161995491
+Share of jobs at firms 5 years old or younger (%),MT,2022,13.275332522659177
+Share of jobs at firms 5 years old or younger (%),SD,2022,9.519869544611085
+Share of jobs at firms 5 years old or younger (%),WY,2022,14.28516464754796
+Share of jobs at firms 5 years old or younger (%),US,2022,10.931574531464848
+Share of jobs at firms 5 years old or younger (%),ND,2023,9.613859748201644
+Share of jobs at firms 5 years old or younger (%),MN,2023,8.754743828712165
+Share of jobs at firms 5 years old or younger (%),MT,2023,13.589186225264127
+Share of jobs at firms 5 years old or younger (%),SD,2023,9.819789451848779
+Share of jobs at firms 5 years old or younger (%),WY,2023,14.946519046725465
+Share of jobs at firms 5 years old or younger (%),US,2023,10.718130400766045
+"Company-building Form D offerings per 100,000 residents",ND,2015,0.9264933418217771
+"Company-building Form D offerings per 100,000 residents",MN,2015,3.1728653636523108
+"Company-building Form D offerings per 100,000 residents",MT,2015,2.5206132846014766
+"Company-building Form D offerings per 100,000 residents",SD,2015,2.5741140075093925
+"Company-building Form D offerings per 100,000 residents",WY,2015,3.7517756983845194
+"Company-building Form D offerings per 100,000 residents",US,2015,3.7934271253591323
+"Company-building Form D offerings per 100,000 residents",ND,2016,2.3805934025821505
+"Company-building Form D offerings per 100,000 residents",MN,2016,2.841443815425601
+"Company-building Form D offerings per 100,000 residents",MT,2016,2.2070034937824876
+"Company-building Form D offerings per 100,000 residents",SD,2016,1.6209463316247787
+"Company-building Form D offerings per 100,000 residents",WY,2016,4.7843374461548445
+"Company-building Form D offerings per 100,000 residents",US,2016,3.6552251372144866
+"Company-building Form D offerings per 100,000 residents",ND,2017,0.79285898342264
+"Company-building Form D offerings per 100,000 residents",MN,2017,3.501348378238276
+"Company-building Form D offerings per 100,000 residents",MT,2017,1.9926707671402897
+"Company-building Form D offerings per 100,000 residents",SD,2017,2.5179345611697865
+"Company-building Form D offerings per 100,000 residents",WY,2017,5.172467301385876
+"Company-building Form D offerings per 100,000 residents",US,2017,3.662623664914004
+"Company-building Form D offerings per 100,000 residents",ND,2018,2.105091426752028
+"Company-building Form D offerings per 100,000 residents",MN,2018,3.476703058535912
+"Company-building Form D offerings per 100,000 residents",MT,2018,2.448630556272356
+"Company-building Form D offerings per 100,000 residents",SD,2018,1.2508727680449767
+"Company-building Form D offerings per 100,000 residents",WY,2018,8.116686872036114
+"Company-building Form D offerings per 100,000 residents",US,2018,3.928243405844982
+"Company-building Form D offerings per 100,000 residents",ND,2019,1.5712482519863198
+"Company-building Form D offerings per 100,000 residents",MN,2019,2.8191224444167458
+"Company-building Form D offerings per 100,000 residents",MT,2019,2.896863257775041
+"Company-building Form D offerings per 100,000 residents",SD,2019,2.1417452067178657
+"Company-building Form D offerings per 100,000 residents",WY,2019,6.722793372360011
+"Company-building Form D offerings per 100,000 residents",US,2019,3.734657739252927
+"Company-building Form D offerings per 100,000 residents",ND,2020,1.4109582715504636
+"Company-building Form D offerings per 100,000 residents",MN,2020,2.609200285365959
+"Company-building Form D offerings per 100,000 residents",MT,2020,3.127426054770429
+"Company-building Form D offerings per 100,000 residents",SD,2020,1.0137326989619377
+"Company-building Form D offerings per 100,000 residents",WY,2020,6.578161542336529
+"Company-building Form D offerings per 100,000 residents",US,2020,3.3934689487216567
+"Company-building Form D offerings per 100,000 residents",ND,2021,1.928077565275066
+"Company-building Form D offerings per 100,000 residents",MN,2021,3.220130012749265
+"Company-building Form D offerings per 100,000 residents",MT,2021,3.2537490419516706
+"Company-building Form D offerings per 100,000 residents",SD,2021,1.8966800289634198
+"Company-building Form D offerings per 100,000 residents",WY,2021,13.111088875931147
+"Company-building Form D offerings per 100,000 residents",US,2021,4.254740420695845
+"Company-building Form D offerings per 100,000 residents",ND,2022,1.4099111627793708
+"Company-building Form D offerings per 100,000 residents",MN,2022,2.5316168389184583
+"Company-building Form D offerings per 100,000 residents",MT,2022,3.477383188903046
+"Company-building Form D offerings per 100,000 residents",SD,2022,1.9798582421498623
+"Company-building Form D offerings per 100,000 residents",WY,2022,13.75180062639452
+"Company-building Form D offerings per 100,000 residents",US,2022,3.8820788867172613
+"Company-building Form D offerings per 100,000 residents",ND,2023,4.192760246534302
+"Company-building Form D offerings per 100,000 residents",MN,2023,2.9723632791111694
+"Company-building Form D offerings per 100,000 residents",MT,2023,2.211191814698588
+"Company-building Form D offerings per 100,000 residents",SD,2023,1.8523785084866176
+"Company-building Form D offerings per 100,000 residents",WY,2023,12.14368545460143
+"Company-building Form D offerings per 100,000 residents",US,2023,3.3742626673348317
+"Company-building Form D offerings per 100,000 residents",ND,2024,1.7645865132652792
+"Company-building Form D offerings per 100,000 residents",MN,2024,2.846100971037904
+"Company-building Form D offerings per 100,000 residents",MT,2024,2.2855997545617495
+"Company-building Form D offerings per 100,000 residents",SD,2024,2.2651033857902516
+"Company-building Form D offerings per 100,000 residents",WY,2024,10.56718514049243
+"Company-building Form D offerings per 100,000 residents",US,2024,3.1684940271417026
+"Company-building Form D offerings per 100,000 residents",ND,2025,2.0016062890469604
+"Company-building Form D offerings per 100,000 residents",MN,2025,2.7270832815216095
+"Company-building Form D offerings per 100,000 residents",MT,2025,3.7564624257661876
+"Company-building Form D offerings per 100,000 residents",SD,2025,1.0694112035795331
+"Company-building Form D offerings per 100,000 residents",WY,2025,13.248340135846442
+"Company-building Form D offerings per 100,000 residents",US,2025,3.158712207077097

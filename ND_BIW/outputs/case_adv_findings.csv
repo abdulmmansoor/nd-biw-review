@@ -1,0 +1,37 @@
+key,value,unit,label
+year,2024.0,year,Headline year (latest QCEW year with job change computed)
+mfg_jobs,7876.0,jobs,"Advanced manufacturing: jobs in published codes, 2024"
+mfg_lq,1.1890159671997567,LQ,"Advanced manufacturing: location quotient, 2024"
+mfg_pay,73087.11325545963,$,"Advanced manufacturing: average pay, 2024"
+mfg_pay_vs_nd,9.083615551200165,%,Advanced manufacturing: pay above all ND private jobs
+mfg_pay_vs_us,-21.14655613060531,%,Advanced manufacturing: pay compared with the same industries in the US (US mix of industries)
+mfg_pay_vs_us_mix,-15.08807153460241,%,Advanced manufacturing: pay compared with US pay for North Dakota's own mix of industries
+mfg_growth,6.374932468935701,%,"Advanced manufacturing: jobs, 2019-2024"
+mfg_from,2019.0,year,Advanced manufacturing: start of the job change window
+mfg_codes,35.0,codes,Advanced manufacturing: industry codes
+mfg_withheld,20.0,codes,"Advanced manufacturing: codes BLS withheld, 2024"
+tech_jobs,12103.0,jobs,"Technology-based business: jobs in published codes, 2024"
+tech_lq,0.5180345937355418,LQ,"Technology-based business: location quotient, 2024"
+tech_pay,107957.44468313642,$,"Technology-based business: average pay, 2024"
+tech_pay_vs_nd,61.12810955528487,%,Technology-based business: pay above all ND private jobs
+tech_pay_vs_us,-30.694959562990665,%,Technology-based business: pay compared with the same industries in the US (US mix of industries)
+tech_pay_vs_us_mix,-24.187364195300077,%,Technology-based business: pay compared with US pay for North Dakota's own mix of industries
+tech_growth,-0.05780346820809523,%,"Technology-based business: jobs, 2022-2024"
+tech_from,2022.0,year,Technology-based business: start of the job change window
+tech_codes,12.0,codes,Technology-based business: industry codes
+tech_withheld,3.0,codes,"Technology-based business: codes BLS withheld, 2024"
+private_pay_vs_us,-11.666446934739616,%,"All private jobs: ND average pay compared with the US, 2024"
+mfg_top_jobs,5333.0,jobs,"Largest advanced manufacturing industry: Agriculture, construction and mining machinery"
+mfg_top_lq,9.09,LQ,"Agriculture, construction and mining machinery: location quotient"
+mfg_top_share,67.71203656678517,%,"Agriculture, construction and mining machinery: share of advanced manufacturing jobs"
+tech_top_jobs,4656.0,jobs,"Largest technology-based industry: Architectural, engineering and related services"
+tech_above_1,1.0,codes,Technology-based codes with LQ of 1 or more
+patent_years_from,2015.0,year,First year of the patent window
+patent_years_to,2024.0,year,Last year of the patent window
+patents_total,1884.0,patents,ND patents in the window
+patents_fargo_share,55.254777070063696,%,Region 5 (Fargo) share
+pop_fargo_share,29.20400437795681,%,Region 5 (Fargo) share of ND residents (ACS 5-year)
+patents_top3_share,78.13163481953292,%,"Top three regions' share (Region 5 (Fargo), Region 7 (Bismarck), Region 4 (Grand Forks))"
+patents_top_county_share,51.69851380042463,%,Top county (Cass) share
+patents_pc_nd,20.00405177609223,"per 100,000","ND patents per 100,000 residents, 2024"
+patents_pc_us,41.98135402065061,"per 100,000","US patents per 100,000 residents, 2024"

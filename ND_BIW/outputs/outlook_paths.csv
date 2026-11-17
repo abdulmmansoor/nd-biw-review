@@ -1,0 +1,57 @@
+id,label,path,year,value,growth_pct
+applications,Business applications per year,Slower (25th percentile),2027,10350.192095773715,1.6799798510554076
+applications,Business applications per year,Slower (25th percentile),2028,10524.073237528242,1.6799798510554076
+applications,Business applications per year,Slower (25th percentile),2029,10700.875547429032,1.6799798510554076
+applications,Business applications per year,Slower (25th percentile),2030,10880.648100512355,1.6799798510554076
+applications,Business applications per year,Middle (median),2027,10350.192095773715,4.559062535325509
+applications,Business applications per year,Middle (median),2028,10822.063825946358,4.559062535325509
+applications,Business applications per year,Middle (median),2029,11315.448483384094,4.559062535325509
+applications,Business applications per year,Middle (median),2030,11831.326855894116,4.559062535325509
+applications,Business applications per year,Faster (75th percentile),2027,10350.192095773715,6.5970060691860235
+applications,Business applications per year,Faster (75th percentile),2028,11032.994896504319,6.5970060691860235
+applications,Business applications per year,Faster (75th percentile),2029,11760.842239439695,6.5970060691860235
+applications,Business applications per year,Faster (75th percentile),2030,12536.705715762926,6.5970060691860235
+applications,Business applications per year,Actual,2005,4188.0,
+applications,Business applications per year,Actual,2006,4460.0,
+applications,Business applications per year,Actual,2007,4347.0,
+applications,Business applications per year,Actual,2008,4639.0,
+applications,Business applications per year,Actual,2009,4198.0,
+applications,Business applications per year,Actual,2010,4834.0,
+applications,Business applications per year,Actual,2011,6125.0,
+applications,Business applications per year,Actual,2012,6571.0,
+applications,Business applications per year,Actual,2013,6427.0,
+applications,Business applications per year,Actual,2014,6754.0,
+applications,Business applications per year,Actual,2015,6128.0,
+applications,Business applications per year,Actual,2016,5750.0,
+applications,Business applications per year,Actual,2017,7368.0,
+applications,Business applications per year,Actual,2018,8622.0,
+applications,Business applications per year,Actual,2019,6877.0,
+applications,Business applications per year,Actual,2020,6648.0,
+applications,Business applications per year,Actual,2021,8106.0,
+applications,Business applications per year,Actual,2022,8013.0,
+applications,Business applications per year,Actual,2023,9001.0,
+applications,Business applications per year,Actual,2024,8472.0,
+applications,Business applications per year,Actual,2025,8985.0,
+private_jobs,Private-sector jobs (yearly average),Slower (25th percentile),2027,353184.7810579328,0.33522526699548694
+private_jobs,Private-sector jobs (yearly average),Slower (25th percentile),2028,354368.74568322167,0.33522526699548694
+private_jobs,Private-sector jobs (yearly average),Slower (25th percentile),2029,355556.67925708677,0.33522526699548694
+private_jobs,Private-sector jobs (yearly average),Slower (25th percentile),2030,356748.5950844466,0.33522526699548694
+private_jobs,Private-sector jobs (yearly average),Middle (median),2027,353184.7810579328,1.7583256563675098
+private_jobs,Private-sector jobs (yearly average),Middle (median),2028,359394.91967765987,1.7583256563675098
+private_jobs,Private-sector jobs (yearly average),Middle (median),2029,365714.2527580336,1.7583256563675098
+private_jobs,Private-sector jobs (yearly average),Middle (median),2030,372144.70029327075,1.7583256563675098
+private_jobs,Private-sector jobs (yearly average),Faster (75th percentile),2027,353184.7810579328,2.493773347744943
+private_jobs,Private-sector jobs (yearly average),Faster (75th percentile),2028,361992.4089962469,2.493773347744943
+private_jobs,Private-sector jobs (yearly average),Faster (75th percentile),2029,371019.6792126551,2.493773347744943
+private_jobs,Private-sector jobs (yearly average),Faster (75th percentile),2030,380272.0690877491,2.493773347744943
+private_jobs,Private-sector jobs (yearly average),Actual,2015,367138.0,
+private_jobs,Private-sector jobs (yearly average),Actual,2016,345688.0,
+private_jobs,Private-sector jobs (yearly average),Actual,2017,343190.0,
+private_jobs,Private-sector jobs (yearly average),Actual,2018,346756.0,
+private_jobs,Private-sector jobs (yearly average),Actual,2019,351482.0,
+private_jobs,Private-sector jobs (yearly average),Actual,2020,326357.0,
+private_jobs,Private-sector jobs (yearly average),Actual,2021,329050.0,
+private_jobs,Private-sector jobs (yearly average),Actual,2022,339203.0,
+private_jobs,Private-sector jobs (yearly average),Actual,2023,348290.0,
+private_jobs,Private-sector jobs (yearly average),Actual,2024,354071.0,
+private_jobs,Private-sector jobs (yearly average),Actual,2025,353989.0,

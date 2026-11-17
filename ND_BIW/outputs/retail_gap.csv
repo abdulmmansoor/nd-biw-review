@@ -1,0 +1,683 @@
+level,place,naics,store_type,sales_k,expected_k,pull_factor,gap_k,estimated,estab
+county,Adams,44-45,All retail stores,35016.0,44374.1208405827,0.7891085915999905,9358.120840582698,False,13.0
+county,Barnes,44-45,All retail stores,199503.0,255932.17877646233,0.7795151080796722,56429.17877646233,False,41.0
+county,Benson,44-45,All retail stores,19892.556866998024,91239.8361013766,0.2180249079458604,71347.27923437857,True,6.0
+county,Billings,44-45,All retail stores,5755.811444101618,26399.788438534244,0.21802490794586038,20643.976994432625,True,10.0
+county,Bottineau,44-45,All retail stores,129313.0,173516.10585427313,0.7452507037508267,44203.10585427313,False,29.0
+county,Bowman,44-45,All retail stores,94303.0,65553.26270715013,1.4385706539319822,-28749.737292849866,False,23.0
+county,Burke,44-45,All retail stores,38281.0,62675.203162993115,0.6107838198856164,24394.203162993115,False,10.0
+county,Burleigh,44-45,All retail stores,2667768.0,2595862.7779997573,1.027699931833704,-71905.22200024268,False,394.0
+county,Cass,44-45,All retail stores,5356400.0,4954187.231379602,1.0811864287390673,-402212.7686203979,False,658.0
+county,Cavalier,44-45,All retail stores,123092.0,96802.61038109445,1.2715772799453338,-26289.389618905552,False,21.0
+county,Dickey,44-45,All retail stores,97441.0,112392.03877835734,0.866974218629119,14951.038778357339,False,39.0
+county,Divide,44-45,All retail stores,10508.0,60642.809678611804,0.17327693185208864,50134.809678611804,False,9.0
+county,Dunn,44-45,All retail stores,26779.783691492063,122829.01042729475,0.21802490794586038,96049.22673580269,True,17.0
+county,Eddy,44-45,All retail stores,21463.0,52700.014122220986,0.4072674430451455,31237.014122220986,False,11.0
+county,Emmons,44-45,All retail stores,26507.0,71237.76844981287,0.37209194752744434,44730.768449812866,False,19.0
+county,Foster,44-45,All retail stores,79203.0,88563.59598587324,0.8943065050411193,9360.595985873239,False,22.0
+county,Golden Valley,44-45,All retail stores,131227.0,34927.72564207276,3.7571012022016226,-96299.27435792724,False,12.0
+county,Grand Forks,44-45,All retail stores,2104385.0,1651268.1006747633,1.2744054094789805,-453116.8993252367,False,272.0
+county,Grant,44-45,All retail stores,10410.0,49265.32357322886,0.21130481330395384,38855.32357322886,False,11.0
+county,Griggs,44-45,All retail stores,26010.0,58337.88139291175,0.4458509527423514,32327.881392911753,False,9.0
+county,Hettinger,44-45,All retail stores,118424.0,64642.83034574308,1.8319742400914003,-53781.16965425692,False,14.0
+county,Kidder,44-45,All retail stores,69636.0,52942.52295181289,1.3153132136030077,-16693.47704818711,False,12.0
+county,LaMoure,44-45,All retail stores,53425.0,99031.37933290044,0.5394754709051197,45606.37933290044,False,19.0
+county,Logan,44-45,All retail stores,40216.0,34099.45780890513,1.179373590787638,-6116.542191094872,False,11.0
+county,McHenry,44-45,All retail stores,73391.0,117996.68104855785,0.6219751212307254,44605.681048557846,False,17.0
+county,McIntosh,44-45,All retail stores,63618.0,53277.803615543984,1.194080755638343,-10340.196384456016,False,19.0
+county,McKenzie,44-45,All retail stores,295633.0,412587.6632248503,0.7165337850610602,116954.66322485032,False,47.0
+county,McLean,44-45,All retail stores,86941.0,249833.53911721578,0.3479957106928282,162892.53911721578,False,36.0
+county,Mercer,44-45,All retail stores,117249.0,194600.39932417075,0.6025116104961499,77351.39932417075,False,42.0
+county,Morton,44-45,All retail stores,709612.0,876466.7576964073,0.8096279679391984,166854.75769640727,False,92.0
+county,Mountrail,44-45,All retail stores,200266.0,227290.93751769167,0.8810998018097923,27024.937517691666,False,42.0
+county,Nelson,44-45,All retail stores,32018.0,78077.12357607028,0.4100817055434294,46059.123576070284,False,12.0
+county,Oliver,44-45,All retail stores,28676.0,43646.482105183706,0.6570059857491762,14970.482105183706,False,6.0
+county,Pembina,44-45,All retail stores,135903.0,159769.87925785666,0.8506171540673364,23866.879257856664,False,41.0
+county,Pierce,44-45,All retail stores,111934.0,92364.65951324443,1.2118704338854782,-19569.340486755566,False,23.0
+county,Ramsey,44-45,All retail stores,385268.0,256549.36683455584,1.5017304651874372,-128718.63316544416,False,70.0
+county,Ransom,44-45,All retail stores,51573.0,128868.60836269712,0.4001983155963726,77295.60836269712,False,23.0
+county,Renville,44-45,All retail stores,28385.0,49677.49317390531,0.5713855145756455,21292.493173905314,False,14.0
+county,Richland,44-45,All retail stores,300872.0,381377.0406359369,0.7889095775097088,80505.0406359369,False,68.0
+county,Rolette,44-45,All retail stores,161165.0,177466.34514398067,0.9081440194716628,16301.345143980667,False,42.0
+county,Sargent,44-45,All retail stores,36162.0,101099.13050361429,0.35768853619079555,64937.13050361429,False,14.0
+county,Sheridan,44-45,All retail stores,6718.672069509338,30816.075708091612,0.21802490794586038,24097.403638582273,True,4.0
+county,Sioux,44-45,All retail stores,15568.0,45215.18478880401,0.34430910926753266,29647.184788804007,False,5.0
+county,Slope,44-45,All retail stores,4421.17592789896,20278.306591450644,0.21802490794586038,15857.130663551685,True,
+county,Stark,44-45,All retail stores,867042.0,765379.6981602788,1.1328259713238853,-101662.30183972116,False,156.0
+county,Steele,44-45,All retail stores,84378.0,43608.318253269215,1.9349060770917113,-40769.681746730785,False,8.0
+county,Stutsman,44-45,All retail stores,575258.0,480510.1715328388,1.1971817332501276,-94747.82846716122,False,85.0
+county,Towner,44-45,All retail stores,25637.0,45876.878633027234,0.5588218022649794,20239.878633027234,False,11.0
+county,Traill,44-45,All retail stores,106574.0,195105.3407589864,0.5462382505031005,88531.3407589864,False,39.0
+county,Walsh,44-45,All retail stores,119335.0,215347.5600610532,0.5541506946545729,96012.5600610532,False,42.0
+county,Ward,44-45,All retail stores,1870475.0,1667984.4290464246,1.1213983580586169,-202490.57095357543,False,278.0
+county,Wells,44-45,All retail stores,61998.0,97548.2085762179,0.6355626710618549,35550.208576217905,False,25.0
+county,Williams,44-45,All retail stores,1070896.0,983882.2863084272,1.0884391506000706,-87013.71369157278,False,139.0
+county,Adams,441,Motor vehicle and parts dealers,,11895.906903604591,,,False,
+county,Barnes,441,Motor vehicle and parts dealers,27474.0,68610.83250075503,0.40043239527370056,41136.83250075503,False,8.0
+county,Benson,441,Motor vehicle and parts dealers,,24459.765638206718,,,False,
+county,Billings,441,Motor vehicle and parts dealers,,7077.310368985245,,,False,
+county,Bottineau,441,Motor vehicle and parts dealers,,46516.55970681599,,,False,4.0
+county,Bowman,441,Motor vehicle and parts dealers,,17573.65544645577,,,False,3.0
+county,Burke,441,Motor vehicle and parts dealers,,16802.099238653438,,,False,
+county,Burleigh,441,Motor vehicle and parts dealers,714649.0,695904.3099142561,1.0269357292643488,-18744.690085743903,False,49.0
+county,Cass,441,Motor vehicle and parts dealers,1570562.0,1328128.8501296747,1.182537371917382,-242433.14987032535,False,87.0
+county,Cavalier,441,Motor vehicle and parts dealers,,25951.045774100014,,,False,
+county,Dickey,441,Motor vehicle and parts dealers,7300.0,30130.29226690363,0.24228108825942668,22830.29226690363,False,5.0
+county,Divide,441,Motor vehicle and parts dealers,,16257.250952677228,,,False,
+county,Dunn,441,Motor vehicle and parts dealers,,32928.25740377618,,,False,
+county,Eddy,441,Motor vehicle and parts dealers,,14127.929746908667,,,False,
+county,Emmons,441,Motor vehicle and parts dealers,,19097.569606933674,,,False,4.0
+county,Foster,441,Motor vehicle and parts dealers,23724.0,23742.313603943458,0.9992286512490335,18.313603943457565,False,6.0
+county,Golden Valley,441,Motor vehicle and parts dealers,,9363.497568446346,,,False,
+county,Grand Forks,441,Motor vehicle and parts dealers,447841.0,442675.39787636755,1.0116690517440392,-5165.602123632445,False,38.0
+county,Grant,441,Motor vehicle and parts dealers,,13207.15073789373,,,False,
+county,Griggs,441,Motor vehicle and parts dealers,,15639.34096850699,,,False,3.0
+county,Hettinger,441,Motor vehicle and parts dealers,,17329.58483935042,,,False,
+county,Kidder,441,Motor vehicle and parts dealers,,14192.942019951586,,,False,
+county,LaMoure,441,Motor vehicle and parts dealers,,26548.538805129952,,,False,
+county,Logan,441,Motor vehicle and parts dealers,,9141.45379951152,,,False,
+county,McHenry,441,Motor vehicle and parts dealers,,31632.796461045018,,,False,
+county,McIntosh,441,Motor vehicle and parts dealers,19478.0,14282.824759863272,1.3637358384971505,-5195.1752401367285,False,4.0
+county,McKenzie,441,Motor vehicle and parts dealers,57045.0,110607.3616406128,0.5157432484950824,53562.3616406128,False,6.0
+county,McLean,441,Motor vehicle and parts dealers,6372.0,66975.89645580972,0.09513870417851303,60603.89645580972,False,4.0
+county,Mercer,441,Motor vehicle and parts dealers,14832.0,52168.88109358235,0.2843074202299613,37336.88109358235,False,6.0
+county,Morton,441,Motor vehicle and parts dealers,348409.0,234965.03719179286,1.482812099042664,-113443.96280820714,False,25.0
+county,Mountrail,441,Motor vehicle and parts dealers,17076.0,60932.628782825544,0.2802439405800433,43856.628782825544,False,6.0
+county,Nelson,441,Motor vehicle and parts dealers,,20931.078199812437,,,False,
+county,Oliver,441,Motor vehicle and parts dealers,,11700.839993166861,,,False,
+county,Pembina,441,Motor vehicle and parts dealers,14965.0,42831.44259870933,0.34939285468874104,27866.442598709327,False,5.0
+county,Pierce,441,Motor vehicle and parts dealers,60616.0,24761.310645456466,2.4480125817218252,-35854.68935454353,False,5.0
+county,Ramsey,441,Motor vehicle and parts dealers,194722.0,68776.28956316026,2.831237352826054,-125945.71043683974,False,18.0
+county,Ransom,441,Motor vehicle and parts dealers,4828.0,34547.36542020005,0.13975016448510544,29719.365420200047,False,3.0
+county,Renville,441,Motor vehicle and parts dealers,,13317.64602445406,,,False,
+county,Richland,441,Motor vehicle and parts dealers,,102240.35281456531,,,False,13.0
+county,Rolette,441,Motor vehicle and parts dealers,,47575.54809795827,,,False,0.0
+county,Sargent,441,Motor vehicle and parts dealers,,27102.86585343364,,,False,
+county,Sheridan,441,Motor vehicle and parts dealers,,8261.237874996397,,,False,
+county,Sioux,441,Motor vehicle and parts dealers,,12121.381081762696,,,False,
+county,Slope,441,Motor vehicle and parts dealers,,5436.250742663289,,,False,
+county,Stark,441,Motor vehicle and parts dealers,274516.0,205184.58648304566,1.33789776661749,-69331.41351695434,False,26.0
+county,Steele,441,Motor vehicle and parts dealers,,11690.608948114977,,,False,
+county,Stutsman,441,Motor vehicle and parts dealers,,128816.16939128212,,,False,15.0
+county,Towner,441,Motor vehicle and parts dealers,,12298.769348176953,,,False,
+county,Traill,441,Motor vehicle and parts dealers,16368.0,52304.24684701145,0.31293826002075836,35936.24684701145,False,0.0
+county,Walsh,441,Motor vehicle and parts dealers,12675.0,57730.82323383891,0.21955342553595444,45055.82323383891,False,8.0
+county,Ward,441,Motor vehicle and parts dealers,,447156.746065637,,,False,36.0
+county,Wells,441,Motor vehicle and parts dealers,,26150.927293973924,,,False,
+county,Williams,441,Motor vehicle and parts dealers,234083.0,263761.2162295855,0.8874807424160771,29678.216229585523,False,23.0
+county,Adams,444,Building material and garden supply,,5280.524573204965,,,False,3.0
+county,Barnes,444,Building material and garden supply,6405.0,30455.95345895869,0.21030370986845445,24050.95345895869,False,5.0
+county,Benson,444,Building material and garden supply,,10857.549117860697,,,False,
+county,Billings,444,Building material and garden supply,,3141.5773188592107,,,False,
+county,Bottineau,444,Building material and garden supply,25382.0,20648.432993231367,1.2292458225919765,-4733.567006768633,False,7.0
+county,Bowman,444,Building material and garden supply,27970.0,7800.84445667006,3.5855092554863646,-20169.15554332994,False,0.0
+county,Burke,444,Building material and garden supply,,7458.355098950345,,,False,
+county,Burleigh,444,Building material and garden supply,328486.0,308907.9158805442,1.0633783827249887,-19578.084119455772,False,36.0
+county,Cass,444,Building material and garden supply,465383.0,589548.7486849043,0.7893884959269635,124165.7486849043,False,54.0
+county,Cavalier,444,Building material and garden supply,50036.0,11519.519782806876,4.343583842329936,-38516.48021719312,False,5.0
+county,Dickey,444,Building material and garden supply,35093.0,13374.66323521933,2.623841765794151,-21718.33676478067,False,0.0
+county,Divide,444,Building material and garden supply,,7216.500082255974,,,False,
+county,Dunn,444,Building material and garden supply,,14616.66384769465,,,False,0.0
+county,Eddy,444,Building material and garden supply,,6271.30666048329,,,False,3.0
+county,Emmons,444,Building material and garden supply,,8477.301177209814,,,False,
+county,Foster,444,Building material and garden supply,,10539.07629122189,,,False,
+county,Golden Valley,444,Building material and garden supply,,4156.402651935999,,,False,
+county,Grand Forks,444,Building material and garden supply,,196501.06001847895,,,False,24.0
+county,Grant,444,Building material and garden supply,,5862.57816058881,,,False,3.0
+county,Griggs,444,Building material and garden supply,,6942.213398451231,,,False,
+county,Hettinger,444,Building material and garden supply,,7692.502919630431,,,False,4.0
+county,Kidder,444,Building material and garden supply,,6300.165234120834,,,False,
+county,LaMoure,444,Building material and garden supply,6692.0,11784.743498681475,0.5678528345354932,5092.743498681475,False,6.0
+county,Logan,444,Building material and garden supply,,4057.8387015210774,,,False,
+county,McHenry,444,Building material and garden supply,,14041.616194989303,,,False,0.0
+county,McIntosh,444,Building material and garden supply,24843.0,6340.063664787505,3.918414910874975,-18502.936335212493,False,7.0
+county,McKenzie,444,Building material and garden supply,14878.0,49097.97091162894,0.30302677939132755,34219.97091162894,False,6.0
+county,McLean,444,Building material and garden supply,,29730.21476321148,,,False,0.0
+county,Mercer,444,Building material and garden supply,,23157.46590852996,,,False,0.0
+county,Morton,444,Building material and garden supply,,104299.62698844956,,,False,10.0
+county,Mountrail,444,Building material and garden supply,10475.0,27047.64304268309,0.38727958600569046,16572.64304268309,False,0.0
+county,Nelson,444,Building material and garden supply,,9291.185083525948,,,False,
+county,Oliver,444,Building material and garden supply,,5193.935494933557,,,False,
+county,Pembina,444,Building material and garden supply,15382.0,19012.63072929478,0.8090411168770727,3630.6307292947786,False,6.0
+county,Pierce,444,Building material and garden supply,,10991.403210164252,,,False,
+county,Ramsey,444,Building material and garden supply,,30529.39889619361,,,False,7.0
+county,Ransom,444,Building material and garden supply,9271.0,15335.376572725201,0.6045498756443305,6064.376572725201,False,4.0
+county,Renville,444,Building material and garden supply,,5911.626382017674,,,False,
+county,Richland,444,Building material and garden supply,,45383.90387427016,,,False,9.0
+county,Rolette,444,Building material and garden supply,7311.0,21118.511841988256,0.34618916591765336,13807.511841988256,False,3.0
+county,Sargent,444,Building material and garden supply,,12030.806083390578,,,False,
+county,Sheridan,444,Building material and garden supply,,3667.11592125789,,,False,
+county,Sioux,444,Building material and garden supply,,5380.611262520455,,,False,
+county,Slope,444,Building material and garden supply,,2413.120400600893,,,False,
+county,Stark,444,Building material and garden supply,,91080.25640637074,,,False,15.0
+county,Steele,444,Building material and garden supply,,5189.393992949403,,,False,
+county,Stutsman,444,Building material and garden supply,,57180.75581868292,,,False,14.0
+county,Towner,444,Building material and garden supply,,5459.352892510421,,,False,
+county,Traill,444,Building material and garden supply,2588.0,23217.55398698795,0.1114673837498308,20629.55398698795,False,3.0
+county,Walsh,444,Building material and garden supply,14682.0,25626.379996742064,0.5729252435133856,10944.379996742064,False,6.0
+county,Ward,444,Building material and garden supply,240763.0,198490.30467433232,1.2129710838774996,-42272.69532566768,False,25.0
+county,Wells,444,Building material and garden supply,9831.0,11608.246038482594,0.8468979695476103,1777.2460384825936,False,4.0
+county,Williams,444,Building material and garden supply,170875.0,117082.08504361458,1.4594461649392976,-53792.914956385415,False,22.0
+county,Adams,445,Food and beverage stores,,3691.5455136359765,,,False,3.0
+county,Barnes,445,Food and beverage stores,18195.0,21291.357855889495,0.8545720814591917,3096.357855889495,False,6.0
+county,Benson,445,Food and beverage stores,,7590.370270882773,,,False,
+county,Billings,445,Food and beverage stores,,2196.235524785448,,,False,
+county,Bottineau,445,Food and beverage stores,,14435.04885226062,,,False,
+county,Bowman,445,Food and beverage stores,10819.0,5453.468108588739,1.9838751753147716,-5365.531891411261,False,4.0
+county,Burke,445,Food and beverage stores,6003.0,5214.038287852024,1.1513149057585836,-788.961712147976,False,3.0
+county,Burleigh,445,Food and beverage stores,186018.0,215953.474922159,0.8613799804196283,29935.47492215899,False,37.0
+county,Cass,445,Food and beverage stores,451292.0,412145.8025819866,1.094981429321305,-39146.19741801341,False,71.0
+county,Cavalier,445,Food and beverage stores,,8053.145285838818,,,False,0.0
+county,Dickey,445,Food and beverage stores,,9350.051756770703,,,False,0.0
+county,Divide,445,Food and beverage stores,,5044.960615842144,,,False,
+county,Dunn,445,Food and beverage stores,,10218.318105190257,,,False,0.0
+county,Eddy,445,Food and beverage stores,,4384.188283985456,,,False,
+county,Emmons,445,Food and beverage stores,,5926.370135131491,,,False,0.0
+county,Foster,445,Food and beverage stores,,7367.730092223421,,,False,3.0
+county,Golden Valley,445,Food and beverage stores,,2905.686613121163,,,False,
+county,Grand Forks,445,Food and beverage stores,186228.0,137371.31538347513,1.3556541952018173,-48856.68461652487,False,31.0
+county,Grant,445,Food and beverage stores,3278.0,4098.451547196661,0.7998142621064169,820.4515471966606,False,3.0
+county,Griggs,445,Food and beverage stores,,4853.210390459719,,,False,
+county,Hettinger,445,Food and beverage stores,,5377.727960151871,,,False,0.0
+county,Kidder,445,Food and beverage stores,,4404.362934546158,,,False,0.0
+county,LaMoure,445,Food and beverage stores,,8238.559709135876,,,False,
+county,Logan,445,Food and beverage stores,,2836.7818473320317,,,False,
+county,McHenry,445,Food and beverage stores,,9816.309828731675,,,False,
+county,McIntosh,445,Food and beverage stores,7318.0,4432.2554044488725,1.65107813792828,-2885.7445955511275,False,3.0
+county,McKenzie,445,Food and beverage stores,48430.0,34323.74790322149,1.4109764509561193,-14106.25209677851,False,6.0
+county,McLean,445,Food and beverage stores,12653.0,20784.003446452178,0.6087855033607523,8131.003446452178,False,4.0
+county,Mercer,445,Food and beverage stores,21197.0,16189.080875714286,1.3093393110289688,-5007.919124285714,False,7.0
+county,Morton,445,Food and beverage stores,,72914.50210020106,,,False,0.0
+county,Mountrail,445,Food and beverage stores,33337.0,18908.652718955633,1.7630552792680025,-14428.347281044367,False,4.0
+county,Nelson,445,Food and beverage stores,,6495.345705897239,,,False,
+county,Oliver,445,Food and beverage stores,,3631.012223999435,,,False,
+county,Pembina,445,Food and beverage stores,10042.0,13291.480931135391,0.7555215293185684,3249.480931135391,False,5.0
+county,Pierce,445,Food and beverage stores,,7683.945912293924,,,False,
+county,Ramsey,445,Food and beverage stores,,21342.70259836023,,,False,6.0
+county,Ransom,445,Food and beverage stores,,10720.760750593821,,,False,3.0
+county,Renville,445,Food and beverage stores,,4132.740515888582,,,False,
+county,Richland,445,Food and beverage stores,,31727.29232025211,,,False,6.0
+county,Rolette,445,Food and beverage stores,31665.0,14763.674813777627,2.1447912121750248,-16901.325186222373,False,8.0
+county,Sargent,445,Food and beverage stores,16391.0,8410.578836793347,1.9488551642004823,-7980.421163206653,False,6.0
+county,Sheridan,445,Food and beverage stores,,2563.63267312404,,,False,
+county,Sioux,445,Food and beverage stores,,3761.5148062309026,,,False,
+county,Slope,445,Food and beverage stores,,1686.980841620241,,,False,
+county,Stark,445,Food and beverage stores,62277.0,63673.013401712575,0.9780752735400611,1396.0134017125747,False,13.0
+county,Steele,445,Food and beverage stores,,3627.8373194909236,,,False,
+county,Stutsman,445,Food and beverage stores,42511.0,39974.31688508494,1.0634578227367166,-2536.6831149150603,False,11.0
+county,Towner,445,Food and beverage stores,,3816.562047635826,,,False,
+county,Traill,445,Food and beverage stores,,16231.087663748222,,,False,0.0
+county,Walsh,445,Food and beverage stores,26247.0,17915.06635301703,1.4650796978812086,-8331.933646982969,False,0.0
+county,Ward,445,Food and beverage stores,134995.0,138761.97024797526,0.9728530069064062,3766.9702479752596,False,25.0
+county,Wells,445,Food and beverage stores,,8115.172648185248,,,False,0.0
+county,Williams,445,Food and beverage stores,90521.0,81850.55097803911,1.1059302462641603,-8670.449021960885,False,11.0
+county,Adams,449,"Furniture, electronics and appliances",,1424.9576316573211,,,False,
+county,Barnes,449,"Furniture, electronics and appliances",2071.0,8218.585617603345,0.25198983089792676,6147.585617603345,False,3.0
+county,Benson,449,"Furniture, electronics and appliances",,2929.9262340520654,,,False,
+county,Billings,449,"Furniture, electronics and appliances",,847.7594439510274,,,False,
+county,Bottineau,449,"Furniture, electronics and appliances",,5572.011221152552,,,False,
+county,Bowman,449,"Furniture, electronics and appliances",,2105.069806569811,,,False,
+county,Burke,449,"Furniture, electronics and appliances",,2012.6485296155188,,,False,
+county,Burleigh,449,"Furniture, electronics and appliances",109338.0,83359.27351743687,1.3116477074038915,-25978.72648256313,False,41.0
+county,Cass,449,"Furniture, electronics and appliances",276834.0,159090.6314375313,1.7401024654849142,-117743.3685624687,False,56.0
+county,Cavalier,449,"Furniture, electronics and appliances",,3108.560030348522,,,False,
+county,Dickey,449,"Furniture, electronics and appliances",3951.0,3609.1733280781054,1.0947105170213363,-341.82667192189456,False,3.0
+county,Divide,449,"Furniture, electronics and appliances",,1947.3835834883803,,,False,
+county,Dunn,449,"Furniture, electronics and appliances",,3944.3290927629782,,,False,
+county,Eddy,449,"Furniture, electronics and appliances",,1692.321693125882,,,False,
+county,Emmons,449,"Furniture, electronics and appliances",,2287.6126871219153,,,False,
+county,Foster,449,"Furniture, electronics and appliances",,2843.9858547387635,,,False,
+county,Golden Valley,449,"Furniture, electronics and appliances",,1121.611612067966,,,False,
+county,Grand Forks,449,"Furniture, electronics and appliances",59648.0,53026.11155772693,1.1248797667365096,-6621.88844227307,False,19.0
+county,Grant,449,"Furniture, electronics and appliances",,1582.0256823553093,,,False,
+county,Griggs,449,"Furniture, electronics and appliances",,1873.3669023933192,,,False,
+county,Hettinger,449,"Furniture, electronics and appliances",,2075.8336771114828,,,False,
+county,Kidder,449,"Furniture, electronics and appliances",,1700.109223355782,,,False,
+county,LaMoure,449,"Furniture, electronics and appliances",,3180.1310556875146,,,False,
+county,Logan,449,"Furniture, electronics and appliances",,1095.0139793133112,,,False,
+county,McHenry,449,"Furniture, electronics and appliances",,3789.1516042522535,,,False,
+county,McIntosh,449,"Furniture, electronics and appliances",,1710.8758758883953,,,False,
+county,McKenzie,449,"Furniture, electronics and appliances",,13249.162536696938,,,False,3.0
+county,McLean,449,"Furniture, electronics and appliances",,8022.7439206739145,,,False,
+county,Mercer,449,"Furniture, electronics and appliances",,6249.077590443998,,,False,
+county,Morton,449,"Furniture, electronics and appliances",2109.0,28145.413849669487,0.07493227888794274,26036.413849669487,False,5.0
+county,Mountrail,449,"Furniture, electronics and appliances",,7298.847839395956,,,False,
+county,Nelson,449,"Furniture, electronics and appliances",,2507.240503925038,,,False,
+county,Oliver,449,"Furniture, electronics and appliances",,1401.5914364639277,,,False,
+county,Pembina,449,"Furniture, electronics and appliances",,5130.58747857464,,,False,
+county,Pierce,449,"Furniture, electronics and appliances",,2966.0469655650613,,,False,
+county,Ramsey,449,"Furniture, electronics and appliances",12702.0,8238.404981162292,1.5418033016153054,-4463.595018837708,False,6.0
+county,Ransom,449,"Furniture, electronics and appliances",,4138.274820749606,,,False,
+county,Renville,449,"Furniture, electronics and appliances",,1595.2614199179995,,,False,
+county,Richland,449,"Furniture, electronics and appliances",,12246.9158666925,,,False,5.0
+county,Rolette,449,"Furniture, electronics and appliances",,5698.8627173875675,,,False,
+county,Sargent,449,"Furniture, electronics and appliances",,3246.531420478119,,,False,
+county,Sheridan,449,"Furniture, electronics and appliances",,989.5768395216346,,,False,
+county,Sioux,449,"Furniture, electronics and appliances",,1451.9661778330396,,,False,
+county,Slope,449,"Furniture, electronics and appliances",,651.1842305199598,,,False,
+county,Stark,449,"Furniture, electronics and appliances",29037.0,24578.146481532513,1.181415369210928,-4458.853518467487,False,14.0
+county,Steele,449,"Furniture, electronics and appliances",,1400.3659052081232,,,False,
+county,Stutsman,449,"Furniture, electronics and appliances",6151.0,15430.314404978211,0.3986308923177567,9279.314404978211,False,5.0
+county,Towner,449,"Furniture, electronics and appliances",,1473.2147271064764,,,False,
+county,Traill,449,"Furniture, electronics and appliances",,6265.292450309402,,,False,
+county,Walsh,449,"Furniture, electronics and appliances",,6915.3178328918875,,,False,
+county,Ward,449,"Furniture, electronics and appliances",61207.0,53562.91227028784,1.142712324735794,-7644.087729712162,False,21.0
+county,Wells,449,"Furniture, electronics and appliances",,3132.5029461328822,,,False,
+county,Williams,449,"Furniture, electronics and appliances",,31594.77970424251,,,False,12.0
+county,Adams,455,General merchandise stores,,6661.776591377642,,,False,
+county,Barnes,455,General merchandise stores,,38422.462580802894,,,False,
+county,Benson,455,General merchandise stores,,13697.61006702351,,,False,
+county,Billings,455,General merchandise stores,,3963.334693862976,,,False,
+county,Bottineau,455,General merchandise stores,,26049.542172559308,,,False,
+county,Bowman,455,General merchandise stores,,9841.34857701864,,,False,
+county,Burke,455,General merchandise stores,,9409.272643193684,,,False,
+county,Burleigh,455,General merchandise stores,615577.0,389710.4339494163,1.5795753625624012,-225866.56605058367,False,17.0
+county,Cass,455,General merchandise stores,781003.0,743759.8289749746,1.0500741900464734,-37243.171025025425,False,20.0
+county,Cavalier,455,General merchandise stores,,14532.735558588187,,,False,
+county,Dickey,455,General merchandise stores,,16873.137739015478,,,False,
+county,Divide,455,General merchandise stores,,9104.154455334572,,,False,
+county,Dunn,455,General merchandise stores,,18440.0143801449,,,False,
+county,Eddy,455,General merchandise stores,,7911.722278531407,,,False,
+county,Emmons,455,General merchandise stores,,10694.749310884878,,,False,
+county,Foster,455,General merchandise stores,,13295.832782952548,,,False,
+county,Golden Valley,455,General merchandise stores,,5243.612733384477,,,False,
+county,Grand Forks,455,General merchandise stores,393666.0,247900.78024719478,1.5879982289989372,-145765.21975280522,False,15.0
+county,Grant,455,General merchandise stores,,7396.08071393334,,,False,
+county,Griggs,455,General merchandise stores,,8758.121294392759,,,False,
+county,Hettinger,455,General merchandise stores,,9704.66762698825,,,False,
+county,Kidder,455,General merchandise stores,,7948.129527026125,,,False,
+county,LaMoure,455,General merchandise stores,,14867.335107818051,,,False,
+county,Logan,455,General merchandise stores,,5119.266939983632,,,False,
+county,McHenry,455,General merchandise stores,,17714.548768043023,,,False,
+county,McIntosh,455,General merchandise stores,,7998.464380649695,,,False,
+county,McKenzie,455,General merchandise stores,,61940.76152262124,,,False,
+county,McLean,455,General merchandise stores,,37506.88895023623,,,False,5.0
+county,Mercer,455,General merchandise stores,,29214.87480389434,,,False,
+county,Morton,455,General merchandise stores,,131581.77827385016,,,False,0.0
+county,Mountrail,455,General merchandise stores,,34122.62414003363,,,False,
+county,Nelson,455,General merchandise stores,,11721.52471549303,,,False,
+county,Oliver,455,General merchandise stores,,6552.537994586617,,,False,
+county,Pembina,455,General merchandise stores,,23985.85530226012,,,False,
+county,Pierce,455,General merchandise stores,4258.0,13866.477013177442,0.30707150748914686,9608.477013177442,False,3.0
+county,Ramsey,455,General merchandise stores,,38515.11949163289,,,False,5.0
+county,Ransom,455,General merchandise stores,,19346.72422329743,,,False,
+county,Renville,455,General merchandise stores,,7457.95871276352,,,False,
+county,Richland,455,General merchandise stores,,57255.18824192217,,,False,6.0
+county,Rolette,455,General merchandise stores,10356.0,26642.581789615713,0.38870106815385225,16286.581789615713,False,5.0
+county,Sargent,455,General merchandise stores,,15177.761457341516,,,False,
+county,Sheridan,455,General merchandise stores,,4626.340937047625,,,False,
+county,Sioux,455,General merchandise stores,,6788.043433761776,,,False,
+county,Slope,455,General merchandise stores,,3044.3318223480755,,,False,
+county,Stark,455,General merchandise stores,,114904.55382851651,,,False,7.0
+county,Steele,455,General merchandise stores,,6546.808550250489,,,False,
+county,Stutsman,455,General merchandise stores,,72137.79905941876,,,False,3.0
+county,Towner,455,General merchandise stores,,6887.38188776611,,,False,
+county,Traill,455,General merchandise stores,,29290.68040785337,,,False,
+county,Walsh,455,General merchandise stores,6642.0,32329.594535042434,0.2054464367872185,25687.594535042434,False,4.0
+county,Ward,455,General merchandise stores,,250410.36112295312,,,False,16.0
+county,Wells,455,General merchandise stores,,14644.670364478567,,,False,
+county,Williams,455,General merchandise stores,,147707.804897088,,,False,7.0
+county,Adams,456,Health and personal care stores,,2618.8378524530162,,,False,
+county,Barnes,456,Health and personal care stores,12721.0,15104.409163360693,0.8422044094818211,2383.409163360693,False,4.0
+county,Benson,456,Health and personal care stores,,5384.72271467219,,,False,
+county,Billings,456,Health and personal care stores,,1558.0424794885269,,,False,
+county,Bottineau,456,Health and personal care stores,,10240.44054087107,,,False,
+county,Bowman,456,Health and personal care stores,,3868.7722140125475,,,False,
+county,Burke,456,Health and personal care stores,,3698.91710177427,,,False,
+county,Burleigh,456,Health and personal care stores,156141.0,153200.63978782675,1.0191928716240708,-2940.3602121732547,False,48.0
+county,Cass,456,Health and personal care stores,459315.0,292382.4247986147,1.570939157223161,-166932.5752013853,False,75.0
+county,Cavalier,456,Health and personal care stores,,5713.022263427506,,,False,
+county,Dickey,456,Health and personal care stores,7073.0,6633.067199788704,1.0663241886386,-439.9328002112961,False,3.0
+county,Divide,456,Health and personal care stores,,3578.970860876379,,,False,
+county,Dunn,456,Health and personal care stores,,7249.028392967294,,,False,
+county,Eddy,456,Health and personal care stores,,3110.209040623069,,,False,
+county,Emmons,456,Health and personal care stores,,4204.256016944748,,,False,
+county,Foster,456,Health and personal care stores,,5226.778426786184,,,False,
+county,Golden Valley,456,Health and personal care stores,,2061.33774098121,,,False,
+county,Grand Forks,456,Health and personal care stores,83386.0,97453.27512247524,0.8556510788909242,14067.275122475243,False,27.0
+county,Grant,456,Health and personal care stores,,2907.503106380945,,,False,
+county,Griggs,456,Health and personal care stores,,3442.940369963296,,,False,
+county,Hettinger,456,Health and personal care stores,,3815.04101472374,,,False,
+county,Kidder,456,Health and personal care stores,,3124.5212408528146,,,False,
+county,LaMoure,456,Health and personal care stores,,5844.558041146475,,,False,
+county,Logan,456,Health and personal care stores,,2012.4556648436053,,,False,
+county,McHenry,456,Health and personal care stores,,6963.837681515876,,,False,
+county,McIntosh,456,Health and personal care stores,,3144.3085780832016,,,False,
+county,McKenzie,456,Health and personal care stores,,24349.782473215684,,,False,
+county,McLean,456,Health and personal care stores,8382.0,14744.484322359689,0.5684837676749996,6362.484322359689,False,4.0
+county,Mercer,456,Health and personal care stores,,11484.777212454144,,,False,3.0
+county,Morton,456,Health and personal care stores,,51726.64332254016,,,False,0.0
+county,Mountrail,456,Health and personal care stores,6100.0,13414.082339327942,0.45474597856878934,7314.0823393279425,False,3.0
+county,Nelson,456,Health and personal care stores,,4607.89583564355,,,False,
+county,Oliver,456,Health and personal care stores,,2575.8946272785993,,,False,
+county,Pembina,456,Health and personal care stores,7376.0,9429.176275638156,0.78225284843355,2053.176275638156,False,5.0
+county,Pierce,456,Health and personal care stores,,5451.106680653344,,,False,
+county,Ramsey,456,Health and personal care stores,17831.0,15140.833895118738,1.1776762180680516,-2690.166104881262,False,5.0
+county,Ransom,456,Health and personal care stores,4706.0,7605.468754764018,0.6187652795302316,2899.468754764018,False,4.0
+county,Renville,456,Health and personal care stores,,2931.828215959111,,,False,
+county,Richland,456,Health and personal care stores,,22507.817871187563,,,False,7.0
+county,Rolette,456,Health and personal care stores,4180.0,10473.572735541438,0.3990997251411089,6293.572735541438,False,3.0
+county,Sargent,456,Health and personal care stores,,5966.590994875826,,,False,
+county,Sheridan,456,Health and personal care stores,,1818.6795366230958,,,False,
+county,Sioux,456,Health and personal care stores,,2668.475119901054,,,False,
+county,Slope,456,Health and personal care stores,,1196.769555753549,,,False,
+county,Stark,456,Health and personal care stores,,45170.59238744529,,,False,11.0
+county,Steele,456,Health and personal care stores,,2573.642302317658,,,False,
+county,Stutsman,456,Health and personal care stores,34279.0,28358.38100814902,1.2087784556582988,-5920.618991850981,False,5.0
+county,Towner,456,Health and personal care stores,,2707.5264600326677,,,False,
+county,Traill,456,Health and personal care stores,8644.0,11514.577459032951,0.7507005820017267,2870.577459032951,False,3.0
+county,Walsh,456,Health and personal care stores,15514.0,12709.217242801375,1.2206888672697196,-2804.7827571986254,False,3.0
+county,Ward,456,Health and personal care stores,,98439.82657779341,,,False,24.0
+county,Wells,456,Health and personal care stores,,5757.025406230601,,,False,
+county,Williams,456,Health and personal care stores,,58066.01065966472,,,False,7.0
+county,Adams,457,Gasoline stations and fuel dealers,,9670.561202476325,,,False,
+county,Barnes,457,Gasoline stations and fuel dealers,,55775.928664199106,,,False,6.0
+county,Benson,457,Gasoline stations and fuel dealers,4228.0,19884.121699946336,0.21263197157013028,15656.121699946336,False,3.0
+county,Billings,457,Gasoline stations and fuel dealers,,5753.370770870237,,,False,
+county,Bottineau,457,Gasoline stations and fuel dealers,,37814.79135795031,,,False,0.0
+county,Bowman,457,Gasoline stations and fuel dealers,22876.0,14286.18363638052,1.6012673910858222,-8589.81636361948,False,3.0
+county,Burke,457,Gasoline stations and fuel dealers,16665.0,13658.961047202207,1.2200781554621627,-3006.038952797793,False,3.0
+county,Burleigh,457,Gasoline stations and fuel dealers,261740.0,565722.7544420061,0.46266479109217395,303982.7544420061,False,0.0
+county,Cass,457,Gasoline stations and fuel dealers,,1079678.198058336,,,False,73.0
+county,Cavalier,457,Gasoline stations and fuel dealers,36712.0,21096.430769028193,1.7401995817177343,-15615.569230971807,False,5.0
+county,Dickey,457,Gasoline stations and fuel dealers,34038.0,24493.873210061884,1.389653637384612,-9544.126789938116,False,7.0
+county,Divide,457,Gasoline stations and fuel dealers,,13216.036540622496,,,False,
+county,Dunn,457,Gasoline stations and fuel dealers,,26768.42808996954,,,False,0.0
+county,Eddy,457,Gasoline stations and fuel dealers,9470.0,11485.043585904934,0.824550636588101,2015.043585904934,False,3.0
+county,Emmons,457,Gasoline stations and fuel dealers,,15525.021942332321,,,False,
+county,Foster,457,Gasoline stations and fuel dealers,,19300.88211481797,,,False,
+county,Golden Valley,457,Gasoline stations and fuel dealers,,7611.885082713695,,,False,
+county,Grand Forks,457,Gasoline stations and fuel dealers,,359864.9151076329,,,False,41.0
+county,Grant,457,Gasoline stations and fuel dealers,3104.0,10736.513033943711,0.2891068999950579,7632.513033943711,False,0.0
+county,Griggs,457,Gasoline stations and fuel dealers,,12713.717855047642,,,False,
+county,Hettinger,457,Gasoline stations and fuel dealers,,14087.770874506714,,,False,
+county,Kidder,457,Gasoline stations and fuel dealers,65959.0,11537.89413109398,5.716727788500345,-54421.105868906016,False,7.0
+county,LaMoure,457,Gasoline stations and fuel dealers,39369.0,21582.151863808893,1.82414618562748,-17786.848136191107,False,5.0
+county,Logan,457,Gasoline stations and fuel dealers,10343.0,7431.378638395263,1.3918009703558147,-2911.621361604737,False,3.0
+county,McHenry,457,Gasoline stations and fuel dealers,,25715.306673198593,,,False,6.0
+county,McIntosh,457,Gasoline stations and fuel dealers,,11610.962670080178,,,False,
+county,McKenzie,457,Gasoline stations and fuel dealers,146017.0,89916.24336483896,1.6239223808264527,-56100.756635161044,False,9.0
+county,McLean,457,Gasoline stations and fuel dealers,37995.0,54446.837136088085,0.6978366788328355,16451.837136088085,False,8.0
+county,Mercer,457,Gasoline stations and fuel dealers,53389.0,42409.743247681974,1.2588852445579974,-10979.256752318026,False,8.0
+county,Morton,457,Gasoline stations and fuel dealers,,191010.55438798398,,,False,16.0
+county,Mountrail,457,Gasoline stations and fuel dealers,,49534.072571931014,,,False,0.0
+county,Nelson,457,Gasoline stations and fuel dealers,17285.0,17015.539412448674,1.0158361472428072,-269.46058755132617,False,5.0
+county,Oliver,457,Gasoline stations and fuel dealers,,9511.985104726735,,,False,
+county,Pembina,457,Gasoline stations and fuel dealers,81201.0,34819.04241497231,2.3320859612464035,-46381.95758502769,False,11.0
+county,Pierce,457,Gasoline stations and fuel dealers,,20129.257230304785,,,False,3.0
+county,Ramsey,457,Gasoline stations and fuel dealers,35857.0,55910.433974415246,0.6413293092378474,20053.433974415246,False,9.0
+county,Ransom,457,Gasoline stations and fuel dealers,17734.0,28084.65251011044,0.63144808338347,10350.652510110442,False,3.0
+county,Renville,457,Gasoline stations and fuel dealers,,10826.338167910006,,,False,5.0
+county,Richland,457,Gasoline stations and fuel dealers,,83114.43568513746,,,False,15.0
+county,Rolette,457,Gasoline stations and fuel dealers,89029.0,38675.67671391676,2.301937743935182,-50353.32328608324,False,14.0
+county,Sargent,457,Gasoline stations and fuel dealers,7814.0,22032.781957861203,0.35465335312375285,14218.781957861203,False,3.0
+county,Sheridan,457,Gasoline stations and fuel dealers,,6715.823108380272,,,False,
+county,Sioux,457,Gasoline stations and fuel dealers,,9853.856335594364,,,False,0.0
+county,Slope,457,Gasoline stations and fuel dealers,,4419.301188630095,,,False,
+county,Stark,457,Gasoline stations and fuel dealers,163060.0,166801.07851111714,0.9775716167754407,3741.0785111171426,False,27.0
+county,Steele,457,Gasoline stations and fuel dealers,,9503.667962692818,,,False,3.0
+county,Stutsman,457,Gasoline stations and fuel dealers,159833.0,104718.76251733972,1.5263071884900687,-55114.237482660275,False,13.0
+county,Towner,457,Gasoline stations and fuel dealers,,9998.060901152998,,,False,
+county,Traill,457,Gasoline stations and fuel dealers,51425.0,42519.786375445416,1.2094369323947785,-8905.213624554584,False,11.0
+county,Walsh,457,Gasoline stations and fuel dealers,,46931.222972416974,,,False,0.0
+county,Ward,457,Gasoline stations and fuel dealers,,363507.94562940043,,,False,35.0
+county,Wells,457,Gasoline stations and fuel dealers,24639.0,21258.920815970214,1.158995802905037,-3380.079184029786,False,4.0
+county,Williams,457,Gasoline stations and fuel dealers,281961.0,214419.88450791442,1.3149946454224146,-67541.11549208558,False,25.0
+county,Adams,458,"Clothing, shoes and jewelry",,949.8007149747613,,,False,
+county,Barnes,458,"Clothing, shoes and jewelry",,5478.07059119507,,,False,
+county,Benson,458,"Clothing, shoes and jewelry",,1952.932473289978,,,False,
+county,Billings,458,"Clothing, shoes and jewelry",,565.0712049977145,,,False,
+county,Bottineau,458,"Clothing, shoes and jewelry",,3714.005331893824,,,False,
+county,Bowman,458,"Clothing, shoes and jewelry",,1403.1271968601318,,,False,
+county,Burke,458,"Clothing, shoes and jewelry",,1341.524105666486,,,False,
+county,Burleigh,458,"Clothing, shoes and jewelry",79579.0,55562.843292788115,1.4322341205733276,-24016.156707211885,False,0.0
+county,Cass,458,"Clothing, shoes and jewelry",,106041.32510902022,,,False,92.0
+county,Cavalier,458,"Clothing, shoes and jewelry",,2072.000229180865,,,False,
+county,Dickey,458,"Clothing, shoes and jewelry",,2405.6823384211325,,,False,
+county,Divide,458,"Clothing, shoes and jewelry",,1298.0219754156037,,,False,
+county,Dunn,458,"Clothing, shoes and jewelry",,2629.079285708165,,,False,
+county,Eddy,458,"Clothing, shoes and jewelry",,1128.011330574639,,,False,
+county,Emmons,458,"Clothing, shoes and jewelry",,1524.8005397091322,,,False,
+county,Foster,458,"Clothing, shoes and jewelry",,1895.6492026133337,,,False,
+county,Golden Valley,458,"Clothing, shoes and jewelry",,747.6064462542123,,,False,
+county,Grand Forks,458,"Clothing, shoes and jewelry",,35344.376247372005,,,False,32.0
+county,Grant,458,"Clothing, shoes and jewelry",,1054.4938956970057,,,False,
+county,Griggs,458,"Clothing, shoes and jewelry",,1248.6864056679033,,,False,
+county,Hettinger,458,"Clothing, shoes and jewelry",,1383.6399531374407,,,False,
+county,Kidder,458,"Clothing, shoes and jewelry",,1133.2020826474875,,,False,
+county,LaMoure,458,"Clothing, shoes and jewelry",,2119.705655313001,,,False,
+county,Logan,458,"Clothing, shoes and jewelry",,729.87788363188,,,False,
+county,McHenry,458,"Clothing, shoes and jewelry",,2525.6462528508637,,,False,
+county,McIntosh,458,"Clothing, shoes and jewelry",,1140.3785586676674,,,False,
+county,McKenzie,458,"Clothing, shoes and jewelry",1842.0,8831.18471075906,0.208579036712468,6989.18471075906,False,6.0
+county,McLean,458,"Clothing, shoes and jewelry",,5347.532967034903,,,False,
+county,Mercer,458,"Clothing, shoes and jewelry",,4165.301642290392,,,False,
+county,Morton,458,"Clothing, shoes and jewelry",,18760.23090355669,,,False,
+county,Mountrail,458,"Clothing, shoes and jewelry",,4865.022469676776,,,False,
+county,Nelson,458,"Clothing, shoes and jewelry",,1671.1927220404293,,,False,
+county,Oliver,458,"Clothing, shoes and jewelry",,934.2260561864066,,,False,
+county,Pembina,458,"Clothing, shoes and jewelry",,3419.775821490976,,,False,
+county,Pierce,458,"Clothing, shoes and jewelry",,1977.0086253483046,,,False,
+county,Ramsey,458,"Clothing, shoes and jewelry",2463.0,5491.281121291139,0.4485292130556387,3028.2811212911392,False,4.0
+county,Ransom,458,"Clothing, shoes and jewelry",,2758.353158148675,,,False,
+county,Renville,458,"Clothing, shoes and jewelry",,1063.3161320365102,,,False,
+county,Richland,458,"Clothing, shoes and jewelry",,8163.1405650225115,,,False,3.0
+county,Rolette,458,"Clothing, shoes and jewelry",,3798.557769905266,,,False,
+county,Sargent,458,"Clothing, shoes and jewelry",,2163.9645950537915,,,False,
+county,Sheridan,458,"Clothing, shoes and jewelry",,659.5991128570929,,,False,
+county,Sioux,458,"Clothing, shoes and jewelry",,967.8031705553461,,,False,
+county,Slope,458,"Clothing, shoes and jewelry",,434.04465788136883,,,False,
+county,Stark,458,"Clothing, shoes and jewelry",,16382.480841737704,,,False,14.0
+county,Steele,458,"Clothing, shoes and jewelry",,933.4091824512673,,,False,
+county,Stutsman,458,"Clothing, shoes and jewelry",,10285.024149867582,,,False,6.0
+county,Towner,458,"Clothing, shoes and jewelry",,981.9663195807763,,,False,
+county,Traill,458,"Clothing, shoes and jewelry",,4176.1096025772285,,,False,
+county,Walsh,458,"Clothing, shoes and jewelry",,4609.381834264928,,,False,
+county,Ward,458,"Clothing, shoes and jewelry",53029.0,35702.17895621207,1.4853155059538212,-17326.82104378793,False,44.0
+county,Wells,458,"Clothing, shoes and jewelry",312.0,2087.959299138697,0.1494282001228199,1775.9592991386971,False,3.0
+county,Williams,458,"Clothing, shoes and jewelry",,21059.394108200562,,,False,13.0
+county,Adams,459,"Sporting goods, hobby, books and other",,2180.2098571980973,,,False,
+county,Barnes,459,"Sporting goods, hobby, books and other",1361.0,12574.57834369799,0.10823424553890457,11213.57834369799,False,5.0
+county,Benson,459,"Sporting goods, hobby, books and other",,4482.837885442328,,,False,
+county,Billings,459,"Sporting goods, hobby, books and other",2742.0,1297.0866327338579,2.1139682815331393,-1444.9133672661421,False,7.0
+county,Bottineau,459,"Sporting goods, hobby, books and other",835.0,8525.273677538105,0.09794406978394246,7690.273677538105,False,4.0
+county,Bowman,459,"Sporting goods, hobby, books and other",2527.0,3220.793264593913,0.7845893208295104,693.7932645939131,False,4.0
+county,Burke,459,"Sporting goods, hobby, books and other",,3079.387110085145,,,False,
+county,Burleigh,459,"Sporting goods, hobby, books and other",216240.0,127541.13229332409,1.6954530363011266,-88698.86770667591,False,72.0
+county,Cass,459,"Sporting goods, hobby, books and other",337352.0,243411.42160455982,1.3859333213543847,-93940.57839544018,False,130.0
+county,Cavalier,459,"Sporting goods, hobby, books and other",,4756.150687775465,,,False,
+county,Dickey,459,"Sporting goods, hobby, books and other",,5522.097704098373,,,False,3.0
+county,Divide,459,"Sporting goods, hobby, books and other",,2979.530612099029,,,False,
+county,Dunn,459,"Sporting goods, hobby, books and other",,6034.891829080785,,,False,
+county,Eddy,459,"Sporting goods, hobby, books and other",,2589.2815020836447,,,False,
+county,Emmons,459,"Sporting goods, hobby, books and other",,3500.0870335448913,,,False,
+county,Foster,459,"Sporting goods, hobby, books and other",470.0,4351.347616575679,0.1080125150676584,3881.3476165756792,False,3.0
+county,Golden Valley,459,"Sporting goods, hobby, books and other",,1716.0851931676898,,,False,
+county,Grand Forks,459,"Sporting goods, hobby, books and other",130648.0,81130.86911403976,1.6103365023288192,-49517.13088596024,False,45.0
+county,Grant,459,"Sporting goods, hobby, books and other",,2420.5266952393536,,,False,
+county,Griggs,459,"Sporting goods, hobby, books and other",,2866.283808028894,,,False,
+county,Hettinger,459,"Sporting goods, hobby, books and other",,3176.0614801427278,,,False,
+county,Kidder,459,"Sporting goods, hobby, books and other",,2601.196558218127,,,False,
+county,LaMoure,459,"Sporting goods, hobby, books and other",,4865.655596179205,,,False,
+county,Logan,459,"Sporting goods, hobby, books and other",,1675.3903543728068,,,False,
+county,McHenry,459,"Sporting goods, hobby, books and other",,5797.467583931237,,,False,
+county,McIntosh,459,"Sporting goods, hobby, books and other",,2617.6697230751965,,,False,
+county,McKenzie,459,"Sporting goods, hobby, books and other",8053.0,20271.448161255234,0.3972582489391004,12218.448161255234,False,7.0
+county,McLean,459,"Sporting goods, hobby, books and other",,12274.93715534957,,,False,
+county,Mercer,459,"Sporting goods, hobby, books and other",797.0,9561.196949579311,0.0833577641170824,8764.196949579311,False,3.0
+county,Morton,459,"Sporting goods, hobby, books and other",,43062.97067836332,,,False,0.0
+county,Mountrail,459,"Sporting goods, hobby, books and other",1675.0,11167.363612862082,0.14999063862045364,9492.363612862082,False,3.0
+county,Nelson,459,"Sporting goods, hobby, books and other",,3836.1213972839373,,,False,
+county,Oliver,459,"Sporting goods, hobby, books and other",,2144.459173841568,,,False,
+county,Pembina,459,"Sporting goods, hobby, books and other",,7849.887705780962,,,False,4.0
+county,Pierce,459,"Sporting goods, hobby, books and other",515.0,4538.103230280859,0.1134835357123701,4023.103230280859,False,5.0
+county,Ramsey,459,"Sporting goods, hobby, books and other",10207.0,12604.902313221457,0.8097643080735133,2397.902313221457,False,10.0
+county,Ransom,459,"Sporting goods, hobby, books and other",,6331.632152107873,,,False,
+county,Renville,459,"Sporting goods, hobby, books and other",,2440.777602957853,,,False,
+county,Richland,459,"Sporting goods, hobby, books and other",,18737.9933968871,,,False,4.0
+county,Rolette,459,"Sporting goods, hobby, books and other",2825.0,8719.35866388977,0.323991718760167,5894.3586638897705,False,4.0
+county,Sargent,459,"Sporting goods, hobby, books and other",,4967.2493043862705,,,False,
+county,Sheridan,459,"Sporting goods, hobby, books and other",,1514.0697042835639,,,False,
+county,Sioux,459,"Sporting goods, hobby, books and other",,2221.533400644372,,,False,
+county,Slope,459,"Sporting goods, hobby, books and other",,996.3231514331742,,,False,
+county,Stark,459,"Sporting goods, hobby, books and other",23931.0,37604.9898188007,0.6363783134980572,13673.9898188007,False,29.0
+county,Steele,459,"Sporting goods, hobby, books and other",,2142.5840897935586,,,False,
+county,Stutsman,459,"Sporting goods, hobby, books and other",16543.0,23608.648298035485,0.7007177959178871,7065.648298035485,False,13.0
+county,Towner,459,"Sporting goods, hobby, books and other",,2254.0440490650026,,,False,
+county,Traill,459,"Sporting goods, hobby, books and other",2242.0,9586.005966020399,0.2338826001097055,7344.005966020399,False,5.0
+county,Walsh,459,"Sporting goods, hobby, books and other",722.0,10580.556060037587,0.06823837952401862,9858.556060037587,False,4.0
+county,Ward,459,"Sporting goods, hobby, books and other",124059.0,81952.18350183322,1.513797371820177,-42106.81649816678,False,52.0
+county,Wells,459,"Sporting goods, hobby, books and other",476.0,4792.783763625174,0.09931597657557625,4316.783763625174,False,3.0
+county,Williams,459,"Sporting goods, hobby, books and other",,48340.56018007783,,,False,19.0
+county,Adams,722,Restaurants and bars,3394.0272905276156,3884.5616133069007,0.8737220897465193,490.53432277928505,True,0.0
+county,Barnes,722,Restaurants and bars,16788.0,22404.597509812647,0.749310492752538,5616.597509812647,False,29.0
+county,Benson,722,Restaurants and bars,2414.0,7987.240270001629,0.3022320499192279,5573.240270001629,False,8.0
+county,Billings,722,Restaurants and bars,2019.2310456457496,2311.067866249737,0.8737220897465193,291.83682060398746,True,9.0
+county,Bottineau,722,Restaurants and bars,9033.0,15189.799624729989,0.5946753889559994,6156.799624729989,False,25.0
+county,Bowman,722,Restaurants and bars,2100.0,5738.608069646081,0.3659423983156797,3638.6080696460813,False,8.0
+county,Burke,722,Restaurants and bars,4793.815538087583,5486.659424483986,0.8737220897465193,692.8438863964029,True,0.0
+county,Burleigh,722,Restaurants and bars,198548.81503225997,227244.81544224452,0.8737220897465192,28696.000409984554,True,0.0
+county,Cass,722,Restaurants and bars,518572.0,433695.252538995,1.1957059639553547,-84876.747461005,False,416.0
+county,Cavalier,722,Restaurants and bars,7404.10615926542,8474.211933240087,0.8737220897465192,1070.1057739746675,True,0.0
+county,Dickey,722,Restaurants and bars,2585.0,9838.928438677196,0.26273186314052943,7253.928438677196,False,12.0
+county,Divide,722,Restaurants and bars,2437.0,5308.741359562184,0.4590541966431345,2871.741359562184,False,8.0
+county,Dunn,722,Restaurants and bars,9394.777982338615,10752.592949852271,0.8737220897465192,1357.8149675136556,True,9.0
+county,Eddy,722,Restaurants and bars,4030.8468709632693,4613.419894342699,0.8737220897465193,582.5730233794297,True,7.0
+county,Emmons,722,Restaurants and bars,1728.0,6236.236245264497,0.27709020826659053,4508.236245264497,False,10.0
+county,Foster,722,Restaurants and bars,6773.931652712573,7752.959129919444,0.8737220897465193,979.0274772068715,True,11.0
+county,Golden Valley,722,Restaurants and bars,2671.5042862739783,3057.6133047626436,0.8737220897465194,386.10901848866524,True,0.0
+county,Grand Forks,722,Restaurants and bars,188659.0,144553.91015415886,1.3051117039919948,-44105.08984584114,False,165.0
+county,Grant,722,Restaurants and bars,1240.0,4312.743130331173,0.28752002206650806,3072.7431303311732,False,7.0
+county,Griggs,722,Restaurants and bars,4462.0683805868875,5106.965284443483,0.8737220897465193,644.8969038565956,True,0.0
+county,Hettinger,722,Restaurants and bars,4944.3127249463205,5658.907772814516,0.8737220897465194,714.5950478681953,True,0.0
+county,Kidder,722,Restaurants and bars,4049.395555877745,4634.6493964145275,0.8737220897465193,585.2538405367823,True,0.0
+county,LaMoure,722,Restaurants and bars,7574.57720192306,8669.320932609779,0.8737220897465193,1094.7437306867187,True,0.0
+county,Logan,722,Restaurants and bars,2608.152864851198,2985.1057853051016,0.8737220897465193,376.9529204539035,True,0.0
+county,McHenry,722,Restaurants and bars,1915.0,10329.565273992854,0.18539018334309476,8414.565273992854,False,9.0
+county,McIntosh,722,Restaurants and bars,4075.0400464306445,4664.000251627927,0.8737220897465193,588.9602051972829,True,0.0
+county,McKenzie,722,Restaurants and bars,24096.0,36118.39892997873,0.6671392064391873,12022.398929978728,False,33.0
+county,McLean,722,Restaurants and bars,14325.0,21870.71557446546,0.6549854279447881,7545.715574465459,False,18.0
+county,Mercer,722,Restaurants and bars,9536.0,17035.542943253527,0.5597708292459489,7499.5429432535275,False,21.0
+county,Morton,722,Restaurants and bars,67037.99508611961,76726.90878808891,0.8737220897465192,9688.9137019693,True,0.0
+county,Mountrail,722,Restaurants and bars,11234.0,19897.3102837516,0.5645989251709981,8663.310283751602,False,29.0
+county,Nelson,722,Restaurants and bars,2869.0,6834.961265162478,0.41975365897436423,3965.9612651624784,False,13.0
+county,Oliver,722,Restaurants and bars,803.0,3820.863280892818,0.2101619296392002,3017.863280892818,False,3.0
+county,Pembina,722,Restaurants and bars,3242.0,13986.439126477091,0.23179595397249594,10744.439126477091,False,12.0
+county,Pierce,722,Restaurants and bars,4516.0,8085.708606156125,0.5585162933724453,3569.708606156125,False,11.0
+county,Ramsey,722,Restaurants and bars,28294.0,22458.62686280591,1.259827689949208,-5835.3731371940885,False,36.0
+county,Ransom,722,Restaurants and bars,4210.0,11281.306304736701,0.37318373300726176,7071.306304736701,False,15.0
+county,Renville,722,Restaurants and bars,2599.0,4348.824931584472,0.5976327032905111,1749.8249315844723,False,12.0
+county,Richland,722,Restaurants and bars,29170.247418518364,33386.18510490117,0.8737220897465193,4215.937686382804,True,38.0
+county,Rolette,722,Restaurants and bars,13573.803991131737,15535.608118903934,0.8737220897465193,1961.8041277721968,True,22.0
+county,Sargent,722,Restaurants and bars,1617.0,8850.334250090074,0.1827049639377793,7233.334250090074,False,10.0
+county,Sheridan,722,Restaurants and bars,2357.01800867171,2697.6747370042094,0.8737220897465194,340.65672833249937,True,0.0
+county,Sioux,722,Restaurants and bars,1434.0,3958.189319404659,0.3622868651001474,2524.189319404659,False,0.0
+county,Slope,722,Restaurants and bars,1551.0194832778516,1775.1862994877777,0.8737220897465193,224.16681620992608,True,
+county,Stark,722,Restaurants and bars,75693.0,67002.21973431663,1.1297088409928036,-8690.780265683366,False,72.0
+county,Steele,722,Restaurants and bars,849.0,3817.5223733693642,0.22239555317934348,2968.5223733693642,False,6.0
+county,Stutsman,722,Restaurants and bars,38271.0,42064.41348654039,0.9098189378593334,3793.4134865403903,False,42.0
+county,Towner,722,Restaurants and bars,3508.968180893272,4016.114760142186,0.8737220897465193,507.1465792489139,True,8.0
+county,Traill,722,Restaurants and bars,8296.0,17079.746097648396,0.48572150619629084,8783.746097648396,False,24.0
+county,Walsh,722,Restaurants and bars,16471.210740637438,18851.773274286792,0.8737220897465193,2380.562533649354,True,0.0
+county,Ward,722,Restaurants and bars,178298.0,146017.27678042455,1.2210746832932518,-32280.723219575448,False,161.0
+county,Wells,722,Restaurants and bars,7461.134458059406,8539.482457429913,0.8737220897465193,1078.3479993705068,True,15.0
+county,Williams,722,Restaurants and bars,107551.0,86130.18779880706,1.2487027225719067,-21420.812201192937,False,104.0
+region,Region 1 (Williston),44-45,All retail stores,1377037.0,1457112.7592118895,0.9450449124780157,80075.75921188947,False,195.0
+region,Region 1 (Williston),441,Motor vehicle and parts dealers,,390625.82882287557,,,False,29.0
+region,Region 1 (Williston),444,Building material and garden supply,,173396.5560374995,,,False,28.0
+region,Region 1 (Williston),445,Food and beverage stores,,121219.25949710276,,,False,17.0
+region,Region 1 (Williston),449,"Furniture, electronics and appliances",,46791.325824427826,,,False,15.0
+region,Region 1 (Williston),455,General merchandise stores,,218752.72087504383,,,False,7.0
+region,Region 1 (Williston),456,Health and personal care stores,,85994.76399375679,,,False,7.0
+region,Region 1 (Williston),457,Gasoline stations and fuel dealers,,317552.1644133759,,,False,34.0
+region,Region 1 (Williston),458,"Clothing, shoes and jewelry",,31188.600794375227,,,False,19.0
+region,Region 1 (Williston),459,"Sporting goods, hobby, books and other",,71591.53895343209,,,False,26.0
+region,Region 1 (Williston),722,Restaurants and bars,134084.0,127557.32808834797,1.0511665774868815,-6526.671911652025,False,145.0
+region,Region 2 (Minot),44-45,All retail stores,2452045.0,2391505.50931709,1.0253143847869277,-60539.4906829102,False,413.0
+region,Region 2 (Minot),441,Motor vehicle and parts dealers,,641119.7869248874,,,False,51.0
+region,Region 2 (Minot),444,Building material and garden supply,,284589.38159636833,,,False,32.0
+region,Region 2 (Minot),445,Food and beverage stores,,198952.70636395772,,,False,32.0
+region,Region 2 (Minot),449,"Furniture, electronics and appliances",,76796.87985018718,,,False,21.0
+region,Region 2 (Minot),455,General merchandise stores,,359030.7845727237,,,False,19.0
+region,Region 2 (Minot),456,Health and personal care stores,,141140.03913789504,,,False,27.0
+region,Region 2 (Minot),457,Gasoline stations and fuel dealers,,521186.6726778974,,,False,52.0
+region,Region 2 (Minot),458,"Clothing, shoes and jewelry",,51188.70187368483,,,False,44.0
+region,Region 2 (Minot),459,"Sporting goods, hobby, books and other",,117500.5563194885,,,False,64.0
+region,Region 2 (Minot),722,Restaurants and bars,212388.81553808757,209355.14492512358,1.014490547218455,-3033.6706129639933,True,247.0
+region,Region 3 (Devils Lake),44-45,All retail stores,736517.5568669981,720635.0512162558,1.0220395963587068,-15882.505650742329,True,161.0
+region,Region 3 (Devils Lake),441,Motor vehicle and parts dealers,,193189.34816851089,,,False,18.0
+region,Region 3 (Devils Lake),444,Building material and garden supply,,85755.63919184315,,,False,18.0
+region,Region 3 (Devils Lake),445,Food and beverage stores,,59950.643300480726,,,False,14.0
+region,Region 3 (Devils Lake),449,"Furniture, electronics and appliances",,23141.290383182804,,,False,6.0
+region,Region 3 (Devils Lake),455,General merchandise stores,,108187.15107315782,,,False,10.0
+region,Region 3 (Devils Lake),456,Health and personal care stores,,42529.887109415606,,,False,8.0
+region,Region 3 (Devils Lake),457,Gasoline stations and fuel dealers,,157049.76764436447,,,False,34.0
+region,Region 3 (Devils Lake),458,"Clothing, shoes and jewelry",,15424.749243822664,,,False,4.0
+region,Region 3 (Devils Lake),459,"Sporting goods, hobby, books and other",,35406.57510147767,,,False,14.0
+region,Region 3 (Devils Lake),722,Restaurants and bars,59225.7252022537,63085.221839436446,0.9388209072640518,3859.496637182747,True,81.0
+region,Region 4 (Grand Forks),44-45,All retail stores,2391641.0,2104462.6635697433,1.1364615972531078,-287178.3364302567,False,367.0
+region,Region 4 (Grand Forks),441,Motor vehicle and parts dealers,,564168.7419087283,,,False,51.0
+region,Region 4 (Grand Forks),444,Building material and garden supply,,250431.25582804176,,,False,36.0
+region,Region 4 (Grand Forks),445,Food and beverage stores,,175073.2083735248,,,False,36.0
+region,Region 4 (Grand Forks),449,"Furniture, electronics and appliances",,67579.2573731185,,,False,19.0
+region,Region 4 (Grand Forks),455,General merchandise stores,,315937.75479999033,,,False,19.0
+region,Region 4 (Grand Forks),456,Health and personal care stores,,124199.56447655833,,,False,35.0
+region,Region 4 (Grand Forks),457,Gasoline stations and fuel dealers,,458630.71990747086,,,False,57.0
+region,Region 4 (Grand Forks),458,"Clothing, shoes and jewelry",,45044.72662516834,,,False,32.0
+region,Region 4 (Grand Forks),459,"Sporting goods, hobby, books and other",,103397.43427714224,,,False,53.0
+region,Region 4 (Grand Forks),722,Restaurants and bars,211241.21074063744,184227.08382008522,1.1466349374934144,-27014.126920552226,True,190.0
+region,Region 5 (Fargo),44-45,All retail stores,5935959.0,5804245.669894106,1.022692583601186,-131713.33010589425,False,810.0
+region,Region 5 (Fargo),441,Motor vehicle and parts dealers,,1556014.2900130001,,,False,103.0
+region,Region 5 (Fargo),444,Building material and garden supply,,690705.7831952276,,,False,70.0
+region,Region 5 (Fargo),445,Food and beverage stores,,482863.359472865,,,False,86.0
+region,Region 5 (Fargo),449,"Furniture, electronics and appliances",,186388.01190096905,,,False,61.0
+region,Region 5 (Fargo),455,General merchandise stores,,871376.9918556395,,,False,26.0
+region,Region 5 (Fargo),456,Health and personal care stores,,342550.5221807927,,,False,89.0
+region,Region 5 (Fargo),457,Gasoline stations and fuel dealers,,1264933.5225495833,,,False,108.0
+region,Region 5 (Fargo),458,"Clothing, shoes and jewelry",,124236.3022122737,,,False,95.0
+region,Region 5 (Fargo),459,"Sporting goods, hobby, books and other",,285176.886513755,,,False,139.0
+region,Region 5 (Fargo),722,Restaurants and bars,562714.2474185184,508110.3466697407,1.1074646503592436,-54603.90074877773,True,509.0
+region,Region 6 (Jamestown),44-45,All retail stores,1196672.0,1279692.7158000108,0.935124491391584,83020.71580001083,False,270.0
+region,Region 6 (Jamestown),441,Motor vehicle and parts dealers,,343062.6933898699,,,False,41.0
+region,Region 6 (Jamestown),444,Building material and garden supply,,152283.55410600672,,,False,36.0
+region,Region 6 (Jamestown),445,Food and beverage stores,,106459.4365895303,,,False,23.0
+region,Region 6 (Jamestown),449,"Furniture, electronics and appliances",,41093.949964813844,,,False,11.0
+region,Region 6 (Jamestown),455,General merchandise stores,,192117.09024951237,,,False,3.0
+region,Region 6 (Jamestown),456,Health and personal care stores,,75523.92385835177,,,False,12.0
+region,Region 6 (Jamestown),457,Gasoline stations and fuel dealers,,278886.57834972086,,,False,38.0
+region,Region 6 (Jamestown),458,"Clothing, shoes and jewelry",,27391.03408451627,,,False,9.0
+region,Region 6 (Jamestown),459,"Sporting goods, hobby, books and other",,62874.4552076888,,,False,27.0
+region,Region 6 (Jamestown),722,Restaurants and bars,90598.90460456377,112025.77327636589,0.8087326867278803,21426.86867180212,True,109.0
+region,Region 7 (Bismarck),44-45,All retail stores,3739085.6720695095,4209886.831714485,0.8881677397838172,470801.1596449753,True,621.0
+region,Region 7 (Bismarck),441,Motor vehicle and parts dealers,,1128595.245970146,,,False,88.0
+region,Region 7 (Bismarck),444,Building material and garden supply,,500976.9307913666,,,False,49.0
+region,Region 7 (Bismarck),445,Food and beverage stores,,350226.4056647552,,,False,51.0
+region,Region 7 (Bismarck),449,"Furniture, electronics and appliances",,135189.3909248759,,,False,46.0
+region,Region 7 (Bismarck),455,General merchandise stores,,632019.8578946374,,,False,22.0
+region,Region 7 (Bismarck),456,Health and personal care stores,,248455.874293162,,,False,55.0
+region,Region 7 (Bismarck),457,Gasoline stations and fuel dealers,,917470.9828698315,,,False,39.0
+region,Region 7 (Bismarck),458,"Clothing, shoes and jewelry",,90110.03366332257,,,False,0.0
+region,Region 7 (Bismarck),459,"Sporting goods, hobby, books and other",,206842.10964238818,,,False,75.0
+region,Region 7 (Bismarck),722,Restaurants and bars,301059.22368292906,368538.3388573643,0.8169006910281003,67479.11517443525,True,59.0
+region,Region 8 (Dickinson),44-45,All retail stores,1282968.7710634926,1144384.7431531071,1.1210991572017528,-138584.0279103855,True,245.0
+region,Region 8 (Dickinson),441,Motor vehicle and parts dealers,,306789.0497563275,,,False,29.0
+region,Region 8 (Dickinson),444,Building material and garden supply,,136181.89257496694,,,False,22.0
+region,Region 8 (Dickinson),445,Food and beverage stores,,95202.97606880627,,,False,20.0
+region,Region 8 (Dickinson),449,"Furniture, electronics and appliances",,36748.89197617306,,,False,14.0
+region,Region 8 (Dickinson),455,General merchandise stores,,171803.64025364147,,,False,7.0
+region,Region 8 (Dickinson),456,Health and personal care stores,,67538.42163782517,,,False,11.0
+region,Region 8 (Dickinson),457,Gasoline stations and fuel dealers,,249398.57935666427,,,False,30.0
+region,Region 8 (Dickinson),458,"Clothing, shoes and jewelry",,24494.850301551498,,,False,14.0
+region,Region 8 (Dickinson),459,"Sporting goods, hobby, books and other",,56226.44122715094,,,False,40.0
+region,Region 8 (Dickinson),722,Restaurants and bars,101767.87281301012,100180.75761043656,1.015842515473333,-1587.1152025735646,True,98.0
+state,North Dakota,44-45,All retail stores,19111926.0,19111926.0,1.0,0.0,False,3082.0
+state,North Dakota,441,Motor vehicle and parts dealers,5123565.0,5123565.0,1.0,0.0,False,437.0
+state,North Dakota,444,Building material and garden supply,2274321.0,2274321.0,1.0,0.0,False,365.0
+state,North Dakota,445,Food and beverage stores,1589948.0,1589948.0,1.0,0.0,False,367.0
+state,North Dakota,449,"Furniture, electronics and appliances",613729.0,613729.0,1.0,0.0,False,211.0
+state,North Dakota,455,General merchandise stores,2869226.0,2869226.0,1.0,0.0,False,167.0
+state,North Dakota,456,Health and personal care stores,1127933.0,1127933.0,1.0,0.0,False,287.0
+state,North Dakota,457,Gasoline stations and fuel dealers,4165109.0,4165109.0,1.0,0.0,False,478.0
+state,North Dakota,458,"Clothing, shoes and jewelry",409079.0,409079.0,1.0,0.0,False,302.0
+state,North Dakota,459,"Sporting goods, hobby, books and other",939016.0,939016.0,1.0,0.0,False,468.0
+state,North Dakota,722,Restaurants and bars,1673080.0,1673080.0,1.0,0.0,False,1814.0

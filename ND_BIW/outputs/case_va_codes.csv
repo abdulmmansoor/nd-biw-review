@@ -1,0 +1,4 @@
+group,naics,naics_2017_code,title,year,estabs,jobs,avg_pay,lq,withheld,us_jobs,us_avg_pay
+Value-added agriculture,311,311,"Food manufacturing (ND has no seafood processing, 3117)",2024,166.0,5582.0,65345.14994625582,1.14,False,1766665,61428.21553265616
+Value-added agriculture,3121,3121,Beverage manufacturing,2024,24.0,405.0,41504.427160493826,0.45,False,323521,60053.181057798414
+Value-added agriculture,325193,325193,Ethyl alcohol (fuel ethanol) manufacturing,2024,7.0,270.0,113766.50370370371,9.21,False,10594,103384.10100056636

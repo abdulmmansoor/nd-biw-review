@@ -1,0 +1,675 @@
+year,months,hs2,product,value
+2020,12,01,Live animals,7.416953
+2020,12,02,Meat and edible meat offal,4.093248
+2020,12,03,"Fish, crustaceans & aquatic invertebrates",0.357742
+2020,12,04,Dairy prods; birds eggs; honey; ed animal pr nesoi,0.778122
+2020,12,05,"Products of animal origin, nesoi",0.002572
+2020,12,06,"Live trees, plants, bulbs etc.; cut flowers etc.",0.284347
+2020,12,07,Edible vegetables & certain roots & tubers,140.227314
+2020,12,08,Edible fruit & nuts; citrus fruit or melon peel,1.30201
+2020,12,09,"Coffee, tea, mate & spices",0.110419
+2020,12,10,Cereals,192.322105
+2020,12,11,Milling products; malt; starch; inulin; wht gluten,12.732676
+2020,12,12,"Oil seeds etc.; misc grain, seed, fruit, plant etc",141.565948
+2020,12,15,"Animal, vegetable or microbial fats and oils etc",57.144224
+2020,12,16,"Prep of meat,of fish,of crustaceans etc,of insects",0.518787
+2020,12,17,Sugars and sugar confectionary,14.073228
+2020,12,18,Cocoa and cocoa preparations,0.003735
+2020,12,19,"Prep cereal, flour, starch or milk; bakers wares",13.823677
+2020,12,20,"Prep vegetables, fruit, nuts or other plant parts",6.745845
+2020,12,21,Miscellaneous edible preparations,6.916143
+2020,12,22,"Beverages, spirits and vinegar",85.959708
+2020,12,23,Food industry residues & waste; prep animal feed,95.703476
+2020,12,25,Salt; sulfur; earth & stone; lime & cement plaster,0.252077
+2020,12,26,"Ores, slag and ash",0.659267
+2020,12,27,"Mineral fuel, oil etc.; bitumin subst; mineral wax",3285.46589
+2020,12,28,Inorg chem; prec & rare-earth met & radioact compd,3.416087
+2020,12,29,Organic chemicals,93.424253
+2020,12,30,Pharmaceutical products,2.127612
+2020,12,31,Fertilizers,14.333038
+2020,12,32,"Tanning & dye ext etc; dye, paint, putty etc; inks",0.192248
+2020,12,33,"Essential oils etc; perfumery, cosmetic etc preps",0.081916
+2020,12,34,"Soap etc; waxes, polish etc; candles; dental preps",0.19278
+2020,12,35,Albuminoidal subst; modified starch; glue; enzymes,0.65479
+2020,12,36,Explosives; pyrotechnics; matches; pyro alloys etc,1.036006
+2020,12,38,Miscellaneous chemical products,54.144479
+2020,12,39,Plastics and articles thereof,26.092724
+2020,12,40,Rubber and articles thereof,19.819769
+2020,12,41,Raw hides and skins (no furskins) and leather,0.021784
+2020,12,42,Leather art; saddlery etc; handbags etc; gut art,0.048899
+2020,12,43,Furskins and artificial fur; manufactures thereof,0.018513
+2020,12,44,Wood and articles of wood; wood charcoal,3.291664
+2020,12,48,Paper & paperboard & articles (inc papr pulp artl),1.258655
+2020,12,49,"Printed books, newspapers etc; manuscripts etc",0.599984
+2020,12,52,"Cotton, including yarn and woven fabric thereof",0.007614
+2020,12,54,"Manmade filaments, including yarns & woven fabrics",0.026546
+2020,12,55,"Manmade staple fibers, incl yarns & woven fabrics",0.059854
+2020,12,56,"Wadding, felt etc; sp yarn; twine, ropes etc.",0.033858
+2020,12,57,Carpets and other textile floor coverings,0.20796
+2020,12,58,Spec wov fabrics; tufted fab; lace; tapestries etc,0.003148
+2020,12,59,Impregnated etc text fabrics; tex art for industry,0.145016
+2020,12,60,Knitted or crocheted fabrics,0.003827
+2020,12,61,"Apparel articles and accessories, knit or crochet",0.262375
+2020,12,62,"Apparel articles and accessories, not knit etc.",0.098492
+2020,12,63,Textile art nesoi; needlecraft sets; worn text art,0.642477
+2020,12,64,"Footwear, gaiters etc. and parts thereof",0.013423
+2020,12,65,Headgear and parts thereof,0.014409
+2020,12,66,"Umbrellas, walking-sticks, riding-crops etc, parts",0.004439
+2020,12,67,"Prep feathers, down etc; artif flowers; h hair art",0.008805
+2020,12,68,"Art of stone, plaster, cement, asbestos, mica etc.",1.699352
+2020,12,69,Ceramic products,1.958752
+2020,12,70,Glass and glassware,11.960748
+2020,12,71,"Nat etc pearls, prec etc stones, pr met etc; coin",5.755075
+2020,12,72,Iron and steel,7.024399
+2020,12,73,Articles of iron or steel,13.359126
+2020,12,74,Copper and articles thereof,0.389796
+2020,12,75,Nickel and articles thereof,0.008269
+2020,12,76,Aluminum and articles thereof,0.478463
+2020,12,79,Zinc and articles thereof,0.002958
+2020,12,80,Tin and articles thereof,0.002998
+2020,12,81,Base metals nesoi; cermets; articles thereof,0.094515
+2020,12,82,"Tools, cutlery etc. of base metal & parts thereof",1.519099
+2020,12,83,Miscellaneous articles of base metal,0.351522
+2020,12,84,"Nuclear reactors, boilers, machinery etc.; parts",402.924787
+2020,12,85,Electric machinery etc; sound equip; tv equip; pts,130.151795
+2020,12,86,Railway or tramway stock etc; traffic signal equip,0.232243
+2020,12,87,"Vehicles, except railway or tramway, and parts etc",252.474597
+2020,12,88,"Aircraft, spacecraft, and parts thereof",16.931436
+2020,12,89,"Ships, boats and floating structures",0.40077
+2020,12,90,"Optic, photo etc, medic or surgical instrments etc",15.211164
+2020,12,91,Clocks and watches and parts thereof,0.016167
+2020,12,92,Musical instruments; parts and accessories thereof,0.070601
+2020,12,93,Arms and ammunition; parts and accessories thereof,0.260939
+2020,12,94,"Furnit;bedding,mattres;luminaires,light fix;prefab",10.317572
+2020,12,95,"Toys, games & sport equipment; parts & accessories",0.775594
+2020,12,96,Miscellaneous manufactured articles,0.056905
+2020,12,97,"Works of art, collectors' pieces and antiques",0.069655
+2020,12,98,"Special classification provisions, nesoi",5.522357
+2021,12,01,Live animals,20.748695
+2021,12,02,Meat and edible meat offal,9.290686
+2021,12,03,"Fish, crustaceans & aquatic invertebrates",0.002812
+2021,12,04,Dairy prods; birds eggs; honey; ed animal pr nesoi,0.868965
+2021,12,05,"Products of animal origin, nesoi",0.081106
+2021,12,06,"Live trees, plants, bulbs etc.; cut flowers etc.",0.199572
+2021,12,07,Edible vegetables & certain roots & tubers,169.898826
+2021,12,08,Edible fruit & nuts; citrus fruit or melon peel,1.221756
+2021,12,09,"Coffee, tea, mate & spices",0.102822
+2021,12,10,Cereals,365.251002
+2021,12,11,Milling products; malt; starch; inulin; wht gluten,11.996922
+2021,12,12,"Oil seeds etc.; misc grain, seed, fruit, plant etc",249.628166
+2021,12,15,"Animal, vegetable or microbial fats and oils etc",88.864574
+2021,12,17,Sugars and sugar confectionary,14.049236
+2021,12,18,Cocoa and cocoa preparations,0.009967
+2021,12,19,"Prep cereal, flour, starch or milk; bakers wares",13.230282
+2021,12,20,"Prep vegetables, fruit, nuts or other plant parts",12.1076
+2021,12,21,Miscellaneous edible preparations,10.725897
+2021,12,22,"Beverages, spirits and vinegar",132.058094
+2021,12,23,Food industry residues & waste; prep animal feed,128.663364
+2021,12,25,Salt; sulfur; earth & stone; lime & cement plaster,0.599892
+2021,12,26,"Ores, slag and ash",1.146755
+2021,12,27,"Mineral fuel, oil etc.; bitumin subst; mineral wax",2486.239335
+2021,12,28,Inorg chem; prec & rare-earth met & radioact compd,2.575473
+2021,12,29,Organic chemicals,151.833919
+2021,12,30,Pharmaceutical products,8.817603
+2021,12,31,Fertilizers,11.941219
+2021,12,32,"Tanning & dye ext etc; dye, paint, putty etc; inks",0.213083
+2021,12,33,"Essential oils etc; perfumery, cosmetic etc preps",0.073299
+2021,12,34,"Soap etc; waxes, polish etc; candles; dental preps",0.146184
+2021,12,35,Albuminoidal subst; modified starch; glue; enzymes,1.150304
+2021,12,36,Explosives; pyrotechnics; matches; pyro alloys etc,0.61785
+2021,12,38,Miscellaneous chemical products,128.172547
+2021,12,39,Plastics and articles thereof,32.438618
+2021,12,40,Rubber and articles thereof,29.707417
+2021,12,41,Raw hides and skins (no furskins) and leather,0.048604
+2021,12,42,Leather art; saddlery etc; handbags etc; gut art,0.106381
+2021,12,44,Wood and articles of wood; wood charcoal,4.948197
+2021,12,47,Wood pulp etc; recovd (waste & scrap) ppr & pprbd,0.005185
+2021,12,48,Paper & paperboard & articles (inc papr pulp artl),0.996696
+2021,12,49,"Printed books, newspapers etc; manuscripts etc",0.539376
+2021,12,52,"Cotton, including yarn and woven fabric thereof",0.010448
+2021,12,54,"Manmade filaments, including yarns & woven fabrics",0.0293
+2021,12,55,"Manmade staple fibers, incl yarns & woven fabrics",0.041268
+2021,12,56,"Wadding, felt etc; sp yarn; twine, ropes etc.",0.146123
+2021,12,57,Carpets and other textile floor coverings,0.104461
+2021,12,58,Spec wov fabrics; tufted fab; lace; tapestries etc,0.014993
+2021,12,59,Impregnated etc text fabrics; tex art for industry,0.040632
+2021,12,60,Knitted or crocheted fabrics,0.021054
+2021,12,61,"Apparel articles and accessories, knit or crochet",0.105589
+2021,12,62,"Apparel articles and accessories, not knit etc.",0.161369
+2021,12,63,Textile art nesoi; needlecraft sets; worn text art,0.340521
+2021,12,64,"Footwear, gaiters etc. and parts thereof",0.019919
+2021,12,65,Headgear and parts thereof,0.060848
+2021,12,68,"Art of stone, plaster, cement, asbestos, mica etc.",2.644278
+2021,12,69,Ceramic products,1.972453
+2021,12,70,Glass and glassware,15.849443
+2021,12,71,"Nat etc pearls, prec etc stones, pr met etc; coin",6.415264
+2021,12,72,Iron and steel,21.970704
+2021,12,73,Articles of iron or steel,19.087462
+2021,12,74,Copper and articles thereof,0.858069
+2021,12,75,Nickel and articles thereof,0.037756
+2021,12,76,Aluminum and articles thereof,2.285843
+2021,12,80,Tin and articles thereof,0.017188
+2021,12,81,Base metals nesoi; cermets; articles thereof,0.004037
+2021,12,82,"Tools, cutlery etc. of base metal & parts thereof",1.374103
+2021,12,83,Miscellaneous articles of base metal,0.395028
+2021,12,84,"Nuclear reactors, boilers, machinery etc.; parts",478.122655
+2021,12,85,Electric machinery etc; sound equip; tv equip; pts,181.229374
+2021,12,86,Railway or tramway stock etc; traffic signal equip,9.863937
+2021,12,87,"Vehicles, except railway or tramway, and parts etc",273.695629
+2021,12,88,"Aircraft, spacecraft, and parts thereof",14.173476
+2021,12,89,"Ships, boats and floating structures",1.441626
+2021,12,90,"Optic, photo etc, medic or surgical instrments etc",41.407475
+2021,12,91,Clocks and watches and parts thereof,0.004508
+2021,12,92,Musical instruments; parts and accessories thereof,0.02004
+2021,12,93,Arms and ammunition; parts and accessories thereof,0.204508
+2021,12,94,"Furnit;bedding,mattres;luminaires,light fix;prefab",7.093328
+2021,12,95,"Toys, games & sport equipment; parts & accessories",1.31753
+2021,12,96,Miscellaneous manufactured articles,0.080139
+2021,12,97,"Works of art, collectors' pieces and antiques",0.088308
+2021,12,98,"Special classification provisions, nesoi",2.339395
+2022,12,01,Live animals,2.074023
+2022,12,02,Meat and edible meat offal,11.924902
+2022,12,04,Dairy prods; birds eggs; honey; ed animal pr nesoi,1.072514
+2022,12,05,"Products of animal origin, nesoi",0.039984
+2022,12,06,"Live trees, plants, bulbs etc.; cut flowers etc.",0.271594
+2022,12,07,Edible vegetables & certain roots & tubers,153.514331
+2022,12,08,Edible fruit & nuts; citrus fruit or melon peel,0.792459
+2022,12,09,"Coffee, tea, mate & spices",0.084905
+2022,12,10,Cereals,567.839084
+2022,12,11,Milling products; malt; starch; inulin; wht gluten,16.892563
+2022,12,12,"Oil seeds etc.; misc grain, seed, fruit, plant etc",168.968079
+2022,12,14,Vegetable plaiting materials & products nesoi,0.007356
+2022,12,15,"Animal, vegetable or microbial fats and oils etc",109.969429
+2022,12,16,"Prep of meat,of fish,of crustaceans etc,of insects",0.454118
+2022,12,17,Sugars and sugar confectionary,16.37506
+2022,12,18,Cocoa and cocoa preparations,0.007333
+2022,12,19,"Prep cereal, flour, starch or milk; bakers wares",15.19987
+2022,12,20,"Prep vegetables, fruit, nuts or other plant parts",9.648804
+2022,12,21,Miscellaneous edible preparations,34.412923
+2022,12,22,"Beverages, spirits and vinegar",172.768602
+2022,12,23,Food industry residues & waste; prep animal feed,145.236676
+2022,12,25,Salt; sulfur; earth & stone; lime & cement plaster,0.635918
+2022,12,26,"Ores, slag and ash",1.404514
+2022,12,27,"Mineral fuel, oil etc.; bitumin subst; mineral wax",1923.450625
+2022,12,28,Inorg chem; prec & rare-earth met & radioact compd,2.522461
+2022,12,29,Organic chemicals,223.581883
+2022,12,30,Pharmaceutical products,5.118695
+2022,12,31,Fertilizers,39.300501
+2022,12,32,"Tanning & dye ext etc; dye, paint, putty etc; inks",0.084934
+2022,12,33,"Essential oils etc; perfumery, cosmetic etc preps",0.036211
+2022,12,34,"Soap etc; waxes, polish etc; candles; dental preps",0.716622
+2022,12,35,Albuminoidal subst; modified starch; glue; enzymes,3.64681
+2022,12,36,Explosives; pyrotechnics; matches; pyro alloys etc,1.17399
+2022,12,38,Miscellaneous chemical products,172.37801
+2022,12,39,Plastics and articles thereof,34.599324
+2022,12,40,Rubber and articles thereof,38.30759
+2022,12,41,Raw hides and skins (no furskins) and leather,0.018759
+2022,12,42,Leather art; saddlery etc; handbags etc; gut art,0.085386
+2022,12,43,Furskins and artificial fur; manufactures thereof,0.004349
+2022,12,44,Wood and articles of wood; wood charcoal,5.48197
+2022,12,47,Wood pulp etc; recovd (waste & scrap) ppr & pprbd,0.052479
+2022,12,48,Paper & paperboard & articles (inc papr pulp artl),1.32458
+2022,12,49,"Printed books, newspapers etc; manuscripts etc",0.724734
+2022,12,51,"Wool & animal hair, including yarn & woven fabric",0.004576
+2022,12,52,"Cotton, including yarn and woven fabric thereof",0.014927
+2022,12,53,Veg text fib nesoi; veg fib & paper yns & wov fab,0.68191
+2022,12,54,"Manmade filaments, including yarns & woven fabrics",0.038482
+2022,12,55,"Manmade staple fibers, incl yarns & woven fabrics",0.062798
+2022,12,56,"Wadding, felt etc; sp yarn; twine, ropes etc.",0.198131
+2022,12,57,Carpets and other textile floor coverings,0.033322
+2022,12,58,Spec wov fabrics; tufted fab; lace; tapestries etc,0.043848
+2022,12,59,Impregnated etc text fabrics; tex art for industry,0.323755
+2022,12,61,"Apparel articles and accessories, knit or crochet",0.171902
+2022,12,62,"Apparel articles and accessories, not knit etc.",0.081104
+2022,12,63,Textile art nesoi; needlecraft sets; worn text art,1.295618
+2022,12,64,"Footwear, gaiters etc. and parts thereof",0.009549
+2022,12,65,Headgear and parts thereof,0.077565
+2022,12,67,"Prep feathers, down etc; artif flowers; h hair art",0.041885
+2022,12,68,"Art of stone, plaster, cement, asbestos, mica etc.",2.444137
+2022,12,69,Ceramic products,1.986823
+2022,12,70,Glass and glassware,19.110408
+2022,12,71,"Nat etc pearls, prec etc stones, pr met etc; coin",1.978241
+2022,12,72,Iron and steel,21.538084
+2022,12,73,Articles of iron or steel,15.79594
+2022,12,74,Copper and articles thereof,1.135574
+2022,12,75,Nickel and articles thereof,0.058152
+2022,12,76,Aluminum and articles thereof,0.950334
+2022,12,79,Zinc and articles thereof,0.011983
+2022,12,80,Tin and articles thereof,0.003809
+2022,12,81,Base metals nesoi; cermets; articles thereof,0.002608
+2022,12,82,"Tools, cutlery etc. of base metal & parts thereof",1.648137
+2022,12,83,Miscellaneous articles of base metal,0.873292
+2022,12,84,"Nuclear reactors, boilers, machinery etc.; parts",620.53489
+2022,12,85,Electric machinery etc; sound equip; tv equip; pts,177.849864
+2022,12,86,Railway or tramway stock etc; traffic signal equip,0.96048
+2022,12,87,"Vehicles, except railway or tramway, and parts etc",417.194989
+2022,12,88,"Aircraft, spacecraft, and parts thereof",27.814125
+2022,12,89,"Ships, boats and floating structures",0.977282
+2022,12,90,"Optic, photo etc, medic or surgical instrments etc",28.193867
+2022,12,91,Clocks and watches and parts thereof,0.027941
+2022,12,92,Musical instruments; parts and accessories thereof,0.008825
+2022,12,93,Arms and ammunition; parts and accessories thereof,0.317489
+2022,12,94,"Furnit;bedding,mattres;luminaires,light fix;prefab",11.7658
+2022,12,95,"Toys, games & sport equipment; parts & accessories",1.245885
+2022,12,96,Miscellaneous manufactured articles,0.037249
+2022,12,97,"Works of art, collectors' pieces and antiques",0.127425
+2022,12,98,"Special classification provisions, nesoi",5.497185
+2023,12,01,Live animals,5.038018
+2023,12,02,Meat and edible meat offal,9.45122
+2023,12,04,Dairy prods; birds eggs; honey; ed animal pr nesoi,1.750901
+2023,12,06,"Live trees, plants, bulbs etc.; cut flowers etc.",0.213051
+2023,12,07,Edible vegetables & certain roots & tubers,270.207799
+2023,12,08,Edible fruit & nuts; citrus fruit or melon peel,0.924645
+2023,12,09,"Coffee, tea, mate & spices",0.100992
+2023,12,10,Cereals,482.880308
+2023,12,11,Milling products; malt; starch; inulin; wht gluten,18.972975
+2023,12,12,"Oil seeds etc.; misc grain, seed, fruit, plant etc",230.310261
+2023,12,13,"Lac; gums, resins & other vegetable sap & extract",0.002596
+2023,12,15,"Animal, vegetable or microbial fats and oils etc",105.38478
+2023,12,16,"Prep of meat,of fish,of crustaceans etc,of insects",0.438684
+2023,12,17,Sugars and sugar confectionary,23.812018
+2023,12,18,Cocoa and cocoa preparations,0.010427
+2023,12,19,"Prep cereal, flour, starch or milk; bakers wares",13.627649
+2023,12,20,"Prep vegetables, fruit, nuts or other plant parts",18.467735
+2023,12,21,Miscellaneous edible preparations,21.742731
+2023,12,22,"Beverages, spirits and vinegar",243.354977
+2023,12,23,Food industry residues & waste; prep animal feed,118.394602
+2023,12,25,Salt; sulfur; earth & stone; lime & cement plaster,0.477627
+2023,12,26,"Ores, slag and ash",1.514322
+2023,12,27,"Mineral fuel, oil etc.; bitumin subst; mineral wax",5015.312182
+2023,12,28,Inorg chem; prec & rare-earth met & radioact compd,8.343738
+2023,12,29,Organic chemicals,160.366394
+2023,12,30,Pharmaceutical products,6.39324
+2023,12,31,Fertilizers,13.038024
+2023,12,32,"Tanning & dye ext etc; dye, paint, putty etc; inks",0.297184
+2023,12,33,"Essential oils etc; perfumery, cosmetic etc preps",0.061484
+2023,12,34,"Soap etc; waxes, polish etc; candles; dental preps",0.366304
+2023,12,35,Albuminoidal subst; modified starch; glue; enzymes,13.6096
+2023,12,36,Explosives; pyrotechnics; matches; pyro alloys etc,1.470082
+2023,12,37,Photographic or cinematographic goods,0.004838
+2023,12,38,Miscellaneous chemical products,215.563756
+2023,12,39,Plastics and articles thereof,27.600245
+2023,12,40,Rubber and articles thereof,51.953325
+2023,12,41,Raw hides and skins (no furskins) and leather,0.002583
+2023,12,42,Leather art; saddlery etc; handbags etc; gut art,0.140072
+2023,12,44,Wood and articles of wood; wood charcoal,3.272808
+2023,12,47,Wood pulp etc; recovd (waste & scrap) ppr & pprbd,0.073563
+2023,12,48,Paper & paperboard & articles (inc papr pulp artl),1.423514
+2023,12,49,"Printed books, newspapers etc; manuscripts etc",4.317026
+2023,12,52,"Cotton, including yarn and woven fabric thereof",0.008857
+2023,12,54,"Manmade filaments, including yarns & woven fabrics",0.018577
+2023,12,55,"Manmade staple fibers, incl yarns & woven fabrics",0.154926
+2023,12,56,"Wadding, felt etc; sp yarn; twine, ropes etc.",0.167975
+2023,12,57,Carpets and other textile floor coverings,0.01464
+2023,12,58,Spec wov fabrics; tufted fab; lace; tapestries etc,0.008159
+2023,12,59,Impregnated etc text fabrics; tex art for industry,0.056025
+2023,12,61,"Apparel articles and accessories, knit or crochet",0.200603
+2023,12,62,"Apparel articles and accessories, not knit etc.",0.068774
+2023,12,63,Textile art nesoi; needlecraft sets; worn text art,0.415119
+2023,12,64,"Footwear, gaiters etc. and parts thereof",0.163232
+2023,12,65,Headgear and parts thereof,0.101077
+2023,12,67,"Prep feathers, down etc; artif flowers; h hair art",0.00473
+2023,12,68,"Art of stone, plaster, cement, asbestos, mica etc.",0.443403
+2023,12,69,Ceramic products,2.738757
+2023,12,70,Glass and glassware,17.920635
+2023,12,71,"Nat etc pearls, prec etc stones, pr met etc; coin",0.976378
+2023,12,72,Iron and steel,20.492444
+2023,12,73,Articles of iron or steel,23.19244
+2023,12,74,Copper and articles thereof,0.800402
+2023,12,75,Nickel and articles thereof,0.021531
+2023,12,76,Aluminum and articles thereof,1.408183
+2023,12,78,Lead and articles thereof,0.003599
+2023,12,80,Tin and articles thereof,0.025234
+2023,12,81,Base metals nesoi; cermets; articles thereof,0.0103
+2023,12,82,"Tools, cutlery etc. of base metal & parts thereof",2.676799
+2023,12,83,Miscellaneous articles of base metal,1.594709
+2023,12,84,"Nuclear reactors, boilers, machinery etc.; parts",797.379637
+2023,12,85,Electric machinery etc; sound equip; tv equip; pts,157.854385
+2023,12,86,Railway or tramway stock etc; traffic signal equip,1.311912
+2023,12,87,"Vehicles, except railway or tramway, and parts etc",558.804489
+2023,12,88,"Aircraft, spacecraft, and parts thereof",58.397431
+2023,12,89,"Ships, boats and floating structures",0.558328
+2023,12,90,"Optic, photo etc, medic or surgical instrments etc",26.404497
+2023,12,91,Clocks and watches and parts thereof,0.016814
+2023,12,92,Musical instruments; parts and accessories thereof,0.021623
+2023,12,93,Arms and ammunition; parts and accessories thereof,0.269119
+2023,12,94,"Furnit;bedding,mattres;luminaires,light fix;prefab",15.495839
+2023,12,95,"Toys, games & sport equipment; parts & accessories",0.860987
+2023,12,96,Miscellaneous manufactured articles,0.210694
+2023,12,97,"Works of art, collectors' pieces and antiques",0.052644
+2023,12,98,"Special classification provisions, nesoi",4.159976
+2024,12,01,Live animals,1.784937
+2024,12,02,Meat and edible meat offal,6.964418
+2024,12,04,Dairy prods; birds eggs; honey; ed animal pr nesoi,0.863242
+2024,12,05,"Products of animal origin, nesoi",0.0036
+2024,12,06,"Live trees, plants, bulbs etc.; cut flowers etc.",0.168874
+2024,12,07,Edible vegetables & certain roots & tubers,284.247058
+2024,12,08,Edible fruit & nuts; citrus fruit or melon peel,0.956616
+2024,12,09,"Coffee, tea, mate & spices",0.11143
+2024,12,10,Cereals,495.424924
+2024,12,11,Milling products; malt; starch; inulin; wht gluten,20.565205
+2024,12,12,"Oil seeds etc.; misc grain, seed, fruit, plant etc",322.729351
+2024,12,13,"Lac; gums, resins & other vegetable sap & extract",0.004186
+2024,12,15,"Animal, vegetable or microbial fats and oils etc",40.024688
+2024,12,16,"Prep of meat,of fish,of crustaceans etc,of insects",0.134871
+2024,12,17,Sugars and sugar confectionary,25.703275
+2024,12,18,Cocoa and cocoa preparations,0.006231
+2024,12,19,"Prep cereal, flour, starch or milk; bakers wares",20.909426
+2024,12,20,"Prep vegetables, fruit, nuts or other plant parts",17.126874
+2024,12,21,Miscellaneous edible preparations,10.371717
+2024,12,22,"Beverages, spirits and vinegar",190.641636
+2024,12,23,Food industry residues & waste; prep animal feed,188.309685
+2024,12,25,Salt; sulfur; earth & stone; lime & cement plaster,1.35696
+2024,12,26,"Ores, slag and ash",3.915934
+2024,12,27,"Mineral fuel, oil etc.; bitumin subst; mineral wax",3256.601252
+2024,12,28,Inorg chem; prec & rare-earth met & radioact compd,5.593717
+2024,12,29,Organic chemicals,127.778721
+2024,12,30,Pharmaceutical products,8.168047
+2024,12,31,Fertilizers,8.004469
+2024,12,32,"Tanning & dye ext etc; dye, paint, putty etc; inks",0.746913
+2024,12,33,"Essential oils etc; perfumery, cosmetic etc preps",0.067184
+2024,12,34,"Soap etc; waxes, polish etc; candles; dental preps",0.465388
+2024,12,35,Albuminoidal subst; modified starch; glue; enzymes,2.61189
+2024,12,36,Explosives; pyrotechnics; matches; pyro alloys etc,1.045259
+2024,12,37,Photographic or cinematographic goods,0.003754
+2024,12,38,Miscellaneous chemical products,130.373246
+2024,12,39,Plastics and articles thereof,29.026881
+2024,12,40,Rubber and articles thereof,39.759933
+2024,12,41,Raw hides and skins (no furskins) and leather,0.009996
+2024,12,42,Leather art; saddlery etc; handbags etc; gut art,0.128846
+2024,12,43,Furskins and artificial fur; manufactures thereof,0.007021
+2024,12,44,Wood and articles of wood; wood charcoal,3.799445
+2024,12,47,Wood pulp etc; recovd (waste & scrap) ppr & pprbd,0.003388
+2024,12,48,Paper & paperboard & articles (inc papr pulp artl),2.40931
+2024,12,49,"Printed books, newspapers etc; manuscripts etc",1.202502
+2024,12,52,"Cotton, including yarn and woven fabric thereof",0.119027
+2024,12,53,Veg text fib nesoi; veg fib & paper yns & wov fab,0.013604
+2024,12,54,"Manmade filaments, including yarns & woven fabrics",0.021925
+2024,12,55,"Manmade staple fibers, incl yarns & woven fabrics",0.099596
+2024,12,56,"Wadding, felt etc; sp yarn; twine, ropes etc.",0.161318
+2024,12,57,Carpets and other textile floor coverings,0.006574
+2024,12,58,Spec wov fabrics; tufted fab; lace; tapestries etc,0.003227
+2024,12,59,Impregnated etc text fabrics; tex art for industry,0.172302
+2024,12,61,"Apparel articles and accessories, knit or crochet",0.122191
+2024,12,62,"Apparel articles and accessories, not knit etc.",0.116097
+2024,12,63,Textile art nesoi; needlecraft sets; worn text art,0.280903
+2024,12,64,"Footwear, gaiters etc. and parts thereof",0.02953
+2024,12,65,Headgear and parts thereof,0.0945
+2024,12,66,"Umbrellas, walking-sticks, riding-crops etc, parts",0.003723
+2024,12,68,"Art of stone, plaster, cement, asbestos, mica etc.",0.470815
+2024,12,69,Ceramic products,3.688886
+2024,12,70,Glass and glassware,17.532064
+2024,12,71,"Nat etc pearls, prec etc stones, pr met etc; coin",0.721549
+2024,12,72,Iron and steel,20.00753
+2024,12,73,Articles of iron or steel,19.915363
+2024,12,74,Copper and articles thereof,1.515762
+2024,12,75,Nickel and articles thereof,0.04712
+2024,12,76,Aluminum and articles thereof,0.823797
+2024,12,78,Lead and articles thereof,0.00252
+2024,12,79,Zinc and articles thereof,0.014441
+2024,12,80,Tin and articles thereof,0.076399
+2024,12,81,Base metals nesoi; cermets; articles thereof,0.765625
+2024,12,82,"Tools, cutlery etc. of base metal & parts thereof",2.093507
+2024,12,83,Miscellaneous articles of base metal,1.149685
+2024,12,84,"Nuclear reactors, boilers, machinery etc.; parts",665.825276
+2024,12,85,Electric machinery etc; sound equip; tv equip; pts,102.287427
+2024,12,86,Railway or tramway stock etc; traffic signal equip,1.794709
+2024,12,87,"Vehicles, except railway or tramway, and parts etc",639.166088
+2024,12,88,"Aircraft, spacecraft, and parts thereof",63.242388
+2024,12,89,"Ships, boats and floating structures",0.535347
+2024,12,90,"Optic, photo etc, medic or surgical instrments etc",22.36671
+2024,12,91,Clocks and watches and parts thereof,0.013085
+2024,12,92,Musical instruments; parts and accessories thereof,0.074689
+2024,12,93,Arms and ammunition; parts and accessories thereof,0.880556
+2024,12,94,"Furnit;bedding,mattres;luminaires,light fix;prefab",10.69199
+2024,12,95,"Toys, games & sport equipment; parts & accessories",1.095943
+2024,12,96,Miscellaneous manufactured articles,0.133272
+2024,12,97,"Works of art, collectors' pieces and antiques",0.081329
+2024,12,98,"Special classification provisions, nesoi",3.651596
+2025,9,01,Live animals,5.028657
+2025,9,02,Meat and edible meat offal,0.145406
+2025,9,03,"Fish, crustaceans & aquatic invertebrates",0.16872
+2025,9,04,Dairy prods; birds eggs; honey; ed animal pr nesoi,0.101925
+2025,9,06,"Live trees, plants, bulbs etc.; cut flowers etc.",0.115779
+2025,9,07,Edible vegetables & certain roots & tubers,146.316352
+2025,9,08,Edible fruit & nuts; citrus fruit or melon peel,0.781221
+2025,9,09,"Coffee, tea, mate & spices",0.021233
+2025,9,10,Cereals,299.332537
+2025,9,11,Milling products; malt; starch; inulin; wht gluten,19.088008
+2025,9,12,"Oil seeds etc.; misc grain, seed, fruit, plant etc",344.798993
+2025,9,15,"Animal, vegetable or microbial fats and oils etc",48.415931
+2025,9,16,"Prep of meat,of fish,of crustaceans etc,of insects",0.067954
+2025,9,17,Sugars and sugar confectionary,24.809377
+2025,9,19,"Prep cereal, flour, starch or milk; bakers wares",14.681738
+2025,9,20,"Prep vegetables, fruit, nuts or other plant parts",17.37877
+2025,9,21,Miscellaneous edible preparations,7.056641
+2025,9,22,"Beverages, spirits and vinegar",162.113408
+2025,9,23,Food industry residues & waste; prep animal feed,125.065685
+2025,9,25,Salt; sulfur; earth & stone; lime & cement plaster,2.90432
+2025,9,26,"Ores, slag and ash",3.271813
+2025,9,27,"Mineral fuel, oil etc.; bitumin subst; mineral wax",4182.329441
+2025,9,28,Inorg chem; prec & rare-earth met & radioact compd,0.95765
+2025,9,29,Organic chemicals,96.035624
+2025,9,30,Pharmaceutical products,0.45939
+2025,9,31,Fertilizers,6.292798
+2025,9,32,"Tanning & dye ext etc; dye, paint, putty etc; inks",0.165566
+2025,9,33,"Essential oils etc; perfumery, cosmetic etc preps",0.013439
+2025,9,34,"Soap etc; waxes, polish etc; candles; dental preps",0.87785
+2025,9,35,Albuminoidal subst; modified starch; glue; enzymes,1.904101
+2025,9,36,Explosives; pyrotechnics; matches; pyro alloys etc,1.454643
+2025,9,37,Photographic or cinematographic goods,0.002928
+2025,9,38,Miscellaneous chemical products,57.401
+2025,9,39,Plastics and articles thereof,22.05461
+2025,9,40,Rubber and articles thereof,23.929661
+2025,9,41,Raw hides and skins (no furskins) and leather,0.008435
+2025,9,42,Leather art; saddlery etc; handbags etc; gut art,0.061589
+2025,9,43,Furskins and artificial fur; manufactures thereof,0.007707
+2025,9,44,Wood and articles of wood; wood charcoal,3.246027
+2025,9,47,Wood pulp etc; recovd (waste & scrap) ppr & pprbd,0.051017
+2025,9,48,Paper & paperboard & articles (inc papr pulp artl),1.258665
+2025,9,49,"Printed books, newspapers etc; manuscripts etc",0.6135
+2025,9,52,"Cotton, including yarn and woven fabric thereof",0.138448
+2025,9,54,"Manmade filaments, including yarns & woven fabrics",0.030733
+2025,9,55,"Manmade staple fibers, incl yarns & woven fabrics",0.069134
+2025,9,56,"Wadding, felt etc; sp yarn; twine, ropes etc.",0.071618
+2025,9,57,Carpets and other textile floor coverings,0.03741
+2025,9,59,Impregnated etc text fabrics; tex art for industry,0.036573
+2025,9,61,"Apparel articles and accessories, knit or crochet",0.020456
+2025,9,62,"Apparel articles and accessories, not knit etc.",0.059893
+2025,9,63,Textile art nesoi; needlecraft sets; worn text art,0.116177
+2025,9,64,"Footwear, gaiters etc. and parts thereof",0.021361
+2025,9,65,Headgear and parts thereof,0.21534
+2025,9,66,"Umbrellas, walking-sticks, riding-crops etc, parts",0.003151
+2025,9,68,"Art of stone, plaster, cement, asbestos, mica etc.",1.33483
+2025,9,69,Ceramic products,1.814166
+2025,9,70,Glass and glassware,13.576131
+2025,9,71,"Nat etc pearls, prec etc stones, pr met etc; coin",0.589716
+2025,9,72,Iron and steel,11.107476
+2025,9,73,Articles of iron or steel,10.355621
+2025,9,74,Copper and articles thereof,0.837613
+2025,9,75,Nickel and articles thereof,0.006027
+2025,9,76,Aluminum and articles thereof,1.427652
+2025,9,80,Tin and articles thereof,0.074208
+2025,9,81,Base metals nesoi; cermets; articles thereof,0.03849
+2025,9,82,"Tools, cutlery etc. of base metal & parts thereof",0.734884
+2025,9,83,Miscellaneous articles of base metal,0.473254
+2025,9,84,"Nuclear reactors, boilers, machinery etc.; parts",504.743005
+2025,9,85,Electric machinery etc; sound equip; tv equip; pts,71.653298
+2025,9,86,Railway or tramway stock etc; traffic signal equip,2.618149
+2025,9,87,"Vehicles, except railway or tramway, and parts etc",301.757725
+2025,9,88,"Aircraft, spacecraft, and parts thereof",55.955194
+2025,9,89,"Ships, boats and floating structures",0.449026
+2025,9,90,"Optic, photo etc, medic or surgical instrments etc",16.905641
+2025,9,91,Clocks and watches and parts thereof,0.018914
+2025,9,92,Musical instruments; parts and accessories thereof,0.198435
+2025,9,93,Arms and ammunition; parts and accessories thereof,1.010479
+2025,9,94,"Furnit;bedding,mattres;luminaires,light fix;prefab",4.417842
+2025,9,95,"Toys, games & sport equipment; parts & accessories",0.530859
+2025,9,96,Miscellaneous manufactured articles,0.126616
+2025,9,97,"Works of art, collectors' pieces and antiques",0.91477
+2025,9,98,"Special classification provisions, nesoi",2.517744
+2025,12,01,Live animals,19.735537
+2025,12,02,Meat and edible meat offal,0.145406
+2025,12,03,"Fish, crustaceans & aquatic invertebrates",0.18312
+2025,12,04,Dairy prods; birds eggs; honey; ed animal pr nesoi,0.92189
+2025,12,05,"Products of animal origin, nesoi",0.003082
+2025,12,06,"Live trees, plants, bulbs etc.; cut flowers etc.",0.115779
+2025,12,07,Edible vegetables & certain roots & tubers,181.059977
+2025,12,08,Edible fruit & nuts; citrus fruit or melon peel,1.020677
+2025,12,09,"Coffee, tea, mate & spices",0.071325
+2025,12,10,Cereals,362.530884
+2025,12,11,Milling products; malt; starch; inulin; wht gluten,23.825705
+2025,12,12,"Oil seeds etc.; misc grain, seed, fruit, plant etc",501.78169
+2025,12,15,"Animal, vegetable or microbial fats and oils etc",62.025002
+2025,12,16,"Prep of meat,of fish,of crustaceans etc,of insects",0.067954
+2025,12,17,Sugars and sugar confectionary,32.400936
+2025,12,18,Cocoa and cocoa preparations,0.004839
+2025,12,19,"Prep cereal, flour, starch or milk; bakers wares",21.257355
+2025,12,20,"Prep vegetables, fruit, nuts or other plant parts",21.195207
+2025,12,21,Miscellaneous edible preparations,9.323237
+2025,12,22,"Beverages, spirits and vinegar",228.531443
+2025,12,23,Food industry residues & waste; prep animal feed,174.629436
+2025,12,25,Salt; sulfur; earth & stone; lime & cement plaster,2.991315
+2025,12,26,"Ores, slag and ash",3.752252
+2025,12,27,"Mineral fuel, oil etc.; bitumin subst; mineral wax",5358.675745
+2025,12,28,Inorg chem; prec & rare-earth met & radioact compd,4.742855
+2025,12,29,Organic chemicals,118.839231
+2025,12,30,Pharmaceutical products,0.568207
+2025,12,31,Fertilizers,7.683103
+2025,12,32,"Tanning & dye ext etc; dye, paint, putty etc; inks",0.175304
+2025,12,33,"Essential oils etc; perfumery, cosmetic etc preps",0.017366
+2025,12,34,"Soap etc; waxes, polish etc; candles; dental preps",0.99731
+2025,12,35,Albuminoidal subst; modified starch; glue; enzymes,2.025556
+2025,12,36,Explosives; pyrotechnics; matches; pyro alloys etc,1.572184
+2025,12,37,Photographic or cinematographic goods,0.002928
+2025,12,38,Miscellaneous chemical products,63.262926
+2025,12,39,Plastics and articles thereof,27.895747
+2025,12,40,Rubber and articles thereof,32.24632
+2025,12,41,Raw hides and skins (no furskins) and leather,0.017088
+2025,12,42,Leather art; saddlery etc; handbags etc; gut art,0.086419
+2025,12,43,Furskins and artificial fur; manufactures thereof,0.007707
+2025,12,44,Wood and articles of wood; wood charcoal,3.936819
+2025,12,47,Wood pulp etc; recovd (waste & scrap) ppr & pprbd,0.051017
+2025,12,48,Paper & paperboard & articles (inc papr pulp artl),1.646296
+2025,12,49,"Printed books, newspapers etc; manuscripts etc",0.75402
+2025,12,52,"Cotton, including yarn and woven fabric thereof",0.160381
+2025,12,54,"Manmade filaments, including yarns & woven fabrics",0.030733
+2025,12,55,"Manmade staple fibers, incl yarns & woven fabrics",0.069134
+2025,12,56,"Wadding, felt etc; sp yarn; twine, ropes etc.",0.071618
+2025,12,57,Carpets and other textile floor coverings,0.03741
+2025,12,59,Impregnated etc text fabrics; tex art for industry,0.063452
+2025,12,60,Knitted or crocheted fabrics,0.005566
+2025,12,61,"Apparel articles and accessories, knit or crochet",0.209389
+2025,12,62,"Apparel articles and accessories, not knit etc.",0.110522
+2025,12,63,Textile art nesoi; needlecraft sets; worn text art,0.221862
+2025,12,64,"Footwear, gaiters etc. and parts thereof",0.030873
+2025,12,65,Headgear and parts thereof,0.280521
+2025,12,66,"Umbrellas, walking-sticks, riding-crops etc, parts",0.003151
+2025,12,68,"Art of stone, plaster, cement, asbestos, mica etc.",1.460736
+2025,12,69,Ceramic products,2.382912
+2025,12,70,Glass and glassware,18.028743
+2025,12,71,"Nat etc pearls, prec etc stones, pr met etc; coin",0.880668
+2025,12,72,Iron and steel,13.800232
+2025,12,73,Articles of iron or steel,12.750918
+2025,12,74,Copper and articles thereof,1.401851
+2025,12,75,Nickel and articles thereof,0.006027
+2025,12,76,Aluminum and articles thereof,1.671591
+2025,12,80,Tin and articles thereof,0.074208
+2025,12,81,Base metals nesoi; cermets; articles thereof,0.04437
+2025,12,82,"Tools, cutlery etc. of base metal & parts thereof",1.121444
+2025,12,83,Miscellaneous articles of base metal,0.651997
+2025,12,84,"Nuclear reactors, boilers, machinery etc.; parts",661.045221
+2025,12,85,Electric machinery etc; sound equip; tv equip; pts,106.053844
+2025,12,86,Railway or tramway stock etc; traffic signal equip,3.279526
+2025,12,87,"Vehicles, except railway or tramway, and parts etc",464.225363
+2025,12,88,"Aircraft, spacecraft, and parts thereof",76.269945
+2025,12,89,"Ships, boats and floating structures",0.498284
+2025,12,90,"Optic, photo etc, medic or surgical instrments etc",22.547095
+2025,12,91,Clocks and watches and parts thereof,0.018914
+2025,12,92,Musical instruments; parts and accessories thereof,0.23615
+2025,12,93,Arms and ammunition; parts and accessories thereof,1.116301
+2025,12,94,"Furnit;bedding,mattres;luminaires,light fix;prefab",7.968138
+2025,12,95,"Toys, games & sport equipment; parts & accessories",0.851036
+2025,12,96,Miscellaneous manufactured articles,0.166167
+2025,12,97,"Works of art, collectors' pieces and antiques",0.95207
+2025,12,98,"Special classification provisions, nesoi",2.955886
+2026,9,01,Live animals,44.862779
+2026,9,02,Meat and edible meat offal,0.04509
+2026,9,04,Dairy prods; birds eggs; honey; ed animal pr nesoi,0.003463
+2026,9,06,"Live trees, plants, bulbs etc.; cut flowers etc.",0.145674
+2026,9,07,Edible vegetables & certain roots & tubers,62.615011
+2026,9,08,Edible fruit & nuts; citrus fruit or melon peel,0.679608
+2026,9,09,"Coffee, tea, mate & spices",0.026587
+2026,9,10,Cereals,309.548823
+2026,9,11,Milling products; malt; starch; inulin; wht gluten,15.859199
+2026,9,12,"Oil seeds etc.; misc grain, seed, fruit, plant etc",318.935268
+2026,9,13,"Lac; gums, resins & other vegetable sap & extract",0.027489
+2026,9,15,"Animal, vegetable or microbial fats and oils etc",45.09383
+2026,9,16,"Prep of meat,of fish,of crustaceans etc,of insects",0.058197
+2026,9,17,Sugars and sugar confectionary,22.48403
+2026,9,19,"Prep cereal, flour, starch or milk; bakers wares",9.938136
+2026,9,20,"Prep vegetables, fruit, nuts or other plant parts",11.185035
+2026,9,21,Miscellaneous edible preparations,6.843099
+2026,9,22,"Beverages, spirits and vinegar",214.445567
+2026,9,23,Food industry residues & waste; prep animal feed,136.342679
+2026,9,25,Salt; sulfur; earth & stone; lime & cement plaster,0.559211
+2026,9,26,"Ores, slag and ash",4.52365
+2026,9,27,"Mineral fuel, oil etc.; bitumin subst; mineral wax",5265.43123
+2026,9,28,Inorg chem; prec & rare-earth met & radioact compd,2.037492
+2026,9,29,Organic chemicals,99.116628
+2026,9,30,Pharmaceutical products,1.721004
+2026,9,31,Fertilizers,8.1291
+2026,9,32,"Tanning & dye ext etc; dye, paint, putty etc; inks",0.065468
+2026,9,33,"Essential oils etc; perfumery, cosmetic etc preps",0.015843
+2026,9,34,"Soap etc; waxes, polish etc; candles; dental preps",0.965602
+2026,9,35,Albuminoidal subst; modified starch; glue; enzymes,2.645902
+2026,9,36,Explosives; pyrotechnics; matches; pyro alloys etc,3.005474
+2026,9,38,Miscellaneous chemical products,78.867108
+2026,9,39,Plastics and articles thereof,21.062073
+2026,9,40,Rubber and articles thereof,27.838893
+2026,9,41,Raw hides and skins (no furskins) and leather,0.03664
+2026,9,42,Leather art; saddlery etc; handbags etc; gut art,0.028259
+2026,9,43,Furskins and artificial fur; manufactures thereof,0.006528
+2026,9,44,Wood and articles of wood; wood charcoal,2.028955
+2026,9,47,Wood pulp etc; recovd (waste & scrap) ppr & pprbd,0.00351
+2026,9,48,Paper & paperboard & articles (inc papr pulp artl),0.854911
+2026,9,49,"Printed books, newspapers etc; manuscripts etc",0.674732
+2026,9,52,"Cotton, including yarn and woven fabric thereof",0.13186
+2026,9,54,"Manmade filaments, including yarns & woven fabrics",0.034106
+2026,9,55,"Manmade staple fibers, incl yarns & woven fabrics",0.021964
+2026,9,56,"Wadding, felt etc; sp yarn; twine, ropes etc.",0.072667
+2026,9,57,Carpets and other textile floor coverings,0.004879
+2026,9,58,Spec wov fabrics; tufted fab; lace; tapestries etc,0.00399
+2026,9,59,Impregnated etc text fabrics; tex art for industry,0.07391
+2026,9,61,"Apparel articles and accessories, knit or crochet",0.196221
+2026,9,62,"Apparel articles and accessories, not knit etc.",0.105992
+2026,9,63,Textile art nesoi; needlecraft sets; worn text art,0.267941
+2026,9,65,Headgear and parts thereof,0.041391
+2026,9,68,"Art of stone, plaster, cement, asbestos, mica etc.",0.335409
+2026,9,69,Ceramic products,1.975442
+2026,9,70,Glass and glassware,13.160165
+2026,9,71,"Nat etc pearls, prec etc stones, pr met etc; coin",6.27535
+2026,9,72,Iron and steel,12.431589
+2026,9,73,Articles of iron or steel,8.301651
+2026,9,74,Copper and articles thereof,1.033438
+2026,9,75,Nickel and articles thereof,0.007238
+2026,9,76,Aluminum and articles thereof,2.397561
+2026,9,80,Tin and articles thereof,0.003209
+2026,9,81,Base metals nesoi; cermets; articles thereof,0.037602
+2026,9,82,"Tools, cutlery etc. of base metal & parts thereof",1.26905
+2026,9,83,Miscellaneous articles of base metal,0.463408
+2026,9,84,"Nuclear reactors, boilers, machinery etc.; parts",475.588214
+2026,9,85,Electric machinery etc; sound equip; tv equip; pts,87.459314
+2026,9,86,Railway or tramway stock etc; traffic signal equip,5.399768
+2026,9,87,"Vehicles, except railway or tramway, and parts etc",229.248967
+2026,9,88,"Aircraft, spacecraft, and parts thereof",57.820806
+2026,9,89,"Ships, boats and floating structures",0.455553
+2026,9,90,"Optic, photo etc, medic or surgical instrments etc",19.630736
+2026,9,91,Clocks and watches and parts thereof,0.006471
+2026,9,92,Musical instruments; parts and accessories thereof,0.038286
+2026,9,93,Arms and ammunition; parts and accessories thereof,0.562705
+2026,9,94,"Furnit;bedding,mattres;luminaires,light fix;prefab",7.063815
+2026,9,95,"Toys, games & sport equipment; parts & accessories",0.475375
+2026,9,96,Miscellaneous manufactured articles,0.201936
+2026,9,97,"Works of art, collectors' pieces and antiques",0.155809
+2026,9,98,"Special classification provisions, nesoi",2.952559

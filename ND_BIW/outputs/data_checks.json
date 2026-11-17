@@ -1,0 +1,490 @@
+{
+ "status": "WARN",
+ "run": "2026-11-16T16:22:51+00:00",
+ "checks": [
+  {
+   "check": "Planning regions cover each of the 53 counties exactly once",
+   "status": "PASS",
+   "detail": "53 counties in 8 regions"
+  },
+  {
+   "check": "BFS series labels: wage and corporate applications <= high-propensity <= all applications",
+   "status": "PASS",
+   "detail": "0 month-geo cells out of order"
+  },
+  {
+   "check": "BFS is recent (latest month within 4 months)",
+   "status": "PASS",
+   "detail": "latest 2026-10"
+  },
+  {
+   "check": "BFS has ND, peers and US",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "ACS has all 53 counties",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "ACS county populations add up to the state",
+   "status": "PASS",
+   "detail": "784,841 vs 784,841"
+  },
+  {
+   "check": "ACS regions add up to the state",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "ACS margins of error present for counties",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "QCEW has all 53 counties in the latest year",
+   "status": "PASS",
+   "detail": "53 counties, 2025"
+  },
+  {
+   "check": "QCEW county jobs add up to the state (counties + unknown county)",
+   "status": "PASS",
+   "detail": "99.4% of state"
+  },
+  {
+   "check": "QCEW ownerships add up to the total",
+   "status": "PASS",
+   "detail": "429,567 vs 429,567"
+  },
+  {
+   "check": "QCEW planning regions: 8 regions; regions + county-unknown add up to the state in every industry",
+   "status": "PASS",
+   "detail": "largest gap 0.011%, 2024"
+  },
+  {
+   "check": "QCEW location quotient for mining/oil in ND is above 1 (sanity)",
+   "status": "PASS",
+   "detail": "LQ 10.91"
+  },
+  {
+   "check": "BEA sectors add up to ND GDP (withheld cells allowed)",
+   "status": "PASS",
+   "detail": "100.0%"
+  },
+  {
+   "check": "CBP/NES have all 53 counties",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "CBP sector establishments do not exceed the county total",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "Taxable sales: 53 counties",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "Taxable sales: counties + statewide filers = industry total",
+   "status": "PASS",
+   "detail": "largest gap 0.00%"
+  },
+  {
+   "check": "Shift-share parts add up to the actual job change",
+   "status": "PASS",
+   "detail": "largest gap 4.5e-12"
+  },
+  {
+   "check": "Scorecard has all measures for ND, peers and US",
+   "status": "PASS",
+   "detail": "10 measures"
+  },
+  {
+   "check": "Firm-age jobs add up to BDS total jobs (ND)",
+   "status": "PASS",
+   "detail": "350,598 vs 350,598"
+  },
+  {
+   "check": "CBP size classes add up to establishments",
+   "status": "PASS",
+   "detail": "25,314 vs 25,402"
+  },
+  {
+   "check": "IO model: 71 industries; regions add up to the state",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "IO model: ND jobs by model industry match the QCEW total (2023)",
+   "status": "PASS",
+   "detail": "421,631 vs 421,639"
+  },
+  {
+   "check": "IO model: ND mean multiplier within 0.05 of EPA StateIO",
+   "status": "PASS",
+   "detail": "1.235 vs 1.244"
+  },
+  {
+   "check": "IO model: no ND multiplier above the US, no region above the state",
+   "status": "PASS",
+   "detail": "0 cases"
+  },
+  {
+   "check": "IO model: local taxes implied for ND within 25% of actual collections",
+   "status": "PASS",
+   "detail": "1,668 vs 1,635 $M"
+  },
+  {
+   "check": "IO model: tax ratios present and positive",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "IO model: output multipliers between 1 and 3, Type II at least Type I",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "Indicators: every catalog indicator has North Dakota data",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "Diffusion index between 0 and 100 with at least 10 indicators",
+   "status": "PASS",
+   "detail": "17 indicators"
+  },
+  {
+   "check": "Outlook: every point forecast lies inside its 80% range",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "Outlook: average backtest error below 15% for every series",
+   "status": "PASS",
+   "detail": "worst 7.4%"
+  },
+  {
+   "check": "Outlook: 80% ranges cover at least 70% of later outcomes",
+   "status": "PASS",
+   "detail": " (flagged on the page)"
+  },
+  {
+   "check": "Dynamics: growth table for ND and US",
+   "status": "PASS",
+   "detail": "11 measures"
+  },
+  {
+   "check": "Illustrative paths ordered slow <= middle <= fast",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "Population by year: 2000-2025 for ND, peers and US",
+   "status": "PASS",
+   "detail": "2025 latest"
+  },
+  {
+   "check": "Population estimates agree with ACS 2020-2024 within 2% (ND)",
+   "status": "PASS",
+   "detail": "783,648 vs 784,841"
+  },
+  {
+   "check": "GDP price index covers taxable sales (at most 2 quarters carried forward)",
+   "status": "PASS",
+   "detail": "index to 2026-07, sales to 2026-04"
+  },
+  {
+   "check": "LAUS: all 53 counties and 8 regions in the latest month, rates between 0% and 25%",
+   "status": "PASS",
+   "detail": "2026-09"
+  },
+  {
+   "check": "LAUS: county labor force adds up to the state within 1%",
+   "status": "PASS",
+   "detail": "largest gap 0.00%"
+  },
+  {
+   "check": "LAUS no older than 4 months",
+   "status": "PASS",
+   "detail": "76 days"
+  },
+  {
+   "check": "ND oil price received: in range, and within $40 of WTI in every month since 2000",
+   "status": "PASS",
+   "detail": "largest gap $20.59, to 2026-08"
+  },
+  {
+   "check": "Oil production (0-2,500 thousand barrels/day) and WTI price (0-250 $/barrel) in range; production no older than 5 months",
+   "status": "PASS",
+   "detail": "production to 2026-08"
+  },
+  {
+   "check": "JOLTS: ND and US rates between 0% and 15%; ND no older than 15 months",
+   "status": "PASS",
+   "detail": "ND to 2025-12"
+  },
+  {
+   "check": "OEWS: 22 major groups add up to all occupations within 2% (ND)",
+   "status": "PASS",
+   "detail": "gap 0.00%"
+  },
+  {
+   "check": "IPEDS: every institution placed in a planning region",
+   "status": "PASS",
+   "detail": "8 regions with institutions"
+  },
+  {
+   "check": "IPEDS: 11 NDUS institutions in the latest year; NDUS 60-95% of ND awards",
+   "status": "PASS",
+   "detail": "2024: 12,648 awards"
+  },
+  {
+   "check": "Fields to occupations: link shares sum to 1 per program; program awards match completions (ND)",
+   "status": "PASS",
+   "detail": "88% of ND awards linked"
+  },
+  {
+   "check": "Retail gap: 53 counties; county sales and expected sales both add up to the state total",
+   "status": "PASS",
+   "detail": "5 counties estimated"
+  },
+  {
+   "check": "Consumer spending: goods + services = total for every state (latest year)",
+   "status": "PASS",
+   "detail": "2025"
+  },
+  {
+   "check": "IRS: 53 counties add up to the ND state row within 2% (returns and business returns)",
+   "status": "PASS",
+   "detail": "tax year 2023"
+  },
+  {
+   "check": "ACS legislative districts: 47 districts whose populations add up to the state",
+   "status": "PASS",
+   "detail": "47 districts, 784,841"
+  },
+  {
+   "check": "Trade: parts = total within 1% for states (3% for the US); full years from 2020 for 6 places",
+   "status": "PASS",
+   "detail": "to 2026"
+  },
+  {
+   "check": "Trade by product and country: both add up to the same total in every period (within 0.5%)",
+   "status": "PASS",
+   "detail": "8 periods"
+  },
+  {
+   "check": "Farm exports: plant + animal = total for ND and US",
+   "status": "PASS",
+   "detail": "2000-2025"
+  },
+  {
+   "check": "SBA: ND and US loans every fiscal year from 2010; ND below 1% of US loans",
+   "status": "PASS",
+   "detail": "FY2026"
+  },
+  {
+   "check": "SBA: no dollar amounts published for groups with fewer than 3 loans",
+   "status": "PASS",
+   "detail": "198 groups withheld"
+  },
+  {
+   "check": "SBA: county totals cover at least 95% of ND loans (latest 5 years)",
+   "status": "PASS",
+   "detail": "748 of 748"
+  },
+  {
+   "check": "Cost of doing business: every measure present for ND and in a plausible range",
+   "status": "PASS",
+   "detail": "15 measures"
+  },
+  {
+   "check": "Cost: state taxes excluding severance never exceed all state taxes",
+   "status": "PASS",
+   "detail": "156 state-years"
+  },
+  {
+   "check": "Sector outlooks: at least 15 sectors; backtest error below 15% for each",
+   "status": "PASS",
+   "detail": "19 sectors, worst 8.5%"
+  },
+  {
+   "check": "Sector outlooks: 80% ranges held at least 70% of past outcomes",
+   "status": "PASS",
+   "detail": "lowest 76%"
+  },
+  {
+   "check": "Sector outlooks: ranges contain the outlook",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "Peer counties: 5 peers outside ND for each of the 53 counties",
+   "status": "PASS",
+   "detail": {
+    "fair": 151,
+    "close": 77,
+    "loose": 37
+   }
+  },
+  {
+   "check": "Peer profiles: industry shares between 0 and 100%",
+   "status": "PASS",
+   "detail": "238 profiles"
+  },
+  {
+   "check": "Revenue link: sources add up to the total in every column; low <= estimate <= high",
+   "status": "PASS",
+   "detail": "largest gap 0.00%"
+  },
+  {
+   "check": "Region outlooks: all 8 regions; backtest error below 15%; ranges contain the outlook",
+   "status": "PASS",
+   "detail": "worst error 6.2%"
+  },
+  {
+   "check": "Region outlooks: 80% ranges held at least 70% of past outcomes",
+   "status": "PASS",
+   "detail": "lowest 80%"
+  },
+  {
+   "check": "Business survey: weights add up to the County Business Patterns count of locations each quarter",
+   "status": "PASS",
+   "detail": "6 quarters, 25,034 locations"
+  },
+  {
+   "check": "Business survey: net balances within -100..+100, shares within 0..100, a margin for every estimate",
+   "status": "PASS",
+   "detail": "8,670 estimates"
+  },
+  {
+   "check": "Business survey: no result shown from fewer than 30 businesses",
+   "status": "PASS",
+   "detail": "728 withheld"
+  },
+  {
+   "check": "Business survey: real responses (not test data)",
+   "status": "WARN",
+   "detail": "TEST DATA: survey not fielded yet; the page is labeled test data. Hide it or load real data before publishing"
+  },
+  {
+   "check": "Targeted industries: six Commerce groups plus the combined total, one headline year",
+   "status": "PASS",
+   "detail": "headline 2024"
+  },
+  {
+   "check": "Targeted industries: no group exceeds the combined total; combined total below all private jobs",
+   "status": "PASS",
+   "detail": "combined 62,361 jobs"
+  },
+  {
+   "check": "Targeted industries: no withheld code shows jobs",
+   "status": "PASS",
+   "detail": "28 withheld codes"
+  },
+  {
+   "check": "Freight: seven ND flows; ND flows add up to FAF's state total of freight starting in ND",
+   "status": "PASS",
+   "detail": "2024: 346 million tons"
+  },
+  {
+   "check": "Freight: no negative tons or values; US starts and ends within 2% of each other",
+   "status": "PASS",
+   "detail": "US 18.9 billion tons"
+  },
+  {
+   "check": "Case study: 1-10 core oil counties, each with a published mining share of at least 20%",
+   "status": "PASS",
+   "detail": "Williams, Dunn, Mountrail, McKenzie"
+  },
+  {
+   "check": "Case study: core plus rest equals ND private jobs; every finding has a value",
+   "status": "PASS",
+   "detail": "28 findings, 49 quarters"
+  },
+  {
+   "check": "Survival: all-industry rates fall with time (1 > 3 > 5 years) and lie between 20% and 100%",
+   "status": "PASS",
+   "detail": "ND 79/65/53%"
+  },
+  {
+   "check": "Owners: age shares add to 100% for every place and year (all industries)",
+   "status": "PASS",
+   "detail": "99.9-100.1%"
+  },
+  {
+   "check": "Targeted industries vs peers: 5 states x 7 groups; ND matches the targeted industries table",
+   "status": "PASS",
+   "detail": "35 rows"
+  },
+  {
+   "check": "SBIR: ND awards add up across regions; no ND award city left without a county",
+   "status": "PASS",
+   "detail": "27 awards"
+  },
+  {
+   "check": "Occupations: each targeted industry's occupation-group shares add to 100%",
+   "status": "PASS",
+   "detail": "6 groups"
+  },
+  {
+   "check": "Innovation: 15 measures in 5 fields; ND ranks within 1-5; every measure has ND and US values",
+   "status": "PASS",
+   "detail": "15 measures"
+  },
+  {
+   "check": "R&D funding: business and federal R&D for ND, the peers and the US; each state below the US total",
+   "status": "PASS",
+   "detail": "business R&D ND $638M"
+  },
+  {
+   "check": "ACS education and broadband: shares between 0 and 100% for every place, with margins",
+   "status": "PASS",
+   "detail": "ND broadband 88.7%"
+  },
+  {
+   "check": "Impact ranges: low case <= central <= high case for every industry and place",
+   "status": "PASS",
+   "detail": "639 industry-place rows"
+  },
+  {
+   "check": "Ownership: each characteristic's shares add to 100% (all industries, every place and year)",
+   "status": "PASS",
+   "detail": "100.0-100.0%"
+  },
+  {
+   "check": "Form D: every place has offerings in every full year; US above the five states together",
+   "status": "PASS",
+   "detail": "2015-2025"
+  },
+  {
+   "check": "Case studies (value-added agriculture, advanced industries, retail): every finding has a value",
+   "status": "PASS",
+   "detail": "93 findings"
+  },
+  {
+   "check": "Retail case: 53 counties, 8 hub counties, positive pull factors",
+   "status": "PASS",
+   "detail": "53 counties with a pull factor"
+  },
+  {
+   "check": "Release dates: every source has a release cycle",
+   "status": "PASS",
+   "detail": "46 sources"
+  },
+  {
+   "check": "Release dates: every file-based source has the publisher's date",
+   "status": "PASS",
+   "detail": "28 of 46 sources dated"
+  },
+  {
+   "check": "Release dates: no source older than its release cycle allows",
+   "status": "WARN",
+   "detail": "bea_io (781 days), formd (224 days)"
+  }
+ ]
+}

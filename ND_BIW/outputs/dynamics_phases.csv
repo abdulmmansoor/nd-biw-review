@@ -1,0 +1,47 @@
+id,name,kind,geo,phase,years,value
+applications,Business applications,growth,ND,Before the oil boom,2006-2010,2.91057259228662
+applications,Business applications,growth,ND,Bakken boom,2011-2015,4.858205742794364
+applications,Business applications,growth,ND,Oil bust,2016-2017,9.651715419855478
+applications,Business applications,growth,ND,Recovery and pandemic,2018-2021,2.4151594652718877
+applications,Business applications,growth,ND,After the pandemic,2022-2025,2.607208032333874
+applications,Business applications,growth,US,Before the oil boom,2006-2010,-0.09002553305196281
+applications,Business applications,growth,US,Bakken boom,2011-2015,2.4770492575793
+applications,Business applications,growth,US,Oil bust,2016-2017,6.69289369450059
+applications,Business applications,growth,US,Recovery and pandemic,2018-2021,14.081595940829384
+applications,Business applications,growth,US,After the pandemic,2022-2025,1.3895068312658188
+establishments,Business locations with employees (BDS),growth,ND,Before the oil boom,2001-2010,0.7995067376576293
+establishments,Business locations with employees (BDS),growth,ND,Bakken boom,2011-2015,2.6616345461973667
+establishments,Business locations with employees (BDS),growth,ND,Oil bust,2016-2017,-0.5665262492128287
+establishments,Business locations with employees (BDS),growth,ND,Recovery and pandemic,2018-2021,0.30788369240324354
+establishments,Business locations with employees (BDS),growth,ND,After the pandemic,2022-2023,0.9267341719083833
+establishments,Business locations with employees (BDS),growth,US,Before the oil boom,2001-2010,0.5691146699514649
+establishments,Business locations with employees (BDS),growth,US,Bakken boom,2011-2015,0.7006158048301625
+establishments,Business locations with employees (BDS),growth,US,Oil bust,2016-2017,1.2030676051706157
+establishments,Business locations with employees (BDS),growth,US,Recovery and pandemic,2018-2021,0.6298339625744109
+establishments,Business locations with employees (BDS),growth,US,After the pandemic,2022-2023,1.6508207789823315
+employment_bds,Employment at businesses (BDS),growth,ND,Before the oil boom,2001-2010,1.4326838009343756
+employment_bds,Employment at businesses (BDS),growth,ND,Bakken boom,2011-2015,4.2482045932970225
+employment_bds,Employment at businesses (BDS),growth,ND,Oil bust,2016-2017,-3.3400236018213514
+employment_bds,Employment at businesses (BDS),growth,ND,Recovery and pandemic,2018-2021,-0.5390631867142393
+employment_bds,Employment at businesses (BDS),growth,ND,After the pandemic,2022-2023,2.708152084476967
+employment_bds,Employment at businesses (BDS),growth,US,Before the oil boom,2001-2010,-0.20602655204138287
+employment_bds,Employment at businesses (BDS),growth,US,Bakken boom,2011-2015,2.053332784083439
+employment_bds,Employment at businesses (BDS),growth,US,Oil bust,2016-2017,1.7105108093434573
+employment_bds,Employment at businesses (BDS),growth,US,Recovery and pandemic,2018-2021,-0.04030414380935543
+employment_bds,Employment at businesses (BDS),growth,US,After the pandemic,2022-2023,3.9466958821498643
+private_jobs,Private-sector jobs (QCEW),growth,ND,Oil bust,2016-2017,-3.3164377215209373
+private_jobs,Private-sector jobs (QCEW),growth,ND,Recovery and pandemic,2018-2021,-1.0463501371990924
+private_jobs,Private-sector jobs (QCEW),growth,ND,After the pandemic,2022-2025,1.8431838548039536
+private_jobs,Private-sector jobs (QCEW),growth,US,Oil bust,2016-2017,1.7092228554949296
+private_jobs,Private-sector jobs (QCEW),growth,US,Recovery and pandemic,2018-2021,0.06735904222512357
+private_jobs,Private-sector jobs (QCEW),growth,US,After the pandemic,2022-2025,2.0628744623657713
+entry_rate,Establishment opening rate,points,ND,Before the oil boom,2001-2010,0.057600000000000054
+entry_rate,Establishment opening rate,points,ND,Bakken boom,2011-2015,0.3398
+entry_rate,Establishment opening rate,points,ND,Oil bust,2016-2017,-0.9024999999999999
+entry_rate,Establishment opening rate,points,ND,Recovery and pandemic,2018-2021,0.11474999999999991
+entry_rate,Establishment opening rate,points,ND,After the pandemic,2022-2023,0.30049999999999955
+entry_rate,Establishment opening rate,points,US,Before the oil boom,2001-2010,-0.13530000000000014
+entry_rate,Establishment opening rate,points,US,Bakken boom,2011-2015,0.10600000000000023
+entry_rate,Establishment opening rate,points,US,Oil bust,2016-2017,-0.17499999999999982
+entry_rate,Establishment opening rate,points,US,Recovery and pandemic,2018-2021,0.2925
+entry_rate,Establishment opening rate,points,US,After the pandemic,2022-2023,-0.11850000000000005

@@ -1,0 +1,16 @@
+[theme]
+base = "dark"
+primaryColor = "#009A44"          # UND Green
+backgroundColor = "#1D2027"
+secondaryBackgroundColor = "#2A2E38"
+textColor = "#E9ECEF"
+font = "sans serif"
+
+[server]
+headless = true
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "viewer"

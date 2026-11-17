@@ -1,0 +1,18 @@
+id,theme,indicator,latest,value,year_earlier,change_pct,improving,timely
+applications,Business formation,Business applications,2026-10-01,899.6666666666666,762.3333333333334,18.01486663751639,True,True
+entry_rate,Business dynamics,Establishment opening rate,2023-03-01,9.251,9.133,1.2920179568597367,True,False
+estabs_q,Jobs and pay,Business locations with employees,2026-01-01,36905.0,35957.0,2.636482465166723,True,True
+exit_rate,Business dynamics,Establishment closing rate,2023-03-01,7.986,8.531,-6.388465596061432,True,False
+formations,Business formation,New employer businesses within 4 quarters of applying,2026-10-01,69.33333333333333,60.333333333333336,14.917127071823199,True,True
+herd,Innovation,University R&D spending,2023-07-01,373.912,322.621,15.898221132536317,True,False
+hp_applications,Business formation,High-propensity applications (likely employers),2026-10-01,277.0,236.66666666666666,17.04225352112676,True,True
+jobs_q,Jobs and pay,Jobs covered by unemployment insurance,2026-01-01,420296.6666666667,421364.6666666667,-0.25346216341506356,False,True
+patents,Innovation,Patents granted to inventors in the state,2024-07-01,157.0,167.0,-5.988023952095811,False,False
+private_jobs_q,Jobs and pay,Private-sector jobs,2026-01-01,343706.6666666667,344476.3333333333,-0.22343092752379334,False,True
+sbir_awards,Innovation,SBIR/STTR awards to businesses,2025-07-01,5.0,2.0,150.0,True,False
+sbir_dollars_pc,Innovation,SBIR/STTR award dollars per resident,2025-07-01,1.2110660054693891,0.43998578247437886,175.25116803971082,True,False
+taxable_sales,Spending,Taxable sales and purchases,2026-04-01,7396.241933,7113.546453,3.97404419677021,True,True
+tech_jobs_q,Innovation,Jobs in core technology industries,2026-01-01,4720.666666666666,4860.333333333334,-2.873602633564254,False,True
+wage_applications,Business formation,Applications with planned wages,2026-10-01,100.33333333333333,97.33333333333333,3.082191780821919,True,True
+wage_q,Jobs and pay,Average weekly wage,2026-01-01,1333.0,1302.0,2.3809523809523725,True,True
+young_share,Business dynamics,Share of jobs at firms 5 years old or younger,2023-03-01,9.613859748201644,9.34464327213572,2.880971142779587,True,False

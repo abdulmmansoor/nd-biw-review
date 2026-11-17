@@ -1,0 +1,482 @@
+fy,program,sector,loans,gross_m,jobs,withheld
+2010,504,Accommodation and food services,8,4.566,127.0,False
+2010,504,"Agriculture, forestry, fishing",1,,,True
+2010,504,Construction,4,0.758,22.0,False
+2010,504,Health care and social assistance,2,,,True
+2010,504,Manufacturing,5,2.619,74.0,False
+2010,504,Other services,2,,,True
+2010,504,Professional and technical services,6,2.506,47.0,False
+2010,504,Retail trade,6,3.394,57.0,False
+2010,504,Transportation and warehousing,2,,,True
+2010,504,Wholesale trade,2,,,True
+2010,7A,Accommodation and food services,18,3.0559,393.0,False
+2010,7A,Administrative and support services,15,2.1764,177.0,False
+2010,7A,"Agriculture, forestry, fishing",4,1.2745,14.0,False
+2010,7A,"Arts, entertainment and recreation",7,3.1907,257.0,False
+2010,7A,Construction,32,3.6686,218.0,False
+2010,7A,Educational services,1,,,True
+2010,7A,Finance and insurance,2,,,True
+2010,7A,Health care and social assistance,16,2.5282,90.0,False
+2010,7A,Manufacturing,21,4.8449,242.0,False
+2010,7A,"Mining, oil and gas",7,1.6675,32.0,False
+2010,7A,Other services,8,1.9315,54.0,False
+2010,7A,Professional and technical services,24,1.9036,174.0,False
+2010,7A,Real estate and rental,2,,,True
+2010,7A,Retail trade,39,8.0699,249.0,False
+2010,7A,Transportation and warehousing,19,2.3895,222.0,False
+2010,7A,Wholesale trade,5,1.2085,22.0,False
+2011,504,Accommodation and food services,16,12.5,244.0,False
+2011,504,Administrative and support services,2,,,True
+2011,504,Construction,2,,,True
+2011,504,Finance and insurance,1,,,True
+2011,504,Health care and social assistance,4,2.194,30.0,False
+2011,504,Information,1,,,True
+2011,504,Manufacturing,4,4.488,65.0,False
+2011,504,"Mining, oil and gas",1,,,True
+2011,504,Other services,4,1.351,27.0,False
+2011,504,Professional and technical services,3,0.78,24.0,False
+2011,504,Real estate and rental,1,,,True
+2011,504,Retail trade,6,2.049,52.0,False
+2011,504,Wholesale trade,3,2.509,20.0,False
+2011,7A,Accommodation and food services,14,3.5151,562.0,False
+2011,7A,Administrative and support services,10,2.0014,84.0,False
+2011,7A,"Agriculture, forestry, fishing",22,11.1637,78.0,False
+2011,7A,"Arts, entertainment and recreation",3,2.0938,11.0,False
+2011,7A,Construction,26,5.5663,280.0,False
+2011,7A,Educational services,2,,,True
+2011,7A,Health care and social assistance,20,9.8782,212.0,False
+2011,7A,Information,1,,,True
+2011,7A,Manufacturing,19,10.9069,424.0,False
+2011,7A,"Mining, oil and gas",2,,,True
+2011,7A,Other services,18,2.1179,147.0,False
+2011,7A,Professional and technical services,16,1.4671,107.0,False
+2011,7A,Real estate and rental,8,0.5726,39.0,False
+2011,7A,Retail trade,33,8.1908,235.0,False
+2011,7A,Transportation and warehousing,9,3.7104,227.0,False
+2011,7A,Utilities,2,,,True
+2011,7A,Wholesale trade,13,2.2807,49.0,False
+2012,504,Accommodation and food services,14,18.754,282.0,False
+2012,504,Administrative and support services,1,,,True
+2012,504,Construction,3,0.795,32.0,False
+2012,504,Finance and insurance,2,,,True
+2012,504,Health care and social assistance,4,1.239,32.0,False
+2012,504,Information,1,,,True
+2012,504,Manufacturing,3,1.857,15.0,False
+2012,504,"Mining, oil and gas",1,,,True
+2012,504,Other services,7,2.639,42.0,False
+2012,504,Professional and technical services,2,,,True
+2012,504,Retail trade,5,8.178,118.0,False
+2012,504,Transportation and warehousing,3,3.032,43.0,False
+2012,504,Wholesale trade,2,,,True
+2012,7A,Accommodation and food services,12,3.4373,264.0,False
+2012,7A,Administrative and support services,10,1.9238,177.0,False
+2012,7A,"Agriculture, forestry, fishing",4,2.148,48.0,False
+2012,7A,"Arts, entertainment and recreation",1,,,True
+2012,7A,Construction,21,3.0798,105.0,False
+2012,7A,Educational services,2,,,True
+2012,7A,Health care and social assistance,2,,,True
+2012,7A,Information,1,,,True
+2012,7A,Manufacturing,10,5.9801,314.0,False
+2012,7A,"Mining, oil and gas",11,6.2349,74.0,False
+2012,7A,Not reported,1,,,True
+2012,7A,Other services,20,3.1012,176.0,False
+2012,7A,Professional and technical services,4,0.5315,40.0,False
+2012,7A,Real estate and rental,3,0.6144,10.0,False
+2012,7A,Retail trade,18,2.2165,84.0,False
+2012,7A,Transportation and warehousing,10,1.149,18.0,False
+2012,7A,Utilities,1,,,True
+2012,7A,Wholesale trade,9,4.2687,171.0,False
+2013,504,Accommodation and food services,16,17.411,320.0,False
+2013,504,"Arts, entertainment and recreation",1,,,True
+2013,504,Construction,7,5.589,130.0,False
+2013,504,Health care and social assistance,3,0.75,14.0,False
+2013,504,Manufacturing,4,2.913,67.0,False
+2013,504,Other services,5,3.027,51.0,False
+2013,504,Professional and technical services,3,1.11,28.0,False
+2013,504,Real estate and rental,2,,,True
+2013,504,Retail trade,9,10.174,104.0,False
+2013,504,Transportation and warehousing,1,,,True
+2013,504,Wholesale trade,3,4.93,32.0,False
+2013,7A,Accommodation and food services,6,4.7549,195.0,False
+2013,7A,Administrative and support services,10,0.7681,92.0,False
+2013,7A,"Agriculture, forestry, fishing",4,3.4785,26.0,False
+2013,7A,"Arts, entertainment and recreation",2,,,True
+2013,7A,Construction,20,3.6073,132.0,False
+2013,7A,Finance and insurance,2,,,True
+2013,7A,Health care and social assistance,10,1.3372,170.0,False
+2013,7A,Information,1,,,True
+2013,7A,Manufacturing,11,4.0811,324.0,False
+2013,7A,Other services,13,2.6022,180.0,False
+2013,7A,Professional and technical services,8,0.7619,72.0,False
+2013,7A,Real estate and rental,3,0.4415,6.0,False
+2013,7A,Retail trade,14,4.1689,110.0,False
+2013,7A,Transportation and warehousing,13,0.7983,25.0,False
+2013,7A,Utilities,1,,,True
+2013,7A,Wholesale trade,4,0.725,37.0,False
+2014,504,Accommodation and food services,9,11.534,233.0,False
+2014,504,Administrative and support services,2,,,True
+2014,504,Construction,2,,,True
+2014,504,Educational services,2,,,True
+2014,504,Finance and insurance,1,,,True
+2014,504,Health care and social assistance,6,3.208,76.0,False
+2014,504,Manufacturing,1,,,True
+2014,504,"Mining, oil and gas",1,,,True
+2014,504,Other services,4,1.778,22.0,False
+2014,504,Professional and technical services,2,,,True
+2014,504,Retail trade,7,3.715,56.0,False
+2014,504,Transportation and warehousing,1,,,True
+2014,7A,Accommodation and food services,16,2.2004,396.0,False
+2014,7A,Administrative and support services,5,0.3535,34.0,False
+2014,7A,"Agriculture, forestry, fishing",8,3.3188,29.0,False
+2014,7A,"Arts, entertainment and recreation",6,0.4067,17.0,False
+2014,7A,Construction,20,2.2955,68.0,False
+2014,7A,Health care and social assistance,7,2.5786,52.0,False
+2014,7A,Information,1,,,True
+2014,7A,Manufacturing,13,7.0399,195.0,False
+2014,7A,"Mining, oil and gas",7,1.41,98.0,False
+2014,7A,Other services,13,3.5791,97.0,False
+2014,7A,Professional and technical services,10,3.6938,207.0,False
+2014,7A,Retail trade,33,8.5018,254.0,False
+2014,7A,Transportation and warehousing,15,2.521,99.0,False
+2014,7A,Utilities,1,,,True
+2014,7A,Wholesale trade,6,1.2763,12.0,False
+2015,504,Accommodation and food services,6,2.818,64.0,False
+2015,504,"Arts, entertainment and recreation",2,,,True
+2015,504,Construction,5,2.333,74.0,False
+2015,504,Health care and social assistance,1,,,True
+2015,504,Manufacturing,3,2.303,88.0,False
+2015,504,"Mining, oil and gas",1,,,True
+2015,504,Other services,4,1.125,17.0,False
+2015,504,Professional and technical services,1,,,True
+2015,504,Real estate and rental,1,,,True
+2015,504,Retail trade,3,4.197,59.0,False
+2015,504,Transportation and warehousing,1,,,True
+2015,7A,Accommodation and food services,18,5.128,316.0,False
+2015,7A,Administrative and support services,16,1.365,159.0,False
+2015,7A,"Agriculture, forestry, fishing",11,2.5275,30.0,False
+2015,7A,"Arts, entertainment and recreation",2,,,True
+2015,7A,Construction,35,3.5271,278.0,False
+2015,7A,Finance and insurance,1,,,True
+2015,7A,Health care and social assistance,14,2.1435,99.0,False
+2015,7A,Information,2,,,True
+2015,7A,Manufacturing,10,3.3005,91.0,False
+2015,7A,"Mining, oil and gas",4,0.294,23.0,False
+2015,7A,Other services,16,4.0351,125.0,False
+2015,7A,Professional and technical services,15,1.1323,81.0,False
+2015,7A,Real estate and rental,7,2.8383,29.0,False
+2015,7A,Retail trade,14,1.9454,60.0,False
+2015,7A,Transportation and warehousing,13,1.2409,33.0,False
+2015,7A,Utilities,1,,,True
+2015,7A,Wholesale trade,6,0.9896,39.0,False
+2016,504,Accommodation and food services,4,3.07,47.0,False
+2016,504,Construction,5,2.542,86.0,False
+2016,504,Health care and social assistance,7,3.984,82.0,False
+2016,504,Manufacturing,4,1.326,21.0,False
+2016,504,Other services,5,2.259,32.0,False
+2016,504,Professional and technical services,1,,,True
+2016,504,Real estate and rental,2,,,True
+2016,504,Retail trade,8,8.89,81.0,False
+2016,504,Transportation and warehousing,1,,,True
+2016,7A,Accommodation and food services,22,8.8089,289.0,False
+2016,7A,Administrative and support services,12,0.9828,102.0,False
+2016,7A,"Agriculture, forestry, fishing",10,2.232,51.0,False
+2016,7A,"Arts, entertainment and recreation",3,0.245,12.0,False
+2016,7A,Construction,18,3.6795,138.0,False
+2016,7A,Finance and insurance,2,,,True
+2016,7A,Health care and social assistance,19,2.9477,190.0,False
+2016,7A,Manufacturing,19,5.8435,169.0,False
+2016,7A,"Mining, oil and gas",3,0.215,72.0,False
+2016,7A,Other services,11,0.9651,194.0,False
+2016,7A,Professional and technical services,9,0.394,34.0,False
+2016,7A,Real estate and rental,1,,,True
+2016,7A,Retail trade,25,4.7362,135.0,False
+2016,7A,Transportation and warehousing,10,0.5108,48.0,False
+2016,7A,Wholesale trade,7,1.731,21.0,False
+2017,504,Accommodation and food services,5,3.347,50.0,False
+2017,504,Administrative and support services,1,,,True
+2017,504,"Arts, entertainment and recreation",2,,,True
+2017,504,Construction,1,,,True
+2017,504,Educational services,1,,,True
+2017,504,Health care and social assistance,6,3.249,41.0,False
+2017,504,Manufacturing,2,,,True
+2017,504,Other services,4,2.713,15.0,False
+2017,504,Real estate and rental,3,3.396,58.0,False
+2017,504,Retail trade,5,1.974,41.0,False
+2017,504,Transportation and warehousing,1,,,True
+2017,7A,Accommodation and food services,16,2.1347,219.0,False
+2017,7A,Administrative and support services,10,0.8303,21.0,False
+2017,7A,"Agriculture, forestry, fishing",1,,,True
+2017,7A,"Arts, entertainment and recreation",5,0.6002,37.0,False
+2017,7A,Construction,45,5.2992,244.0,False
+2017,7A,Educational services,3,2.0292,44.0,False
+2017,7A,Finance and insurance,1,,,True
+2017,7A,Health care and social assistance,15,3.614,101.0,False
+2017,7A,Information,2,,,True
+2017,7A,Manufacturing,14,2.6119,224.0,False
+2017,7A,"Mining, oil and gas",2,,,True
+2017,7A,Other services,16,1.7629,167.0,False
+2017,7A,Professional and technical services,12,0.8645,63.0,False
+2017,7A,Real estate and rental,2,,,True
+2017,7A,Retail trade,26,4.8173,156.0,False
+2017,7A,Transportation and warehousing,5,0.4116,33.0,False
+2017,7A,Wholesale trade,4,2.3465,20.0,False
+2018,504,Accommodation and food services,6,3.381,96.0,False
+2018,504,Administrative and support services,4,1.662,30.0,False
+2018,504,"Agriculture, forestry, fishing",2,,,True
+2018,504,"Arts, entertainment and recreation",3,1.205,16.0,False
+2018,504,Construction,9,2.552,53.0,False
+2018,504,Finance and insurance,2,,,True
+2018,504,Health care and social assistance,9,6.359,49.0,False
+2018,504,Other services,5,2.62,37.0,False
+2018,504,Professional and technical services,2,,,True
+2018,504,Real estate and rental,2,,,True
+2018,504,Retail trade,3,0.592,9.0,False
+2018,504,Transportation and warehousing,4,4.193,156.0,False
+2018,504,Wholesale trade,2,,,True
+2018,7A,Accommodation and food services,16,4.7312,325.0,False
+2018,7A,Administrative and support services,5,0.5752,21.0,False
+2018,7A,"Agriculture, forestry, fishing",10,6.86,21.0,False
+2018,7A,"Arts, entertainment and recreation",7,0.67,41.0,False
+2018,7A,Construction,26,2.5389,129.0,False
+2018,7A,Finance and insurance,1,,,True
+2018,7A,Health care and social assistance,18,2.209,149.0,False
+2018,7A,Information,3,0.3015,23.0,False
+2018,7A,Management of companies,1,,,True
+2018,7A,Manufacturing,7,1.535,64.0,False
+2018,7A,"Mining, oil and gas",3,1.143,175.0,False
+2018,7A,Other services,13,1.3526,58.0,False
+2018,7A,Professional and technical services,15,1.6388,127.0,False
+2018,7A,Real estate and rental,4,0.959,14.0,False
+2018,7A,Retail trade,16,3.0523,73.0,False
+2018,7A,Transportation and warehousing,9,2.35,102.0,False
+2018,7A,Wholesale trade,3,1.1164,23.0,False
+2019,504,Accommodation and food services,5,2.237,39.0,False
+2019,504,Administrative and support services,3,2.255,27.0,False
+2019,504,"Agriculture, forestry, fishing",2,,,True
+2019,504,Construction,5,2.607,25.0,False
+2019,504,Finance and insurance,1,,,True
+2019,504,Health care and social assistance,5,3.535,41.0,False
+2019,504,Manufacturing,6,4.692,114.0,False
+2019,504,"Mining, oil and gas",2,,,True
+2019,504,Other services,9,3.664,22.0,False
+2019,504,Professional and technical services,3,1.448,5.0,False
+2019,504,Real estate and rental,3,2.39,31.0,False
+2019,504,Retail trade,8,2.627,15.0,False
+2019,504,Transportation and warehousing,3,0.852,18.0,False
+2019,7A,Accommodation and food services,15,9.6815,340.0,False
+2019,7A,"Agriculture, forestry, fishing",10,2.8692,27.0,False
+2019,7A,"Arts, entertainment and recreation",6,0.8307,58.0,False
+2019,7A,Construction,20,6.1584,90.0,False
+2019,7A,Finance and insurance,1,,,True
+2019,7A,Health care and social assistance,8,0.664,75.0,False
+2019,7A,Manufacturing,7,2.0857,59.0,False
+2019,7A,"Mining, oil and gas",2,,,True
+2019,7A,Other services,5,0.7675,18.0,False
+2019,7A,Professional and technical services,5,0.5368,9.0,False
+2019,7A,Real estate and rental,2,,,True
+2019,7A,Retail trade,15,2.0935,120.0,False
+2019,7A,Transportation and warehousing,15,2.8679,121.0,False
+2019,7A,Wholesale trade,2,,,True
+2020,504,Accommodation and food services,13,6.748,104.0,False
+2020,504,Administrative and support services,5,4.295,50.0,False
+2020,504,"Arts, entertainment and recreation",2,,,True
+2020,504,Construction,9,2.606,28.0,False
+2020,504,Educational services,1,,,True
+2020,504,Finance and insurance,1,,,True
+2020,504,Health care and social assistance,7,5.646,44.0,False
+2020,504,Manufacturing,4,7.362,87.0,False
+2020,504,"Mining, oil and gas",1,,,True
+2020,504,Other services,9,3.413,47.0,False
+2020,504,Professional and technical services,2,,,True
+2020,504,Real estate and rental,1,,,True
+2020,504,Retail trade,11,5.859,63.0,False
+2020,504,Transportation and warehousing,2,,,True
+2020,504,Wholesale trade,3,1.548,27.0,False
+2020,7A,Accommodation and food services,10,6.4293,174.0,False
+2020,7A,Administrative and support services,6,0.603,42.0,False
+2020,7A,"Agriculture, forestry, fishing",8,1.8575,22.0,False
+2020,7A,"Arts, entertainment and recreation",4,1.1069,17.0,False
+2020,7A,Construction,23,5.6214,243.0,False
+2020,7A,Finance and insurance,2,,,True
+2020,7A,Health care and social assistance,7,0.5195,74.0,False
+2020,7A,Manufacturing,6,0.6776,19.0,False
+2020,7A,"Mining, oil and gas",6,6.6653,79.0,False
+2020,7A,Other services,11,2.1522,77.0,False
+2020,7A,Professional and technical services,14,1.4832,93.0,False
+2020,7A,Real estate and rental,4,1.7181,3.0,False
+2020,7A,Retail trade,12,4.0775,100.0,False
+2020,7A,Transportation and warehousing,13,3.4507,123.0,False
+2020,7A,Wholesale trade,3,0.8225,5.0,False
+2021,504,Accommodation and food services,5,4.397,44.0,False
+2021,504,Administrative and support services,4,2.648,37.0,False
+2021,504,"Arts, entertainment and recreation",1,,,True
+2021,504,Construction,14,5.371,158.0,False
+2021,504,Finance and insurance,4,1.981,12.0,False
+2021,504,Health care and social assistance,13,8.145,70.0,False
+2021,504,Information,1,,,True
+2021,504,Manufacturing,5,13.007,156.0,False
+2021,504,"Mining, oil and gas",1,,,True
+2021,504,Other services,12,5.149,65.0,False
+2021,504,Professional and technical services,6,1.95,24.0,False
+2021,504,Real estate and rental,3,1.687,5.0,False
+2021,504,Retail trade,9,9.524,53.0,False
+2021,504,Transportation and warehousing,1,,,True
+2021,504,Wholesale trade,6,2.929,35.0,False
+2021,7A,Accommodation and food services,16,8.5794,198.0,False
+2021,7A,Administrative and support services,9,1.7636,88.0,False
+2021,7A,"Agriculture, forestry, fishing",13,19.3425,83.0,False
+2021,7A,"Arts, entertainment and recreation",9,5.4891,54.0,False
+2021,7A,Construction,24,9.1252,201.0,False
+2021,7A,Finance and insurance,3,1.0567,13.0,False
+2021,7A,Health care and social assistance,14,3.8503,126.0,False
+2021,7A,Management of companies,1,,,True
+2021,7A,Manufacturing,4,2.7582,49.0,False
+2021,7A,"Mining, oil and gas",6,3.1572,142.0,False
+2021,7A,Other services,17,5.0017,154.0,False
+2021,7A,Professional and technical services,3,0.402,8.0,False
+2021,7A,Real estate and rental,6,1.182,18.0,False
+2021,7A,Retail trade,22,10.1694,244.0,False
+2021,7A,Transportation and warehousing,14,3.2385,81.0,False
+2021,7A,Wholesale trade,1,,,True
+2022,504,Accommodation and food services,3,4.288,50.0,False
+2022,504,Administrative and support services,1,,,True
+2022,504,"Agriculture, forestry, fishing",1,,,True
+2022,504,"Arts, entertainment and recreation",1,,,True
+2022,504,Construction,7,2.139,28.0,False
+2022,504,Finance and insurance,2,,,True
+2022,504,Health care and social assistance,6,3.764,78.0,False
+2022,504,Manufacturing,4,7.424,96.0,False
+2022,504,"Mining, oil and gas",2,,,True
+2022,504,Other services,10,5.03,39.0,False
+2022,504,Professional and technical services,9,5.193,47.0,False
+2022,504,Real estate and rental,1,,,True
+2022,504,Retail trade,11,8.49,35.0,False
+2022,504,Transportation and warehousing,1,,,True
+2022,504,Wholesale trade,2,,,True
+2022,7A,Accommodation and food services,14,13.848,250.0,False
+2022,7A,Administrative and support services,10,1.686,115.0,False
+2022,7A,"Agriculture, forestry, fishing",2,,,True
+2022,7A,"Arts, entertainment and recreation",8,1.3347,65.0,False
+2022,7A,Construction,18,1.9405,116.0,False
+2022,7A,Finance and insurance,2,,,True
+2022,7A,Health care and social assistance,10,1.818,81.0,False
+2022,7A,Manufacturing,3,2.0878,25.0,False
+2022,7A,"Mining, oil and gas",3,3.0255,50.0,False
+2022,7A,Other services,8,2.8103,47.0,False
+2022,7A,Professional and technical services,11,1.5877,67.0,False
+2022,7A,Real estate and rental,2,,,True
+2022,7A,Retail trade,13,5.9525,116.0,False
+2022,7A,Transportation and warehousing,4,0.7452,17.0,False
+2023,504,Accommodation and food services,5,5.101,95.0,False
+2023,504,"Agriculture, forestry, fishing",3,8.128,16.0,False
+2023,504,"Arts, entertainment and recreation",2,,,True
+2023,504,Construction,3,1.286,17.0,False
+2023,504,Health care and social assistance,5,3.775,51.0,False
+2023,504,Information,1,,,True
+2023,504,Manufacturing,5,3.854,46.0,False
+2023,504,Other services,5,2.532,32.0,False
+2023,504,Professional and technical services,4,1.645,11.0,False
+2023,504,Retail trade,8,2.699,12.0,False
+2023,504,Transportation and warehousing,2,,,True
+2023,504,Wholesale trade,1,,,True
+2023,7A,Accommodation and food services,13,5.2992,202.0,False
+2023,7A,Administrative and support services,14,5.8824,245.0,False
+2023,7A,"Arts, entertainment and recreation",5,1.2937,24.0,False
+2023,7A,Construction,8,3.1771,148.0,False
+2023,7A,Health care and social assistance,2,,,True
+2023,7A,Manufacturing,6,0.9856,85.0,False
+2023,7A,"Mining, oil and gas",2,,,True
+2023,7A,Other services,8,5.068,81.0,False
+2023,7A,Professional and technical services,6,4.265,52.0,False
+2023,7A,Real estate and rental,2,,,True
+2023,7A,Retail trade,12,2.1542,117.0,False
+2023,7A,Transportation and warehousing,5,2.2569,38.0,False
+2023,7A,Wholesale trade,1,,,True
+2024,504,Accommodation and food services,8,6.478,114.0,False
+2024,504,"Arts, entertainment and recreation",3,3.478,26.0,False
+2024,504,Construction,5,4.207,51.0,False
+2024,504,Educational services,1,,,True
+2024,504,Health care and social assistance,5,2.091,24.0,False
+2024,504,Manufacturing,5,5.465,29.0,False
+2024,504,"Mining, oil and gas",1,,,True
+2024,504,Other services,9,3.97,32.0,False
+2024,504,Professional and technical services,2,,,True
+2024,504,Real estate and rental,3,1.34,7.0,False
+2024,504,Retail trade,2,,,True
+2024,504,Transportation and warehousing,1,,,True
+2024,504,Wholesale trade,3,6.004,27.0,False
+2024,7A,Accommodation and food services,12,7.4643,203.0,False
+2024,7A,Administrative and support services,6,0.7581,32.0,False
+2024,7A,"Arts, entertainment and recreation",5,6.146,57.0,False
+2024,7A,Construction,15,1.7139,47.0,False
+2024,7A,Educational services,2,,,True
+2024,7A,Finance and insurance,2,,,True
+2024,7A,Health care and social assistance,7,1.1534,53.0,False
+2024,7A,Information,2,,,True
+2024,7A,Manufacturing,3,0.2496,11.0,False
+2024,7A,"Mining, oil and gas",1,,,True
+2024,7A,Other services,11,2.653,245.0,False
+2024,7A,Professional and technical services,13,3.5849,218.0,False
+2024,7A,Real estate and rental,5,0.594,8.0,False
+2024,7A,Retail trade,19,5.5925,168.0,False
+2024,7A,Transportation and warehousing,6,2.941,41.0,False
+2024,7A,Wholesale trade,5,3.6712,20.0,False
+2025,504,Accommodation and food services,11,9.808,91.0,False
+2025,504,Administrative and support services,1,,,True
+2025,504,"Agriculture, forestry, fishing",2,,,True
+2025,504,"Arts, entertainment and recreation",1,,,True
+2025,504,Construction,3,3.997,33.0,False
+2025,504,Educational services,1,,,True
+2025,504,Finance and insurance,3,0.438,7.0,False
+2025,504,Health care and social assistance,8,6.546,51.0,False
+2025,504,Manufacturing,5,9.551,73.0,False
+2025,504,"Mining, oil and gas",3,1.198,70.0,False
+2025,504,Other services,7,3.285,42.0,False
+2025,504,Professional and technical services,3,1.946,7.0,False
+2025,504,Real estate and rental,1,,,True
+2025,504,Retail trade,4,1.696,20.0,False
+2025,504,Transportation and warehousing,2,,,True
+2025,7A,Accommodation and food services,19,26.6068,228.0,False
+2025,7A,Administrative and support services,2,,,True
+2025,7A,"Arts, entertainment and recreation",2,,,True
+2025,7A,Construction,18,10.9057,184.0,False
+2025,7A,Educational services,2,,,True
+2025,7A,Health care and social assistance,12,2.7562,110.0,False
+2025,7A,Information,3,0.35,6.0,False
+2025,7A,Manufacturing,8,10.513,149.0,False
+2025,7A,"Mining, oil and gas",5,2.2664,54.0,False
+2025,7A,Other services,12,9.0601,102.0,False
+2025,7A,Professional and technical services,6,0.8422,28.0,False
+2025,7A,Real estate and rental,2,,,True
+2025,7A,Retail trade,11,12.0005,98.0,False
+2025,7A,Transportation and warehousing,2,,,True
+2025,7A,Wholesale trade,4,6.7312,66.0,False
+2026,504,Accommodation and food services,3,2.1,60.0,False
+2026,504,"Agriculture, forestry, fishing",1,,,True
+2026,504,"Arts, entertainment and recreation",2,,,True
+2026,504,Construction,4,4.096,18.0,False
+2026,504,Finance and insurance,3,1.078,4.0,False
+2026,504,Health care and social assistance,5,6.2,52.0,False
+2026,504,Manufacturing,3,2.303,86.0,False
+2026,504,Other services,10,5.357,53.0,False
+2026,504,Professional and technical services,3,1.411,12.0,False
+2026,504,Real estate and rental,1,,,True
+2026,504,Retail trade,6,4.231,60.0,False
+2026,504,Transportation and warehousing,2,,,True
+2026,7A,Accommodation and food services,16,25.6048,418.0,False
+2026,7A,Administrative and support services,4,3.318,40.0,False
+2026,7A,"Agriculture, forestry, fishing",1,,,True
+2026,7A,"Arts, entertainment and recreation",3,0.581,55.0,False
+2026,7A,Construction,7,6.3474,79.0,False
+2026,7A,Finance and insurance,1,,,True
+2026,7A,Health care and social assistance,13,6.3962,453.0,False
+2026,7A,Manufacturing,4,5.9437,75.0,False
+2026,7A,"Mining, oil and gas",4,6.695,64.0,False
+2026,7A,Not reported,1,,,True
+2026,7A,Other services,10,5.4078,238.0,False
+2026,7A,Professional and technical services,5,1.4,61.0,False
+2026,7A,Real estate and rental,1,,,True
+2026,7A,Retail trade,5,0.6909,23.0,False
+2026,7A,Transportation and warehousing,5,1.2473,26.0,False
+2026,7A,Utilities,1,,,True
+2026,7A,Wholesale trade,2,,,True

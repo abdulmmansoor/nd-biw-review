@@ -1,0 +1,11 @@
+measure,period,source,format,higher_is,ND,MN,MT,SD,WY,US,nd_rank,sampling_error,nd_rank_significant,MN_significant,MT_significant,SD_significant,WY_significant
+"Business applications per 1,000 residents",12 months to Oct 2026,Census BFS,{:.1f},higher,12.680175841112492,13.68549869177184,29.132676505686234,14.86802396336625,148.71601503516754,18.212375043871532,5,False,5,True,True,True,True
+"High-propensity applications per 1,000 residents",12 months to Oct 2026,Census BFS,{:.1f},higher,3.8355780513862374,3.523768932003866,7.662309752650053,3.96323792046575,34.708952650772055,5.094710793462684,4,False,4,True,True,True,True
+Establishment opening rate (%),2023,Census BDS,{:.1f},higher,9.251,8.887,11.41,9.533,12.737,10.608,4,False,4,True,True,True,True
+Share of jobs at firms 5 years old or younger (%),2023,Census BDS,{:.1f},higher,9.613859748201644,8.754743828712165,13.589186225264127,9.819789451848779,14.946519046725465,10.718130400766045,4,False,4,True,True,True,True
+"Private job growth, yearly average (%)",2020-2025,BLS QCEW,{:+.1f},higher,1.6387620866128216,1.7278013904524991,2.677157530461982,2.1843121266386545,1.7196999926009093,2.457251761414536,5,False,5,True,True,True,True
+"Average annual pay, all jobs ($)",2025,BLS QCEW,"${:,.0f}",higher,67580.0,76940.0,62882.0,60575.0,63535.0,78720.0,2,False,2,True,True,True,True
+"Real GDP growth, yearly average (%)",2020-2025,BEA,{:+.1f},higher,2.848754121444941,1.8998813560251238,4.066486898061039,2.3807825233166158,1.9654205078444953,3.3722490876923583,2,False,2,True,True,True,True
+Median household income ($),2020-2024,Census ACS,"${:,.0f}",higher,76657.0,89062.0,72509.0,75081.0,76176.0,80734.0,2,True,2,True,True,True,False
+Per capita income ($),2020-2024,Census ACS,"${:,.0f}",higher,43389.0,48237.0,41711.0,40550.0,42668.0,44673.0,2,True,2,True,True,True,False
+Unemployment rate (%),2020-2024,Census ACS,{:.1f},lower,2.7649063684754718,4.064966101770993,3.6234891868694685,2.931886714237316,3.7064830935275794,5.230546478626967,1,True,1,True,True,False,True

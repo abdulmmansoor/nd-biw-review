@@ -1,0 +1,71 @@
+group,naics,naics_2017_code,title,year,estabs,jobs,avg_pay,lq,withheld,us_jobs,us_avg_pay
+Energy,2111,2111,Oil and gas extraction,2024,98.0,2619.0,172642.2252768232,7.8,False,121340,214633.8048458876
+Energy,2121,2121,Coal mining,2024,8.0,1247.0,132309.19647153167,10.9,False,41369,112442.29942710725
+Energy,2131,2131,Support activities for mining (mainly oil and gas field services in ND),2024,532.0,13508.0,126688.284424045,17.81,False,274270,113958.44433222737
+Energy,2211,2211,"Electric power generation, transmission and distribution",2024,123.0,2547.0,126173.6603847664,2.24,False,411771,141288.94308487
+Energy,2212,2212,Natural gas distribution,2024,17.0,609.0,138771.90147783252,1.89,False,116558,141467.15527891694
+Energy,3241,3241,Petroleum and coal products manufacturing,2024,6.0,,,,True,110253,141328.991873237
+Energy,4861,4861,Pipeline transportation of crude oil,2024,37.0,,,,True,12472,152144.33186337395
+Energy,4862,4862,Pipeline transportation of natural gas,2024,55.0,1128.0,145051.0274822695,11.59,False,35192,168575.67665946807
+Energy,4869,4869,Other pipeline transportation,2024,2.0,,,,True,7231,134685.02489282258
+Energy,237120,237120,Oil and gas pipeline and related structures construction,2024,100.0,1586.0,105918.3896595208,3.99,False,143675,100927.45744910388
+Energy,325193,325193,Ethyl alcohol (fuel ethanol) manufacturing,2024,7.0,270.0,113766.50370370371,9.21,False,10594,103384.10100056636
+Advanced manufacturing,3241,3241,Petroleum and coal products,2024,6.0,,,,True,110253,141328.991873237
+Advanced manufacturing,3251,3251,Basic chemicals,2024,10.0,282.0,112820.5744680851,0.66,False,154937,125942.30636968574
+Advanced manufacturing,3252,3252,"Resins, synthetic rubber and fibers",2024,2.0,,,,True,94544,109308.35521027246
+Advanced manufacturing,3253,3253,"Pesticides, fertilizers and other farm chemicals",2024,2.0,,,,True,37038,102754.60151736056
+Advanced manufacturing,3254,3254,Pharmaceuticals and medicines,2024,11.0,,,,True,347742,140193.88798879628
+Advanced manufacturing,3259,3259,Other chemical products,2024,3.0,,,,True,79618,88284.90532291692
+Advanced manufacturing,3271,3271,Clay products and refractories,2024,1.0,,,,True,34246,69336.84950067161
+Advanced manufacturing,3279,3279,Other nonmetallic mineral products,2024,15.0,292.0,65705.94863013699,1.31,False,80600,72143.23636476426
+Advanced manufacturing,3311,3311,Iron and steel mills and ferroalloys,2024,1.0,,,,True,84855,113312.41246832833
+Advanced manufacturing,3313,3313,Alumina and aluminum,2024,0.0,0.0,,,False,58662,86232.71170434012
+Advanced manufacturing,3315,3315,Foundries,2024,1.0,,,,True,103734,75253.13753446315
+Advanced manufacturing,3331,3331,"Agriculture, construction and mining machinery",2024,64.0,5333.0,75025.95930995687,9.09,False,212175,87316.67616354424
+Advanced manufacturing,3332,3332,Industrial machinery,2024,4.0,75.0,55652.253333333334,0.21,False,130523,110749.88232725266
+Advanced manufacturing,3333,3333,Commercial and service industry machinery,2024,5.0,90.0,71457.14444444445,0.37,False,87807,92896.13992050747
+Advanced manufacturing,3336,3336,"Engines, turbines and power transmission",2024,4.0,,,,True,92243,101414.16856563641
+Advanced manufacturing,3339,3339,Other general purpose machinery,2024,6.0,,,,True,282647,86467.0808711927
+Advanced manufacturing,3341,3341,Computers and peripherals,2024,7.0,,,,True,105658,206116.38200609514
+Advanced manufacturing,3342,3342,Communications equipment,2024,6.0,51.0,97303.01960784313,0.22,False,82063,126987.21834444268
+Advanced manufacturing,3343,3343,Audio and video equipment,2024,3.0,,,,True,18851,133857.29404275634
+Advanced manufacturing,3344,3344,Semiconductors and electronic components,2024,12.0,,,,True,392839,173009.57681645663
+Advanced manufacturing,3345,3345,"Navigational, measuring, electromedical and control instruments",2024,20.0,94.0,71013.12765957447,0.08,False,410129,127025.41187772628
+Advanced manufacturing,3346,3346,Magnetic and optical media,2024,0.0,0.0,,,False,10245,156377.12581747194
+Advanced manufacturing,3351,3351,Electric lighting equipment,2024,0.0,,,,True,35779,82018.26739148663
+Advanced manufacturing,3352,3352,Household appliances,2024,0.0,0.0,,,False,60010,71285.16045659057
+Advanced manufacturing,3353,3353,Electrical equipment,2024,4.0,,,,True,155792,87575.42280091404
+Advanced manufacturing,3359,3359,Other electrical equipment and components,2024,6.0,,,,True,168510,89990.90884220522
+Advanced manufacturing,3361,3361,Motor vehicles,2024,4.0,,,,True,289599,100903.25101606014
+Advanced manufacturing,3362,3362,Motor vehicle bodies and trailers,2024,9.0,408.0,66405.29166666667,0.92,False,160506,65841.57001607417
+Advanced manufacturing,3363,3363,Motor vehicle parts,2024,19.0,729.0,58426.820301783264,0.48,False,548157,72766.49585246562
+Advanced manufacturing,3364,3364,Aerospace products and parts,2024,6.0,,,,True,560571,123121.85583984901
+Advanced manufacturing,3365,3365,Railroad rolling stock,2024,0.0,0.0,,,False,22420,85561.66529884032
+Advanced manufacturing,3366,3366,Ships and boats,2024,1.0,,,,True,150295,77178.92709005623
+Advanced manufacturing,3369,3369,Other transportation equipment,2024,1.0,,,,True,39058,74171.45291617594
+Advanced manufacturing,3391,3391,Medical equipment and supplies,2024,24.0,177.0,76317.1581920904,0.2,False,324449,92925.04263227811
+Advanced manufacturing,3399,3399,Other miscellaneous manufacturing,2024,43.0,345.0,55309.35072463768,0.43,False,288771,70249.62442211994
+Value-added agriculture,311,311,"Food manufacturing (ND has no seafood processing, 3117)",2024,166.0,5582.0,65345.14994625582,1.14,False,1766665,61428.21553265616
+Value-added agriculture,3121,3121,Beverage manufacturing,2024,24.0,405.0,41504.427160493826,0.45,False,323521,60053.181057798414
+Value-added agriculture,325193,325193,Ethyl alcohol (fuel ethanol) manufacturing,2024,7.0,270.0,113766.50370370371,9.21,False,10594,103384.10100056636
+Tourism,721,721,Accommodation,2024,394.0,5619.0,29025.433707065313,1.06,False,1912932,43316.5550824598
+Tourism,71,71,"Arts, entertainment and recreation",2024,546.0,6950.0,22648.60834532374,0.96,False,2605233,50483.10064013468
+Tourism,481,481,Air transportation,2024,24.0,139.0,59342.38129496403,0.09,False,565156,118855.97924112988
+Tourism,487,487,Scenic and sightseeing transportation,2024,2.0,,,,True,30540,43565.68343156516
+Tourism,5615,5615,Travel arrangement and reservation services,2024,64.0,443.0,48373.074492099324,0.85,False,187607,98489.63095726706
+Technology-based business,5132,5112,Software publishers,2024,270.0,1163.0,179461.88134135856,0.66,False,636525,219216.05378736107
+Technology-based business,5162,5152,"Media streaming, social networks and content providers (was cable programming)",2024,24.0,78.0,71602.64102564103,0.13,False,224759,323516.1505301234
+Technology-based business,517112,517312,Wireless telecommunications carriers,2024,3.0,,,,True,79674,116156.28550091623
+Technology-based business,5174,5174,Satellite telecommunications,2024,4.0,,,,True,8766,136211.00479123887
+Technology-based business,5178,5179,All other telecommunications,2024,6.0,,,,True,45058,156608.7211815882
+Technology-based business,5182,5182,"Computing infrastructure, data processing and web hosting",2024,178.0,322.0,95310.08385093168,0.24,False,483804,194800.22490719383
+Technology-based business,5192,5191,Web search portals and other information services,2024,28.0,36.0,198721.91666666666,0.07,False,181282,300320.3174556768
+Technology-based business,5413,5413,"Architectural, engineering and related services",2024,588.0,4656.0,102971.84278350516,1.0,False,1691423,114721.22456948971
+Technology-based business,5415,5415,Computer systems design and related services,2024,856.0,2638.0,104187.16565579985,0.39,False,2432884,161192.4832030627
+Technology-based business,5416,5416,"Management, scientific and technical consulting",2024,1059.0,2431.0,95497.81489099136,0.47,False,1859634,120623.66341871573
+Technology-based business,5417,5417,Scientific research and development services,2024,135.0,550.0,95932.86727272728,0.21,False,927040,178426.49494196582
+Technology-based business,6215,6215,Medical and diagnostic laboratories,2024,46.0,229.0,66659.54148471616,0.27,False,310239,83026.14576503921
+Autonomous systems,3364,3364,Aerospace products and parts,2024,6.0,,,,True,560571,123121.85583984901
+Autonomous systems,3345,3345,"Navigational, measuring, electromedical and control instruments",2024,20.0,94.0,71013.12765957447,0.08,False,410129,127025.41187772628
+Autonomous systems,4881,4881,Support activities for air transportation,2024,52.0,705.0,48653.391489361704,0.95,False,268071,62585.09312831302
+Autonomous systems,5417,5417,Scientific research and development services,2024,135.0,550.0,95932.86727272728,0.21,False,927040,178426.49494196582

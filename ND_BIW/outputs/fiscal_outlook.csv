@@ -1,0 +1,55 @@
+category,code,biennium,kind,value_m
+Sales Tax,sales_use,2023-25,actual,2453.920572
+Individual Income Tax,indiv_income,2023-25,actual,808.206873
+Corporate Income Tax,corp_income,2023-25,actual,607.2557
+Motor Vehicle Excise Tax,motor_vehicle,2023-25,actual,171.114203
+Insurance Premium Tax,ins_premium,2023-25,actual,114.610441
+Other Taxes and Fees,other_revenue,2023-25,actual,265.396474
+"Oil & Gas Taxes, General Fund",oil_taxes,2023-25,actual,460.0
+Transfers and Interest Income,transfers,2023-25,actual,757.71766
+Total Revenues and Transfers,total,2023-25,actual,5638.221923
+Sales Tax,sales_use,2025-27,official forecast,2544.0
+Individual Income Tax,indiv_income,2025-27,official forecast,894.0
+Corporate Income Tax,corp_income,2025-27,official forecast,515.0
+Motor Vehicle Excise Tax,motor_vehicle,2025-27,official forecast,174.983501
+Insurance Premium Tax,ins_premium,2025-27,official forecast,113.425
+Other Taxes and Fees,other_revenue,2025-27,official forecast,255.089075
+"Oil & Gas Taxes, General Fund",oil_taxes,2025-27,official forecast,499.999999
+Transfers and Interest Income,transfers,2025-27,official forecast,332.653806
+Total Revenues and Transfers,total,2025-27,official forecast,5329.151381
+Sales Tax,sales_use,2025-27,IPBA estimate,2569.3649743343
+Individual Income Tax,indiv_income,2025-27,IPBA estimate,688.3462053906344
+Corporate Income Tax,corp_income,2025-27,IPBA estimate,507.719351100126
+Motor Vehicle Excise Tax,motor_vehicle,2025-27,IPBA estimate,163.97036069532749
+Insurance Premium Tax,ins_premium,2025-27,IPBA estimate,116.968657
+Other Taxes and Fees,other_revenue,2025-27,IPBA estimate,263.01457634869195
+"Oil & Gas Taxes, General Fund",oil_taxes,2025-27,IPBA estimate,499.999999
+Transfers and Interest Income,transfers,2025-27,IPBA estimate,380.222476
+Total Revenues and Transfers,total,2025-27,IPBA estimate,5189.606599869079
+Sales Tax,sales_use,2027-29,IPBA estimate,2322.3267664548807
+Individual Income Tax,indiv_income,2027-29,IPBA estimate,643.3238546528376
+Corporate Income Tax,corp_income,2027-29,IPBA estimate,417.18132475087066
+Motor Vehicle Excise Tax,motor_vehicle,2027-29,IPBA estimate,164.56148461279025
+Insurance Premium Tax,ins_premium,2027-29,IPBA estimate,117.6863700982866
+Other Taxes and Fees,other_revenue,2027-29,IPBA estimate,244.27930682653275
+"Oil & Gas Taxes, General Fund",oil_taxes,2027-29,IPBA estimate,499.999999
+Transfers and Interest Income,transfers,2027-29,IPBA estimate,380.222476
+Total Revenues and Transfers,total,2027-29,IPBA estimate,4789.581582396198
+Sales Tax,sales_use,2027-29,low-oil scenario,1923.7146943685211
+Individual Income Tax,indiv_income,2027-29,low-oil scenario,544.3759675984919
+Corporate Income Tax,corp_income,2027-29,low-oil scenario,300.58847755589386
+Motor Vehicle Excise Tax,motor_vehicle,2027-29,low-oil scenario,162.36311545035542
+Insurance Premium Tax,ins_premium,2027-29,low-oil scenario,116.18435173453747
+Other Taxes and Fees,other_revenue,2027-29,low-oil scenario,244.27930682653275
+"Oil & Gas Taxes, General Fund",oil_taxes,2027-29,low-oil scenario,499.999999
+Transfers and Interest Income,transfers,2027-29,low-oil scenario,380.222476
+Total Revenues and Transfers,total,2027-29,low-oil scenario,4171.728388534333
+Sales Tax,sales_use,2027-29,high-oil scenario,2610.818913645099
+Individual Income Tax,indiv_income,2027-29,high-oil scenario,714.4098813942165
+Corporate Income Tax,corp_income,2027-29,high-oil scenario,512.270518548157
+Motor Vehicle Excise Tax,motor_vehicle,2027-29,high-oil scenario,165.86253408138543
+Insurance Premium Tax,ins_premium,2027-29,high-oil scenario,118.57425610398802
+Other Taxes and Fees,other_revenue,2027-29,high-oil scenario,244.27930682653275
+"Oil & Gas Taxes, General Fund",oil_taxes,2027-29,high-oil scenario,499.999999
+Transfers and Interest Income,transfers,2027-29,high-oil scenario,380.222476
+Total Revenues and Transfers,total,2027-29,high-oil scenario,5246.437885599378

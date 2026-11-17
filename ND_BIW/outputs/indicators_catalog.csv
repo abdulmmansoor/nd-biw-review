@@ -1,0 +1,20 @@
+id,theme,name,unit,freq,higher_is_good,format,source
+applications,Business formation,Business applications,per month,M,True,"{:,.0f}",bfs
+hp_applications,Business formation,High-propensity applications (likely employers),per month,M,True,"{:,.0f}",bfs
+wage_applications,Business formation,Applications with planned wages,per month,M,True,"{:,.0f}",bfs
+formations,Business formation,New employer businesses within 4 quarters of applying,per month,M,True,"{:,.0f}",bfs
+estabs_q,Jobs and pay,Business locations with employees,establishments,Q,True,"{:,.0f}",qcew
+jobs_q,Jobs and pay,Jobs covered by unemployment insurance,jobs,Q,True,"{:,.0f}",qcew
+private_jobs_q,Jobs and pay,Private-sector jobs,jobs,Q,True,"{:,.0f}",qcew
+wage_q,Jobs and pay,Average weekly wage,$ per week,Q,True,"${:,.0f}",qcew
+tech_jobs_q,Innovation,Jobs in core technology industries,jobs,Q,True,"{:,.0f}",qcew
+entry_rate,Business dynamics,Establishment opening rate,% of establishments,A,True,{:.1f}%,bds
+exit_rate,Business dynamics,Establishment closing rate,% of establishments,A,False,{:.1f}%,bds
+young_share,Business dynamics,Share of jobs at firms 5 years old or younger,% of jobs,A,True,{:.1f}%,bds
+taxable_sales,Spending,Taxable sales and purchases,$ millions per quarter,Q,True,"${:,.0f}M",taxable_sales
+herd,Innovation,University R&D spending,$ millions per year,A,True,"${:,.0f}M",herd
+herd_pc,Innovation,University R&D per resident,$ per resident,A,True,"${:,.0f}",herd
+patents,Innovation,Patents granted to inventors in the state,patents per year,A,True,"{:,.0f}",patents
+patents_pc,Innovation,"Patents per 100,000 residents","patents per 100,000 residents",A,True,"{:,.1f}",patents
+sbir_awards,Innovation,SBIR/STTR awards to businesses,awards per year,A,True,"{:,.0f}",sbir
+sbir_dollars_pc,Innovation,SBIR/STTR award dollars per resident,$ per resident,A,True,"${:,.2f}",sbir

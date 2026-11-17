@@ -1,0 +1,30 @@
+key,value,unit,label
+year,2024.0,year,Headline year (latest QCEW year with job change computed)
+va_jobs,6257.0,jobs,"Value-added agriculture jobs, 2024"
+va_lq,1.115166537898617,LQ,"Value-added agriculture location quotient, 2024"
+va_pay,65891.46172287039,$,"Value-added agriculture average pay, 2024"
+private_pay,67001.0,$,"All ND private jobs, average pay, 2024"
+va_share,1.767159693959686,%,"Share of ND private jobs, 2024"
+from_year,2019.0,year,Start of the job change window
+va_growth,14.492223238792313,%,"Value-added agriculture jobs, 2019-2024"
+private_growth,0.7365953306285977,%,"All ND private jobs, 2019-2024"
+va_pay_growth,24.962483249084965,%,"Value-added agriculture average pay, 2017-2024 (current dollars)"
+private_pay_growth,31.850204659949632,%,"All ND private average pay, 2017-2024 (current dollars)"
+food_jobs,5582.0,jobs,"Food manufacturing jobs, 2024"
+food_lq,1.14,LQ,Food manufacturing location quotient
+ethanol_jobs,270.0,jobs,Fuel ethanol jobs
+ethanol_lq,9.21,LQ,Fuel ethanol location quotient
+ethanol_pay,113766.50370370371,$,Fuel ethanol average pay
+exports_year,2025.0,year,Latest year of farm export estimates
+exports_total,5182.672982,$ million,"ND farm exports, 2025"
+exports_bulk_share,51.138723488921066,%,"Wheat, soybeans and corn, share of ND farm exports, 2025"
+exports_plant_share,96.14404366831415,%,"Plant products, share of ND farm exports, 2025"
+exports_10y,39.87259908037266,%,"ND farm exports, 2015-2025 (current dollars)"
+freight_proc_share_tons,23.26382430559341,%,"Processed share of farm products leaving ND by tons, 2024 (FAF)"
+freight_proc_share_tons_first,27.60982193167239,%,"Processed share of farm products leaving ND by tons, 2017 (FAF)"
+freight_proc_share_value,31.27579445387152,%,"Processed share of farm products leaving ND by value, 2017 dollars, 2024 (FAF)"
+freight_proc_share_value_first,34.66441428671108,%,"Processed share of farm products leaving ND by value, 2017 dollars, 2017 (FAF)"
+freight_raw_tons,31.349774337000003,million tons,"Raw farm products leaving ND, 2024 (FAF)"
+freight_proc_tons,9.504195845,million tons,"Processed farm products leaving ND, 2024 (FAF)"
+freight_year,2024.0,year,Latest FAF year
+freight_first_year,2017.0,year,First FAF year

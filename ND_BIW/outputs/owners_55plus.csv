@@ -1,0 +1,143 @@
+geo,year,sector,sector_name,share_55plus,owners_55plus,share_55plus_moe90
+MN,2017,00,All industries,48.9,52615,1.5518898962233114
+MN,2023,00,All industries,47.3,43028,2.2069990937922923
+MN,2023,11,"Agriculture, forestry, fishing and hunting",59.4,361,17.63222085416355
+MN,2023,21,"Mining, quarrying, and oil and gas extraction",96.39999999999999,189,31.293503914550698
+MN,2023,22,Utilities,47.9,35,18.424
+MN,2023,23,Construction,42.8,6153,4.573573356796631
+MN,2023,31-33,Manufacturing,57.7,3870,10.358276461361706
+MN,2023,42,Wholesale trade,66.0,3382,8.440950079819215
+MN,2023,44-45,Retail trade,52.400000000000006,4856,8.61075403202298
+MN,2023,48-49,Transportation and warehousing,40.0,1137,12.868905547870028
+MN,2023,51,Information,25.9,253,14.453550774809628
+MN,2023,52,Finance and insurance,47.2,2177,11.794776184820124
+MN,2023,53,Real estate and rental and leasing,50.0,2981,6.053063563188479
+MN,2023,54,"Professional, scientific, and technical services",49.0,6266,5.248555467935916
+MN,2023,55,Management of companies and enterprises,79.4,139,141.90925991632824
+MN,2023,56,Administrative and support and waste management,46.8,2625,8.225
+MN,2023,61,Educational services,40.099999999999994,268,28.62347269724622
+MN,2023,62,Health care and social assistance,38.400000000000006,3262,4.420124489197108
+MN,2023,71,"Arts, entertainment, and recreation",42.2,710,10.4311679715169
+MN,2023,72,Accommodation and food services,43.099999999999994,2835,6.296289879762526
+MN,2023,81,Other services (except public administration),38.6,1777,6.631206997975557
+MT,2017,00,All industries,50.0,14880,2.510983522446932
+MT,2023,00,All industries,49.5,14356,2.3263813101037414
+MT,2023,11,"Agriculture, forestry, fishing and hunting",45.6,128,28.952
+MT,2023,21,"Mining, quarrying, and oil and gas extraction",37.099999999999994,73,23.22015248119616
+MT,2023,22,Utilities,54.5,6,48.034
+MT,2023,23,Construction,36.4,1842,9.508327678934924
+MT,2023,31-33,Manufacturing,45.4,623,14.106774206033071
+MT,2023,42,Wholesale trade,63.400000000000006,563,18.145774218809184
+MT,2023,44-45,Retail trade,42.4,1125,7.345620361821049
+MT,2023,48-49,Transportation and warehousing,59.099999999999994,600,18.038833284056928
+MT,2023,51,Information,79.5,377,48.62804752917806
+MT,2023,52,Finance and insurance,66.8,774,12.182999271525874
+MT,2023,53,Real estate and rental and leasing,60.9,1132,17.06048208580285
+MT,2023,54,"Professional, scientific, and technical services",49.2,1841,8.075593012280894
+MT,2023,55,Management of companies and enterprises,100.0,204,27.46706700760021
+MT,2023,56,Administrative and support and waste management,61.5,1274,14.081814939843515
+MT,2023,61,Educational services,96.3,52,9.3765
+MT,2023,62,Health care and social assistance,32.4,822,10.520286236600219
+MT,2023,71,"Arts, entertainment, and recreation",55.0,503,25.05697349042777
+MT,2023,72,Accommodation and food services,54.5,1739,14.37187838280021
+MT,2023,81,Other services (except public administration),49.5,715,18.614685096718667
+ND,2017,00,All industries,45.5,8343,3.6966777314231765
+ND,2023,00,All industries,43.4,5935,5.755149520212313
+ND,2023,21,"Mining, quarrying, and oil and gas extraction",40.6,93,32.311166881590644
+ND,2023,22,Utilities,0.0,0,0.0
+ND,2023,23,Construction,26.5,497,10.175092947978412
+ND,2023,31-33,Manufacturing,54.2,407,14.3445509166373
+ND,2023,42,Wholesale trade,59.8,644,15.432344612857763
+ND,2023,44-45,Retail trade,59.1,963,19.44234122347409
+ND,2023,48-49,Transportation and warehousing,50.900000000000006,372,25.751475423749994
+ND,2023,51,Information,35.8,43,34.00338750771752
+ND,2023,52,Finance and insurance,52.1,410,21.21220962087637
+ND,2023,53,Real estate and rental and leasing,53.6,152,32.51320756631065
+ND,2023,54,"Professional, scientific, and technical services",44.2,498,13.233817967616147
+ND,2023,55,Management of companies and enterprises,84.19999999999999,59,147.73418872082385
+ND,2023,56,Administrative and support and waste management,53.3,530,25.262937205519076
+ND,2023,61,Educational services,0.0,0,0.0
+ND,2023,62,Health care and social assistance,11.2,142,8.12736551718944
+ND,2023,72,Accommodation and food services,45.099999999999994,823,12.214055765797044
+ND,2023,81,Other services (except public administration),47.900000000000006,382,21.282257034910558
+SD,2017,00,All industries,50.7,10893,1.5518898962233114
+SD,2023,00,All industries,46.400000000000006,8690,5.710306581086519
+SD,2023,11,"Agriculture, forestry, fishing and hunting",0.0,0,0.0
+SD,2023,21,"Mining, quarrying, and oil and gas extraction",52.5,21,76.3529899823838
+SD,2023,22,Utilities,0.0,0,0.0
+SD,2023,23,Construction,45.3,1710,11.900980988977338
+SD,2023,31-33,Manufacturing,60.8,558,14.529177893122514
+SD,2023,42,Wholesale trade,76.2,657,23.872345192712007
+SD,2023,44-45,Retail trade,48.9,1128,9.428304261636871
+SD,2023,48-49,Transportation and warehousing,52.3,471,20.272914861953126
+SD,2023,51,Information,48.7,75,18.325329533189844
+SD,2023,52,Finance and insurance,49.7,346,27.259392234604206
+SD,2023,53,Real estate and rental and leasing,45.099999999999994,347,19.026613584660826
+SD,2023,54,"Professional, scientific, and technical services",43.5,706,11.748801438870263
+SD,2023,55,Management of companies and enterprises,91.7,33,122.33426037909413
+SD,2023,56,Administrative and support and waste management,29.299999999999997,250,22.62458152099172
+SD,2023,61,Educational services,0.0,0,0.0
+SD,2023,62,Health care and social assistance,23.900000000000002,522,14.204267809359271
+SD,2023,71,"Arts, entertainment, and recreation",58.4,101,65.6355
+SD,2023,72,Accommodation and food services,47.599999999999994,1009,12.4510309713694
+SD,2023,81,Other services (except public administration),58.7,703,17.4865898619485
+US,2017,00,All industries,50.8,2402540,0.5931131848138262
+US,2017,11,"Agriculture, forestry, fishing and hunting",56.400000000000006,14863,1.875588574288082
+US,2017,21,"Mining, quarrying, and oil and gas extraction",65.6,11743,3.391254377070526
+US,2017,22,Utilities,66.6,1591,5.672269144707434
+US,2017,23,Construction,48.2,287227,0.5931131848138262
+US,2017,31-33,Manufacturing,59.8,152592,1.0533139370577036
+US,2017,42,Wholesale trade,59.4,157505,0.6979143930311223
+US,2017,44-45,Retail trade,52.7,294035,0.885859610773626
+US,2017,48-49,Transportation and warehousing,49.400000000000006,68344,2.4288133934083946
+US,2017,51,Information,47.6,31171,1.5166150632246798
+US,2017,52,Finance and insurance,54.2,110041,0.7356663645974308
+US,2017,53,Real estate and rental and leasing,59.400000000000006,159798,0.6979143930311223
+US,2017,54,"Professional, scientific, and technical services",51.3,384395,0.8225
+US,2017,55,Management of companies and enterprises,66.8,14133,7.166613879650557
+US,2017,56,Administrative and support and waste management,47.1,131706,1.0533139370577036
+US,2017,61,Educational services,43.099999999999994,23101,1.7486589861948498
+US,2017,62,Health care and social assistance,47.8,222523,0.3678331822987154
+US,2017,71,"Arts, entertainment, and recreation",44.7,38382,2.0611790921703044
+US,2017,72,Accommodation and food services,43.2,177655,1.252794675914613
+US,2017,81,Other services (except public administration),47.3,142430,0.8225
+US,2023,00,All industries,51.3,2157838,0.3678331822987154
+US,2023,11,"Agriculture, forestry, fishing and hunting",55.8,8707,5.834534642968538
+US,2023,21,"Mining, quarrying, and oil and gas extraction",59.599999999999994,7717,4.015956797576388
+US,2023,22,Utilities,59.5,1472,6.207559584893246
+US,2023,23,Construction,49.099999999999994,271362,1.1862263696276525
+US,2023,31-33,Manufacturing,61.599999999999994,127114,2.1448175913116714
+US,2023,42,Wholesale trade,63.400000000000006,141398,1.0533139370577036
+US,2023,44-45,Retail trade,54.2,226888,0.8225
+US,2023,48-49,Transportation and warehousing,48.9,63923,2.337984281384287
+US,2023,51,Information,47.1,26820,2.2069990937922923
+US,2023,52,Finance and insurance,54.9,95308,1.415082506428512
+US,2023,53,Real estate and rental and leasing,57.2,146746,1.5166150632246798
+US,2023,54,"Professional, scientific, and technical services",52.8,371949,0.6979143930311223
+US,2023,55,Management of companies and enterprises,70.2,10165,6.066460252898719
+US,2023,56,Administrative and support and waste management,49.599999999999994,123562,1.1631906550518707
+US,2023,61,Educational services,42.9,23563,2.569572143373289
+US,2023,62,Health care and social assistance,45.0,194408,0.8225
+US,2023,71,"Arts, entertainment, and recreation",42.6,36473,2.5590194411141156
+US,2023,72,Accommodation and food services,44.599999999999994,166826,0.8225
+US,2023,81,Other services (except public administration),48.4,127715,0.9591915867020518
+WY,2017,00,All industries,49.5,7621,2.2374418986869804
+WY,2023,00,All industries,43.8,6469,3.7294729520402745
+WY,2023,21,"Mining, quarrying, and oil and gas extraction",39.3,115,19.8200315148589
+WY,2023,22,Utilities,28.6,4,46.5535
+WY,2023,23,Construction,28.6,542,9.09969037934808
+WY,2023,31-33,Manufacturing,55.7,293,17.045407130661324
+WY,2023,42,Wholesale trade,52.2,269,22.344162828354072
+WY,2023,44-45,Retail trade,66.3,874,26.30457360422328
+WY,2023,48-49,Transportation and warehousing,42.3,210,17.83289258645383
+WY,2023,51,Information,28.7,81,20.96971774965033
+WY,2023,52,Finance and insurance,57.3,371,35.68740206641554
+WY,2023,53,Real estate and rental and leasing,39.9,401,18.169618873273045
+WY,2023,54,"Professional, scientific, and technical services",38.0,798,8.61075403202298
+WY,2023,55,Management of companies and enterprises,98.19999999999999,55,143.6657715123891
+WY,2023,56,Administrative and support and waste management,31.700000000000003,419,12.239507506431785
+WY,2023,61,Educational services,0.0,0,0.0
+WY,2023,62,Health care and social assistance,23.799999999999997,223,15.265741809686157
+WY,2023,71,"Arts, entertainment, and recreation",51.3,116,31.219049060629633
+WY,2023,72,Accommodation and food services,57.0,1238,10.358276461361708
+WY,2023,81,Other services (except public administration),57.9,393,28.07364923286604

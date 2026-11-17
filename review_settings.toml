@@ -1,0 +1,12 @@
+# Review version settings. Edit this file, then run Build_Review_Version.bat (or push it) to update the site.
+
+# Shown at the top of every page. Leave empty ("") to hide it.
+label = "Review draft. Figures and wording may change before release; please do not cite or share. The Business survey page shows made-up test data."
+
+# Microsoft Form for comments. In Forms: open the form > ... (More options) > Get pre-filled URL,
+# type the word PAGE in the page question, press "Get pre-filled URL", copy the link and paste it here.
+# Until a link is set, the "Comment on this page" button is hidden.
+form_url = ""
+
+# Text put before the page name in the form (useful if one form collects comments for several dashboards).
+page_prefix = ""

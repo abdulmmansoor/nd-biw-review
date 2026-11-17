@@ -1,0 +1,61 @@
+group,occ_code,occupation,est_jobs,share_of_group,nd_median_wage,nd_jobs_all,soc_major,rank,oews_year
+Advanced manufacturing,51-2090,Miscellaneous Assemblers and Fabricators,1160.047572095404,14.728892484705483,47720.0,5130.0,51,1,2024
+Advanced manufacturing,51-4121,"Welders, Cutters, Solderers, and Brazers",421.00710149855666,5.3454431373610545,60270.0,2720.0,51,2,2024
+Advanced manufacturing,51-4041,Machinists,334.096389233084,4.241955170557186,58110.0,500.0,51,3,2024
+Advanced manufacturing,51-1011,First-Line Supervisors of Production and Operating Workers,288.534587364241,3.6634660660772096,73700.0,1650.0,51,4,2024
+Advanced manufacturing,17-2141,Mechanical Engineers,226.9966009196729,2.88213053478508,84020.0,770.0,17,5,2024
+Advanced manufacturing,53-7062,"Laborers and Freight, Stock, and Material Movers, Hand",207.2984642088471,2.6320272245917606,44630.0,10140.0,53,6,2024
+Advanced manufacturing,51-9061,"Inspectors, Testers, Sorters, Samplers, and Weighers",207.09908486434202,2.6294957448494416,51340.0,1800.0,51,7,2024
+Advanced manufacturing,51-9161,Computer Numerically Controlled Tool Operators,192.98646271605455,2.4503105982231403,61610.0,270.0,51,8,2024
+Advanced manufacturing,17-2112,Industrial Engineers,189.23572993127377,2.4026882926774222,84610.0,530.0,17,9,2024
+Advanced manufacturing,41-4012,"Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products",182.60591953642717,2.3185109133624575,71230.0,4220.0,41,10,2024
+Autonomous systems,49-3011,Aircraft Mechanics and Service Technicians,115.19392095946027,8.539208373570071,77900.0,180.0,49,1,2024
+Autonomous systems,53-7062,"Laborers and Freight, Stock, and Material Movers, Hand",60.365292121187565,4.474817799939776,44630.0,10140.0,53,2,2024
+Autonomous systems,53-6032,Aircraft Service Attendants,51.842542584129625,3.843035032181588,48180.0,70.0,53,3,2024
+Autonomous systems,53-6061,Passenger Attendants,39.753937379612495,2.9469190051603036,,,53,4,2024
+Autonomous systems,15-1252,Software Developers,38.275225491646886,2.8373035946365373,98550.0,1510.0,15,5,2024
+Autonomous systems,11-1021,General and Operations Managers,37.94432719022857,2.8127744396018213,93290.0,11660.0,11,6,2024
+Autonomous systems,43-4181,Reservation and Transportation Ticket Agents and Travel Clerks,37.11787589228387,2.7515104442019176,33840.0,200.0,43,7,2024
+Autonomous systems,19-1042,"Medical Scientists, Except Epidemiologists",33.52605425230573,2.4852523537661773,75870.0,260.0,19,8,2024
+Autonomous systems,11-9121,Natural Sciences Managers,24.747516843314028,1.8345082908312844,133540.0,120.0,11,9,2024
+Autonomous systems,43-4051,Customer Service Representatives,23.883030804925138,1.7704248187490839,43160.0,6470.0,43,10,2024
+Energy,47-5071,"Roustabouts, Oil and Gas",1829.7085753723745,7.781358234976501,60140.0,2690.0,47,1,2024
+Energy,47-5013,"Service Unit Operators, Oil and Gas",1668.5428790707392,7.095955086632386,62340.0,3080.0,47,2,2024
+Energy,47-1011,First-Line Supervisors of Construction Trades and Extraction Workers,1289.296562942985,5.483101824202539,80340.0,4310.0,47,3,2024
+Energy,53-3032,Heavy and Tractor-Trailer Truck Drivers,1049.7861920539465,4.464515573930196,58970.0,10510.0,53,4,2024
+Energy,11-1021,General and Operations Managers,924.726753395002,3.9326645972399508,93290.0,11660.0,11,5,2024
+Energy,49-9041,Industrial Machinery Mechanics,764.9035485607382,3.252970777242231,65070.0,2760.0,49,6,2024
+Energy,47-2061,Construction Laborers,742.1116358423919,3.1560416596172147,48340.0,4600.0,47,7,2024
+Energy,47-2073,Operating Engineers and Other Construction Equipment Operators,689.6940523610032,2.9331209167347247,62760.0,4690.0,47,8,2024
+Energy,47-5012,"Rotary Drill Operators, Oil and Gas",533.8655328976866,2.270415637057441,69560.0,280.0,47,9,2024
+Energy,53-7073,Wellhead Pumpers,523.0510521863877,2.224423969492165,83450.0,910.0,53,10,2024
+Technology-based business,15-1252,Software Developers,1104.1651447466431,9.123069856619377,98550.0,1510.0,15,1,2024
+Technology-based business,17-2051,Civil Engineers,548.3223803690382,4.5304666642075375,96160.0,1470.0,17,2,2024
+Technology-based business,11-1021,General and Operations Managers,522.3584605735243,4.315942002590468,93290.0,11660.0,11,3,2024
+Technology-based business,13-1082,Project Management Specialists,483.64952264324444,3.9961127211703253,89660.0,1720.0,13,4,2024
+Technology-based business,13-1111,Management Analysts,439.5619991927444,3.631843337955419,73080.0,1080.0,13,5,2024
+Technology-based business,41-3091,"Sales Representatives of Services, Except Advertising, Insurance, Financial Services, and Travel",370.32846673046106,3.059807210860622,76720.0,980.0,41,6,2024
+Technology-based business,15-1232,Computer User Support Specialists,285.6372796693638,2.360053537712665,59420.0,1260.0,15,7,2024
+Technology-based business,11-3021,Computer and Information Systems Managers,284.71522245382283,2.3524351190103516,136300.0,650.0,11,8,2024
+Technology-based business,13-1161,Market Research Analysts and Marketing Specialists,280.0357319893569,2.3137712301855484,62230.0,1500.0,13,9,2024
+Technology-based business,17-1011,"Architects, Except Landscape and Naval",264.10715323832056,2.182162713693469,77640.0,180.0,17,10,2024
+Tourism,37-2012,Maids and Housekeeping Cleaners,1211.7291903368937,9.213969966823008,34140.0,2920.0,37,1,2024
+Tourism,39-3091,Amusement and Recreation Attendants,770.273705806743,5.857149310369881,27860.0,1730.0,39,2,2024
+Tourism,43-4081,"Hotel, Motel, and Resort Desk Clerks",702.2205229735386,5.339673963755901,33840.0,1660.0,43,3,2024
+Tourism,35-3031,Waiters and Waitresses,643.9143064080763,4.896314397445641,29420.0,5290.0,35,4,2024
+Tourism,39-9031,Exercise Trainers and Group Fitness Instructors,545.8512218724214,4.150644223803676,36970.0,740.0,39,5,2024
+Tourism,49-9071,"Maintenance and Repair Workers, General",420.16543512647996,3.194931451041594,49510.0,3420.0,49,6,2024
+Tourism,35-2014,"Cooks, Restaurant",338.9379831617937,2.57727916631278,36060.0,4400.0,35,7,2024
+Tourism,11-1021,General and Operations Managers,334.2829223075223,2.541882155786802,93290.0,11660.0,11,8,2024
+Tourism,37-3011,Landscaping and Groundskeeping Workers,307.5762927566153,2.338805358958371,39520.0,2200.0,37,9,2024
+Tourism,35-3011,Bartenders,285.2335454813448,2.168911455260777,28440.0,3890.0,35,10,2024
+Value-added agriculture,51-9111,Packaging and Filling Machine Operators and Tenders,572.5244214563087,9.150142583607298,45390.0,910.0,51,1,2024
+Value-added agriculture,51-3092,Food Batchmakers,456.86195065073997,7.301613403400031,39110.0,200.0,51,2,2024
+Value-added agriculture,51-3022,"Meat, Poultry, and Fish Cutters and Trimmers",353.6266080917978,5.651695830139008,44170.0,,51,3,2024
+Value-added agriculture,53-7062,"Laborers and Freight, Stock, and Material Movers, Hand",305.7046306155728,4.8858019916185516,44630.0,10140.0,53,4,2024
+Value-added agriculture,51-3011,Bakers,255.92029470480895,4.090143754272158,38700.0,750.0,51,5,2024
+Value-added agriculture,51-1011,First-Line Supervisors of Production and Operating Workers,243.5125464025142,3.891841879535148,73700.0,1650.0,51,6,2024
+Value-added agriculture,53-7064,"Packers and Packagers, Hand",212.4185291457996,3.394894184845766,28480.0,550.0,53,7,2024
+Value-added agriculture,51-3023,Slaughterers and Meat Packers,198.7972245579714,3.177197132139546,42220.0,150.0,51,8,2024
+Value-added agriculture,51-9061,"Inspectors, Testers, Sorters, Samplers, and Weighers",163.1930163372737,2.608167114228443,51340.0,1800.0,51,9,2024
+Value-added agriculture,49-9071,"Maintenance and Repair Workers, General",160.41503731683866,2.5637691755927547,49510.0,3420.0,49,10,2024

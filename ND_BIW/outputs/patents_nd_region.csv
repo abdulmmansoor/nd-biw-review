@@ -1,0 +1,524 @@
+year,region,county,patents
+2000,Region 1 (Williston),Divide,1
+2000,Region 1 (Williston),Williams,3
+2000,Region 2 (Minot),McHenry,1
+2000,Region 2 (Minot),Mountrail,1
+2000,Region 2 (Minot),Pierce,1
+2000,Region 2 (Minot),Ward,1
+2000,Region 3 (Devils Lake),Benson,1
+2000,Region 3 (Devils Lake),Ramsey,1
+2000,Region 3 (Devils Lake),Rolette,1
+2000,Region 4 (Grand Forks),Grand Forks,6
+2000,Region 5 (Fargo),Cass,42
+2000,Region 5 (Fargo),Ransom,8
+2000,Region 5 (Fargo),Richland,5
+2000,Region 5 (Fargo),Sargent,1
+2000,Region 6 (Jamestown),Barnes,4
+2000,Region 6 (Jamestown),Stutsman,2
+2000,Region 6 (Jamestown),Wells,1
+2000,Region 7 (Bismarck),Burleigh,13
+2000,Region 7 (Bismarck),Emmons,8
+2000,Region 7 (Bismarck),Kidder,1
+2000,Region 7 (Bismarck),McLean,1
+2000,Region 7 (Bismarck),Mercer,1
+2000,Region 7 (Bismarck),Morton,1
+2000,Region 8 (Dickinson),Adams,1
+2000,Region 8 (Dickinson),Bowman,1
+2000,Region 8 (Dickinson),Golden Valley,1
+2000,Region 8 (Dickinson),Stark,3
+2001,Region 1 (Williston),Williams,2
+2001,Region 2 (Minot),Bottineau,1
+2001,Region 2 (Minot),Ward,6
+2001,Region 3 (Devils Lake),Ramsey,2
+2001,Region 3 (Devils Lake),Rolette,1
+2001,Region 4 (Grand Forks),Grand Forks,9
+2001,Region 5 (Fargo),Cass,37
+2001,Region 5 (Fargo),Ransom,6
+2001,Region 5 (Fargo),Richland,9
+2001,Region 5 (Fargo),Sargent,5
+2001,Region 6 (Jamestown),Barnes,2
+2001,Region 6 (Jamestown),Dickey,2
+2001,Region 6 (Jamestown),McIntosh,1
+2001,Region 6 (Jamestown),Stutsman,3
+2001,Region 7 (Bismarck),Burleigh,13
+2001,Region 7 (Bismarck),Emmons,9
+2001,Region 7 (Bismarck),McLean,1
+2001,Region 7 (Bismarck),Mercer,1
+2001,Region 7 (Bismarck),Morton,1
+2001,Region 7 (Bismarck),Sheridan,2
+2001,Region 8 (Dickinson),Hettinger,1
+2001,Region 8 (Dickinson),Stark,3
+2002,Region 1 (Williston),Williams,3
+2002,Region 2 (Minot),Mountrail,1
+2002,Region 2 (Minot),Renville,1
+2002,Region 2 (Minot),Ward,2
+2002,Region 3 (Devils Lake),Ramsey,1
+2002,Region 4 (Grand Forks),Grand Forks,5
+2002,Region 5 (Fargo),Cass,32
+2002,Region 5 (Fargo),Ransom,3
+2002,Region 5 (Fargo),Richland,6
+2002,Region 5 (Fargo),Sargent,4
+2002,Region 5 (Fargo),Traill,2
+2002,Region 6 (Jamestown),Barnes,1
+2002,Region 6 (Jamestown),Dickey,1
+2002,Region 6 (Jamestown),Stutsman,3
+2002,Region 7 (Bismarck),Burleigh,13
+2002,Region 7 (Bismarck),Emmons,2
+2002,Region 7 (Bismarck),Morton,4
+2002,Region 8 (Dickinson),Billings,1
+2002,Region 8 (Dickinson),Stark,3
+2003,Region 1 (Williston),Williams,2
+2003,Region 3 (Devils Lake),Benson,2
+2003,Region 3 (Devils Lake),Eddy,1
+2003,Region 3 (Devils Lake),Ramsey,1
+2003,Region 3 (Devils Lake),Rolette,1
+2003,Region 4 (Grand Forks),Grand Forks,2
+2003,Region 5 (Fargo),Cass,22
+2003,Region 5 (Fargo),Ransom,3
+2003,Region 5 (Fargo),Richland,6
+2003,Region 5 (Fargo),Sargent,1
+2003,Region 5 (Fargo),Traill,2
+2003,Region 6 (Jamestown),Barnes,3
+2003,Region 6 (Jamestown),Dickey,2
+2003,Region 6 (Jamestown),Griggs,1
+2003,Region 6 (Jamestown),Stutsman,9
+2003,Region 7 (Bismarck),Burleigh,7
+2003,Region 7 (Bismarck),Emmons,4
+2003,Region 7 (Bismarck),McLean,2
+2003,Region 7 (Bismarck),Morton,3
+2003,Region 8 (Dickinson),Bowman,2
+2003,Region 8 (Dickinson),Stark,1
+2004,Region 1 (Williston),Williams,1
+2004,Region 2 (Minot),Bottineau,1
+2004,Region 2 (Minot),McHenry,1
+2004,Region 2 (Minot),Mountrail,1
+2004,Region 2 (Minot),Ward,1
+2004,Region 4 (Grand Forks),Grand Forks,6
+2004,Region 4 (Grand Forks),Pembina,2
+2004,Region 5 (Fargo),Cass,25
+2004,Region 5 (Fargo),Ransom,1
+2004,Region 5 (Fargo),Richland,12
+2004,Region 5 (Fargo),Sargent,4
+2004,Region 5 (Fargo),Steele,1
+2004,Region 6 (Jamestown),Barnes,1
+2004,Region 6 (Jamestown),Dickey,4
+2004,Region 6 (Jamestown),Logan,1
+2004,Region 6 (Jamestown),Stutsman,4
+2004,Region 7 (Bismarck),Burleigh,5
+2004,Region 7 (Bismarck),Emmons,3
+2004,Region 7 (Bismarck),Morton,1
+2004,Region 8 (Dickinson),Adams,1
+2004,Region 8 (Dickinson),Stark,1
+2005,Region 1 (Williston),Williams,4
+2005,Region 2 (Minot),McHenry,1
+2005,Region 2 (Minot),Ward,1
+2005,Region 3 (Devils Lake),Cavalier,1
+2005,Region 3 (Devils Lake),Ramsey,1
+2005,Region 4 (Grand Forks),Grand Forks,9
+2005,Region 5 (Fargo),Cass,37
+2005,Region 5 (Fargo),Ransom,1
+2005,Region 5 (Fargo),Richland,7
+2005,Region 5 (Fargo),Sargent,4
+2005,Region 5 (Fargo),Traill,2
+2005,Region 6 (Jamestown),Dickey,1
+2005,Region 6 (Jamestown),Griggs,2
+2005,Region 6 (Jamestown),Stutsman,6
+2005,Region 7 (Bismarck),Burleigh,10
+2005,Region 7 (Bismarck),Emmons,2
+2005,Region 7 (Bismarck),McLean,1
+2005,Region 7 (Bismarck),Mercer,1
+2005,Region 7 (Bismarck),Morton,2
+2005,Region 8 (Dickinson),Golden Valley,1
+2005,Region 8 (Dickinson),Stark,3
+2006,Region 1 (Williston),Williams,1
+2006,Region 2 (Minot),Ward,2
+2006,Region 4 (Grand Forks),Grand Forks,5
+2006,Region 5 (Fargo),Cass,37
+2006,Region 5 (Fargo),Ransom,1
+2006,Region 5 (Fargo),Richland,8
+2006,Region 5 (Fargo),Sargent,2
+2006,Region 6 (Jamestown),Barnes,1
+2006,Region 6 (Jamestown),Dickey,2
+2006,Region 6 (Jamestown),Griggs,1
+2006,Region 6 (Jamestown),Stutsman,9
+2006,Region 7 (Bismarck),Burleigh,8
+2006,Region 7 (Bismarck),Emmons,3
+2006,Region 7 (Bismarck),Mercer,1
+2006,Region 8 (Dickinson),Dunn,1
+2006,Region 8 (Dickinson),Stark,5
+2007,Region 1 (Williston),McKenzie,1
+2007,Region 2 (Minot),Bottineau,1
+2007,Region 2 (Minot),Pierce,1
+2007,Region 2 (Minot),Ward,1
+2007,Region 3 (Devils Lake),Cavalier,1
+2007,Region 3 (Devils Lake),Ramsey,3
+2007,Region 3 (Devils Lake),Towner,1
+2007,Region 4 (Grand Forks),Grand Forks,6
+2007,Region 4 (Grand Forks),Pembina,1
+2007,Region 5 (Fargo),Cass,41
+2007,Region 5 (Fargo),Ransom,5
+2007,Region 5 (Fargo),Richland,6
+2007,Region 5 (Fargo),Sargent,3
+2007,Region 6 (Jamestown),Dickey,1
+2007,Region 6 (Jamestown),Stutsman,5
+2007,Region 6 (Jamestown),Wells,1
+2007,Region 7 (Bismarck),Burleigh,8
+2007,Region 7 (Bismarck),Emmons,2
+2007,Region 7 (Bismarck),McLean,1
+2007,Region 8 (Dickinson),Bowman,1
+2007,Region 8 (Dickinson),Dunn,1
+2007,Region 8 (Dickinson),Stark,7
+2008,Region 1 (Williston),Williams,4
+2008,Region 2 (Minot),Ward,2
+2008,Region 4 (Grand Forks),Grand Forks,5
+2008,Region 5 (Fargo),Cass,44
+2008,Region 5 (Fargo),Ransom,1
+2008,Region 5 (Fargo),Richland,3
+2008,Region 5 (Fargo),Sargent,2
+2008,Region 5 (Fargo),Traill,1
+2008,Region 6 (Jamestown),Stutsman,4
+2008,Region 6 (Jamestown),Wells,1
+2008,Region 7 (Bismarck),Burleigh,7
+2008,Region 7 (Bismarck),Emmons,1
+2008,Region 7 (Bismarck),McLean,1
+2008,Region 7 (Bismarck),Mercer,1
+2008,Region 7 (Bismarck),Morton,1
+2008,Region 8 (Dickinson),Stark,1
+2009,Region 2 (Minot),Ward,1
+2009,Region 4 (Grand Forks),Grand Forks,16
+2009,Region 5 (Fargo),Cass,37
+2009,Region 5 (Fargo),Richland,8
+2009,Region 5 (Fargo),Sargent,3
+2009,Region 5 (Fargo),Traill,2
+2009,Region 6 (Jamestown),Barnes,2
+2009,Region 6 (Jamestown),Dickey,2
+2009,Region 6 (Jamestown),Stutsman,6
+2009,Region 6 (Jamestown),Wells,1
+2009,Region 7 (Bismarck),Burleigh,10
+2009,Region 7 (Bismarck),Emmons,6
+2009,Region 7 (Bismarck),McLean,1
+2009,Region 7 (Bismarck),Morton,3
+2009,Region 8 (Dickinson),Stark,1
+2010,Region 1 (Williston),McKenzie,1
+2010,Region 2 (Minot),Bottineau,1
+2010,Region 2 (Minot),Ward,2
+2010,Region 3 (Devils Lake),Ramsey,1
+2010,Region 3 (Devils Lake),Rolette,1
+2010,Region 4 (Grand Forks),Grand Forks,7
+2010,Region 4 (Grand Forks),Walsh,1
+2010,Region 5 (Fargo),Cass,55
+2010,Region 5 (Fargo),Ransom,4
+2010,Region 5 (Fargo),Richland,2
+2010,Region 5 (Fargo),Steele,1
+2010,Region 5 (Fargo),Traill,1
+2010,Region 6 (Jamestown),Barnes,1
+2010,Region 6 (Jamestown),Dickey,1
+2010,Region 6 (Jamestown),Foster,1
+2010,Region 6 (Jamestown),Griggs,1
+2010,Region 6 (Jamestown),McIntosh,1
+2010,Region 6 (Jamestown),Stutsman,20
+2010,Region 7 (Bismarck),Burleigh,14
+2010,Region 7 (Bismarck),Emmons,10
+2010,Region 7 (Bismarck),Morton,3
+2010,Region 8 (Dickinson),Stark,5
+2011,Region 1 (Williston),McKenzie,2
+2011,Region 1 (Williston),Williams,2
+2011,Region 2 (Minot),Mountrail,1
+2011,Region 4 (Grand Forks),Grand Forks,12
+2011,Region 5 (Fargo),Cass,69
+2011,Region 5 (Fargo),Ransom,4
+2011,Region 5 (Fargo),Richland,2
+2011,Region 5 (Fargo),Steele,2
+2011,Region 6 (Jamestown),Dickey,2
+2011,Region 6 (Jamestown),Stutsman,10
+2011,Region 7 (Bismarck),Burleigh,8
+2011,Region 7 (Bismarck),Emmons,6
+2011,Region 7 (Bismarck),Grant,1
+2011,Region 7 (Bismarck),McLean,1
+2011,Region 7 (Bismarck),Morton,4
+2011,Region 8 (Dickinson),Stark,3
+2012,Region 1 (Williston),McKenzie,1
+2012,Region 1 (Williston),Williams,5
+2012,Region 2 (Minot),Pierce,1
+2012,Region 2 (Minot),Renville,1
+2012,Region 2 (Minot),Ward,6
+2012,Region 3 (Devils Lake),Benson,1
+2012,Region 4 (Grand Forks),Grand Forks,19
+2012,Region 5 (Fargo),Cass,58
+2012,Region 5 (Fargo),Ransom,2
+2012,Region 5 (Fargo),Richland,7
+2012,Region 5 (Fargo),Sargent,3
+2012,Region 5 (Fargo),Steele,1
+2012,Region 5 (Fargo),Traill,1
+2012,Region 6 (Jamestown),Dickey,1
+2012,Region 6 (Jamestown),Griggs,1
+2012,Region 6 (Jamestown),Stutsman,8
+2012,Region 7 (Bismarck),Burleigh,2
+2012,Region 7 (Bismarck),Emmons,8
+2012,Region 7 (Bismarck),McLean,1
+2012,Region 7 (Bismarck),Morton,3
+2012,Region 8 (Dickinson),Stark,3
+2013,Region 2 (Minot),McHenry,1
+2013,Region 2 (Minot),Ward,3
+2013,Region 3 (Devils Lake),Benson,1
+2013,Region 3 (Devils Lake),Ramsey,2
+2013,Region 4 (Grand Forks),Grand Forks,16
+2013,Region 5 (Fargo),Cass,96
+2013,Region 5 (Fargo),Ransom,1
+2013,Region 5 (Fargo),Richland,2
+2013,Region 5 (Fargo),Sargent,1
+2013,Region 5 (Fargo),Steele,1
+2013,Region 6 (Jamestown),LaMoure,1
+2013,Region 6 (Jamestown),Stutsman,10
+2013,Region 7 (Bismarck),Burleigh,3
+2013,Region 7 (Bismarck),Emmons,7
+2013,Region 7 (Bismarck),Morton,3
+2013,Region 8 (Dickinson),Adams,1
+2013,Region 8 (Dickinson),Stark,8
+2014,Region 1 (Williston),Divide,1
+2014,Region 2 (Minot),Bottineau,1
+2014,Region 2 (Minot),Pierce,1
+2014,Region 2 (Minot),Renville,1
+2014,Region 2 (Minot),Ward,3
+2014,Region 3 (Devils Lake),Benson,1
+2014,Region 4 (Grand Forks),Grand Forks,13
+2014,Region 4 (Grand Forks),Pembina,1
+2014,Region 5 (Fargo),Cass,84
+2014,Region 5 (Fargo),Richland,3
+2014,Region 6 (Jamestown),Griggs,1
+2014,Region 6 (Jamestown),Stutsman,7
+2014,Region 7 (Bismarck),Burleigh,6
+2014,Region 7 (Bismarck),Emmons,8
+2014,Region 7 (Bismarck),McLean,1
+2014,Region 7 (Bismarck),Morton,1
+2014,Region 8 (Dickinson),Adams,1
+2014,Region 8 (Dickinson),Stark,3
+2015,Region 1 (Williston),McKenzie,1
+2015,Region 1 (Williston),Williams,6
+2015,Region 2 (Minot),Bottineau,2
+2015,Region 2 (Minot),Mountrail,2
+2015,Region 2 (Minot),Renville,2
+2015,Region 2 (Minot),Ward,2
+2015,Region 3 (Devils Lake),Benson,1
+2015,Region 3 (Devils Lake),Rolette,1
+2015,Region 3 (Devils Lake),Towner,1
+2015,Region 4 (Grand Forks),Grand Forks,21
+2015,Region 4 (Grand Forks),Pembina,1
+2015,Region 4 (Grand Forks),Walsh,1
+2015,Region 5 (Fargo),Cass,75
+2015,Region 5 (Fargo),Richland,7
+2015,Region 6 (Jamestown),Dickey,2
+2015,Region 6 (Jamestown),Griggs,1
+2015,Region 6 (Jamestown),McIntosh,1
+2015,Region 6 (Jamestown),Stutsman,6
+2015,Region 6 (Jamestown),Wells,1
+2015,Region 7 (Bismarck),Burleigh,4
+2015,Region 7 (Bismarck),Emmons,6
+2015,Region 7 (Bismarck),Kidder,1
+2015,Region 7 (Bismarck),McLean,1
+2015,Region 7 (Bismarck),Mercer,1
+2015,Region 7 (Bismarck),Morton,5
+2015,Region 7 (Bismarck),Oliver,1
+2015,Region 8 (Dickinson),Stark,4
+2016,Region 1 (Williston),McKenzie,1
+2016,Region 1 (Williston),Williams,3
+2016,Region 2 (Minot),Ward,2
+2016,Region 3 (Devils Lake),Benson,1
+2016,Region 3 (Devils Lake),Cavalier,2
+2016,Region 4 (Grand Forks),Grand Forks,13
+2016,Region 5 (Fargo),Cass,77
+2016,Region 5 (Fargo),Ransom,2
+2016,Region 5 (Fargo),Richland,4
+2016,Region 6 (Jamestown),Dickey,1
+2016,Region 6 (Jamestown),Foster,2
+2016,Region 6 (Jamestown),Griggs,1
+2016,Region 6 (Jamestown),LaMoure,1
+2016,Region 6 (Jamestown),Logan,1
+2016,Region 6 (Jamestown),Stutsman,13
+2016,Region 7 (Bismarck),Burleigh,7
+2016,Region 7 (Bismarck),Emmons,6
+2016,Region 7 (Bismarck),McLean,1
+2016,Region 7 (Bismarck),Morton,2
+2016,Region 7 (Bismarck),Oliver,3
+2016,Region 8 (Dickinson),Stark,3
+2017,Region 1 (Williston),McKenzie,1
+2017,Region 1 (Williston),Williams,4
+2017,Region 2 (Minot),Renville,1
+2017,Region 2 (Minot),Ward,2
+2017,Region 4 (Grand Forks),Grand Forks,16
+2017,Region 5 (Fargo),Cass,101
+2017,Region 5 (Fargo),Richland,5
+2017,Region 6 (Jamestown),Dickey,4
+2017,Region 6 (Jamestown),Foster,1
+2017,Region 6 (Jamestown),Griggs,2
+2017,Region 6 (Jamestown),LaMoure,1
+2017,Region 6 (Jamestown),Stutsman,5
+2017,Region 7 (Bismarck),Burleigh,4
+2017,Region 7 (Bismarck),Emmons,8
+2017,Region 7 (Bismarck),McLean,2
+2017,Region 7 (Bismarck),Morton,5
+2017,Region 7 (Bismarck),Oliver,1
+2017,Region 8 (Dickinson),Stark,7
+2018,Region 1 (Williston),McKenzie,4
+2018,Region 1 (Williston),Williams,9
+2018,Region 2 (Minot),Mountrail,1
+2018,Region 2 (Minot),Ward,6
+2018,Region 3 (Devils Lake),Ramsey,2
+2018,Region 3 (Devils Lake),Rolette,1
+2018,Region 4 (Grand Forks),Grand Forks,22
+2018,Region 5 (Fargo),Cass,78
+2018,Region 5 (Fargo),Richland,4
+2018,Region 6 (Jamestown),Barnes,1
+2018,Region 6 (Jamestown),Dickey,4
+2018,Region 6 (Jamestown),Foster,1
+2018,Region 6 (Jamestown),Griggs,1
+2018,Region 6 (Jamestown),LaMoure,2
+2018,Region 6 (Jamestown),Stutsman,9
+2018,Region 6 (Jamestown),Wells,2
+2018,Region 7 (Bismarck),Burleigh,10
+2018,Region 7 (Bismarck),Emmons,8
+2018,Region 7 (Bismarck),McLean,2
+2018,Region 7 (Bismarck),Morton,2
+2018,Region 8 (Dickinson),Stark,10
+2019,Region 1 (Williston),McKenzie,3
+2019,Region 1 (Williston),Williams,7
+2019,Region 2 (Minot),Bottineau,1
+2019,Region 2 (Minot),Ward,4
+2019,Region 3 (Devils Lake),Benson,1
+2019,Region 3 (Devils Lake),Cavalier,1
+2019,Region 3 (Devils Lake),Ramsey,2
+2019,Region 4 (Grand Forks),Grand Forks,19
+2019,Region 5 (Fargo),Cass,106
+2019,Region 5 (Fargo),Richland,6
+2019,Region 5 (Fargo),Sargent,1
+2019,Region 5 (Fargo),Traill,2
+2019,Region 6 (Jamestown),Foster,1
+2019,Region 6 (Jamestown),Griggs,1
+2019,Region 6 (Jamestown),LaMoure,3
+2019,Region 6 (Jamestown),Stutsman,14
+2019,Region 6 (Jamestown),Wells,3
+2019,Region 7 (Bismarck),Burleigh,8
+2019,Region 7 (Bismarck),Emmons,12
+2019,Region 7 (Bismarck),McLean,3
+2019,Region 7 (Bismarck),Morton,7
+2019,Region 8 (Dickinson),Stark,5
+2020,Region 1 (Williston),McKenzie,1
+2020,Region 1 (Williston),Williams,8
+2020,Region 2 (Minot),McHenry,1
+2020,Region 2 (Minot),Renville,2
+2020,Region 3 (Devils Lake),Ramsey,1
+2020,Region 4 (Grand Forks),Grand Forks,20
+2020,Region 4 (Grand Forks),Walsh,2
+2020,Region 5 (Fargo),Cass,91
+2020,Region 5 (Fargo),Richland,4
+2020,Region 5 (Fargo),Sargent,3
+2020,Region 5 (Fargo),Traill,1
+2020,Region 6 (Jamestown),Barnes,1
+2020,Region 6 (Jamestown),LaMoure,2
+2020,Region 6 (Jamestown),Stutsman,9
+2020,Region 6 (Jamestown),Wells,4
+2020,Region 7 (Bismarck),Burleigh,13
+2020,Region 7 (Bismarck),Emmons,11
+2020,Region 7 (Bismarck),Morton,3
+2020,Region 8 (Dickinson),Dunn,2
+2020,Region 8 (Dickinson),Hettinger,1
+2020,Region 8 (Dickinson),Stark,7
+2021,Region 1 (Williston),McKenzie,2
+2021,Region 1 (Williston),Williams,9
+2021,Region 2 (Minot),Bottineau,2
+2021,Region 2 (Minot),Mountrail,2
+2021,Region 2 (Minot),Ward,9
+2021,Region 3 (Devils Lake),Cavalier,1
+2021,Region 3 (Devils Lake),Ramsey,2
+2021,Region 4 (Grand Forks),Grand Forks,24
+2021,Region 4 (Grand Forks),Pembina,1
+2021,Region 5 (Fargo),Cass,97
+2021,Region 5 (Fargo),Richland,6
+2021,Region 5 (Fargo),Traill,1
+2021,Region 6 (Jamestown),Barnes,1
+2021,Region 6 (Jamestown),Foster,1
+2021,Region 6 (Jamestown),Stutsman,7
+2021,Region 7 (Bismarck),Burleigh,19
+2021,Region 7 (Bismarck),Emmons,10
+2021,Region 7 (Bismarck),Morton,1
+2021,Region 7 (Bismarck),Sioux,1
+2021,Region 8 (Dickinson),Stark,9
+2022,Region 1 (Williston),McKenzie,3
+2022,Region 1 (Williston),Williams,5
+2022,Region 2 (Minot),Bottineau,1
+2022,Region 2 (Minot),Burke,1
+2022,Region 2 (Minot),Mountrail,2
+2022,Region 2 (Minot),Ward,7
+2022,Region 3 (Devils Lake),Benson,2
+2022,Region 3 (Devils Lake),Cavalier,1
+2022,Region 3 (Devils Lake),Ramsey,2
+2022,Region 3 (Devils Lake),Rolette,4
+2022,Region 4 (Grand Forks),Grand Forks,11
+2022,Region 5 (Fargo),Cass,70
+2022,Region 5 (Fargo),Ransom,2
+2022,Region 5 (Fargo),Richland,4
+2022,Region 5 (Fargo),Sargent,1
+2022,Region 6 (Jamestown),Barnes,1
+2022,Region 6 (Jamestown),Stutsman,13
+2022,Region 6 (Jamestown),Wells,3
+2022,Region 7 (Bismarck),Burleigh,16
+2022,Region 7 (Bismarck),Emmons,1
+2022,Region 7 (Bismarck),McLean,3
+2022,Region 7 (Bismarck),Morton,3
+2022,Region 7 (Bismarck),Oliver,1
+2022,Region 8 (Dickinson),Stark,9
+2023,Region 1 (Williston),McKenzie,1
+2023,Region 1 (Williston),Williams,9
+2023,Region 2 (Minot),Bottineau,3
+2023,Region 2 (Minot),Mountrail,1
+2023,Region 2 (Minot),Ward,3
+2023,Region 3 (Devils Lake),Ramsey,3
+2023,Region 3 (Devils Lake),Rolette,1
+2023,Region 4 (Grand Forks),Grand Forks,16
+2023,Region 4 (Grand Forks),Pembina,1
+2023,Region 5 (Fargo),Cass,134
+2023,Region 5 (Fargo),Ransom,2
+2023,Region 5 (Fargo),Richland,4
+2023,Region 6 (Jamestown),Foster,1
+2023,Region 6 (Jamestown),McIntosh,1
+2023,Region 6 (Jamestown),Stutsman,9
+2023,Region 6 (Jamestown),Wells,2
+2023,Region 7 (Bismarck),Burleigh,16
+2023,Region 7 (Bismarck),Emmons,1
+2023,Region 7 (Bismarck),McLean,3
+2023,Region 7 (Bismarck),Morton,4
+2023,Region 7 (Bismarck),Sioux,1
+2023,Region 8 (Dickinson),Stark,9
+2024,Region 1 (Williston),McKenzie,2
+2024,Region 1 (Williston),Williams,8
+2024,Region 2 (Minot),Bottineau,1
+2024,Region 2 (Minot),Ward,3
+2024,Region 3 (Devils Lake),Cavalier,1
+2024,Region 3 (Devils Lake),Ramsey,3
+2024,Region 3 (Devils Lake),Rolette,1
+2024,Region 3 (Devils Lake),Towner,1
+2024,Region 4 (Grand Forks),Grand Forks,19
+2024,Region 5 (Fargo),Cass,145
+2024,Region 5 (Fargo),Richland,7
+2024,Region 5 (Fargo),Traill,1
+2024,Region 6 (Jamestown),Barnes,1
+2024,Region 6 (Jamestown),Foster,1
+2024,Region 6 (Jamestown),Stutsman,10
+2024,Region 6 (Jamestown),Wells,1
+2024,Region 7 (Bismarck),Burleigh,23
+2024,Region 7 (Bismarck),Grant,1
+2024,Region 7 (Bismarck),McLean,1
+2024,Region 7 (Bismarck),Mercer,1
+2024,Region 7 (Bismarck),Morton,1
+2024,Region 8 (Dickinson),Stark,7
+2025,Region 1 (Williston),Williams,1
+2025,Region 2 (Minot),Ward,4
+2025,Region 3 (Devils Lake),Ramsey,2
+2025,Region 4 (Grand Forks),Grand Forks,4
+2025,Region 5 (Fargo),Cass,47
+2025,Region 5 (Fargo),Traill,1
+2025,Region 6 (Jamestown),Stutsman,5
+2025,Region 6 (Jamestown),Wells,1
+2025,Region 7 (Bismarck),Burleigh,2
+2025,Region 7 (Bismarck),Morton,1
+2025,Region 8 (Dickinson),Stark,1

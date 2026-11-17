@@ -1,0 +1,112 @@
+{
+ "applications": {
+  "name": "Business applications",
+  "freq": "M",
+  "horizon": 12,
+  "model": "Average of both",
+  "last_actual": "2026-10-01",
+  "next_total": 10350.192095773715,
+  "previous_total": 10136.0,
+  "change_pct": 2.1131816867967057,
+  "next_total_lo": 8496.253180979169,
+  "next_total_hi": 12617.689765870458,
+  "backtest_error_pct": 7.426837315352149,
+  "origins": 72,
+  "coverage_80_out_of_sample": 80.66037735849056,
+  "coverage_tests": 636,
+  "range_method": "adaptive conformal",
+  "scores": {
+   "Average of both": 7.426837315352149,
+   "Exponential smoothing": 7.618128656785294,
+   "Seasonal naive": 7.892355572745428
+  }
+ },
+ "hp_applications": {
+  "name": "High-propensity applications (likely employers)",
+  "freq": "M",
+  "horizon": 12,
+  "model": "Seasonal naive",
+  "last_actual": "2026-10-01",
+  "next_total": 3066.0,
+  "previous_total": 3066.0,
+  "change_pct": 0.0,
+  "next_total_lo": 2613.2677083440194,
+  "next_total_hi": 3599.0746255018303,
+  "backtest_error_pct": 7.18890510238159,
+  "origins": 72,
+  "coverage_80_out_of_sample": 83.80503144654088,
+  "coverage_tests": 636,
+  "range_method": "adaptive conformal",
+  "scores": {
+   "Average of both": 7.62808145385815,
+   "Exponential smoothing": 8.37395437315896,
+   "Seasonal naive": 7.18890510238159
+  }
+ },
+ "jobs": {
+  "name": "Jobs covered by unemployment insurance",
+  "freq": "Q",
+  "horizon": 4,
+  "model": "Average of both",
+  "last_actual": "2026-01-01",
+  "next_total": 428646.30991494405,
+  "previous_total": 429299.9166666667,
+  "change_pct": -0.15224944761172976,
+  "next_total_lo": 419549.6227917212,
+  "next_total_hi": 437940.5271071798,
+  "backtest_error_pct": 1.9671695751713636,
+  "origins": 32,
+  "coverage_80_out_of_sample": 86.90476190476191,
+  "coverage_tests": 84,
+  "range_method": "adaptive conformal",
+  "scores": {
+   "Average of both": 1.9671695751713636,
+   "Exponential smoothing": 2.1943099805512283,
+   "Seasonal naive": 2.1766466416069585
+  }
+ },
+ "private_jobs": {
+  "name": "Private-sector jobs",
+  "freq": "Q",
+  "horizon": 4,
+  "model": "Average of both",
+  "last_actual": "2026-01-01",
+  "next_total": 353184.7810579328,
+  "previous_total": 353796.1666666667,
+  "change_pct": -0.1728073015867082,
+  "next_total_lo": 344697.3294184154,
+  "next_total_hi": 361882.14215385163,
+  "backtest_error_pct": 2.1374590651820164,
+  "origins": 32,
+  "coverage_80_out_of_sample": 86.90476190476191,
+  "coverage_tests": 84,
+  "range_method": "adaptive conformal",
+  "scores": {
+   "Average of both": 2.1374590651820164,
+   "Exponential smoothing": 2.3944818553761125,
+   "Seasonal naive": 2.3853861115204897
+  }
+ },
+ "estabs": {
+  "name": "Business locations with employees",
+  "freq": "Q",
+  "horizon": 4,
+  "model": "Exponential smoothing",
+  "last_actual": "2026-01-01",
+  "next_total": 37528.72585492023,
+  "previous_total": 36797.0,
+  "change_pct": 1.9885475851842083,
+  "next_total_lo": 36208.590616669804,
+  "next_total_hi": 38913.692288259,
+  "backtest_error_pct": 0.9687389964229597,
+  "origins": 32,
+  "coverage_80_out_of_sample": 70.23809523809523,
+  "coverage_tests": 84,
+  "range_method": "adaptive conformal",
+  "scores": {
+   "Average of both": 1.1943881120898996,
+   "Exponential smoothing": 0.9687389964229597,
+   "Seasonal naive": 1.7308840935816336
+  }
+ }
+}

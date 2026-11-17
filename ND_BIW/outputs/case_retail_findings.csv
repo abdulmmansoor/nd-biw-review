@@ -1,0 +1,29 @@
+key,value,unit,label
+pf_hub,1.1154470903727858,PF,"Hub counties: retail pull factor, 2022"
+pop_share_hub,69.04048081076294,%,Hub counties: share of ND residents
+sales_share_hub,77.94866932825086,%,"Hub counties: share of ND retail sales, 2022"
+stores_per_1000_hub,3.8367985708432837,"per 1,000","Hub counties: retail stores with employees per 1,000 residents"
+nonemp_per_1000_hub,6.119684492985248,"per 1,000","Hub counties: retail businesses without employees per 1,000 residents"
+pf_other,0.7321426301880495,PF,"Other counties: retail pull factor, 2022"
+pop_share_other,30.959519189237056,%,Other counties: share of ND residents
+sales_share_other,22.05133067174915,%,"Other counties: share of ND retail sales, 2022"
+stores_per_1000_other,4.210171081927542,"per 1,000","Other counties: retail stores with employees per 1,000 residents"
+nonemp_per_1000_other,7.432618742875016,"per 1,000","Other counties: retail businesses without employees per 1,000 residents"
+other_n,45.0,counties,Other counties with a pull factor
+other_below_1,36.0,counties,Other counties with a pull factor below 1
+other_below_half,15.0,counties,Other counties with a pull factor below 0.5
+hub_above_1,8.0,counties,Hub counties with a pull factor of 1 or more
+other_leakage_m,1840.4766907212038,$ million,"Other counties: sales below expected, summed over leaking counties, 2022"
+estimated_n,5.0,counties,Counties with estimated (withheld) retail sales
+tax_hub_growth_nooil,19.297321680209766,%,"Hub counties without core oil counties: taxable sales, year to 2026 Q2 compared with 2019 (current dollars)"
+tax_hub_growth_real_nooil,-5.422316011171713,%,"Hub counties without core oil counties: taxable sales after inflation, year to 2026 Q2 compared with 2019"
+tax_other_growth_nooil,24.858805930107696,%,"Other counties without core oil counties: taxable sales, year to 2026 Q2 compared with 2019 (current dollars)"
+tax_other_growth_real_nooil,-1.0132287618730418,%,"Other counties without core oil counties: taxable sales after inflation, year to 2026 Q2 compared with 2019"
+tax_hub_growth,15.855353042467435,%,"Hub counties: taxable sales, year to 2026 Q2 compared with 2019 (current dollars)"
+tax_hub_growth_real,-8.1510731830425,%,"Hub counties: taxable sales after inflation, year to 2026 Q2 compared with 2019"
+tax_other_growth,11.023306412552802,%,"Other counties: taxable sales, year to 2026 Q2 compared with 2019 (current dollars)"
+tax_other_growth_real,-11.981869824130564,%,"Other counties: taxable sales after inflation, year to 2026 Q2 compared with 2019"
+price_growth,26.136860883907232,%,"GDP price index, year to 2026 Q2 compared with 2019"
+oil_counties_n,4.0,counties,Core oil counties left out of the comparison (from the oil case)
+tax_hub_share_2019,80.86644508975228,%,"Hub counties' share of county taxable sales, 2019"
+tax_hub_share_latest,81.51696211180884,%,"Hub counties' share of county taxable sales, year to 2026 Q2"
