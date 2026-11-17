@@ -1,6 +1,11 @@
 """What changed: a dated list of changes readers can see, newest first (shown on About the data)."""
 
 CHANGES = [
+    ("November 17, 2026 (menu)", [
+        "Menu: the long Explore list is now four sections (Business Indicators; Industries & Innovation; Markets & "
+        "Places; Business Climate & Support), and each section opens and closes, as on ND Fiscal and Economic Watch. "
+        "Page addresses are unchanged.",
+    ]),
     ("November 17, 2026 (advanced impact analysis)", [
         "New page, Advanced analysis (Impact model): key sectors from backward and forward linkages; hypothetical "
         "extraction (what would be lost if an industry disappeared, as a buyer, as a supplier, and in total); net impact "
