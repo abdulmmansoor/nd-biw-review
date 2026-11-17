@@ -6,7 +6,7 @@ label = "Review draft. Figures and wording may change before release; please do 
 # Microsoft Form for comments. In Forms: open the form > ... (More options) > Get pre-filled URL,
 # type the word PAGE in the page question, press "Get pre-filled URL", copy the link and paste it here.
 # Until a link is set, the "Comment on this page" button is hidden.
-form_url = ""
+form_url = "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=kaA37Ka55UeY0JA9SkGSA9QFCdqXjL5NstSS31ccmN9UME9XSTczUFhQRFpTSU9LVkRTUkk1MVpVUy4u&r263a799e288c45f8be90895d6b1bc1d9=PAGE"
 
 # Text put before the page name in the form (useful if one form collects comments for several dashboards).
 page_prefix = ""
