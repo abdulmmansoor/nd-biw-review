@@ -32,10 +32,19 @@ TABLES = {
     "indicators.csv": "Business and innovation indicators by geography and date; definitions in indicators_catalog.csv.",
     "indicators_catalog.csv": "Name, theme, unit, frequency, direction and source of each indicator.",
     "io_calibration.csv": "Calibration of the FLQ delta parameter against EPA StateIO (IPBA input-output model).",
-    "io_contribution.csv": "Economic contribution of each industry: direct, Type I and Type II output, jobs, labor income, "
-                           "value added and state and local taxes; money in millions of dollars (IPBA model).",
+    "io_contribution.csv": "Economic contribution of each industry: total output, jobs, labor income, value added and "
+                           "state and local taxes, split into direct, indirect (suppliers) and induced (household "
+                           "spending) effects, with low and high cases; money in millions of dollars (IPBA model).",
     "io_industries.csv": "Model industries with US, ND and planning-region jobs, pay and productivity ratios.",
-    "io_multipliers.csv": "Type I and Type II multipliers by place and industry, and effects per $1 million of sales (IPBA model).",
+    "io_linkages.csv": "Key sectors and hypothetical extraction by place and industry: backward (Rasmussen) and forward "
+                       "(Ghosh) linkage indexes (1 = average), linkage type, and the output, jobs, value added and labor "
+                       "income lost if the industry disappeared (total, Type II), bought nothing locally (backward) or "
+                       "sold nothing locally (forward); money in millions of dollars (IPBA model).",
+    "io_uncertainty.csv": "Monte Carlo uncertainty of the impact model's multipliers by place and industry: central value "
+                          "and 5th, 50th and 95th percentiles of 500 draws (delta, household spending and every "
+                          "coefficient varied) (IPBA model).",
+    "io_multipliers.csv": "Type I and Type II multipliers by place and industry, and effects per $1 million of sales, "
+                          "also split into direct, indirect and induced effects (IPBA model).",
     "io_stateio_compare.csv": "IPBA Type I output multipliers next to EPA StateIO and US values.",
     "io_tax_ratios.csv": "Effective ND state and local tax ratios used for tax effects.",
     "io_validation.csv": "Validation checks of the IPBA input-output model against public benchmarks.",
@@ -384,6 +393,21 @@ COLUMNS = {
     "bachelors_share": "% of adults 25 and older with a bachelor's degree or higher", "households": "Households",
     "broadband_households": "Households with a broadband internet subscription of any type",
     "broadband_share": "% of households with a broadband internet subscription",
+    "backward_index": "Backward linkage index: Rasmussen normalized column sum of the Leontief inverse (1 = average)",
+    "forward_index": "Forward linkage index: normalized row sum of the Ghosh inverse (1 = average)",
+    "linkage_type": "Key sector (both indexes at least 1), strong buyer (backward only), strong supplier (forward only) "
+                    "or weakly linked",
+    "hem_output": "Output lost if the industry disappeared (hypothetical extraction, Type II), $ millions",
+    "hem_jobs": "Jobs lost if the industry disappeared (hypothetical extraction, Type II)",
+    "hem_value_added": "Value added lost if the industry disappeared, $ millions",
+    "hem_labor_income": "Labor income lost if the industry disappeared, $ millions",
+    "hem_jobs_share": "Jobs lost as % of all jobs in the place", "hem_output_share": "Output lost as % of all output in the place",
+    "backward_output": "Output lost if the industry bought nothing from local suppliers (Type I), $ millions",
+    "backward_jobs": "Jobs lost if the industry bought nothing from local suppliers (Type I)",
+    "forward_output": "Output lost if no local industry bought from it (Ghosh supply-side, Type I), $ millions",
+    "forward_jobs": "Jobs lost if no local industry bought from it (Ghosh supply-side, Type I)",
+    "central": "Published (central) value of the multiplier", "p05": "5th percentile of the Monte Carlo draws",
+    "p50": "Median of the Monte Carlo draws", "p95": "95th percentile of the Monte Carlo draws",
     "domain_type": "Group the result describes: state, size, industry, area (East/West) or region_4q (planning region, "
                    "last 4 quarters pooled)",
     "domain": "Name of the group", "section": "Survey question group (for example Last 3 months, Constraints)",
@@ -416,8 +440,19 @@ def columns_note(col):
                                                      "local_taxes"):
             return (f"{col[:-len(suf)].replace('_', ' ').capitalize()} supported, {case} case of the impact model's "
                     "range (local buying and household spending moved together)")
+    for e, sfx in (("direct", "per $1 million of new sales: direct effect (the industry itself)"),
+                   ("indirect", "per $1 million of new sales: indirect effect (local suppliers)"),
+                   ("induced", "per $1 million of new sales: induced effect (household spending)")):
+        if col.endswith(f"_{e}_per_million"):
+            return f"{col[:-len(e) - 13].replace('_', ' ').capitalize()} {sfx}"
     if col.startswith("direct_"):
         return "In the industry itself: " + col[7:].replace("_", " ") + " ($ millions, except jobs)"
+    if col.startswith("indirect_"):
+        return ("Indirect effect, in local suppliers and their suppliers (Type I minus direct): "
+                + col[9:].replace("_", " ") + " ($ millions, except jobs)")
+    if col.startswith("induced_"):
+        return ("Induced effect, from local household spending of labor income (Type II minus Type I): "
+                + col[8:].replace("_", " ") + " ($ millions, except jobs)")
     if col.startswith("mix_"):
         return f"% of private jobs in NAICS sector {col[4:]} (County Business Patterns)"
     if col.startswith("jobs_"):

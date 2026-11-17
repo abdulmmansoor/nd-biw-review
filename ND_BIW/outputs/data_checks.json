@@ -1,6 +1,6 @@
 {
  "status": "WARN",
- "run": "2026-11-16T16:22:51+00:00",
+ "run": "2026-11-17T14:41:17+00:00",
  "checks": [
   {
    "check": "Planning regions cover each of the 53 counties exactly once",
@@ -210,7 +210,7 @@
   {
    "check": "LAUS no older than 4 months",
    "status": "PASS",
-   "detail": "76 days"
+   "detail": "77 days"
   },
   {
    "check": "ND oil price received: in range, and within $40 of WTI in every month since 2000",
@@ -372,6 +372,21 @@
    "detail": "TEST DATA: survey not fielded yet; the page is labeled test data. Hide it or load real data before publishing"
   },
   {
+   "check": "Impact model: direct + indirect + induced = total for every industry and place; no negative part",
+   "status": "PASS",
+   "detail": "largest gap 1.5e-11, 0 negative parts"
+  },
+  {
+   "check": "Impact model, advanced: extraction losses at least the industry's own jobs, none negative; linkage indexes average 1",
+   "status": "PASS",
+   "detail": "0 problems in 582 rows"
+  },
+  {
+   "check": "Impact model, advanced: Monte Carlo intervals ordered and contain the published multiplier in at least 90% of cases",
+   "status": "PASS",
+   "detail": "98% inside, 2,910 intervals"
+  },
+  {
    "check": "Targeted industries: six Commerce groups plus the combined total, one headline year",
    "status": "PASS",
    "detail": "headline 2024"
@@ -484,7 +499,7 @@
   {
    "check": "Release dates: no source older than its release cycle allows",
    "status": "WARN",
-   "detail": "bea_io (781 days), formd (224 days)"
+   "detail": "bea_io (782 days), formd (225 days)"
   }
  ]
 }

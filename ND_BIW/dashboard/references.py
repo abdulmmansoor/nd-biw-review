@@ -50,6 +50,25 @@ REFERENCES = {
                     "samples* (2nd ed.). Springer.",
     "oecd2018": "OECD & Eurostat. (2018). *Oslo Manual 2018: Guidelines for collecting, reporting and using data on "
                 "innovation* (4th ed.). OECD Publishing.",
+    "rasmussen1956": "Rasmussen, P. N. (1956). *Studies in inter-sectoral relations*. Einar Harcks Forlag.",
+    "hirschman1958": "Hirschman, A. O. (1958). *The strategy of economic development*. Yale University Press.",
+    "dietzenbacher1997": "Dietzenbacher, E. (1997). In vindication of the Ghosh model: A reinterpretation as a price "
+                         "model. *Journal of Regional Science, 37*(4), 629–651.",
+    "miller_lahr2001": "Miller, R. E., & Lahr, M. L. (2001). A taxonomy of extractions. In M. L. Lahr & R. E. Miller "
+                       "(Eds.), *Regional science perspectives in economic analysis: A festschrift in memory of Benjamin "
+                       "H. Stevens* (pp. 407–441). Elsevier.",
+    "dietzenbacher_lahr2013": "Dietzenbacher, E., & Lahr, M. L. (2013). Expanding extractions. *Economic Systems "
+                              "Research, 25*(3), 341–360.",
+    "bess_ambargis2011": "Bess, R., & Ambargis, Z. O. (2011). *Input-output models for impact analysis: Suggestions for "
+                         "practitioners using RIMS II multipliers* [Working paper]. U.S. Bureau of Economic Analysis.",
+    "defourny_thorbecke1984": "Defourny, J., & Thorbecke, E. (1984). Structural path analysis and multiplier "
+                              "decomposition within a social accounting matrix framework. *The Economic Journal, "
+                              "94*(373), 111–136.",
+    "tenraa_steel1994": "ten Raa, T., & Steel, M. F. J. (1994). Revised stochastic analysis of an input-output model. "
+                        "*Regional Science and Urban Economics, 24*(3), 361–371.",
+    "lenzen_wood_wiedmann2010": "Lenzen, M., Wood, R., & Wiedmann, T. (2010). Uncertainty analysis for multi-region "
+                                "input–output models – a case study of the UK's carbon footprint. *Economic Systems "
+                                "Research, 22*(1), 43–63.",
     "watson2007": "Watson, P., Wilson, J., Thilmany, D., & Winter, S. (2007). Determining economic contributions and impacts: "
                   "What is the difference and why do we care? *Journal of Regional Analysis and Policy, 37*(2), 140–146.",
 }

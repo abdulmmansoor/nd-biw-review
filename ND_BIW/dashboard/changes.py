@@ -1,6 +1,19 @@
 """What changed: a dated list of changes readers can see, newest first (shown on About the data)."""
 
 CHANGES = [
+    ("November 17, 2026 (advanced impact analysis)", [
+        "New page, Advanced analysis (Impact model): key sectors from backward and forward linkages; hypothetical "
+        "extraction (what would be lost if an industry disappeared, as a buyer, as a supplier, and in total); net impact "
+        "after displacement of existing local sales and commuting, with the largest job paths (structural path "
+        "analysis); and Monte Carlo 90% intervals for every multiplier.",
+    ]),
+    ("November 17, 2026 (impact model effects)", [
+        "Economic contribution: each industry's footprint is now split into direct (the industry itself), indirect "
+        "(local suppliers) and induced (household spending) effects for jobs, labor income, value added, output and "
+        "taxes, with a breakdown for any one industry.",
+        "Model method and checks: effects per $1 million of new sales split into direct, indirect and induced, by "
+        "industry and place. The What-if page uses the same names.",
+    ]),
     ("November 16, 2026 (business survey)", [
         "New page, Business survey: the layout for IPBA's quarterly North Dakota Business Survey (business conditions, "
         "problems holding businesses back, financing and hiring, innovation and technology, a special topic, planning "

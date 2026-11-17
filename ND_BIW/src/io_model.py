@@ -158,21 +158,29 @@ def multipliers(m):
             out[f"{k}_type1"] = np.where(coef > 0, t1 / coef, np.nan) if k != "output" else t1
             out[f"{k}_type2"] = np.where(coef > 0, t2 / coef, np.nan) if k != "output" else t2
         out[f"{k}_per_million_type2"] = t2          # effect per $1 million of final demand
+        # the same effect per $1 million split into direct (the industry itself), indirect (local suppliers and their
+        # suppliers) and induced (local spending of the labor income earned); the three add up to the Type II total
+        out[f"{k}_direct_per_million"] = coef
+        out[f"{k}_indirect_per_million"] = t1 - coef
+        out[f"{k}_induced_per_million"] = t2 - t1
     return pd.DataFrame(out)
 
 
 def contribution(m):
     """Economic contribution of each industry's existing output (Watson et al., 2007): the industry's own sales to
-    itself and to its customers are not counted again, by zeroing its row in the coefficient matrix."""
+    itself and to its customers are not counted again, by zeroing its row in the coefficient matrix.
+
+    Each measure is split into direct (the industry itself), indirect (local suppliers and their suppliers: Type I
+    total minus direct) and induced (local household spending of the labor income earned: Type II minus Type I);
+    direct + indirect + induced = the total."""
     n = len(m["A"])
     rows = []
     A2 = type2(m)
     A1 = m["A"]
     for j in range(n):
         if m["x"][j] <= 0:
-            rows.append({k: 0.0 for k in ("output", "jobs", "labor_income", "value_added", "direct_jobs", "direct_output",
-                                          "direct_labor_income", "direct_value_added", "direct_taxes", "state_taxes",
-                                          "local_taxes")})
+            rows.append({k: 0.0 for k in ("output", "jobs", "labor_income", "value_added", "state_taxes", "local_taxes",
+                                          *(f"{e}_{x}" for e in EFFECTS for x in SPLIT))})
             continue
         a1, a2 = A1.copy(), A2.copy()
         a1[j, :], a2[j, :n] = 0, 0
@@ -182,15 +190,22 @@ def contribution(m):
         d = np.zeros(n)
         d[j] = m["x"][j]
         dst, dlo = taxes(m, d)
-        rows.append({"direct_output": m["x"][j], "direct_jobs": m["e"][j] * m["x"][j],
-                     "direct_labor_income": m["w"][j] * m["x"][j], "direct_value_added": m["v"][j] * m["x"][j],
-                     "direct_taxes": dst + dlo,
-                     "output": v2.sum(), "jobs": m["e"] @ v2, "labor_income": m["w"] @ v2, "value_added": m["v"] @ v2,
-                     "typeI_output": v1.sum(), "state_taxes": st_, "local_taxes": lo})
+        s1, l1 = taxes(m, v1)
+        row = {"output": v2.sum(), "jobs": m["e"] @ v2, "labor_income": m["w"] @ v2, "value_added": m["v"] @ v2,
+               "typeI_output": v1.sum(), "state_taxes": st_, "local_taxes": lo}
+        for e, vec in (("direct", d), ("indirect", v1 - d), ("induced", v2 - v1)):
+            row.update({f"{e}_output": vec.sum(), f"{e}_jobs": m["e"] @ vec, f"{e}_labor_income": m["w"] @ vec,
+                        f"{e}_value_added": m["v"] @ vec})
+        row["direct_taxes"], row["indirect_taxes"], row["induced_taxes"] = dst + dlo, s1 + l1 - dst - dlo, st_ + lo - s1 - l1
+        rows.append(row)
     return pd.DataFrame(rows)
 
 
 # ------------------------------------------------------------------ StateIO cross-check
+EFFECTS = ("direct", "indirect", "induced")
+SPLIT = ("output", "jobs", "labor_income", "value_added", "taxes")
+
+
 def stateio_multipliers(codes):
     s = stateio()
     du, mk, xo = s["DomesticUse"], s["Make"], s["IndustryOutput"]

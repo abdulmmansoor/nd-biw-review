@@ -25,6 +25,7 @@ import page_support
 import page_brief
 import page_innovation
 import page_survey
+import page_impact_advanced
 
 st.set_page_config(page_title="ND Business and Innovation Watch", page_icon=":material/storefront:", layout="wide")
 st.markdown(lib.CSS, unsafe_allow_html=True)
@@ -63,6 +64,8 @@ nav = st.navigation({
     "Impact model": [
         st.Page(page_impact.contribution_page, title="Economic contribution", icon=":material/hub:", url_path="contribution"),
         st.Page(page_impact.whatif_page, title="What-if impact", icon=":material/calculate:", url_path="what-if"),
+        st.Page(page_impact_advanced.page, title="Advanced analysis", icon=":material/insights:",
+                url_path="impact-advanced"),
         st.Page(page_impact.checks_page, title="Model method and checks", icon=":material/fact_check:", url_path="model-checks"),
     ],
     "Info": [st.Page(page_about.page, title="About the data", icon=":material/info:", url_path="about")],

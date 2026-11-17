@@ -1,11 +1,9 @@
 {
- "started": "2026-11-16T12:35:55+00:00",
- "finished": "2026-11-16T12:39:28+00:00",
+ "started": "2026-11-17T14:29:35+00:00",
+ "finished": "2026-11-17T14:34:29+00:00",
  "exit_code": 0,
  "error": null,
  "checks": "WARN",
- "new_files": [
-  "bfs_monthly.csv"
- ],
- "log": "update_2026-11-16.txt"
+ "new_files": [],
+ "log": "update_2026-11-17.txt"
 }

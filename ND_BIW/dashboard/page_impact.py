@@ -13,6 +13,10 @@ MEASURES = {"jobs": ("Jobs", "{:,.0f}"), "labor_income": ("Labor income ($ milli
             "value_added": ("Value added, GDP ($ millions)", "${:,.1f}M"), "output": ("Output, sales ($ millions)", "${:,.1f}M"),
             "taxes": ("State and local taxes ($ millions)", "${:,.2f}M")}
 EFFECT_COLORS = {"Direct": lib.UND_GREEN, "Indirect": "#E5734B", "Induced": "#C9B37E"}
+EFFECT_NAMES = {"Direct": "Direct (the industry itself)", "Indirect": "Indirect (local suppliers)",
+                "Induced": "Induced (household spending)"}
+EFFECT_NOTE = ("Direct = the activity in the industry itself. Indirect = what it buys from local suppliers, and what "
+               "they buy in turn. Induced = what local households spend from the wages earned in both.")
 LIMITS = [
     "Fixed recipes: each industry is assumed to buy the same mix of inputs per dollar of sales, at fixed prices. "
     "The model has no supply limits, capacity constraints, crowding out or migration, so results are upper-bound "
@@ -125,15 +129,12 @@ def contribution_page():
     meas = {v[0]: key for key, v in MEASURES.items()}[lab]
     d = c[(c.place == place) & (c.direct_output > 0)].copy()
     d["taxes"] = d.state_taxes + d.local_taxes
-    d["direct"] = {"jobs": d.direct_jobs, "output": d.direct_output, "labor_income": d.direct_labor_income,
-                   "value_added": d.direct_value_added, "taxes": d.direct_taxes}[meas].fillna(0)
-    d["spillover"] = (d[meas] - d.direct).clip(lower=0)
     top = d.sort_values(meas, ascending=False).head(15).iloc[::-1]
     fig = go.Figure()
-    fig.add_bar(y=top.name.map(short), x=top.direct, name="In the industry itself", orientation="h",
-                marker=dict(color=lib.UND_GREEN, line=dict(width=0)), hovertemplate="%{x:,.1f}")
-    fig.add_bar(y=top.name.map(short), x=top.spillover, name="Supported in suppliers and by household spending",
-                orientation="h", marker=dict(color="#E5734B", line=dict(width=0)), hovertemplate="%{x:,.1f}")
+    for eff in ("Direct", "Indirect", "Induced"):
+        fig.add_bar(y=top.name.map(short), x=top[f"{eff.lower()}_{meas}"].fillna(0), name=EFFECT_NAMES[eff],
+                    orientation="h", marker=dict(color=EFFECT_COLORS[eff], line=dict(width=0)),
+                    hovertemplate=eff + " %{x:,.1f}<extra></extra>")
     has_range = f"{meas}_low" in top or (meas == "taxes" and "state_taxes_low" in top)
     if has_range:
         low = top[f"{meas}_low"] if meas != "taxes" else top.state_taxes_low + top.local_taxes_low
@@ -146,14 +147,34 @@ def contribution_page():
                                                                             "%{customdata[1]:,.1f}<extra></extra>"))
     fig.update_layout(barmode="stack", hovermode="y unified")
     lib.show(lib.layout(fig, 560), "ct_chart", title=f"Top 15 industries by {lab.lower()} supported, {place_label(place)}")
-    st.caption("Each bar is one industry's total footprint. The orange part is activity in other industries that depends "
-               "on it. Footprints overlap (a supplier appears in several), so they must not be added together."
+    st.caption("Each bar is one industry's total footprint. " + EFFECT_NOTE + " Footprints overlap (a supplier appears "
+               "in several), so they must not be added together across industries."
                + (" Gray lines show the low-to-high range. " + range_note() if has_range else ""))
-    cols = ["name", "direct_jobs", "jobs", "labor_income", "value_added", "output", "state_taxes", "local_taxes"]
+    split = st.columns([2, 3])
+    with split[0]:
+        tot = d[[f"{e}_{meas}" for e in ("direct", "indirect", "induced")]].sum()
+        st.markdown(f"**{lab}: where the footprint comes from**")
+        st.caption(f"{place_label(place)}, all industries shown one at a time; shares of the sum of footprints.")
+        st.dataframe(pd.DataFrame({"Effect": [EFFECT_NAMES[e] for e in ("Direct", "Indirect", "Induced")],
+                                   "Share of the footprint": [f"{v / tot.sum():.0%}" for v in tot]}),
+                     hide_index=True, width="stretch")
+    with split[1]:
+        pick = st.selectbox("One industry", list(top.name[::-1]), key="ct_one")
+        r = d[d.name == pick].iloc[0]
+        rows = []
+        for key_, (name_, fmt_) in MEASURES.items():
+            vals = [r[f"{e}_{key_}"] for e in ("direct", "indirect", "induced")]
+            rows.append({"Measure": name_, **{EFFECT_NAMES[e]: fmt_.format(v) for e, v in
+                                              zip(("Direct", "Indirect", "Induced"), vals)},
+                         "Total": fmt_.format(sum(vals))})
+        st.dataframe(pd.DataFrame(rows), hide_index=True, width="stretch")
+    cols = ["name", "direct_jobs", "indirect_jobs", "induced_jobs", "jobs", "labor_income", "value_added", "output",
+            "state_taxes", "local_taxes"]
     if "jobs_low" in d:
-        cols[3:3] = ["jobs_low", "jobs_high"]
+        cols[5:5] = ["jobs_low", "jobs_high"]
     t = d.sort_values(meas, ascending=False)[cols]
-    t = t.rename(columns={"name": "Industry", "direct_jobs": "Jobs in the industry", "jobs": "Total jobs supported",
+    t = t.rename(columns={"name": "Industry", "direct_jobs": "Direct jobs", "indirect_jobs": "Indirect jobs",
+                          "induced_jobs": "Induced jobs", "jobs": "Total jobs supported",
                           "jobs_low": "Total jobs, low case", "jobs_high": "Total jobs, high case",
                           "labor_income": "Labor income supported ($M)", "value_added": "Value added supported ($M)",
                           "output": "Output supported ($M)", "state_taxes": "State taxes supported ($M)",
@@ -161,7 +182,10 @@ def contribution_page():
     lib.data_table(t, "All industries (table)", key=f"contribution_{place}")
     lib.method_panel(["Contribution of an existing industry (Watson et al., 2007): its output in the place, plus the "
                       "output of local suppliers and of businesses serving its workers' household spending. The "
-                      "industry's own sales are not counted twice.", *LIMITS], REFS)
+                      "industry's own sales are not counted twice.",
+                      "Direct = the industry's own output, jobs, income and value added. Indirect = Type I total minus "
+                      "direct (local supplier chain). Induced = Type II total minus Type I (local household spending of "
+                      "labor income). Direct + indirect + induced = total.", *LIMITS], REFS)
     lib.source_line("bea_io", "qcew", "bea", "stateio", "taxes")
 
 
@@ -244,7 +268,7 @@ def whatif_page():
     fig = go.Figure()
     for eff in ("Direct", "Indirect", "Induced"):
         fig.add_bar(x=[MEASURES[k_][0].split(" (")[0] for k_ in MEASURES], y=[res.loc[eff, k_] / tot[k_] * 100 for k_ in MEASURES],
-                    name={"Direct": "Direct", "Indirect": "Indirect (suppliers)", "Induced": "Induced (household spending)"}[eff],
+                    name=EFFECT_NAMES[eff],
                     marker=dict(color=EFFECT_COLORS[eff], line=dict(width=0)),
                     customdata=[res.loc[eff, k_] for k_ in MEASURES], hovertemplate="%{y:.0f}% (%{customdata:,.1f})")
     fig.update_layout(barmode="stack")
@@ -268,9 +292,7 @@ def whatif_page():
                                         "state_taxes": "State taxes ($M)", "local_taxes": "Local taxes ($M)",
                                         "taxes": "State and local taxes ($M)"})
     lib.data_table(t.round(2), "Results (table)", key="whatif_results")
-    st.caption("Direct = the new activity itself. Indirect = purchases from local suppliers, and their suppliers. "
-               "Induced = local spending of the wages earned. Results are rounded estimates for one year of operation "
-               "at full scale.")
+    st.caption(EFFECT_NOTE + " Results are rounded estimates for one year of operation at full scale.")
     lib.method_panel(["Effects = (I - A)^-1 x new final demand, with A the regional coefficient matrix. Type II adds "
                       "households (labor income in, consumer spending out).",
                       "New jobs are converted to sales with the industry's output per job in North Dakota.",
@@ -339,6 +361,17 @@ def checks_page():
         "jobs_type2": "Jobs per direct job, Type II", "jobs_per_million_type2": "Jobs per $1M of sales, Type II",
         "labor_income_type2": "Labor income, Type II", "value_added_type2": "Value added, Type II"})
     st.dataframe(mm.round(2), hide_index=True, width="stretch", height=360)
+    st.markdown("**Effects per $1 million of new sales: direct, indirect and induced**")
+    meas_pm = {"Jobs": ("jobs", "{:,.1f}"), "Labor income ($M)": ("labor_income", "{:,.3f}"),
+               "Value added ($M)": ("value_added", "{:,.3f}"), "Output ($M)": ("output", "{:,.3f}")}
+    pm_lab = st.radio("Measure", list(meas_pm), horizontal=True, key="mc_pm")
+    k_ = meas_pm[pm_lab][0]
+    pm = m[m.place == pl]
+    pm = pd.DataFrame({"Industry": pm.name, "Direct": pm[f"{k_}_direct_per_million"],
+                       "Indirect": pm[f"{k_}_indirect_per_million"], "Induced": pm[f"{k_}_induced_per_million"],
+                       "Total (Type II)": pm[f"{k_}_per_million_type2"]})
+    st.dataframe(pm.round(3), hide_index=True, width="stretch", height=360)
+    st.caption(EFFECT_NOTE + " Direct + indirect + induced = the Type II total per $1 million of new sales.")
     st.caption("Output multipliers: total sales across the economy per $1 of new sales. Jobs per direct job and income "
                "multipliers are ratios of total to direct effects; they are large where direct jobs per dollar are few "
                "(for example farms, where QCEW does not count operators).")
