@@ -84,6 +84,13 @@ h1, h2, h3, .und-title, .kpi-label {{ font-family: "Oswald", "Trade Gothic", "Ar
   .site-banner span {{ background: none; color: #fff; animation: banner-fade 4.6s ease-in-out 1 both; }} }}
 [data-testid="stSidebar"] {{ background: linear-gradient(180deg, #252932 0%, #1A1D23 100%); border-right: 1px solid {GRID}; }}
 [data-testid="stSidebarNav"] a[aria-current="page"] {{ background: {UND_GREEN}22; border-left: 3px solid {UND_GREEN}; }}
+[class*="st-key-navsec_"] button {{ justify-content: flex-start; border-radius: 0; border-bottom: 1px solid {GRID}; padding: 4px 0 4px 4px; margin-top: 10px; min-height: 0; }}
+[class*="st-key-navsec_"] button > div {{ justify-content: flex-start; width: 100%; }}
+[class*="st-key-navsec_"] button p {{ text-align: left; font-family: "Oswald", "Arial Narrow", sans-serif; font-size: 13px; color: #fff; text-transform: uppercase; letter-spacing: .08em; font-weight: 500; }}
+[class*="st-key-navsec_"] button [data-testid="stIconMaterial"] {{ color: {MUTED}; font-size: 18px; }}
+[class*="st-key-navsec_"] button:hover p, [class*="st-key-navsec_"] button:hover [data-testid="stIconMaterial"] {{ color: {UND_GREEN}; }}
+.nav-sub {{ font-size: 10.5px; color: {MUTED}; text-transform: uppercase; letter-spacing: .07em; margin: 10px 0 0 8px; }}
+[data-testid="stSidebar"] [data-testid="stPageLink"] a {{ padding-top: 2px; padding-bottom: 2px; border-left: 3px solid transparent; }}
 .und-head {{ display:flex; align-items:baseline; gap:22px; margin: 4px 0 10px; flex-wrap: wrap; }}
 .und-title {{ font-size: 34px; font-weight: 500; color: #fff; margin: 0; padding: 0; line-height: 1.2; }}
 .und-sub {{ color: {MUTED}; font-size: 13px; }}
@@ -214,6 +221,41 @@ def sidebar():
                 else CONTACT_URL)
         st.markdown(f'<div class="foot"><a href="{link}" style="color:{GREEN_TEXT}">Report a problem or ask a question'
                     f'</a> &middot; IPBA, {CONTACT_PHONE}</div>', unsafe_allow_html=True)
+
+
+def _section_paths(entries):
+    return {e.url_path for e in entries if not isinstance(e, str)}
+
+
+def _toggle(title):
+    st.session_state.nav_open ^= {title}
+
+
+def sidebar_nav(sections, current):
+    """Sidebar menu built from the page list itself, as in ND Fiscal and Economic Watch. Each section header opens and
+    closes its pages; the section holding the current page opens when you arrive in it, and the others keep the state
+    you left them in. The current page is highlighted. sections: [(title, [page or a sub-heading string])]."""
+    sel = f'a[href="{current.url_path}"]'          # exact match; links are relative and the Overview's is empty
+    st.markdown(f'<style>[data-testid="stSidebar"] [data-testid="stPageLink"] {sel} {{ background: {UND_GREEN}33 '
+                f'!important; border-left-color: {UND_GREEN}; font-weight: 600; }}</style>', unsafe_allow_html=True)
+    st.session_state.setdefault("nav_open", set())
+    here = next((t for t, es in sections if t and current.url_path in _section_paths(es)), None)
+    if here and here != st.session_state.get("nav_here"):
+        st.session_state.nav_open.add(here)
+    st.session_state.nav_here = here
+    with st.sidebar:
+        for i, (title, entries) in enumerate(sections):
+            if title:
+                is_open = title in st.session_state.nav_open
+                st.button(title, key=f"navsec_{i}", on_click=_toggle, args=(title,), type="tertiary", width="stretch",
+                          icon=":material/expand_more:" if is_open else ":material/chevron_right:")
+                if not is_open:
+                    continue
+            for e in entries:
+                if isinstance(e, str):
+                    st.markdown(f'<div class="nav-sub">{e}</div>', unsafe_allow_html=True)
+                else:
+                    st.page_link(e, label=e.title, icon=e.icon)
 
 
 def banner():
