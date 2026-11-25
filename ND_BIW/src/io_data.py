@@ -1,7 +1,10 @@
 """Step: data for IPBA's input-output model (all public, no key).
 
  - BEA input-output accounts, summary level (71 industries), Make and Use tables before redefinitions, producers'
-   prices (AllTablesIO.zip). "Before redefinitions" matches the establishment-based industries of QCEW and BEA GDP.
+   prices. "Before redefinitions" matches the establishment-based industries of QCEW and BEA GDP. Newest year from
+   the BEA Data API (src/bea_io_api.py; free key); without a key, or if the API fails, BEA's bulk file
+   (AllTablesIO.zip), which BEA stopped updating in September 2024 (tables through 2023). The model year (IO_YEAR)
+   is the year of the tables used, and the jobs, pay and GDP inputs follow it.
  - Jobs by model industry for the US and North Dakota: BLS QCEW, 3-digit NAICS, all ownerships, in the model year.
    ND cells BLS does not disclose are filled from the 2-digit sector total minus disclosed industries, split by County
    Business Patterns shares. Industries that share a 3-digit code (e.g. 3361-3363 and 3364-3369) are split with US
@@ -22,7 +25,11 @@ import pandas as pd
 from config import BEA_URL, COUNTIES, COUNTY_REGION, LIVE, OUT, RAW, REGIONS
 from fetch import get, is_zip
 
-IO_YEAR = 2023
+IO_YEAR = 2023                      # set by tables(): the year of the BEA tables in use
+ZIP_YEAR = 2023                     # last year in the bulk file (frozen by BEA in September 2024)
+STATEIO_YEAR = 2023                 # EPA StateIO release used for the cross-check
+IO_SOURCE = "bulk file"
+_TABLES = {}
 IO_ZIP = "https://apps.bea.gov/industry/iTables%20Static%20Files/AllTablesIO.zip"
 USE = "IOUse_Before_Redefinitions_PRO_1997-{y}_Summary.xlsx"
 MAKE = "IOMake_Before_Redefinitions_PRO_1997-{y}_Summary.xlsx"
@@ -71,7 +78,26 @@ def io_zip():
     return zipfile.ZipFile(get(IO_ZIP, LIVE / "bea_io" / "AllTablesIO.zip", max_age_days=30, check=is_zip, timeout=600))
 
 
-def read_bea_table(z, name, year=IO_YEAR):
+def tables():
+    """(use, make, names) for the model year: the BEA Data API's newest year, else the bulk file. Sets IO_YEAR and
+    IO_SOURCE; read once per run."""
+    global IO_YEAR, IO_SOURCE
+    if not _TABLES:
+        try:
+            import bea_io_api
+            use, make, names, year = bea_io_api.tables()
+            IO_YEAR, IO_SOURCE = year, "BEA Data API"
+        except Exception as e:
+            print(f"    BEA API tables not used ({str(e)[:120]}); using the bulk file ({ZIP_YEAR})")
+            z = io_zip()
+            use, names = read_bea_table(z, USE, ZIP_YEAR)
+            make, _ = read_bea_table(z, MAKE, ZIP_YEAR)
+            IO_YEAR, IO_SOURCE = ZIP_YEAR, "bulk file"
+        _TABLES.update(use=use, make=make, names=names)
+    return _TABLES["use"], _TABLES["make"], _TABLES["names"]
+
+
+def read_bea_table(z, name, year=ZIP_YEAR):
     """A BEA Make or Use sheet as a numeric frame with IO codes as row and column labels ('...' = 0)."""
     d = pd.read_excel(z.open(name.format(y=year)), sheet_name=str(year), header=None)
     cols = d.iloc[5, 2:].tolist()
@@ -89,7 +115,8 @@ def read_bea_table(z, name, year=IO_YEAR):
 
 
 # ------------------------------------------------------------------ jobs
-def qcew_area(area, year=IO_YEAR):
+def qcew_area(area, year=None):
+    year = year or IO_YEAR
     f = RAW / "qcew" / f"{year}_{area}.csv"
     if not f.exists():
         f = LIVE / "qcew" / f"{year}_{area}.csv"
@@ -116,11 +143,59 @@ def fill_hidden(nd, sector_totals, cbp_state):
         if np.isnan(rest):
             continue
         w = cbp_state.reindex(g.naics).fillna(0)
-        w = w / w.sum() if w.sum() > 0 else pd.Series(1 / len(g), index=g.naics)
+        # CBP shares only when CBP shows employment for every withheld industry; otherwise an industry CBP also
+        # withholds (e.g. petroleum refining) would get no jobs at all, so the rest is split evenly
+        w = w / w.sum() if (w > 0).all() else pd.Series(1 / len(g), index=g.naics)
         p.loc[g.index, "jobs"] = rest * w.values
     nd = nd.copy()
     nd.loc[p.index, "jobs"] = p.jobs
     return nd
+
+
+def withheld_sectors(sector_totals, nd_sec, nd_all, cbp):
+    """Statewide private sector totals BLS withholds (in 2025: utilities, transportation, information, arts,
+    accommodation and food, other services). The jobs they hold together are known: the published private total
+    minus the disclosed sectors. They are shared out by each sector's jobs in the latest earlier year when BLS
+    published all of them (County Business Patterns employment if none), with each sector at least the jobs its
+    disclosed 3-digit industries already show. Disclosed sectors are left as published."""
+    hidden = nd_sec.disclosure_code.fillna("").eq("N").values
+    if not hidden.any():
+        return sector_totals
+    tot = nd_all[(nd_all.agglvl_code == "51") & (nd_all.own_code == "5")].annual_avg_emplvl
+    rest = max(float(pd.to_numeric(tot).iloc[0]) - sector_totals[~hidden].sum(), 0)
+    secs = list(sector_totals.index[hidden])
+    w, basis = None, "County Business Patterns"
+    for y in range(IO_YEAR - 1, IO_YEAR - 6, -1):
+        try:
+            p = qcew_area("38000", y)
+        except FileNotFoundError:
+            continue
+        p = p[(p.agglvl_code == "54") & (p.own_code == "5")]
+        p.index = p.industry_code.str[:2]
+        p = p.reindex(secs)
+        if p.annual_avg_emplvl.notna().all() and not p.disclosure_code.fillna("").eq("N").any():
+            w, basis = pd.to_numeric(p.annual_avg_emplvl), f"QCEW {y} shares"
+            break
+    if w is None:
+        sec_of = lambda n: {"32": "31", "33": "31", "45": "44", "49": "48"}.get(n[:2], n[:2])
+        w = cbp.assign(sec=cbp.naics.map(sec_of)).groupby("sec").emp.sum().reindex(secs).fillna(0)
+    w = w / w.sum() if w.sum() > 0 else pd.Series(1 / len(secs), index=secs)
+    est = rest * w
+    d3 = nd_all[(nd_all.agglvl_code == "55") & (nd_all.own_code == "5") & ~nd_all.disclosure_code.fillna("").eq("N")]
+    sec_of = lambda n: {"32": "31", "33": "31", "45": "44", "49": "48"}.get(n[:2], n[:2])
+    floor = pd.to_numeric(d3.annual_avg_emplvl).groupby(d3.industry_code.map(sec_of)).sum().reindex(secs).fillna(0)
+    for _ in range(len(secs)):                    # raise sectors below their disclosed industries; rescale the rest
+        low = est < floor
+        if not low.any():
+            break
+        est[low] = floor[low]
+        free = ~low & (est > floor)
+        left = rest - est[~free].sum()
+        est[free] = max(left, 0) * w[free] / w[free].sum() if w[free].sum() > 0 else est[free]
+    out = sector_totals.astype(float)
+    out.loc[secs] = est.values
+    print(f"    QCEW withholds ND private sector totals {', '.join(secs)}: {rest:,.0f} jobs shared by {basis}")
+    return out
 
 
 def gov_split(t):
@@ -237,26 +312,37 @@ def gdp_lines():
 
 
 def build():
-    z = io_zip()
-    use, names = read_bea_table(z, USE)
+    use, _, names = tables()
     codes = [c for c in use.columns if c in MAP]
     nd_raw = three_digit(qcew_area("38000"), state=True)
     us_raw = three_digit(qcew_area("US000"), state=False)
     us4d = qcew_area("US000")
     us4 = us4d[(us4d.agglvl_code == "16") & (us4d.own_code == "5")].set_index("industry_code").annual_avg_emplvl.pipe(pd.to_numeric)
-    nd_sec = qcew_area("38000")
-    nd_sec = nd_sec[(nd_sec.agglvl_code == "54") & (nd_sec.own_code == "5")]
+    nd_all = qcew_area("38000")
+    nd_sec = nd_all[(nd_all.agglvl_code == "54") & (nd_all.own_code == "5")]
     sector_totals = pd.to_numeric(nd_sec.set_index(nd_sec.industry_code.str[:2]).annual_avg_emplvl)
     cbp = cbp_county()
+    sector_totals = withheld_sectors(sector_totals, nd_sec, nd_all, cbp)
     nd_raw = fill_hidden(nd_raw, sector_totals.to_dict(), cbp.groupby("naics").emp.sum())
     us_jobs, nd_jobs = by_io(us_raw, us4).reindex(codes).fillna(0), by_io(nd_raw, us4).reindex(codes).fillna(0)
     # pay ratio ND/US by model industry (wages per job), for labor income
     def pay(t):
         p = t[(t.own == "5") & t.wages.notna()].groupby("naics")[["jobs", "wages"]].sum()   # disclosed cells only
         return {c: (p.reindex(s[0])[["wages", "jobs"]].sum()) for c, s in MAP.items() if s[0] != G and s[0]}
-    pu, pn = pay(us_raw), pay(nd_raw)
-    pay_ratio = pd.Series({c: (pn[c].wages / pn[c].jobs) / (pu[c].wages / pu[c].jobs)
-                           if pn[c].jobs > 0 and pu[c].jobs > 0 else 1.0 for c in pu}).reindex(codes).fillna(1.0).clip(0.5, 1.6)
+    def ratios(us_t, nd_t):
+        pu, pn = pay(us_t), pay(nd_t)
+        return pd.Series({c: (pn[c].wages / pn[c].jobs) / (pu[c].wages / pu[c].jobs)
+                          if pn[c].jobs > 0 and pu[c].jobs > 0 else np.nan for c in pu})
+    pay_ratio = ratios(us_raw, nd_raw)
+    for y in range(IO_YEAR - 1, IO_YEAR - 6, -1):  # ND pay withheld this year: the latest earlier year it was published
+        if pay_ratio.notna().all():
+            break
+        try:
+            older = ratios(three_digit(qcew_area("US000", y), state=False), three_digit(qcew_area("38000", y), state=True))
+        except FileNotFoundError:
+            continue
+        pay_ratio = pay_ratio.fillna(older)
+    pay_ratio = pay_ratio.reindex(codes).fillna(1.0).clip(0.5, 1.6)
     # productivity: ND GDP per job relative to US, by GDP-by-state line
     gl = gdp_lines()
     line_jobs = pd.DataFrame({"US": us_jobs, "ND": nd_jobs, "cls": [MAP[c][2] for c in codes]}, index=codes)
@@ -284,7 +370,7 @@ def stateio():
     import rdata
     out = {}
     for n in STATEIO_FILES:
-        name = n.format(y=IO_YEAR)
+        name = n.format(y=STATEIO_YEAR)
         f = get(STATEIO.format(name), RAW / "stateio" / name, timeout=600)
         obj = rdata.read_rds(str(f))
         out[name.split("_")[2]] = obj["North Dakota"] if isinstance(obj, dict) else obj
@@ -296,13 +382,14 @@ def main():
     t.to_csv(OUT / "io_industries.csv", index=False)
     print(f"    IO data {IO_YEAR}: {len(t)} industries; ND jobs {t.jobs_ND.sum():,.0f}; "
           f"regions sum {t[[c for c in t if c.startswith('jobs_Region')]].sum().sum():,.0f}")
-    return {"bea_io": {"name": "Input-output accounts, Make and Use tables (summary, before redefinitions)",
+    src = "BEA Data API" if IO_SOURCE == "BEA Data API" else "bulk file, no longer updated by BEA"
+    return {"bea_io": {"name": f"Input-output accounts, Make and Use tables (summary, before redefinitions; {src})",
                        "publisher": "U.S. Bureau of Economic Analysis",
                        "url": "https://www.bea.gov/industry/input-output-accounts-data", "period": str(IO_YEAR),
                        "latest": str(IO_YEAR)},
             "stateio": {"name": "StateIO two-region state input-output models (cross-check)",
                         "publisher": "U.S. Environmental Protection Agency", "url": "https://github.com/USEPA/stateior",
-                        "period": str(IO_YEAR), "latest": str(IO_YEAR)}}
+                        "period": str(STATEIO_YEAR), "latest": str(STATEIO_YEAR)}}
 
 
 if __name__ == "__main__":

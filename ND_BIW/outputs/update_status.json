@@ -1,9 +1,13 @@
 {
- "started": "2026-11-17T14:29:35+00:00",
- "finished": "2026-11-17T14:34:29+00:00",
+ "started": "2026-11-25T12:30:37+00:00",
+ "finished": "2026-11-25T12:34:22+00:00",
  "exit_code": 0,
  "error": null,
  "checks": "WARN",
- "new_files": [],
- "log": "update_2026-11-17.txt"
+ "new_files": [
+  "api_table_259_2025.json",
+  "api_table_262_2025.json",
+  "epm_5_06_b.xlsx"
+ ],
+ "log": "update_2026-11-25.txt"
 }

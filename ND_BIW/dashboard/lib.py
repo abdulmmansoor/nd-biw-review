@@ -114,8 +114,12 @@ div[data-testid="stSelectbox"] label, div[data-testid="stRadio"] > label, div[da
 .kpi::before {{ content:""; position:absolute; top:-40px; right:-40px; width:160px; height:120px;
   background: radial-gradient(circle, var(--glow) 0%, transparent 70%); opacity:.30; }}
 .kpi-label {{ font-size: 15px; color: #F1F3F5; font-weight: 400; line-height: 1.25; min-height: 38px; }}
-.kpi-row {{ display:flex; align-items:flex-end; justify-content:space-between; margin-top:10px; gap: 8px; }}
-.kpi-value {{ font-size: 26px; color:#fff; font-weight: 400; line-height: 1; white-space: nowrap; padding-left: 8px; }}
+.kpi {{ container-type: inline-size; }}          /* the number is never cut: the trend line shrinks first, then wraps */
+.kpi-row {{ display:flex; flex-wrap: wrap; align-items:flex-end; justify-content:space-between; margin-top:10px; gap: 8px; }}
+.kpi-spark {{ flex: 1 1 44px; min-width: 44px; max-width: 120px; line-height: 0; }}
+.kpi-spark svg {{ width: 100%; height: 40px; display: block; }}
+.kpi-value {{ flex: none; margin-left: auto; max-width: 100%; font-size: 26px; font-size: clamp(16px, 16cqw, 26px); color:#fff;
+  font-weight: 400; line-height: 1; white-space: nowrap; }}
 .kpi-delta {{ font-size: 11px; font-weight: 600; margin-top: 6px; }}
 .kpi-note {{ font-size: 11px; color: {MUTED}; margin-top: 2px; }}
 .src {{ color: {MUTED}; font-size: 12px; border-top: 1px solid {GRID}; padding-top: 8px; margin-top: 18px; }}
@@ -207,12 +211,7 @@ def ago(iso):
 
 # ------------------------------------------------------------------ page pieces
 def sidebar():
-    if not LOGO.exists():
-        LOGO.write_text(f'''<svg xmlns="http://www.w3.org/2000/svg" width="300" height="56" viewBox="0 0 300 56">
-<path d="M6 44 L18 14 L28 34 L36 22 L46 44 Z" fill="{UND_GREEN}"/><path d="M28 34 L36 22 L46 44 L38 44 Z" fill="#fff" opacity=".85"/>
-<text x="56" y="25" font-family="Oswald, Arial Narrow, Arial" font-size="19" font-weight="600" fill="#fff" letter-spacing="1.2">ND BUSINESS &amp; INNOVATION</text>
-<text x="56" y="48" font-family="Oswald, Arial Narrow, Arial" font-size="19" font-weight="600" fill="{UND_GREEN}" letter-spacing="1.2">WATCH</text>
-</svg>''')
+    # logo.svg is drawn by src/make_icon.py
     st.logo(str(LOGO), size="large")
     with st.sidebar:
         st.divider()
@@ -385,10 +384,10 @@ def sparkline(values, color, w=120, h=40):
     ys = h - 4 - (v - lo) / rng * (h - 10)
     pts = " ".join(f"{x:.1f},{y:.1f}" for x, y in zip(xs, ys))
     gid = f"g{abs(hash((pts, color))) % 10**8}"
-    return (f'<svg width="{w}" height="{h}" viewBox="0 0 {w} {h}" aria-hidden="true"><defs><linearGradient id="{gid}" x1="0" '
+    return (f'<svg width="{w}" height="{h}" viewBox="0 0 {w} {h}" preserveAspectRatio="none" aria-hidden="true"><defs><linearGradient id="{gid}" x1="0" '
             f'y1="0" x2="0" y2="1"><stop offset="0" stop-color="{color}" stop-opacity=".35"/><stop offset="1" '
             f'stop-color="{color}" stop-opacity="0"/></linearGradient></defs><polygon points="2,{h} {pts} {w - 2},{h}" '
-            f'fill="url(#{gid})"/><polyline points="{pts}" fill="none" stroke="{color}" stroke-width="1.6"/></svg>')
+            f'fill="url(#{gid})"/><polyline points="{pts}" fill="none" stroke="{color}" stroke-width="1.6" vector-effect="non-scaling-stroke"/></svg>')
 
 
 def kpi_card(label, value, spark=(), change=None, good_up=True, note=""):
@@ -402,7 +401,7 @@ def kpi_card(label, value, spark=(), change=None, good_up=True, note=""):
         dl = (f'<div class="kpi-delta" style="color:{txt}">{"↑" if change >= 0 else "↓"} {abs(change):.1f}% vs year earlier '
               f'({"better" if better else "worse"})</div>')
     st.markdown(f'<div class="kpi" style="--glow:{color}"><div class="kpi-label">{label}</div>'
-                f'<div class="kpi-row"><div>{sparkline(spark, color)}</div><div class="kpi-value">{value}</div></div>'
+                f'<div class="kpi-row"><div class="kpi-spark">{sparkline(spark, color)}</div><div class="kpi-value">{value}</div></div>'
                 f'{dl}<div class="kpi-note">{note}</div></div>', unsafe_allow_html=True)
 
 

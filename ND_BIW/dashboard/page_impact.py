@@ -24,7 +24,7 @@ LIMITS = [
     "Local purchases are estimated with Flegg's location quotient method from national tables, not from a survey of "
     "North Dakota businesses. Results for small regions are less certain.",
     "Jobs are wage and salary jobs as counted by BLS QCEW; business owners and most farm operators are not included. "
-    "Values are 2023 dollars.",
+    "Values are {year} dollars.",
     "Taxes use North Dakota's average effective tax rates (Census tax collections divided by personal income, GDP or "
     "the value of oil production), not the tax rules of a specific business. Exemptions, incentives and timing are "
     "not modelled. Because BEA values North Dakota's oil and gas output below the value of production, the oil "
@@ -90,6 +90,18 @@ def params():
     return json.loads((OUT / "io_params.json").read_text())
 
 
+def model_year():
+    """Year of the BEA tables and jobs data the model was built from (src/io_data.py)."""
+    try:
+        return int(params()["year"])
+    except (OSError, ValueError, KeyError):
+        return 2023
+
+
+def limits():
+    return [x.replace("{year}", str(model_year())) for x in LIMITS]
+
+
 def tr_share():
     return float(lib.table("io_tax_ratios.csv").household_sales_share.iloc[0])
 
@@ -118,7 +130,7 @@ def short(name, n=38):
 def contribution_page():
     lib.header("Economic contribution", "How much each North Dakota industry supports across the economy: its own jobs "
                "and sales, plus the suppliers it buys from and the household spending of the people it employs.",
-               "model", note="IPBA input-output model built from BEA, BLS and Census data (2023).")
+               "model", note=f"IPBA input-output model built from BEA, BLS and Census data ({model_year()}).")
     if not ready():
         return
     c = lib.table("io_contribution.csv", dtype={"code": str})
@@ -185,7 +197,7 @@ def contribution_page():
                       "industry's own sales are not counted twice.",
                       "Direct = the industry's own output, jobs, income and value added. Indirect = Type I total minus "
                       "direct (local supplier chain). Induced = Type II total minus Type I (local household spending of "
-                      "labor income). Direct + indirect + induced = total.", *LIMITS], REFS)
+                      "labor income). Direct + indirect + induced = total.", *limits()], REFS)
     lib.source_line("bea_io", "qcew", "bea", "stateio", "taxes")
 
 
@@ -193,7 +205,7 @@ def contribution_page():
 def whatif_page():
     lib.header("What-if impact", "Estimate the ripple effects of a new or expanding business: pick a place and an "
                "industry, and enter new jobs or new annual sales.", "model",
-               note="IPBA input-output model built from BEA, BLS and Census data (2023). Estimates, not forecasts.")
+               note=f"IPBA input-output model built from BEA, BLS and Census data ({model_year()}). Estimates, not forecasts.")
     if not ready():
         return
     codes, names, places, models = model()
@@ -296,7 +308,7 @@ def whatif_page():
     lib.method_panel(["Effects = (I - A)^-1 x new final demand, with A the regional coefficient matrix. Type II adds "
                       "households (labor income in, consumer spending out).",
                       "New jobs are converted to sales with the industry's output per job in North Dakota.",
-                      "Ranges: " + range_note(), *LIMITS], REFS)
+                      "Ranges: " + range_note(), *limits()], REFS)
     lib.source_line("bea_io", "qcew", "bea", "stateio", "taxes")
 
 
@@ -318,7 +330,7 @@ def checks_page():
                 delta_arrow="off")
     c[3].metric("Household spending per $ of labor income", f"{p['household_spend_ratio']:.2f}")
     st.markdown(
-        "**How it works.** The model starts from the national Make and Use tables (BEA, 2023), which record what every "
+        f"**How it works.** The model starts from the national Make and Use tables (BEA, {model_year()}), which record what every "
         "industry buys from every other. It then estimates how much of those purchases stay inside North Dakota, or "
         "inside one planning region, using each place's industry mix (Flegg's location quotient method). Smaller and less "
         "specialized places buy more from outside, so their multipliers are lower.")
@@ -390,13 +402,21 @@ def checks_page():
                "food service, recreation, personal services) and businesses. Household taxes follow labor income, "
                "business taxes follow value added, severance taxes follow oil, gas and mining sales.")
     st.subheader("Limits")
-    st.markdown("\n".join(f"- {lib.esc(x)}" for x in LIMITS))
+    st.markdown("\n".join(f"- {lib.esc(x)}" for x in limits()))
     lib.method_panel(["National coefficients: A = D x Bd from BEA summary Make and Use tables (before redefinitions), "
                       "imports removed commodity by commodity.",
+                      "BEA now publishes these tables as supply-use tables (BEA Data API). IPBA converts them to make-use "
+                      "form: trade and transport margins are moved from goods to the trade and transport industries in "
+                      "proportion to each use, and industry output and value added are put at producers' prices. On "
+                      "2023, published both ways, the converted tables give output multipliers within about 1% (median) "
+                      "of BEA's own make-use tables.",
+                      "Where BLS withholds North Dakota jobs or pay for an industry or a whole sector, the gap is filled "
+                      "from published totals: withheld sectors share the remaining private jobs in proportion to the "
+                      "latest year they were published, and withheld pay uses the latest published year.",
                       "FLQ: r_ij = a_ij x min(1, lambda x SLQ_i / SLQ_j), lambda = [log2(1 + regional jobs / US jobs)]^delta; "
                       "regional coefficients are capped at the state's.",
                       "Type II: households spend (1 - social insurance contributions / compensation) x PCE / personal "
                       "income of each dollar of labor income (NIPA Table 2.1), bought locally in proportion to min(1, SLQ).",
-                      "Jobs by place and industry: BLS QCEW 2023; planning regions from QCEW county data and BEA county "
+                      f"Jobs by place and industry: BLS QCEW {model_year()}; planning regions from QCEW county data and BEA county "
                       "farm employment."], REFS)
     lib.source_line("bea_io", "qcew", "bea", "stateio", "taxes")

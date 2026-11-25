@@ -1,11 +1,11 @@
 check,IPBA,benchmark,note
-ND Type I output multipliers vs EPA StateIO (output-weighted mean),1.2350554737981232,1.2435380331132893,delta calibrated to 0.1; correlation across industries 0.44
-ND Type I output multiplier with delta = 0.2 (sensitivity),1.1324719794414608,,"higher delta = more import leakage, smaller multipliers"
-ND Type I output multiplier with delta = 0.3 (sensitivity),1.0770107210148558,,"higher delta = more import leakage, smaller multipliers"
-ND Type I output multiplier with delta = 0.4 (sensitivity),1.0461003613876882,,"higher delta = more import leakage, smaller multipliers"
-ND Type I output multiplier with simple LQ (no FLQ size adjustment),1.3710325254330487,,"simple LQ is known to overstate regional multipliers (Flegg & Tohmo, 2013)"
-US Type I output multiplier (national ceiling),1.6836201595220788,,regional multipliers must be below the national ones
+ND Type I output multipliers vs EPA StateIO (output-weighted mean),1.229597782855811,1.2417482265579687,delta calibrated to 0.1; correlation across industries 0.40
+ND Type I output multiplier with delta = 0.2 (sensitivity),1.1318991456125802,,"higher delta = more import leakage, smaller multipliers"
+ND Type I output multiplier with delta = 0.3 (sensitivity),1.0769586621600313,,"higher delta = more import leakage, smaller multipliers"
+ND Type I output multiplier with delta = 0.4 (sensitivity),1.0460771624844876,,"higher delta = more import leakage, smaller multipliers"
+ND Type I output multiplier with simple LQ (no FLQ size adjustment),1.3612436650814086,,"simple LQ is known to overstate regional multipliers (Flegg & Tohmo, 2013)"
+US Type I output multiplier (national ceiling),1.6680876496666301,,regional multipliers must be below the national ones
 Industries where ND multiplier exceeds the US multiplier,0.0,0.0,
 Industry-region pairs where a region exceeds the state multiplier,0.0,0.0,regional coefficients are capped at the state's
-State taxes implied for the whole ND economy vs actual collections ($ millions),3351.648924906946,6048.549,"Census state tax collections, FY2023. Lower because BEA's oil and gas output for ND is below the value of production, and income not paid as wages is not modelled"
-Local taxes implied for the whole ND economy vs actual collections ($ millions),1668.3111103826996,1634.566,"Census state and local government finances, local taxes"
+State taxes implied for the whole ND economy vs actual collections ($ millions),3393.5481509999145,6048.549,"Census state tax collections, FY2023. Lower because BEA's oil and gas output for ND is below the value of production, and income not paid as wages is not modelled"
+Local taxes implied for the whole ND economy vs actual collections ($ millions),1772.6069146002321,1634.566,"Census state and local government finances, local taxes"

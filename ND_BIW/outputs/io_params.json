@@ -1,35 +1,35 @@
 {
- "year": 2023,
+ "year": 2025,
  "delta": 0.1,
  "delta_default": 0.3,
- "household_spend_ratio": 0.6936586875641875,
+ "household_spend_ratio": 0.6927069970562085,
  "range": {
   "delta_low_case": 0.2,
   "delta_high_case": 0.0,
-  "spend_low_case": 0.6242928188077688,
-  "spend_high_case": 0.7630245563206063
+  "spend_low_case": 0.6234362973505877,
+  "spend_high_case": 0.7619776967618295
  },
  "lambda": {
-  "ND": 0.5753441663682111,
-  "Region 1 (Williston)": 0.45292735635712444,
-  "Region 2 (Minot)": 0.45852744622813063,
-  "Region 3 (Devils Lake)": 0.4105785745114846,
-  "Region 4 (Grand Forks)": 0.4638113639447577,
-  "Region 5 (Fargo)": 0.5169415433972211,
-  "Region 6 (Jamestown)": 0.43222527674605493,
-  "Region 7 (Bismarck)": 0.4888496531167322,
-  "Region 8 (Dickinson)": 0.4342031634354556
+  "ND": 0.5754009125244824,
+  "Region 1 (Williston)": 0.4541465248636894,
+  "Region 2 (Minot)": 0.4579078219512097,
+  "Region 3 (Devils Lake)": 0.4077304230778683,
+  "Region 4 (Grand Forks)": 0.46116117485098673,
+  "Region 5 (Fargo)": 0.5183526110500981,
+  "Region 6 (Jamestown)": 0.4297455418909541,
+  "Region 7 (Bismarck)": 0.4897523566976414,
+  "Region 8 (Dickinson)": 0.4332611478529912
  },
  "size": {
-  "ND": 0.0027586776261777635,
-  "Region 1 (Williston)": 0.0002518637533611794,
-  "Region 2 (Minot)": 0.0002848004441513344,
-  "Region 3 (Devils Lake)": 9.436452904885764e-05,
-  "Region 4 (Grand Forks)": 0.0003193806910349152,
-  "Region 5 (Fargo)": 0.000945028578100397,
-  "Region 6 (Jamestown)": 0.0001577470780593621,
-  "Region 7 (Bismarck)": 0.0005403757971982458,
-  "Region 8 (Dickinson)": 0.000165116755223472
+  "ND": 0.0027614034709379114,
+  "Region 1 (Williston)": 0.000258726902963959,
+  "Region 2 (Minot)": 0.00028097461743892683,
+  "Region 3 (Devils Lake)": 8.801886250425606e-05,
+  "Region 4 (Grand Forks)": 0.00030159095441846285,
+  "Region 5 (Fargo)": 0.0009711563736757518,
+  "Region 6 (Jamestown)": 0.00014892636824507461,
+  "Region 7 (Bismarck)": 0.0005504404044731181,
+  "Region 8 (Dickinson)": 0.0001615689872183628
  },
  "tax_per_labor_income": {
   "state": 0.028451282261791423,

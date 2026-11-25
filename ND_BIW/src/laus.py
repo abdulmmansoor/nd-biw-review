@@ -7,7 +7,8 @@ precise than the 5-year ACS survey estimate (Bureau of Labor Statistics, 2024, L
 Data come from the BLS public API, version 1 (no key; at most 25 series per request and 25 requests a day). Each
 county has two series, unemployed (04) and labor force (06); not seasonally adjusted. Rates are computed from them,
 so planning regions can be built the same way (sum of unemployed / sum of labor force). Responses are cached in
-data/live/laus and refreshed after 7 days; if BLS cannot be reached, the last copy is used.
+data/live/laus and refreshed after 7 days; if BLS cannot be reached, the last copy is used. A month whose county
+figures are not out yet (the state is released first) is held back until they are.
 Writes outputs/laus_monthly.csv (place, level, month, labor_force, unemployed, rate, preliminary).
 """
 import json
@@ -32,6 +33,9 @@ def series():
 
 
 def fetch(ids, cache, max_age_days=7):
+    from fetch import recheck
+    if recheck():                                  # automatic daily update: ask BLS each day (5 of 25 daily requests)
+        max_age_days = min(max_age_days, 0.5)
     if cache.exists() and time.time() - cache.stat().st_mtime < max_age_days * 86400:
         return json.loads(cache.read_text())
     end = date.today().year
@@ -77,7 +81,22 @@ def build():
     reg = reg[reg.n == reg.groupby("place").n.transform("max")].drop(columns="n").assign(level="region")
     t = pd.concat([w, reg], ignore_index=True)
     t["rate"] = t.unemployed / t.labor_force * 100
+    t = complete_months(t)
     return t[["place", "level", "month", "labor_force", "unemployed", "rate", "preliminary"]].sort_values(["level", "place", "month"])
+
+
+def complete_months(t):
+    """Keep months up to the latest one with all 53 counties. BLS releases the state figure about two weeks before the
+    county figures, so for a while the newest month has the state only; it is added, with the counties and regions,
+    once the county release is out. Every level then ends in the same month."""
+    c = t[(t.level == "county") & t.labor_force.notna()].groupby("month").place.nunique()
+    full = c[c == len(COUNTIES)]
+    if full.empty:
+        return t
+    held = sorted(t.month[t.month > full.index.max()].unique())
+    if held:
+        print(f"    LAUS: {', '.join(f'{pd.Timestamp(m):%Y-%m}' for m in held)} held back until BLS releases the counties")
+    return t[t.month <= full.index.max()]
 
 
 def latest_12(t):

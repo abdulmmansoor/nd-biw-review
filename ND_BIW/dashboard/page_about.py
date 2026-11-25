@@ -9,7 +9,8 @@ def release_date(v):
     """Release date for the sources table: the publisher's date, the day a new period was first found, or a reason."""
     basis = v.get("released_basis", "")
     if v.get("released"):
-        return lib.as_of(v["released"]) + (" (first found)" if basis.startswith("first found") else "")
+        wait = f"; {v['awaiting']} not yet posted" if v.get("awaiting") else ""
+        return lib.as_of(v["released"]) + (" (first found)" if basis.startswith("first found") else "") + wait
     return {"one-time report": "One-time report",
             "recorded from the next release": "Recorded from the next release"}.get(basis, "Not given by the publisher")
 

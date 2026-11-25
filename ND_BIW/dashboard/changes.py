@@ -1,6 +1,10 @@
 """What changed: a dated list of changes readers can see, newest first (shown on About the data)."""
 
 CHANGES = [
+    ("November 25, 2026 (logo and cards)", [
+        "New logo and desktop icon: an analytical infographic (bars, a trend line and a donut chart).",
+        "Number cards: values are no longer cut off in narrower windows (for example 420,297 jobs showed as 420).",
+    ]),
     ("November 17, 2026 (menu)", [
         "Menu: the long Explore list is now four sections (Business Indicators; Industries & Innovation; Markets & "
         "Places; Business Climate & Support), and each section opens and closes, as on ND Fiscal and Economic Watch. "

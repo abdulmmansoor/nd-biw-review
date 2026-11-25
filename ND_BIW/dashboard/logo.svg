@@ -1,5 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="300" height="56" viewBox="0 0 300 56">
-<path d="M6 44 L18 14 L28 34 L36 22 L46 44 Z" fill="#009A44"/><path d="M28 34 L36 22 L46 44 L38 44 Z" fill="#fff" opacity=".85"/>
-<text x="56" y="25" font-family="Oswald, Arial Narrow, Arial" font-size="19" font-weight="600" fill="#fff" letter-spacing="1.2">ND BUSINESS &amp; INNOVATION</text>
-<text x="56" y="48" font-family="Oswald, Arial Narrow, Arial" font-size="19" font-weight="600" fill="#009A44" letter-spacing="1.2">WATCH</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="56" viewBox="0 0 300 56" role="img">
+<title>ND Business and Innovation Watch</title>
+<g transform="translate(2 4)">
+<circle cx="10.5" cy="9.5" r="6.4" fill="none" stroke="#009A44" stroke-width="4.4" pathLength="100" stroke-dasharray="60 40" stroke-dashoffset="0" transform="rotate(-90 10.5 9.5)"/>
+<circle cx="10.5" cy="9.5" r="6.4" fill="none" stroke="#E5734B" stroke-width="4.4" pathLength="100" stroke-dasharray="25 75" stroke-dashoffset="-60" transform="rotate(-90 10.5 9.5)"/>
+<circle cx="10.5" cy="9.5" r="6.4" fill="none" stroke="#AEAEAE" stroke-width="4.4" pathLength="100" stroke-dasharray="15 85" stroke-dashoffset="-85" transform="rotate(-90 10.5 9.5)"/>
+<rect x="2" y="35" width="8" height="11" rx="1" fill="#A9DDBF"/>
+<rect x="13.5" y="28" width="8" height="18" rx="1" fill="#5FC48B"/>
+<rect x="25" y="20" width="8" height="26" rx="1" fill="#1FAA5D"/>
+<rect x="36.5" y="11" width="8" height="35" rx="1" fill="#009A44"/>
+<polyline points="6,28.5 17.5,21.5 29,13.5 40.5,4.5" fill="none" stroke="#E5734B" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="6" cy="28.5" r="2.7" fill="#fff" stroke="#E5734B" stroke-width="1.6"/>
+<circle cx="17.5" cy="21.5" r="2.7" fill="#fff" stroke="#E5734B" stroke-width="1.6"/>
+<circle cx="29" cy="13.5" r="2.7" fill="#fff" stroke="#E5734B" stroke-width="1.6"/>
+<circle cx="40.5" cy="4.5" r="2.7" fill="#fff" stroke="#E5734B" stroke-width="1.6"/>
+</g>
+<text x="58" y="25" font-family="Oswald, Arial Narrow, Arial" font-size="19" font-weight="600" letter-spacing="1.2" fill="#fff">ND BUSINESS &amp; INNOVATION</text>
+<text x="58" y="48" font-family="Oswald, Arial Narrow, Arial" font-size="19" font-weight="600" letter-spacing="1.2" fill="#009A44">WATCH</text>
 </svg>

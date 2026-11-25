@@ -1,6 +1,6 @@
 {
  "status": "WARN",
- "run": "2026-11-17T14:41:17+00:00",
+ "run": "2026-11-25T12:34:22+00:00",
  "checks": [
   {
    "check": "Planning regions cover each of the 53 counties exactly once",
@@ -118,14 +118,19 @@
    "detail": ""
   },
   {
-   "check": "IO model: ND jobs by model industry match the QCEW total (2023)",
+   "check": "IO model: ND jobs by model industry match the QCEW total (2025)",
    "status": "PASS",
-   "detail": "421,631 vs 421,639"
+   "detail": "429,408 vs 429,567"
+  },
+  {
+   "check": "IO model: no negative multipliers; every Type I output multiplier at least 1",
+   "status": "PASS",
+   "detail": "0 negative cells, lowest Type I 1.000"
   },
   {
    "check": "IO model: ND mean multiplier within 0.05 of EPA StateIO",
    "status": "PASS",
-   "detail": "1.235 vs 1.244"
+   "detail": "1.230 vs 1.242"
   },
   {
    "check": "IO model: no ND multiplier above the US, no region above the state",
@@ -135,7 +140,7 @@
   {
    "check": "IO model: local taxes implied for ND within 25% of actual collections",
    "status": "PASS",
-   "detail": "1,668 vs 1,635 $M"
+   "detail": "1,773 vs 1,635 $M"
   },
   {
    "check": "IO model: tax ratios present and positive",
@@ -205,12 +210,12 @@
   {
    "check": "LAUS: county labor force adds up to the state within 1%",
    "status": "PASS",
-   "detail": "largest gap 0.00%"
+   "detail": "largest gap 0.03%"
   },
   {
    "check": "LAUS no older than 4 months",
    "status": "PASS",
-   "detail": "77 days"
+   "detail": "85 days"
   },
   {
    "check": "ND oil price received: in range, and within $40 of WTI in every month since 2000",
@@ -379,12 +384,12 @@
   {
    "check": "Impact model, advanced: extraction losses at least the industry's own jobs, none negative; linkage indexes average 1",
    "status": "PASS",
-   "detail": "0 problems in 582 rows"
+   "detail": "0 problems in 578 rows"
   },
   {
    "check": "Impact model, advanced: Monte Carlo intervals ordered and contain the published multiplier in at least 90% of cases",
    "status": "PASS",
-   "detail": "98% inside, 2,910 intervals"
+   "detail": "98% inside, 2,890 intervals"
   },
   {
    "check": "Targeted industries: six Commerce groups plus the combined total, one headline year",
@@ -494,12 +499,17 @@
   {
    "check": "Release dates: every file-based source has the publisher's date",
    "status": "PASS",
-   "detail": "28 of 46 sources dated"
+   "detail": "32 of 46 sources dated"
   },
   {
    "check": "Release dates: no source older than its release cycle allows",
-   "status": "WARN",
-   "detail": "bea_io (782 days), formd (225 days)"
+   "status": "PASS",
+   "detail": "all current"
+  },
+  {
+   "check": "Release dates: sources waiting for the publisher",
+   "status": "PASS",
+   "detail": "formd: 2026 Q2, 2026 Q3 not yet posted by the publisher (233 days)"
   }
  ]
 }

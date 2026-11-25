@@ -17,7 +17,8 @@ import json
 import numpy as np
 import pandas as pd
 from config import LIVE, OUT, REGIONS
-from io_data import IO_YEAR, MAKE, USE, io_zip, read_bea_table, stateio
+import io_data
+from io_data import stateio
 
 DELTA_DEFAULT = 0.3
 DELTA_GRID = [round(x, 2) for x in np.arange(0.0, 0.61, 0.05)]
@@ -28,9 +29,7 @@ NO_JOBS_SLQ1 = ["HS", "482"]                     # no QCEW jobs (owner-occupied 
 
 # ------------------------------------------------------------------ national
 def national():
-    z = io_zip()
-    use, names = read_bea_table(z, USE)
-    make, _ = read_bea_table(z, MAKE)
+    use, make, names = io_data.tables()
     t = pd.read_csv(OUT / "io_industries.csv")
     codes = t.code.tolist()
     U = use.loc[codes, codes]
@@ -54,7 +53,7 @@ def household_spend_ratio():
     personal income, NIPA Table 2.1, model year."""
     d = pd.read_csv(LIVE / "nipa" / "NipaDataA.txt", dtype=str)
     d.columns = ["code", "year", "value"]
-    v = d[d.year == str(IO_YEAR)].set_index("code").value.str.replace(",", "").astype(float)
+    v = d[d.year == str(io_data.IO_YEAR)].set_index("code").value.str.replace(",", "").astype(float)
     return (1 - v["A061RC"] / v["A033RC"]) * v["DPCERC"] / v["A065RC"]
 
 
@@ -365,7 +364,7 @@ def main():
             for k in ("A", "e", "w", "v", "c", "x", "tli", "tva", "tsev"):
                 arrays[f"{pre}{i}_{k}"] = m[k]
     np.savez_compressed(OUT / "io_model.npz", **arrays)
-    params = {"year": IO_YEAR, "delta": delta, "delta_default": DELTA_DEFAULT, "household_spend_ratio": spend,
+    params = {"year": io_data.IO_YEAR, "delta": delta, "delta_default": DELTA_DEFAULT, "household_spend_ratio": spend,
               "range": {"delta_low_case": delta + DELTA_STEP, "delta_high_case": max(delta - DELTA_STEP, 0.0),
                         "spend_low_case": spend * (1 - SPEND_RANGE), "spend_high_case": spend * (1 + SPEND_RANGE)},
               "lambda": {p: m["lambda"] for p, m in models.items()}, "size": {p: m["size"] for p, m in models.items()},
@@ -373,7 +372,7 @@ def main():
               "tax_per_value_added": {"state": tva[0], "local": tva[1]},
               "severance_per_dollar_oil_gas_sales": float(tsev[codes.index("211")])}
     (OUT / "io_params.json").write_text(json.dumps(params, indent=1))
-    print(f"    IO model {IO_YEAR}: delta {delta} (calibrated to StateIO), household spending {spend:.3f} per $ of labor "
+    print(f"    IO model {io_data.IO_YEAR}: delta {delta} (calibrated to StateIO), household spending {spend:.3f} per $ of labor "
           f"income; ND mean Type I output multiplier {val[0]['IPBA']:.3f} vs StateIO {val[0]['benchmark']:.3f}")
     return {}
 
