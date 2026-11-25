@@ -21,11 +21,12 @@ Run it on this computer: `Start_Review_Locally.bat`, then open http://localhost:
    - Paste the link into `review_settings.toml` as `form_url = "..."`.
 2. **GitHub** (github.com): the **public** repository `nd-biw-review`. Anyone can read its code and tables without
    the review password, so treat every upload as publishing. First time, connect and upload:
-   `git remote add origin https://github.com/<account>/nd-biw-review.git` then `git push -u origin main`.
+   `git remote add origin https://github.com/abdulmmansoor/nd-biw-review.git` then `git push -u origin main`.
+   This dashboard uses the GitHub account `abdulmmansoor`, on Streamlit too; the builder stops if the copy points elsewhere.
 3. **Review password**: run `Set_Review_Password.bat` in the project folder. Type a password, or press Enter to get a
    random one. It prints a `[review]` block with a salted hash; the password itself is not saved anywhere.
 4. **Streamlit Community Cloud** (share.streamlit.io): Create app > from GitHub repository.
-   - Repository `<account>/nd-biw-review`, branch `main`, main file `ND_BIW/dashboard/app.py`.
+   - Sign in with GitHub as `abdulmmansoor`. Repository `abdulmmansoor/nd-biw-review`, branch `main`, main file `ND_BIW/dashboard/app.py`.
    - Advanced settings: the newest Python version offered; in **Secrets**, paste the `[review]` block.
    - Choose an app address, then Deploy. Community Cloud allows one private app per workspace (ND Fiscal and Economic
      Watch uses it), so this app is public; its pages are behind
