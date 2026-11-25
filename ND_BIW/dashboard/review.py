@@ -1,7 +1,8 @@
 """Review version only (copied by build_review.py into the review copy as dashboard/review.py).
 
 1. A reviewer password gate. Community Cloud allows one private app per workspace, and ND Fiscal and Economic Watch
-   uses it, so this review app is deployed as a public app from a private repository and asks for a review password
+   uses it, so this review app is a public app from a PUBLIC repository (the password covers the pages only; the code
+   and tables can be read on GitHub) and asks for a review password
    before showing anything. Set_Review_Password.bat makes a salted PBKDF2-SHA256 hash; only the hash goes into the
    app's secrets ([review] block, Streamlit Community Cloud: app > Settings > Secrets). The password itself is never
    stored. If the hosted app has no [review] block, it stays closed (fails closed). Start_Review_Locally.bat sets

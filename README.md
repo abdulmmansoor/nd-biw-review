@@ -19,7 +19,8 @@ Run it on this computer: `Start_Review_Locally.bat`, then open http://localhost:
    - Settings: choose who can respond (anyone, or only people in your organization).
    - ... (More options) > **Get pre-filled URL** > type `PAGE` in the Page question > **Get pre-filled URL** > Copy.
    - Paste the link into `review_settings.toml` as `form_url = "..."`.
-2. **GitHub** (github.com): a new **private** repository named `nd-biw-review` (no README). Connect and upload:
+2. **GitHub** (github.com): the **public** repository `nd-biw-review`. Anyone can read its code and tables without
+   the review password, so treat every upload as publishing. First time, connect and upload:
    `git remote add origin https://github.com/<account>/nd-biw-review.git` then `git push -u origin main`.
 3. **Review password**: run `Set_Review_Password.bat` in the project folder. Type a password, or press Enter to get a
    random one. It prints a `[review]` block with a salted hash; the password itself is not saved anywhere.
@@ -27,7 +28,7 @@ Run it on this computer: `Start_Review_Locally.bat`, then open http://localhost:
    - Repository `<account>/nd-biw-review`, branch `main`, main file `ND_BIW/dashboard/app.py`.
    - Advanced settings: the newest Python version offered; in **Secrets**, paste the `[review]` block.
    - Choose an app address, then Deploy. Community Cloud allows one private app per workspace (ND Fiscal and Economic
-     Watch uses it), so this app is public, but the code stays in the private repository and every page is behind
+     Watch uses it), so this app is public; its pages are behind
      the review password. Without the `[review]` secret the site stays closed.
 5. **Invite reviewers**: email them the app address and the review password. Anyone with both can open the draft;
    to cut off access, run `Set_Review_Password.bat` again and replace the secret (app > Settings > Secrets).
