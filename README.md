@@ -4,6 +4,9 @@ A separate copy of the dashboard for reviewers, behind a review password. It is 
 `..\ND Business and Innovation Watch` by `Build_Review_Version.bat` and does not change the project. Do not edit files
 here except `review_settings.toml`: a refresh replaces everything else.
 
+- Site address (send this to reviewers): https://nd-biw-review-meous7mytvf6esqrnzwgrp.streamlit.app/
+  (Streamlit Community Cloud, account `abdulmmansoor`). The Fiscal and Economic Watch review is a different site:
+  its address is in that review copy's README (not here, because this repository is public).
 - App entry point: `ND_BIW/dashboard/app.py`
 - Comments: the "Comment on this page" button opens the Microsoft Form set in `review_settings.toml`.
 - Data: the results as of the last refresh (see "Data as of" on each page). The site does not update itself.
