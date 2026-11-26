@@ -7,7 +7,9 @@ here except `review_settings.toml`: a refresh replaces everything else.
 - App entry point: `ND_BIW/dashboard/app.py`
 - Comments: the "Comment on this page" button opens the Microsoft Form set in `review_settings.toml`.
 - Data: the results as of the last refresh (see "Data as of" on each page). The site does not update itself.
-- The Business survey page shows made-up test data until the survey is fielded; the page says so.
+- The Business survey page shows made-up test data until the survey is fielded; the page says so. Once the survey
+  tables hold real results the build stops before uploading, unless `publish_real_survey = true` is set in
+  `review_settings.toml`.
 
 Run it on this computer: `Start_Review_Locally.bat`, then open http://localhost:8542.
 

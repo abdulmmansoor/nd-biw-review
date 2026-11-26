@@ -21,7 +21,9 @@ from pathlib import Path
 from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 import streamlit as st
 
-SETTINGS = Path(__file__).resolve().parents[1] / "review_settings.toml"
+# The one settings file, at the top of the review repository (ND_BIW_Review/review_settings.toml). This module runs as
+# ND_BIW_Review/ND_BIW/dashboard/review.py.
+SETTINGS = Path(__file__).resolve().parents[2] / "review_settings.toml"
 ITERATIONS = 600_000                   # OWASP 2023 guidance for PBKDF2-HMAC-SHA256
 MAX_TRIES, MAX_TRIES_ALL, LOCK_SECONDS = 5, 20, 600
 
