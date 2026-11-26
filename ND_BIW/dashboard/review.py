@@ -44,6 +44,20 @@ def config():
     return dict(c)
 
 
+def other_review():
+    """(name, url) of the other dashboard's review site from the optional [other_review] secret, or None. It points
+    visitors who reached this site by mistake to the other one. Kept in the app's secrets, not in this public
+    repository, so the other site's address is shown only on this sign-in page."""
+    try:
+        c = st.secrets.get("other_review")
+    except Exception:
+        return None
+    if not c:
+        return None
+    name, url = str(c.get("name", "")).strip(), str(c.get("url", "")).strip()
+    return (name, url) if name and url.startswith("https://") else None
+
+
 def verify(password, conf):
     if not conf or not password:
         return False
@@ -77,6 +91,9 @@ def gate():
         st.stop()
     st.markdown("This draft is shared with invited reviewers. Please enter the review password from your invitation "
                 "email.")
+    other = other_review()
+    if other:
+        st.info(f"Looking for {other[0]}? [Open it here]({other[1]}).", icon=":material/swap_horiz:")
     wait = _wait()
     if wait > 0:
         st.warning(f"Sign-in is paused after too many attempts. Try again in {int(wait // 60) + 1} minutes.")
