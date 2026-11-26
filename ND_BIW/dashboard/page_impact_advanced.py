@@ -8,7 +8,7 @@ import lib
 from io_advanced import net_effects, structural_paths
 from io_model import effects
 from lib import OUT
-from page_impact import EFFECT_COLORS, EFFECT_NAMES, LIMITS, model, place_label, ready, short
+from page_impact import EFFECT_COLORS, EFFECT_NAMES, limits, model, model_year, place_label, ready, short
 
 REFS = ["rasmussen1956", "hirschman1958", "dietzenbacher1997", "miller_lahr2001", "dietzenbacher_lahr2013",
         "bess_ambargis2011", "defourny_thorbecke1984", "tenraa_steel1994", "lenzen_wood_wiedmann2010",
@@ -167,7 +167,7 @@ def page():
     lib.header("Advanced impact analysis", "Four further, peer-reviewed ways to read the impact model: which industries "
                "anchor the local economy, what would be lost without each one, net rather than gross impacts with the "
                "chains that carry them, and how certain the multipliers are.", "model",
-               note="IPBA input-output model built from BEA, BLS and Census data (2023).")
+               note=f"IPBA input-output model built from BEA, BLS and Census data ({model_year()}).")
     if not (ready() and tables_ready()):
         return
     lk = lib.table("io_linkages.csv", dtype={"code": str})
@@ -198,7 +198,7 @@ def page():
         "Monte Carlo: 500 draws; delta uniform within ±0.1 of the calibrated value, household spending within ±10%, "
         "and each regional coefficient times an independent lognormal factor with sd 0.20 (columns capped so the model "
         "stays productive); regions are capped at the state's coefficients in every draw (ten Raa & Steel, 1994; Lenzen, "
-        "Wood & Wiedmann, 2010).", *LIMITS], REFS)
+        "Wood & Wiedmann, 2010).", *limits()], REFS)
     lib.source_line("bea_io", "qcew", "bea", "stateio")
 
 
